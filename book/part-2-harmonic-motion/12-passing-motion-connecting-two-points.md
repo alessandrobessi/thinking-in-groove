@@ -18,13 +18,23 @@ The key test for Passing Motion is whether the in-between note would sound stran
 
 Passing Motion can fill a gap of a third (one passing tone), a fourth (two passing tones), or occasionally more, but the stepwise requirement is what defines it: leap-based connections belong to Root Motion, not here.
 
+Three checks separate a real passing tone from a note that only looks like one:
+
+1. **Direction never wavers.** A genuine passing tone moves consistently toward its target — reverse direction mid-run and you've built something closer to a **Voice-Leader** (Chapter 7) figure, which is allowed to zigzag in service of smooth chord-tone connections rather than a single directional gap.
+2. **Metrical weakness.** Passing tones usually fall on weaker subdivisions than the notes they connect, which is part of why they can get away with the dissonance — a passing tone landed squarely on a strong beat starts to read as its own event rather than connective tissue.
+3. **No independent harmonic identity.** If the "in-between" note is stable enough to be renamed as its own chord, you're no longer looking at Passing Motion — you're looking at a **Substituted Root** (Chapter 14) that happens to sit a step away from something.
+
 ## Visual Explanation
 
 The Motion layer marks Passing Motion with a shallow arched slur drawn across the passing note or notes, in amber (`#D97706`) — visually softer and more continuous than Root Motion's straight diagonal line, reflecting that this is connective tissue rather than a structural leap. Where the passing tone briefly acts as its own miniature harmonic event, the Role layer above it will often show the Connector icon (two dots joined by a shallow arc) directly above the slur, reinforcing that Role and Motion are describing the same moment from two different angles.
 
+Compare this shape to the **Approach Note** (Chapter 13)'s short hook: a hook connects exactly two notes with a single step, aimed at one target, while a Passing Motion slur can stretch across two or three notes filling a wider gap. If you find yourself drawing a slur over only one note, it's worth asking whether what you actually have is an Approach Note wearing the wrong label.
+
 ## Musical Example
 
 Consider a 4-measure fragment inside a longer funk-jazz tune, moving from Am7 (root A) to Fmaj7 (root F), a third apart. Bar 1: A held as an Anchor. Bar 2: passing tones G and F# used as connective stepwise motion descending from A toward F, landing bar 3 on F as the new root. Bar 4: F sustained briefly, then a short Repetition Cell figure establishes the new harmony's groove. The passing tones G and F# never appear as chord symbols anywhere in the chart — they exist only inside the bass line's stepwise logic.
+
+A second, wider case is worth hearing back to back with the first: connecting two roots a fourth apart (say, Dm7 to G7, D down to G) needs two passing tones instead of one — C and B natural, filling the gap D-C-B-G — and the extra note noticeably changes the pacing of the connection, giving the ear more time to register the direction before the arrival lands.
 
 
 :::{.content-hidden when-format="epub"}

@@ -16,15 +16,25 @@ Every strong pull toward a destination creates an expectation, and every expecta
 
 The classic version is the deceptive cadence: a dominant chord that "should" resolve down a fifth to the tonic instead moves up a step to the relative minor, or somewhere else entirely. But Deceptive Motion isn't limited to cadences. Any moment where a bass line has trained the listener, over several bars or several repetitions of a form, to expect a specific next root — and then doesn't deliver it — qualifies. The stronger and more repeated the pattern being broken, the more effective the deception.
 
-Deceptive Motion is closely related to, but distinct from, a Role Shift. A Role Shift changes what job the bass is doing; Deceptive Motion changes where the bass goes next, harmonically. The two often occur together — a diversion is frequently also the moment the bass switches from, say, Driver to Commentator — but they're answering different questions: "what job?" versus "which destination?"
+Deceptive Motion is closely related to, but distinct from, a Role Shift (Chapter 9). A Role Shift changes what job the bass is doing; Deceptive Motion changes where the bass goes next, harmonically. The two often occur together — a diversion is frequently also the moment the bass switches from, say, Driver to Commentator — but they're answering different questions: "what job?" versus "which destination?"
+
+Three conditions have to be met before a diversion counts as Deceptive Motion rather than just an unusual chord choice:
+
+1. **A real expectation exists first.** Without a pattern to violate — usually built from repeated, strong Root Motion or a familiar cadential shape — there is nothing to deceive. Play the "surprising" chord as the very first event in a piece and it isn't surprising at all.
+2. **The diversion is audibly close to the expected path, then departs.** The strongest deceptions share most of their trajectory with the expected resolution and only bend away at the last note — a destination that shares nothing in common with the setup reads as unrelated rather than deceptive.
+3. **The new destination still makes musical sense.** A deceptive resolution lands somewhere coherent (very often the relative minor, a step away, or another diatonically related chord) — landing somewhere arbitrary is a wrong note, not a device.
 
 ## Visual Explanation
 
 The Motion layer marks Deceptive Motion with a diagonal line that includes a visible right-angle bend at the point of diversion, in amber (`#D97706`) — the bend itself is the whole point of the symbol: a straight Root Motion line shows a direct path, while the bent line shows a path that started toward one destination and turned toward another. The steeper and more direct the line before the bend, the stronger the original expectation being set up.
 
+Because the diagram makes the bend visible, comparing several Deceptive Motion events on the page is a fast way to judge how convincing each setup was before a single note is played: a line that barely deviates from straight was a weak deception, while a sharp bend right at the destination signals a diversion the listener will feel clearly. Compare this to the dotted line used for a Substituted Root (Chapter 14), which reframes the *current* chord rather than redirecting the phrase's destination — the two symbols are easy to tell apart once you know which question each one is answering.
+
 ## Musical Example
 
 Picture an 8-measure jazz-fusion turnaround in C, tempo around 120 bpm. Bars 1-6 repeat a ii-V pattern (Dm7 to G7) three times, each time resolving normally down a fifth to C — training the listener thoroughly on what "the resolution" sounds and feels like. Bar 7: the same Dm7-G7 setup appears a fourth time, root motion aimed the same way, everything about the setup identical to the previous three. Bar 8: instead of resolving to C, the bass moves up a step to A, landing on Am7 — the deceptive destination — before the phrase eventually finds its way back to C over the measures that follow.
+
+Weaken the same setup deliberately for comparison: repeat the ii-V pattern only once instead of three times before diverting. The destination and the interval of the deception are identical, but with no repeated pattern behind it, the "surprise" barely registers — direct evidence that the effect lives in the strength of the setup, not in the interval of the diversion itself.
 
 
 :::{.content-hidden when-format="epub"}

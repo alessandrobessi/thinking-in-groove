@@ -18,13 +18,23 @@ A bass line can slow the felt Harmonic Rhythm below the chart's actual rate by u
 
 Harmonic Rhythm is also one of the clearest tools for shaping the arc of a whole piece rather than just a single phrase: a slow Harmonic Rhythm through a verse, followed by a faster one through a bridge, is a structural device as much as a harmonic one — it's one of the primary ways a bass line can make a piece feel like it's building, without changing tempo or dynamics at all.
 
+Three diagnostic questions place a passage's Harmonic Rhythm relative to its written chart:
+
+1. **Does the bass restate every written change, or skip some?** Skipping changes (via a Pedal or a long Anchor) slows the felt rhythm below the page.
+2. **Does the bass insert changes the chart doesn't have?** Passing Motion and Substituted Roots between written chords speed the felt rhythm above the page.
+3. **Does the felt rate stay constant across the passage, or shift?** A shift in Harmonic Rhythm partway through a phrase is itself a structural event — often coinciding with a Motion Profile (Chapter 18) change or a Role Shift (Chapter 9).
+
 ## Visual Explanation
 
 The Groove-and-Motion boundary is where Harmonic Rhythm lives visually: the Motion layer marks each implied change with a small tick mark, in amber (`#D97706`), placed under the beat where the change occurs — not a line or bracket like the other Motion symbols, because Harmonic Rhythm isn't about a single event's shape, it's about the density and spacing of many tick marks across a passage. A passage with widely spaced ticks reads, visually, as slow Harmonic Rhythm; densely packed ticks read as fast — the diagram becomes a literal picture of pacing.
 
+This makes Harmonic Rhythm the one Motion-layer symbol that's easiest to confuse with the Groove layer's Density (Chapter 24) marking beneath it — both are read as a rate of events rather than a single shape. The distinction is what's being counted: Density counts note-events regardless of harmonic meaning, while Harmonic Rhythm counts only events that imply a change of chord. A bass line can be extremely dense (many notes) while implying a very slow Harmonic Rhythm (all of them belonging to the same chord), and the two layers will show exactly that mismatch side by side.
+
 ## Musical Example
 
 Picture a 16-measure fusion piece in E minor, tempo around 92 bpm, built specifically to contrast two Harmonic Rhythms over the same written chart. Bars 1-8 (the "verse"): the chart calls for a chord change every two beats, but the bass rides a Pedal on E under all of it, implying a Harmonic Rhythm of essentially zero — one long harmonic event, regardless of what's written above. Bars 9-16 (the "bridge"): the same chart's harmonic rate doubles in the writing, chords now changing every beat, and the bass matches it exactly with root motion on every beat, plus an occasional Passing Motion tone implying even faster harmonic movement than the chart specifies. The contrast between the two halves is audible as a shift in pacing even though the actual tempo in bpm never changes.
+
+A useful third case to add for comparison: keep the bridge's dense, busy rhythm (high Density) but have every note belong to the same implied chord rather than tracking the written changes — proving, by ear, that a busy bass line and a fast Harmonic Rhythm are not the same thing, even though they're easy to conflate on a first listen.
 
 
 :::{.content-hidden when-format="epub"}

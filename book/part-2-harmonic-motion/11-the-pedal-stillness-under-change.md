@@ -18,13 +18,23 @@ It's worth separating Pedal from the Role called Anchor. Anchor describes a job 
 
 Two flavors matter in practice. A tonic pedal holds the key center while the harmony moves away from and back to it — used to open or close a piece, or to underscore a moment of unresolved anticipation before a cadence. A dominant pedal holds the fifth degree while harmony above it moves through chords that would, without the pedal, sound resolved on their own — manufacturing suspense that only releases when the pedal finally moves.
 
+Three things distinguish a genuine Pedal from a bass line that merely happens to repeat a note:
+
+1. **Harmonic independence.** The note held is chosen for its relationship to the key center (usually the tonic or the dominant), not because it happens to be convenient under the first chord and gets left there by accident.
+2. **Duration relative to the harmony above.** A Pedal spans multiple harmonic events — if the "chord" above only changes once, you likely have an Anchor (Chapter 1) doing ordinary work, not yet a Pedal earning its own name.
+3. **A deliberate release.** A Pedal that never moves isn't a device, it's just the piece's key center; what makes it legible as a Pedal is that the listener can eventually hear it let go, and that release is where most of the term's expressive payoff lives.
+
 ## Visual Explanation
 
 The Motion layer marks a Pedal with a flat horizontal bracket, in amber (`#D97706`), spanning the entire duration the note is held or repeated — visually distinct from Root Motion's diagonal lines precisely because nothing is moving. Above the bracket, the Role layer will typically show the Anchor icon repeated at each reiteration if the note is restruck, or a single Anchor icon at the onset if it's a genuine sustain. Seeing a long flat bracket under a busy, chord-symbol-dense passage is itself the point: the diagram makes visible how much harmonic activity is happening over how little bass motion.
 
+A Pedal's Groove layer is almost always low-**Density** (Chapter 24) — sparse, widely spaced dots, since a note that's sustaining has little reason to be rearticulated often — and it frequently shows a **Space** (Chapter 21) marking right before the release, a beat or two of silence that sets up the walk-off. If the Groove layer under a claimed Pedal looks busy or syncopated, check whether the note is really a Pedal or has quietly turned into a **Repetition Cell** (Chapter 22) instead — the two can look similar on the page but serve very different jobs.
+
 ## Musical Example
 
 Picture a 12-measure fusion ballad passage in D, around 66 bpm, built to showcase a dominant pedal. Bars 1-4: bass holds A (the fifth of D) in a slow, breathing rhythm — dotted-quarter, eighth, half — while the harmony above moves Bm7 to G6/9 to F#m7 to Em7, none of it resolving. Bars 5-8: the same A pedal continues, now under an Fmaj7#11 and an Ebmaj7#11 — chords increasingly distant from D major, the pedal the only thing telling the ear "we have not left D, we have only wandered from it." Bars 9-12: the pedal finally releases, walking down by step, A-G-F#-E-D, arriving on a low D exactly as the harmony above resolves to Dmaj7 — the release of both tensions, harmonic and rhythmic, at once.
+
+A shorter, contrasting 4-bar tag could show the other flavor: a tonic pedal opening a piece, D held under a Dmaj7-Em7-Fmaj7#11-Dmaj7 progression that never really leaves home — no release needed here, because the point of a tonic pedal is usually to establish "we are here" before the piece moves anywhere at all, rather than to manufacture suspense the way the dominant pedal above does.
 
 
 :::{.content-hidden when-format="epub"}

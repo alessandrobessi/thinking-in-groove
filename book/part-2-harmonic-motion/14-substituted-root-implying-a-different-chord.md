@@ -18,13 +18,23 @@ The classic case is the tritone substitution: playing the root a tritone away fr
 
 This is also where the bass's Colorist Role and Harmonic Motion intersect most directly: a Substituted Root is very often how a Colorist choice gets executed, because reaching for an unexpected root is one of the most efficient ways to change a chord's implied color without anyone else in the band changing a note.
 
+Three tests separate a Substituted Root from a wrong note:
+
+1. **It's held, not brushed past.** A Substituted Root sits long enough for the reinterpretation to register — a fleeting chromatic neighbor on a weak subdivision is more likely an Approach Note (Chapter 13) than a genuine substitution.
+2. **It implies something coherent.** The substituted root should suggest a real, nameable chord of its own (a tritone away, a relative minor, an upper structure's root) — if the resulting sound doesn't cohere into anything a listener could label, it's dissonance rather than reinterpretation.
+3. **The rest of the band can still follow it.** A Substituted Root works because it reframes shared harmony, not because it abandons it — if nobody else in the ensemble could plausibly hear the logic, the substitution has crossed over into a different note choice's territory entirely, more Colorist flourish than Harmonic Motion device.
+
 ## Visual Explanation
 
 The Motion layer marks a Substituted Root with a dotted diagonal line, in amber (`#D97706`) — the same basic shape as Root Motion's straight diagonal, but dotted to signal "this motion implies a different chord than the one written," distinguishing a deliberate reinterpretation from a literal root change. Where the substitution reinforces a Colorist Role, the Role layer above will typically show the Colorist icon at the substituted note itself.
 
+Compare the dotted line here to Deceptive Motion (Chapter 15)'s bent line: a Substituted Root reinterprets the *current* harmony without changing where the phrase is ultimately headed, while Deceptive Motion changes the destination itself. The two devices can appear in the same phrase — a substitution along the way, a deception at the arrival — without being the same thing.
+
 ## Musical Example
 
 Picture a 4-measure fusion vamp, chart reading G7 for the full four bars, tempo around 100 bpm. Bars 1-2: the bass plays the expected G root, establishing the "home" sound of G7 clearly first. Bars 3-4: without any chord symbol changing, the bass substitutes Db as the root — a tritone away from G — reframing the same G7 harmony as a Db7-flavored sound (sharing G7's tritone of B and F, respelled as Db7's 3rd and b7). The upper harmony hasn't moved a single note; only the bass's reinterpretation makes the substitution audible.
+
+A second, milder case is worth hearing right after the first: instead of a full tritone away, substitute the chord's own third (B) in the bass under the same static G7. The reframing this time is much subtler — closer to a first-inversion color than a wholesale reinterpretation — which is useful evidence that Substituted Root names a whole spectrum of boldness, not one fixed effect.
 
 
 :::{.content-hidden when-format="epub"}

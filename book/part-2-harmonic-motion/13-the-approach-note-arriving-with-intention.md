@@ -18,13 +18,23 @@ Direction matters as much as distance. An approach from below (a half step under
 
 Chromatic approach notes — outside the key — are the more dramatic version, borrowing a half-step's worth of outside color specifically to intensify the pull toward the target. Diatonic approach notes — a whole step or a scale-step away, inside the key — are gentler, more like a soft anticipation than a chromatic shove. Both are Approach Notes; the difference is intensity, not category.
 
+Three quick checks confirm you're looking at a genuine Approach Note:
+
+1. **Exactly one note, one target.** The moment a second connecting note appears, you've crossed over into Passing Motion (Chapter 12) territory — an Approach Note is a single, final step, not a run.
+2. **Rhythmic placement just before the target.** An Approach Note almost always lands on a weak beat or a subdivision immediately preceding the target's strong beat; move it earlier and it starts to lose its "aimed" quality and read as an ordinary passing tone instead.
+3. **The target actually arrives.** An Approach Note that resolves somewhere other than its expected target has stopped being an Approach Note and become Deceptive Motion (Chapter 15) — the label depends entirely on whether the promise gets kept.
+
 ## Visual Explanation
 
 The Motion layer marks an Approach Note with a short hook or arrow that curves directly into the target note, in amber (`#D97706`) — visually the most "aimed" of all the Motion shapes, distinct from Passing Motion's broader arched slur because it connects only two notes, not a run. Where the approach is chromatic, the visual language convention is to render the hook slightly thicker, signaling the extra intensity of stepping outside the key for just that one note.
 
+The Role layer above an Approach Note's target is almost always an Anchor or a Definer (Chapter 2) icon — the whole point of the device is to make an already-important arrival land with more weight, so it's rarely attached to a Colorist or Commentator moment where extra emphasis wouldn't serve the line's purpose.
+
 ## Musical Example
 
 Picture a 4-measure neo-soul phrase in Eb, groove around 84 bpm. Bar 1: root Eb, functioning as an Anchor. Bar 2: a short Repetition Cell figure. Bar 3: on the "and" of beat 4, a chromatic approach note, D natural (a half step below the target), aimed directly at the Ab root arriving on beat 1 of bar 4 — the classic below-the-target chromatic approach, timed to land just late enough that its resolution coincides with the new chord's downbeat. Bar 4: Ab arrives exactly on time, and the chromatic tension from the approach note resolves the instant it's needed.
+
+A companion 4-bar phrase makes the from-above case audible for comparison: approaching the same Ab target with a diatonic Bb (a whole step above) instead of the chromatic D natural below it. The destination and the timing are identical; only the direction and the color of the approach change, and the difference between "lifted into" and "settled onto" the same note is the entire content of the comparison.
 
 
 :::{.content-hidden when-format="epub"}
