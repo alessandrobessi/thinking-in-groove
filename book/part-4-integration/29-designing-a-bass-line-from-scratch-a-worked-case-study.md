@@ -58,13 +58,50 @@ That's a full **Role Shift** arc across the phrase: Anchor → Definer → Conne
 
 **Step 8 — Review as Layer Stacks.** Checking bar 5, beat 3 (the Colorist note) against its own three layers: Role = Colorist, Motion = Passing Motion into a chromatic Approach Note, Groove = on the "and" of beat 2, pushed. All three layers agree on the same effect — brightness arriving slightly early — so the stack is coherent and the note is kept as designed. This kind of check is where a phrase built top-down (Steps 2–3 before Step 4) still needs a final bottom-up pass, because it's only at the level of one note that layer contradictions become audible.
 
-*Notated example pending — see `examples/by-chapter/29-designing-a-bass-line-from-scratch-a-worked-case-study/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Designing a Bass Line from Scratch -- worked case study</p>
+<pre class="abc-source">
+X:1
+T:Designing a Bass Line from Scratch -- worked case study
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=84
+K:C
+% chapter: 29-designing-a-bass-line-from-scratch-a-worked-case-study
+% role: full Role Shift arc
+% motion: full arc
+% groove: full arc
+% difficulty: advanced
+% harmony: Dm7 | Dm7 | Dm7 (Definer near the end) | G7 (Connector arriving) | G7 (Colorist voiced high) | Cmaj7 (arrival) | Cmaj7 (Commentator, deceptive) | Cmaj7 (close)
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | D,8 | D,4 "^[R:Definer]"F,,4 | "^[R:Connector]""_[M:Passing Motion]"G,,8 | G,,4 "^[R:Colorist]""_[M:Approach Note]"B,4 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | z4 "^[R:Commentator]""_[M:Deceptive Motion]"G,2 z2 | "^[R:Anchor]""_[G:Lay-back]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 The finished notation for this chapter should be the densest in the book: every structurally important note carries a full Role/Motion/Groove tag per `docs/notation-conventions.md`, the two-bar Repetition Cell and its Variation Layer are bracketed per `docs/visual-language.md`'s Groove-layer convention, and the two Groove Contract spans (set in bars 1–2, broken in bar 7, restored in bar 8) are marked with the horizontal purple brackets introduced in Chapter 28. Read together, the annotated score should function as a complete answer key to every decision narrated in this chapter's Musical Example section.
 
-*Notated example pending — see `examples/by-chapter/29-designing-a-bass-line-from-scratch-a-worked-case-study/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Designing a Bass Line from Scratch -- worked case study” (see `examples/by-chapter/29-designing-a-bass-line-from-scratch-a-worked-case-study/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|----9---|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|----10--|--------|
+E|10------|10------|10--1---|3-------|3-------|8-------|--------|8-------|
+```
+
 
 ## Practice Ideas
 

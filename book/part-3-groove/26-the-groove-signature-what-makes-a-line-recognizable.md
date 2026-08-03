@@ -101,7 +101,36 @@ Both grooves use the identical seven ingredients from this Part. The
 specific setting of each one, held consistently, is the entire
 difference between them — which is the chapter's point made audible.
 
-*Notated example pending — see `examples/by-chapter/26-the-groove-signature-what-makes-a-line-recognizable/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Groove Signature -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Groove Signature -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=98
+K:E
+% chapter: 26-the-groove-signature-what-makes-a-line-recognizable
+% role: n/a
+% motion: n/a
+% groove: Pocket (pushed) + Density (moderate) + Repetition Cell, combined into one recognizable identity
+% difficulty: advanced
+% harmony: E7#9 one-chord vamp; the pushed pocket, moderate density, and repeating cell together are what make this groove recognizable as itself
+V:Bass clef=bass
+z1 "_[G:Groove Signature]"E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 E,,2 z1 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -118,7 +147,15 @@ single `"_[G:Push]"` at bar 5. Reading the two tag sequences side by
 side, without even hearing the audio, should already suggest two very
 differently styled grooves.
 
-*Notated example pending — see `examples/by-chapter/26-the-groove-signature-what-makes-a-line-recognizable/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Groove Signature -- worked example” (see `examples/by-chapter/26-the-groove-signature-what-makes-a-line-recognizable/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-0--|
+```
+
 
 ## Practice Ideas
 

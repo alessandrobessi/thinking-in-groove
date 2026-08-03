@@ -26,13 +26,50 @@ The Motion layer marks an Approach Note with a short hook or arrow that curves d
 
 Picture a 4-measure neo-soul phrase in Eb, groove around 84 bpm. Bar 1: root Eb, functioning as an Anchor. Bar 2: a short Repetition Cell figure. Bar 3: on the "and" of beat 4, a chromatic approach note, D natural (a half step below the target), aimed directly at the Ab root arriving on beat 1 of bar 4 — the classic below-the-target chromatic approach, timed to land just late enough that its resolution coincides with the new chord's downbeat. Bar 4: Ab arrives exactly on time, and the chromatic tension from the approach note resolves the instant it's needed.
 
-*Notated example pending — see `examples/by-chapter/13-the-approach-note-arriving-with-intention/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Approach Note -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Approach Note -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=94
+K:C
+% chapter: 13-the-approach-note-arriving-with-intention
+% role: n/a
+% motion: approach note
+% groove: moderate-density
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 | Cmaj7 | Am7 | Am7 | Dm7 | Dm7
+V:Bass clef=bass
+"^[R:Anchor]"D,6 "_[M:Approach Note]"^F,,2 | "_[M:Root Motion]"G,,8 | G,,6 "_[M:Approach Note]"B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,6 "_[M:Approach Note]"_A,,2 | "_[M:Root Motion]"A,,8 | A,,6 "_[M:Approach Note]"^C,2 | "^[R:Anchor]"D,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 In the annotated score, the D natural on the "and" of beat 4 in bar 3 would carry a short amber hook curving forward into the Ab downbeat of bar 4, with the Role layer marking the Ab arrival itself with an Anchor icon — making visible that everything before the hook exists to make that one Anchor land with more weight than it would have landed with unannounced.
 
-*Notated example pending — see `examples/by-chapter/13-the-approach-note-arriving-with-intention/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Approach Note -- worked example” (see `examples/by-chapter/13-the-approach-note-arriving-with-intention/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10----2-|3-------|3-----7-|8-------|8-----4-|5-------|5-----9-|10------|
+```
+
 
 ## Practice Ideas
 

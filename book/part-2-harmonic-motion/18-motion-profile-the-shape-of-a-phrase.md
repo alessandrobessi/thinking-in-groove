@@ -34,13 +34,50 @@ Motion Profile doesn't get its own new symbol in the Motion layer — instead, i
 
 Picture a 16-measure fusion piece in A minor, tempo around 100 bpm, built to demonstrate all four Motion Profiles back to back, four bars each. Bars 1-4 (static): a Pedal on A under a slowly shifting upper harmony, Harmonic Rhythm nearly flat. Bars 5-8 (ascending): Root Motion climbs A, C, D, E in even two-bar steps, each arrival reinforced by a diatonic Approach Note. Bars 9-12 (cyclical): a descending-fifth cycle, E, A, D, G, closing with Cadential Motion back to a strong A in bar 12. Bars 13-16 (wandering): a Substituted Root reframes the harmony unexpectedly in bar 14, followed by Deceptive Motion in bar 15 that avoids the "obvious" resolution, closing the piece on a note that is stable but not the one a listener would have predicted four bars earlier.
 
-*Notated example pending — see `examples/by-chapter/18-motion-profile-the-shape-of-a-phrase/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Motion Profile -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Motion Profile -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=95
+K:C
+% chapter: 18-motion-profile-the-shape-of-a-phrase
+% role: n/a
+% motion: motion profile (static, ascending, cyclical, cadential)
+% groove: varies by section
+% difficulty: advanced
+% harmony: Dm7 (static) | Dm7 | (ascending) | (ascending) | (peak) | (cyclical) | (cyclical) | Cmaj7 (cadential)
+V:Bass clef=bass
+"_[M:Pedal]"D,8 | D,8 | "_[M:Passing Motion]"D,2 E,2 F,2 G,2 | "_[M:Root Motion]"A,8 | "_[M:Root Motion]"B,8 | "_[M:Motion Profile]"G,2 E,2 G,2 E,2 | G,2 E,2 G,2 E,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 Across the full 16 bars, the annotated score's Motion layer would visibly change character every four measures: a static run of flat brackets, then a steadily rising staircase of diagonal lines, then a repeating descending pattern closed by a double-tick, then a scattered, irregular mix of dotted and bent lines — the shape of the piece would be legible from the Motion layer alone, before reading a single pitch.
 
-*Notated example pending — see `examples/by-chapter/18-motion-profile-the-shape-of-a-phrase/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Motion Profile -- worked example” (see `examples/by-chapter/18-motion-profile-the-shape-of-a-phrase/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|9-------|--------|--------|--------|
+A|--------|--------|----8-10|12------|--------|10--10--|10--10--|--------|
+E|10------|10------|1012----|--------|--------|--12--12|--12--12|8-------|
+```
+
 
 ## Practice Ideas
 

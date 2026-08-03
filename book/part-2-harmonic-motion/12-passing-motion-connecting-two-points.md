@@ -26,13 +26,50 @@ The Motion layer marks Passing Motion with a shallow arched slur drawn across th
 
 Consider a 4-measure fragment inside a longer funk-jazz tune, moving from Am7 (root A) to Fmaj7 (root F), a third apart. Bar 1: A held as an Anchor. Bar 2: passing tones G and F# used as connective stepwise motion descending from A toward F, landing bar 3 on F as the new root. Bar 4: F sustained briefly, then a short Repetition Cell figure establishes the new harmony's groove. The passing tones G and F# never appear as chord symbols anywhere in the chart — they exist only inside the bass line's stepwise logic.
 
-*Notated example pending — see `examples/by-chapter/12-passing-motion-connecting-two-points/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Passing Motion -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Passing Motion -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+% chapter: 12-passing-motion-connecting-two-points
+% role: n/a
+% motion: passing motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Dm7 | (passing) | G7 | (passing) | Cmaj7 | Cmaj7 | (turnaround) | Dm7
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | "_[M:Passing Motion]"D,2 E,,2 F,,2 ^F,,2 | "_[M:Root Motion]"G,,8 | "_[M:Passing Motion]"G,,2 A,,2 B,,2 C,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | "_[M:Passing Motion]"C,2 B,,2 A,,2 G,,2 | "_[M:Root Motion]"D,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 In the annotated score, the two passing tones (G, F#) would sit under one continuous amber slur bridging the Anchor on A and the new Anchor on F, with a Connector icon in the Role layer positioned over the slur's midpoint — visually confirming that these two notes are doing a single connective job together, not two separate harmonic events.
 
-*Notated example pending — see `examples/by-chapter/12-passing-motion-connecting-two-points/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Passing Motion -- worked example” (see `examples/by-chapter/12-passing-motion-connecting-two-points/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|100-1-2-|3-------|3-5-7-8-|8-------|8-------|8-7-5-3-|10------|
+```
+
 
 ## Practice Ideas
 

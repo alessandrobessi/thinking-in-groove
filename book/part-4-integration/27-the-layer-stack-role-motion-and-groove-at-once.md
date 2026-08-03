@@ -48,13 +48,50 @@ The example for this chapter should be a single 8-measure phrase, in a moderate 
 
 Key and tempo are open; a minor-key funk vamp around 92–100 BPM suits the contrast between measures 1–2 and 5–6 well.
 
-*Notated example pending — see `examples/by-chapter/27-the-layer-stack-role-motion-and-groove-at-once/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Layer Stack -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Layer Stack -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:Cm
+% chapter: 27-the-layer-stack-role-motion-and-groove-at-once
+% role: varies (full stacks)
+% motion: varies
+% groove: varies
+% difficulty: advanced
+% harmony: Cm funk vamp; each marked note carries a full Role + Motion + Groove stack, not a single isolated layer
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"C,8 | C,8 | z1 "^[R:Connector]""_[M:Passing Motion|G:Push]"D,2 _E,2 z3 | F,8 | z2 "^[R:Colorist]""_[G:Syncopation Point]"_A,2 z2 _A,2 | z2 _A,2 z4 | "^[R:Anchor]""_[M:Cadential Motion]"G,4 z4 | z1 "_[G:Lay-back]"C,2 z5 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 When notated, this example should carry a full three-part tag at each of the four marked notes rather than the single-layer tags used in earlier chapters — for instance, at measure 1: `"^[R:Anchor]"` above the staff and `"_[M:Pedal|G:Pocket]"` below it, per `docs/notation-conventions.md`'s combined-tag syntax. This is the first chapter where a reader should expect to see all three tag types stacked on individual notes throughout an example, rather than one tag type demonstrated in isolation.
 
-*Notated example pending — see `examples/by-chapter/27-the-layer-stack-role-motion-and-groove-at-once/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Layer Stack -- worked example” (see `examples/by-chapter/27-the-layer-stack-role-motion-and-groove-at-once/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|8-------|--11--11|--11----|10------|--------|
+E|8-------|8-------|-1011---|--------|--------|--------|--------|-8------|
+```
+
 
 ## Practice Ideas
 

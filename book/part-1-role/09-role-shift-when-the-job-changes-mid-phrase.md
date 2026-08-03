@@ -142,7 +142,36 @@ logic (settle, clarify, energize, transition) in its first half, then
 varies that logic just enough in its second half to avoid feeling
 mechanically repetitive.
 
-*Notated example pending — see `examples/by-chapter/09-role-shift-when-the-job-changes-mid-phrase/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Role Shift -- worked example (one Role per bar)</p>
+<pre class="abc-source">
+X:1
+T:Role Shift -- worked example (one Role per bar)
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:F
+% chapter: 09-role-shift-when-the-job-changes-mid-phrase
+% role: role shift (all 8 roles)
+% motion: varies by bar
+% groove: varies by bar
+% difficulty: advanced
+% harmony: Fm groove; each bar demonstrates a different Role in sequence
+V:Bass clef=bass
+"^[R:Anchor]"F,,8 | "^[R:Connector]""_[M:Passing Motion]"F,,2 G,,2 _A,,2 A,,2 | "^[R:Driver]""_[G:Density]"_B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 | "^[R:Colorist]""_[M:Substituted Root]"D,8 | "^[R:Shadow]"C,2 _E,2 F,,2 G,,2 | "^[R:Voice-Leader]""_[M:Passing Motion]"G,,2 F,,2 _E,2 D,2 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 z2 | "^[R:Anchor]"F,,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -154,7 +183,15 @@ caption at each shift point names the trigger ("vamp ending, shift to
 Connector" / "vamp ending, shift to Voice-Leader instead") so a reader
 can see not just that the Role changed, but why.
 
-*Notated example pending — see `examples/by-chapter/09-role-shift-when-the-job-changes-mid-phrase/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Role Shift -- worked example (one Role per bar)” (see `examples/by-chapter/09-role-shift-when-the-job-changes-mid-phrase/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|1-------|1-3-4-5-|66666666|10------|8-111-3-|3-1-1110|----3---|1-------|
+```
+
 
 ## Practice Ideas
 

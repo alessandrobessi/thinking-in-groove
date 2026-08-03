@@ -92,7 +92,36 @@ the piano's rhythmic shape and meet the drummer's accent, not to serve
 any independent harmonic agenda. Once the piano re-enters with its next
 two-bar idea, the bass returns to its walking line.
 
-*Notated example pending — see `examples/by-chapter/08-the-commentator/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Commentator -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Commentator -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+% chapter: 08-the-commentator
+% role: commentator
+% motion: root motion
+% groove: syncopated, sparse
+% difficulty: intermediate
+% harmony: G7 vamp; bass punctuates independent of the harmony
+V:Bass clef=bass
+z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -109,7 +138,15 @@ with a brief transcription or description of the phrase it's answering
 single-instrument tab, so a reader without the full score can still see
 what the bass is reacting to.
 
-*Notated example pending — see `examples/by-chapter/08-the-commentator/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Commentator -- worked example” (see `examples/by-chapter/08-the-commentator/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|--------|----3-10|--------|----3-10|--------|----3-10|--------|----3-10|
+```
+
 
 ## Practice Ideas
 

@@ -26,13 +26,50 @@ The Groove-and-Motion boundary is where Harmonic Rhythm lives visually: the Moti
 
 Picture a 16-measure fusion piece in E minor, tempo around 92 bpm, built specifically to contrast two Harmonic Rhythms over the same written chart. Bars 1-8 (the "verse"): the chart calls for a chord change every two beats, but the bass rides a Pedal on E under all of it, implying a Harmonic Rhythm of essentially zero — one long harmonic event, regardless of what's written above. Bars 9-16 (the "bridge"): the same chart's harmonic rate doubles in the writing, chords now changing every beat, and the bass matches it exactly with root motion on every beat, plus an occasional Passing Motion tone implying even faster harmonic movement than the chart specifies. The contrast between the two halves is audible as a shift in pacing even though the actual tempo in bpm never changes.
 
-*Notated example pending — see `examples/by-chapter/17-harmonic-rhythm-who-decides-when-the-chord-changes/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Harmonic Rhythm -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Harmonic Rhythm -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+% chapter: 17-harmonic-rhythm-who-decides-when-the-chord-changes
+% role: n/a
+% motion: harmonic rhythm
+% groove: contrast: sparse then dense
+% difficulty: advanced
+% harmony: Dm7 | G7 (bass holds -- slow implied rhythm) | Cmaj7 | Cmaj7 | Cmaj7 (bass now moves every beat -- fast implied rhythm) | Cmaj7 | Cmaj7 | Cmaj7
+V:Bass clef=bass
+"_[M:Harmonic Rhythm]"D,8 | D,8 | C,8 | C,8 | "_[M:Harmonic Rhythm]"C,2 E,,2 G,,2 B,,2 | C,2 E,,2 G,,2 B,,2 | C,2 E,,2 G,,2 B,,2 | C,2 E,,2 G,,2 B,,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 The annotated score's Motion layer would show widely spaced tick marks (roughly one every four bars, at the Pedal's rare restrikes) under bars 1-8, then a visibly denser cluster of tick marks, one or two per bar, under bars 9-16 — the density difference itself functioning as a chart of the piece's pacing.
 
-*Notated example pending — see `examples/by-chapter/17-harmonic-rhythm-who-decides-when-the-chord-changes/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Harmonic Rhythm -- worked example” (see `examples/by-chapter/17-harmonic-rhythm-who-decides-when-the-chord-changes/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|10------|8-------|8-------|8-0-3-7-|8-0-3-7-|8-0-3-7-|8-0-3-7-|
+```
+
 
 ## Practice Ideas
 

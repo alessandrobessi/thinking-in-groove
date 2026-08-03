@@ -80,7 +80,36 @@ producing a held-back, suspended arrival instead of a propulsive one;
 worth composing and comparing both versions of bar 7 to hear the two
 opposite effects from the identical harmonic material.
 
-*Notated example pending — see `examples/by-chapter/25-push-and-lay-back-playing-around-the-beat/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Push and Lay-Back -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Push and Lay-Back -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:E
+% chapter: 25-push-and-lay-back-playing-around-the-beat
+% role: n/a
+% motion: n/a
+% groove: contrast: on-beat, then laid-back
+% difficulty: intermediate
+% harmony: E7#9 one-chord vamp. Bars 1-4: hits land on the beat. Bars 5-8: the same two-hit pattern, delayed into the following eighth. Groove-layer timing (push/lay-back) is shown here as a full eighth-note shift, a common written approximation -- see docs/visual-language.md's pulse-timeline convention for the finer-grained diagram version.
+V:Bass clef=bass
+"_[G:Pocket]"E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | z1 "_[G:Lay-back]"E,,2 z3 E,,2 | z1 E,,2 z3 E,,2 | z1 E,,2 z3 E,,2 | z1 E,,2 z3 E,,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -93,7 +122,15 @@ the rendered timeline. Bar 8's arrival returns to `"_[G:Center]"`,
 confirming the gesture was momentary rather than a lasting shift in
 Pocket.
 
-*Notated example pending — see `examples/by-chapter/25-push-and-lay-back-playing-around-the-beat/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Push and Lay-Back -- worked example” (see `examples/by-chapter/25-push-and-lay-back-playing-around-the-beat/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|0---0---|0---0---|0---0---|0---0---|-0----0-|-0----0-|-0----0-|-0----0-|
+```
+
 
 ## Practice Ideas
 

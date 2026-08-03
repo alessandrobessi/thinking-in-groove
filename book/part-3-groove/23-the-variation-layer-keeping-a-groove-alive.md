@@ -85,7 +85,36 @@ with everything else in the cell left untouched. Bar 8 closes on the
 plain statement, so the phrase both opens and closes on the
 listener's stable reference point.
 
-*Notated example pending — see `examples/by-chapter/23-the-variation-layer-keeping-a-groove-alive/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Variation Layer -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Variation Layer -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:E
+% chapter: 23-the-variation-layer-keeping-a-groove-alive
+% role: n/a
+% motion: n/a
+% groove: one cell, three controlled variations
+% difficulty: intermediate
+% harmony: Bars 1-4: the Repetition Cell straight. Bars 5-8: displacement, substitution, ornament, then a return to the original cell.
+V:Bass clef=bass
+"_[G:Repetition Cell]"E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | z1 "_[G:Variation Layer]"E,,2 G,,2 A,,2 z1 | E,,2 G,,2 _B,,2 z2 | E,,1 G,,1 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -99,7 +128,15 @@ Groove event. The Role tag (`"^[R:Driver]"`) remains constant across all
 eight bars, confirming that variation changes surface detail, not the
 line's underlying job.
 
-*Notated example pending — see `examples/by-chapter/23-the-variation-layer-keeping-a-groove-alive/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Variation Layer -- worked example” (see `examples/by-chapter/23-the-variation-layer-keeping-a-groove-alive/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|0-3-5---|0-3-5---|0-3-5---|0-3-5---|-0-3-5--|0-3-6---|033-5---|0-3-5---|
+```
+
 
 ## Practice Ideas
 

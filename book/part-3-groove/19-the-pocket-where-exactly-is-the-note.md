@@ -103,7 +103,36 @@ The point of the example is that the pitch content, the rhythm on the
 page, and the Role (Anchor throughout — this is a pedal-like, root/fifth
 grounding line) never change. Only the Pocket does.
 
-*Notated example pending — see `examples/by-chapter/19-the-pocket-where-exactly-is-the-note/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Pocket -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Pocket -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:E
+% chapter: 19-the-pocket-where-exactly-is-the-note
+% role: n/a
+% motion: n/a
+% groove: pocket contrast: on-beat then pushed
+% difficulty: beginner
+% harmony: E7#9 one-chord funk vamp throughout. Groove-layer timing (push/lay-back) is shown here as a full eighth-note shift, a common written approximation -- see docs/visual-language.md's pulse-timeline convention for the finer-grained diagram version.
+V:Bass clef=bass
+"_[G:Pocket]"E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | z1 "_[G:Push]"E,,2 z1 z1 E,,2 z1 | z1 E,,2 z1 z1 E,,2 z1 | z1 E,,2 z1 z1 E,,2 z1 | z1 E,,2 z1 z1 E,,2 z1 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -116,7 +145,15 @@ rendered diagram, this is the only layer whose symbol moves — the green
 dots drift right, then left, of their ticks while the blue Role icon and
 amber Motion arc stay fixed in place above and below them.
 
-*Notated example pending — see `examples/by-chapter/19-the-pocket-where-exactly-is-the-note/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Pocket -- worked example” (see `examples/by-chapter/19-the-pocket-where-exactly-is-the-note/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|0---0---|0---0---|0---0---|0---0---|-0---0--|-0---0--|-0---0--|-0---0--|
+```
+
 
 ## Practice Ideas
 

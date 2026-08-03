@@ -82,7 +82,36 @@ interlocking ones — a deliberate arrangement choice to make the final
 transition into the last chorus feel like the whole group is throwing
 its weight behind it at once.
 
-*Notated example pending — see `examples/by-chapter/06-the-shadow/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Shadow -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Shadow -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=98
+K:Bb
+% chapter: 06-the-shadow
+% role: shadow
+% motion: root motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Bb7 funk riff; bass doubles the horn/guitar hit unison/octave
+V:Bass clef=bass
+"^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 | "^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 | "^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 | "^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -99,7 +128,15 @@ horn or lead-guitar notation it doubles wherever the book's layout
 allows it, so the visual alignment reinforces the unison the reader is
 meant to hear.
 
-*Notated example pending — see `examples/by-chapter/06-the-shadow/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Shadow -- worked example” (see `examples/by-chapter/06-the-shadow/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|6-101-6-|6-------|6-101-6-|6-------|6-101-6-|6-------|6-101-6-|6-------|
+```
+
 
 ## Practice Ideas
 

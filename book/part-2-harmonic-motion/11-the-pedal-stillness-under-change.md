@@ -26,13 +26,50 @@ The Motion layer marks a Pedal with a flat horizontal bracket, in amber (`#D9770
 
 Picture a 12-measure fusion ballad passage in D, around 66 bpm, built to showcase a dominant pedal. Bars 1-4: bass holds A (the fifth of D) in a slow, breathing rhythm — dotted-quarter, eighth, half — while the harmony above moves Bm7 to G6/9 to F#m7 to Em7, none of it resolving. Bars 5-8: the same A pedal continues, now under an Fmaj7#11 and an Ebmaj7#11 — chords increasingly distant from D major, the pedal the only thing telling the ear "we have not left D, we have only wandered from it." Bars 9-12: the pedal finally releases, walking down by step, A-G-F#-E-D, arriving on a low D exactly as the harmony above resolves to Dmaj7 — the release of both tensions, harmonic and rhythmic, at once.
 
-*Notated example pending — see `examples/by-chapter/11-the-pedal-stillness-under-change/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Pedal -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Pedal -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=66
+K:D
+% chapter: 11-the-pedal-stillness-under-change
+% role: anchor
+% motion: pedal
+% groove: low-density
+% difficulty: intermediate
+% harmony: Bm7 | Bm7 | G6/9 | G6/9 | F#m7 | Em7 | Fmaj7#11 | Fmaj7#11 | Ebmaj7#11 | Ebmaj7#11 | (release) | Dmaj7
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal]"A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | "_[M:Root Motion]"A,,8 | G,,8 | ^F,,8 | E,,4 "^[R:Anchor]""_[M:Cadential Motion]"D,4 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 The annotated score would show one continuous amber bracket running under bars 1-8, broken only where the pedal note is restruck (visible as repeated Anchor icons in the Role layer along its length), and then a clean transition into a short Root Motion diagonal line for the stepwise release in bars 9-12 — letting a reader see, at a glance, exactly where "held" gives way to "moving" and how that moment lines up with the harmonic resolution above it.
 
-*Notated example pending — see `examples/by-chapter/11-the-pedal-stillness-under-change/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Pedal -- worked example” (see `examples/by-chapter/11-the-pedal-stillness-under-change/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+E|5-------|5-------|5-------|5-------|5-------|5-------|5-------|5-------|5-------|3-------|2-------|0---10--|
+```
+
 
 ## Practice Ideas
 

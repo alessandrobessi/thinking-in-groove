@@ -93,7 +93,36 @@ the example is not variation but insistence: the same rhythmic gesture,
 played with unwavering consistency, functioning as a motor the rest of
 the band can lean against.
 
-*Notated example pending — see `examples/by-chapter/04-the-driver/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Driver -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Driver -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=104
+K:E
+% chapter: 04-the-driver
+% role: driver
+% motion: root motion
+% groove: high-density
+% difficulty: intermediate
+% harmony: E7#9 (one-chord funk vamp throughout)
+V:Bass clef=bass
+"^[R:Driver]""_[G:Density]"E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 z1 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -111,7 +140,15 @@ deviation — and that visual regularity is itself diagnostic: if a
 passage intended as a Driver looks irregular on the tab, it likely won't
 deliver the locked-in feel the Role depends on.
 
-*Notated example pending — see `examples/by-chapter/04-the-driver/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Driver -- worked example” (see `examples/by-chapter/04-the-driver/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|00000000|00000000|00000001|00000000|00000000|00000000|00000001|0000000-|
+```
+
 
 ## Practice Ideas
 

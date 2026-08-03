@@ -83,7 +83,36 @@ establishing it as a defining feature of the groove rather than a
 one-off accent. Bars 7–8 resolve back to landing squarely on beat 1,
 giving the tension somewhere to release.
 
-*Notated example pending — see `examples/by-chapter/20-syncopation-points-avoiding-the-obvious-beat/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Syncopation Points -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Syncopation Points -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=98
+K:E
+% chapter: 20-syncopation-points-avoiding-the-obvious-beat
+% role: n/a
+% motion: n/a
+% groove: syncopated throughout
+% difficulty: beginner
+% harmony: E7#9 one-chord funk vamp; every hit lands on the "and" of 1 and 3, never on the downbeat
+V:Bass clef=bass
+z2 "_[G:Syncopation Point]"E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -95,7 +124,15 @@ bars 7–8. The Role tag stays `"^[R:Anchor]"` throughout, underlining
 that a syncopated Anchor is still an Anchor — displacement changes when
 the harmonic grounding is stated, not whether it's being stated.
 
-*Notated example pending — see `examples/by-chapter/20-syncopation-points-avoiding-the-obvious-beat/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Syncopation Points -- worked example” (see `examples/by-chapter/20-syncopation-points-avoiding-the-obvious-beat/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|
+```
+
 
 ## Practice Ideas
 

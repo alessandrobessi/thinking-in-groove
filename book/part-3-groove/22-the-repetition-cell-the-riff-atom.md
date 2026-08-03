@@ -81,7 +81,36 @@ identity of the cell itself, and the effect of hearing it locked in
 place bar after bar, is unmistakable before Chapter 23 shows what
 happens when it starts to change.
 
-*Notated example pending — see `examples/by-chapter/22-the-repetition-cell-the-riff-atom/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Repetition Cell -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Repetition Cell -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:E
+% chapter: 22-the-repetition-cell-the-riff-atom
+% role: n/a
+% motion: n/a
+% groove: one riff atom, repeated unvaried
+% difficulty: beginner
+% harmony: E7#9 one-chord funk vamp; the same one-bar cell repeated eight times, establishing the groove's identity
+V:Bass clef=bass
+"_[G:Repetition Cell]"E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -94,7 +123,15 @@ long. Identical annotation across all 8 bars is itself the point: there
 is nothing for the eye to compare between bars because nothing has
 changed yet.
 
-*Notated example pending — see `examples/by-chapter/22-the-repetition-cell-the-riff-atom/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Repetition Cell -- worked example” (see `examples/by-chapter/22-the-repetition-cell-the-riff-atom/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|
+```
+
 
 ## Practice Ideas
 

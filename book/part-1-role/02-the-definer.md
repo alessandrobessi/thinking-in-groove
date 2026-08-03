@@ -85,7 +85,36 @@ band states, anywhere in that bar, whether this is Cmaj7 or Cm7. The
 guitar's shell voicing is quality-neutral by design. The bass's single
 Definer note is what tells the listener's ear, unambiguously, "major."
 
-*Notated example pending — see `examples/by-chapter/02-the-definer/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Definer -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Definer -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+% chapter: 02-the-definer
+% role: definer
+% motion: root motion
+% groove: sparse
+% difficulty: beginner
+% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+V:Bass clef=bass
+"^[R:Definer]"F,,8 | F,,8 | "^[R:Definer]"B,,8 | "_[M:Pedal]"B,,8 | B,,8 | B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | "_[G:Space]"C,4 z4 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -101,7 +130,15 @@ caption (per `docs/notation-conventions.md`'s semantic metadata block)
 would flag it as the harmonically decisive moment in the bar, since its
 importance is completely out of proportion to its duration on the page.
 
-*Notated example pending — see `examples/by-chapter/02-the-definer/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Definer -- worked example” (see `examples/by-chapter/02-the-definer/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|1-------|1-------|7-------|7-------|7-------|7-------|8-------|8-------|
+```
+
 
 ## Practice Ideas
 

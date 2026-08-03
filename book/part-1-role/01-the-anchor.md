@@ -105,7 +105,36 @@ listener one stable reference point while the harmony explores how far
 it can wander from that point and still be understood as belonging to
 it.
 
-*Notated example pending — see `examples/by-chapter/01-the-anchor/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Anchor -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Anchor -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=78
+K:Fm
+% chapter: 01-the-anchor
+% role: anchor
+% motion: pedal
+% groove: low-density
+% difficulty: beginner
+% harmony: Fm9 | Fm9 | Dbmaj7#11 | Dbmaj7#11 | Ebm7 | Fm9 | Fm9 | Fm9
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal]"F,8 | "_[M:Pedal]"F,8 | "^[R:Anchor]"F,8 | F,8 | "^[R:Anchor]""_[M:Root Motion]"_E,8 | "^[R:Anchor]""_[M:Root Motion]"F,8 | F,8 | "_[G:Space]"F,4 z4 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -123,7 +152,15 @@ rhythmically for six of the eight bars — long open horizontal space on
 the E string — which is itself the point: the tab's visual sparseness
 should look, at a glance, like what stillness sounds like.
 
-*Notated example pending — see `examples/by-chapter/01-the-anchor/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Anchor -- worked example” (see `examples/by-chapter/01-the-anchor/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|8-------|8-------|8-------|8-------|--------|8-------|8-------|8-------|
+E|--------|--------|--------|--------|11------|--------|--------|--------|
+```
+
 
 ## Practice Ideas
 

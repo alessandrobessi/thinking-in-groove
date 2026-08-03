@@ -26,13 +26,50 @@ The Motion layer marks Deceptive Motion with a diagonal line that includes a vis
 
 Picture an 8-measure jazz-fusion turnaround in C, tempo around 120 bpm. Bars 1-6 repeat a ii-V pattern (Dm7 to G7) three times, each time resolving normally down a fifth to C — training the listener thoroughly on what "the resolution" sounds and feels like. Bar 7: the same Dm7-G7 setup appears a fourth time, root motion aimed the same way, everything about the setup identical to the previous three. Bar 8: instead of resolving to C, the bass moves up a step to A, landing on Am7 — the deceptive destination — before the phrase eventually finds its way back to C over the measures that follow.
 
-*Notated example pending — see `examples/by-chapter/15-deceptive-motion-the-expected-turn-that-isnt/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Deceptive Motion -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Deceptive Motion -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=98
+K:C
+% chapter: 15-deceptive-motion-the-expected-turn-that-isnt
+% role: n/a
+% motion: deceptive motion
+% groove: moderate-density
+% difficulty: intermediate
+% harmony: Dm7 | Dm7 | G7 | G7 | Am7 (deceptive) | Am7 | G7 | Cmaj7 (delayed resolution)
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "_[M:Deceptive Motion]"A,,8 | A,,8 | "_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 The annotated score would show three identical straight Root Motion lines for the first three resolutions (bars 2, 4, 6), each landing cleanly on C, followed by a fourth line in bar 8 that begins on the same trajectory but visibly bends upward at the last moment toward A — a reader scanning only the Motion layer would see the pattern break before hearing it.
 
-*Notated example pending — see `examples/by-chapter/15-deceptive-motion-the-expected-turn-that-isnt/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Deceptive Motion -- worked example” (see `examples/by-chapter/15-deceptive-motion-the-expected-turn-that-isnt/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|10------|3-------|3-------|5-------|5-------|3-------|8-------|
+```
+
 
 ## Practice Ideas
 

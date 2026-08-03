@@ -90,7 +90,36 @@ the first two measures already established Ab clearly enough that the
 listener isn't confused about where "home" is — the Colorist is spending
 trust the earlier Anchor already built.
 
-*Notated example pending — see `examples/by-chapter/05-the-colorist/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Colorist -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Colorist -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 05-the-colorist
+% role: colorist
+% motion: substituted root
+% groove: sparse
+% difficulty: intermediate
+% harmony: Cmaj7 held throughout
+V:Bass clef=bass
+"^[R:Colorist]""_[M:Substituted Root]"D,8 | D,8 | "^[R:Colorist]"A,,8 | A,,8 | D,8 | A,,8 | D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -107,7 +136,15 @@ explicitly in a caption, since the visual modesty of the move on the
 page understates how much the harmonic character actually changes when
 it's heard.
 
-*Notated example pending — see `examples/by-chapter/05-the-colorist/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Colorist -- worked example” (see `examples/by-chapter/05-the-colorist/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|10------|5-------|5-------|10------|5-------|10------|8-------|
+```
+
 
 ## Practice Ideas
 

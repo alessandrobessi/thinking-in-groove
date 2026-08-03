@@ -81,7 +81,36 @@ the bass drops out only on beat 4 of bar 7, right before the phrase's
 final cadential arrival in bar 8 — a short Space used to set up a
 resolution rather than to make room for another instrument.
 
-*Notated example pending — see `examples/by-chapter/21-space-as-content-the-power-of-not-playing/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Space as Content -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Space as Content -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:E
+% chapter: 21-space-as-content-the-power-of-not-playing
+% role: n/a
+% motion: n/a
+% groove: sparse, one hit per bar
+% difficulty: beginner
+% harmony: E7#9 one-chord vamp; a single hit per bar, its position moving bar to bar so silence itself becomes the variable
+V:Bass clef=bass
+"_[G:Space]"E,,2 z6 | z2 E,,2 z4 | z4 E,,2 z2 | z6 E,,2 | E,,2 z6 | z2 E,,2 z4 | z4 E,,2 z2 | z6 E,,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -94,7 +123,15 @@ in bars 1–4, returning in bar 6) does not appear on the rest itself,
 since a rest cannot hold a harmonic Role — only the Groove tag applies
 to a deliberate absence.
 
-*Notated example pending — see `examples/by-chapter/21-space-as-content-the-power-of-not-playing/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Space as Content -- worked example” (see `examples/by-chapter/21-space-as-content-the-power-of-not-playing/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|0-------|--0-----|----0---|------0-|0-------|--0-----|----0---|------0-|
+```
+
 
 ## Practice Ideas
 

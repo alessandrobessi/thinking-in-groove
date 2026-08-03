@@ -97,7 +97,36 @@ announces each chord unmistakably. The voice-led version trades some of
 that clarity for a bass line that itself sounds like a considered
 melody, worth listening to independent of the chords it's supporting.
 
-*Notated example pending — see `examples/by-chapter/07-the-voice-leader/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Voice-Leader -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Voice-Leader -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+% chapter: 07-the-voice-leader
+% role: voice-leader
+% motion: passing motion
+% groove: sparse
+% difficulty: intermediate
+% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+V:Bass clef=bass
+"^[R:Voice-Leader]"D,8 | D,8 | "_[M:Passing Motion]"C,8 | C,8 | "_[M:Passing Motion]"B,,8 | B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -114,7 +143,15 @@ root-motion tab of the same four chords would require — that visual
 compactness is itself a useful check on whether a line is really
 voice-leading or only approximately doing so.
 
-*Notated example pending — see `examples/by-chapter/07-the-voice-leader/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Voice-Leader -- worked example” (see `examples/by-chapter/07-the-voice-leader/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|10------|8-------|8-------|7-------|7-------|8-------|8-------|
+```
+
 
 ## Practice Ideas
 

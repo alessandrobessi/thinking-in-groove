@@ -78,7 +78,36 @@ the Role, or even the pitch material has changed between the two
 halves. Only Density has, and the perceived energy shift from bar 4 to
 bar 5 should be the most obvious event in the whole example.
 
-*Notated example pending — see `examples/by-chapter/24-density-controlling-energy-through-note-count/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Density -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Density -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:E
+% chapter: 24-density-controlling-energy-through-note-count
+% role: n/a
+% motion: n/a
+% groove: contrast: low density then high density
+% difficulty: beginner
+% harmony: E7#9 one-chord vamp. Bars 1-4: one note per bar. Bars 5-8: eight notes per bar, same harmony, far more energy.
+V:Bass clef=bass
+"_[G:Density]"E,,8 | E,,8 | E,,8 | E,,8 | "_[G:Density]"E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 | E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 | E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 | E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -90,7 +119,15 @@ meant to be the starkest possible contrast: identical Role icon,
 identical Motion arc shape, and a Groove-layer timeline that visibly
 switches from sparse to crowded exactly at the bar 4–5 boundary.
 
-*Notated example pending — see `examples/by-chapter/24-density-controlling-energy-through-note-count/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Density -- worked example” (see `examples/by-chapter/24-density-controlling-energy-through-note-count/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|0-------|0-------|0-------|0-------|03050305|03050305|03050305|03050305|
+```
+
 
 ## Practice Ideas
 

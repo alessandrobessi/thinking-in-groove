@@ -90,7 +90,36 @@ squarely on the new root, but nothing about getting there feels like a
 jump — the ear has been told, one step at a time, exactly where this is
 headed.
 
-*Notated example pending — see `examples/by-chapter/03-the-connector/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Connector -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Connector -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:F
+% chapter: 03-the-connector
+% role: connector
+% motion: passing motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Gm7 | Gm7 | C7 | C7 | Gm7 | Gm7 | C7 | F
+V:Bass clef=bass
+G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,8 | G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]"C,8 | "^[R:Anchor]""_[M:Cadential Motion]"F,,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
@@ -107,7 +136,15 @@ glance even before playing it, which is itself a useful check: if a
 line intended as connecting motion doesn't look directional on the tab,
 it probably won't sound directional either.
 
-*Notated example pending — see `examples/by-chapter/03-the-connector/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Connector -- worked example” (see `examples/by-chapter/03-the-connector/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|3-------|3-5-6-7-|8-------|8-------|3-------|3-5-6-7-|8-------|1-------|
+```
+
 
 ## Practice Ideas
 

@@ -33,13 +33,50 @@ The example for this chapter needs at least 12 measures to have room to establis
 - Measures 9–10: the contract is broken — a sudden jump in Density and a Pocket shift to ahead-of-the-beat, timed to land at a harmonically significant moment (a **Cadential Motion** approach works well here).
 - Measures 11–12: return to the opening cell and Pocket — the contract is restored, confirming retroactively that measures 9–10 were a deliberate break, not a mistake.
 
-*Notated example pending — see `examples/by-chapter/28-the-groove-contract-setting-and-breaking-expectations/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Groove Contract -- worked example</p>
+<pre class="abc-source">
+X:1
+T:The Groove Contract -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+% chapter: 28-the-groove-contract-setting-and-breaking-expectations
+% role: n/a
+% motion: n/a
+% groove: set / renewed / broken / restored
+% difficulty: advanced
+% harmony: G funk vamp. % contract: set (bars 1-4), renewed (bars 5-8), broken -- density jump + ahead-of-the-beat (bars 9-10), restored (bars 11-12)
+V:Bass clef=bass
+z1 "_[G:Groove Contract]"G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | "_[G:Groove Contract]"G,,1 _B,,1 D,1 G,1 D,1 _B,,1 G,,1 D,1 | G,,1 _B,,1 D,1 G,1 D,1 _B,,1 G,,1 D,1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 Because this term spans measures rather than marking a single note, its notation should carry a `% contract: set` / `% contract: broken` / `% contract: restored` comment line (following the semantic metadata block convention in `docs/notation-conventions.md`) placed at the start of the relevant measure group, in addition to whatever per-note Role/Motion/Groove tags those measures already carry from their own layers.
 
-*Notated example pending — see `examples/by-chapter/28-the-groove-contract-setting-and-breaking-expectations/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “The Groove Contract -- worked example” (see `examples/by-chapter/28-the-groove-contract-setting-and-breaking-expectations/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|---10---|---10---|--------|--------|
+E|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|36101631|36101631|-3-6-10-|-3-6-10-|
+```
+
 
 ## Practice Ideas
 

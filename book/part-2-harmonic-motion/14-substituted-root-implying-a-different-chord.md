@@ -26,13 +26,50 @@ The Motion layer marks a Substituted Root with a dotted diagonal line, in amber 
 
 Picture a 4-measure fusion vamp, chart reading G7 for the full four bars, tempo around 100 bpm. Bars 1-2: the bass plays the expected G root, establishing the "home" sound of G7 clearly first. Bars 3-4: without any chord symbol changing, the bass substitutes Db as the root — a tritone away from G — reframing the same G7 harmony as a Db7-flavored sound (sharing G7's tritone of B and F, respelled as Db7's 3rd and b7). The upper harmony hasn't moved a single note; only the bass's reinterpretation makes the substitution audible.
 
-*Notated example pending — see `examples/by-chapter/14-substituted-root-implying-a-different-chord/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Substituted Root -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Substituted Root -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:C
+% chapter: 14-substituted-root-implying-a-different-chord
+% role: n/a
+% motion: substituted root
+% groove: sparse
+% difficulty: advanced
+% harmony: Dm7 | Dm7 | G7 (tritone sub: Db in the bass) | Db7 | Cmaj7 | Cmaj7 | Am7 | Dm7
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | D,8 | "_[M:Substituted Root]"_D,8 | _D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | "_[M:Root Motion]"A,,8 | "_[M:Root Motion]"D,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 The annotated score would mark bars 1-2's G root as a plain Anchor with no Motion tag (nothing being substituted yet), then mark the Db in bars 3-4 with a dotted amber diagonal line back to the "expected" G, alongside a Colorist icon in the Role layer — making clear that this note is doing two jobs at once: reframing the harmony (Motion) and adding color (Role).
 
-*Notated example pending — see `examples/by-chapter/14-substituted-root-implying-a-different-chord/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Substituted Root -- worked example” (see `examples/by-chapter/14-substituted-root-implying-a-different-chord/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|10------|9-------|9-------|8-------|8-------|5-------|10------|
+```
+
 
 ## Practice Ideas
 

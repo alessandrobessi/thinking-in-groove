@@ -26,13 +26,50 @@ The Motion layer marks Cadential Motion with a double vertical tick placed at th
 
 Picture the final 4 measures of a 16-bar jazz-funk head in F, tempo around 108 bpm. Bars 13-14: harmony sits on Gm7 (ii), the bass playing a Driver-Role eighth-note pattern that gradually thins out, a subtle slowing of Harmonic Rhythm signaling an ending is near. Bar 15: root motion down a fifth to C7 (V), the dominant, held with rhythmic space around it — the tension point. Bar 16: root motion down a fifth again, resolving fully to F (I), landing exactly on the downbeat with nothing else happening rhythmically around it, letting the resolution breathe. This full cadence closes the head cleanly, distinct from an earlier half cadence at bar 8 that only reached C7 before continuing.
 
-*Notated example pending — see `examples/by-chapter/16-cadential-motion-tension-and-release/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Cadential Motion -- worked example</p>
+<pre class="abc-source">
+X:1
+T:Cadential Motion -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 16-cadential-motion-tension-and-release
+% role: n/a
+% motion: cadential motion
+% groove: sparse
+% difficulty: beginner
+% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | C,8 | "_[G:Space]"C,4 z4 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
 
 ## Annotated Notation
 
 The annotated score would place a single double-tick mark directly over the downbeat of bar 16, at the end of the two stacked Root Motion diagonal lines (Gm7-to-C7, C7-to-F), making it visually clear that this specific arrival — and not the identical-looking descending-fifth motion elsewhere in the piece — is the one doing cadential, phrase-ending work.
 
-*Notated example pending — see `examples/by-chapter/16-cadential-motion-tension-and-release/` (Phase 2) and `docs/notation-conventions.md` for the annotation convention.*
+*Bass tab for “Cadential Motion -- worked example” (see `examples/by-chapter/16-cadential-motion-tension-and-release/` for the source files)*
+
+```text
+G|--------|--------|--------|--------|--------|--------|--------|--------|
+D|--------|--------|--------|--------|--------|--------|--------|--------|
+A|--------|--------|--------|--------|--------|--------|--------|--------|
+E|10------|10------|3-------|3-------|8-------|8-------|8-------|8-------|
+```
+
 
 ## Practice Ideas
 
