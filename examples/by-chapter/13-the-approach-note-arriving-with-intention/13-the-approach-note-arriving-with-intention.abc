@@ -1,0 +1,15 @@
+X:1
+T:The Approach Note -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=94
+K:C
+% chapter: 13-the-approach-note-arriving-with-intention
+% role: n/a
+% motion: approach note
+% groove: moderate-density
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 | Cmaj7 | Am7 | Am7 | Dm7 | Dm7
+V:Bass clef=bass
+"^[R:Anchor]"D,6 "_[M:Approach Note]"^F,,2 | "_[M:Root Motion]"G,,8 | G,,6 "_[M:Approach Note]"B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,6 "_[M:Approach Note]"_A,,2 | "_[M:Root Motion]"A,,8 | A,,6 "_[M:Approach Note]"^C,2 | "^[R:Anchor]"D,8 |]

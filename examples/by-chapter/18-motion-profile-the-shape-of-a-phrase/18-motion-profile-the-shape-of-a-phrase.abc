@@ -1,0 +1,15 @@
+X:1
+T:Motion Profile -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=95
+K:C
+% chapter: 18-motion-profile-the-shape-of-a-phrase
+% role: n/a
+% motion: motion profile (static, ascending, cyclical, cadential)
+% groove: varies by section
+% difficulty: advanced
+% harmony: Dm7 (static) | Dm7 | (ascending) | (ascending) | (peak) | (cyclical) | (cyclical) | Cmaj7 (cadential)
+V:Bass clef=bass
+"_[M:Pedal]"D,8 | D,8 | "_[M:Passing Motion]"D,2 E,2 F,2 G,2 | "_[M:Root Motion]"A,8 | "_[M:Root Motion]"B,8 | "_[M:Motion Profile]"G,2 E,2 G,2 E,2 | G,2 E,2 G,2 E,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]

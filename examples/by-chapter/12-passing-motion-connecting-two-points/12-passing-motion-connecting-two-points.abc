@@ -1,0 +1,15 @@
+X:1
+T:Passing Motion -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+% chapter: 12-passing-motion-connecting-two-points
+% role: n/a
+% motion: passing motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Dm7 | (passing) | G7 | (passing) | Cmaj7 | Cmaj7 | (turnaround) | Dm7
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | "_[M:Passing Motion]"D,2 E,,2 F,,2 ^F,,2 | "_[M:Root Motion]"G,,8 | "_[M:Passing Motion]"G,,2 A,,2 B,,2 C,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | "_[M:Passing Motion]"C,2 B,,2 A,,2 G,,2 | "_[M:Root Motion]"D,8 |]

@@ -1,0 +1,15 @@
+X:1
+T:The Connector -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:F
+% chapter: 03-the-connector
+% role: connector
+% motion: passing motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Gm7 | Gm7 | C7 | C7 | Gm7 | Gm7 | C7 | F
+V:Bass clef=bass
+G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,8 | G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]"C,8 | "^[R:Anchor]""_[M:Cadential Motion]"F,,8 |]

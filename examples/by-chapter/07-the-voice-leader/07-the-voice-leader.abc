@@ -1,0 +1,15 @@
+X:1
+T:The Voice-Leader -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+% chapter: 07-the-voice-leader
+% role: voice-leader
+% motion: passing motion
+% groove: sparse
+% difficulty: intermediate
+% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+V:Bass clef=bass
+"^[R:Voice-Leader]"D,8 | D,8 | "_[M:Passing Motion]"C,8 | C,8 | "_[M:Passing Motion]"B,,8 | B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 |]

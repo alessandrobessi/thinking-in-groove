@@ -1,0 +1,15 @@
+X:1
+T:The Groove Contract -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:G
+% chapter: 28-the-groove-contract-setting-and-breaking-expectations
+% role: n/a
+% motion: n/a
+% groove: set / renewed / broken / restored
+% difficulty: advanced
+% harmony: G funk vamp. % contract: set (bars 1-4), renewed (bars 5-8), broken -- density jump + ahead-of-the-beat (bars 9-10), restored (bars 11-12)
+V:Bass clef=bass
+z1 "_[G:Groove Contract]"G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | "_[G:Groove Contract]"G,,1 _B,,1 D,1 G,1 D,1 _B,,1 G,,1 D,1 | G,,1 _B,,1 D,1 G,1 D,1 _B,,1 G,,1 D,1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 |]

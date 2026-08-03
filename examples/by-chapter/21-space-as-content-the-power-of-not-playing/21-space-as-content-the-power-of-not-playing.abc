@@ -1,0 +1,15 @@
+X:1
+T:Space as Content -- worked example
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:E
+% chapter: 21-space-as-content-the-power-of-not-playing
+% role: n/a
+% motion: n/a
+% groove: sparse, one hit per bar
+% difficulty: beginner
+% harmony: E7#9 one-chord vamp; a single hit per bar, its position moving bar to bar so silence itself becomes the variable
+V:Bass clef=bass
+"_[G:Space]"E,,2 z6 | z2 E,,2 z4 | z4 E,,2 z2 | z6 E,,2 | E,,2 z6 | z2 E,,2 z4 | z4 E,,2 z2 | z6 E,,2 |]
