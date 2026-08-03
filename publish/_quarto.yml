@@ -5,7 +5,7 @@ book:
   title: "Thinking in Groove"
   subtitle: "A Mental Model for Bass Harmony, Groove, and Musical Motion"
   author: "Alessandro Bessi"
-  # cover-image: assets/cover.png  # add once publish/assets/cover.png exists — see assets/README.md
+  cover-image: assets/cover.png
   chapters:
     - index.qmd
     - preface.qmd
@@ -72,4 +72,4 @@ format:
   epub:
     toc: true
     toc-depth: 1
-    # epub-cover-image: assets/cover-epub.png  # add once the asset exists — see assets/README.md
+    # epub-cover-image: assets/cover-epub.png  # cover.png is dense/diagram-heavy; needs an EPUB-specific crop first, see assets/README.md

@@ -13,13 +13,18 @@ full vision and [`ROADMAP.md`](ROADMAP.md) for the phase plan.
 
 ## Project status
 
-**Phase 1 — Foundations is complete.** The conceptual vocabulary, visual
-language, notation conventions, and final chapter map are done (see
-`docs/`). The repository scaffold for later phases — the manuscript
-tree, the ABC example repository, and the Quarto/Typst publishing
-project — is in place, but populated with structural stubs, not
-finished content. Phase 2 (composing the 100+ musical examples) and
-Phase 3 (writing chapter prose) have not started.
+**Phase 1 — Foundations is complete** (see `docs/`: conceptual
+vocabulary, visual language, notation conventions, final chapter map).
+
+**Phase 2 and Phase 3 have a full first draft.** All 29 chapters have
+composed ABC examples + bass tabs (`examples/by-chapter/`) and full
+chapter prose (`book/`), with the examples embedded directly in the
+relevant Musical Example / Annotated Notation sections. Part II
+(Harmonic Motion) chapters are more concise than Parts I/III and are
+being brought up to matching depth. None of this has been reviewed —
+Phase 5 (Technical Review) hasn't started, and Phase 4 (Multimedia)
+and Phase 6 (Publication) are largely open beyond the Quarto/Typst
+scaffold and cover/author art already in place.
 
 ## How the project is organized
 
@@ -29,8 +34,8 @@ Phase 3 (writing chapter prose) have not started.
 | [`ROADMAP.md`](ROADMAP.md) | The six-phase plan from foundations to publication. |
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
 | [`docs/`](docs/) | Phase 1 deliverables: `vocabulary.md`, `visual-language.md`, `notation-conventions.md`, `chapter-map.md`, plus `glossary.md` and `style-guide.md`. |
-| [`book/`](book/) | The manuscript, one file per chapter, organized by Part, plus a `back-matter/` folder for the integrated study and appendices. Chapter files are currently structural stubs pointing back to `docs/chapter-map.md` — Phase 3 fills them in. |
-| [`examples/`](examples/) | The ABC notation example repository named as its own deliverable in `BLUEPRINT.md`: one `.abc` + one `.tab.txt` per musical example. Empty until Phase 2. |
+| [`book/`](book/) | The manuscript, one file per chapter, organized by Part, plus a `back-matter/` folder for the integrated study and appendices. All 29 chapters + 4 appendices have full first-draft prose with embedded musical examples. |
+| [`examples/`](examples/) | The ABC notation example repository named as its own deliverable in `BLUEPRINT.md`: one `.abc` + one `.tab.txt` per musical example, cataloged in `examples/INDEX.md`. All 29 composed. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
 | [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Checks that `publish/_quarto.yml`'s chapter list and `book/`'s files on disk agree; run in CI. |
@@ -47,10 +52,10 @@ python3 scripts/prepare_manuscript_for_publish.py
 cd publish && quarto render
 ```
 
-Cover and author images (`publish/assets/cover.png`,
-`cover-epub.png`, `author.png`) don't exist yet — see
-[`publish/assets/README.md`](publish/assets/README.md). A full render
-will need them added first; this is Phase 4/6 work, not this pass.
+Cover and author images are in place (`publish/assets/cover.png`,
+`cover-epub.png`, `author.png`) — see
+[`publish/assets/README.md`](publish/assets/README.md) for the one
+open item (an EPUB-specific cover crop).
 
 ## Validating the manuscript structure
 
