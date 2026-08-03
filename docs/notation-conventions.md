@@ -94,6 +94,20 @@ K:Cmaj
 "^[R:Anchor]"C,4 "_[M:Pedal]"C,4 | C,2 "^[R:Connector]"D,2 "_[M:Passing Motion]"E,2 F,2 |
 ```
 
+## Phrase-Level Annotations
+
+Most semantic tags mark a single note. A few Integration-category terms
+(Chapter 28's Groove Contract, in particular) describe a span of
+measures instead. For these, add a `%` comment line at the start of the
+relevant measure group, in addition to whatever per-note Role/Motion/
+Groove tags those measures already carry:
+
+```
+% contract: set
+% contract: broken
+% contract: restored
+```
+
 ## Bass Tab Convention
 
 Tab is authored manually (auto-generation from ABC is a Phase 4 tooling
