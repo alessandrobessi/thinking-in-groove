@@ -22,9 +22,11 @@ chapter prose (`book/`), with the examples embedded directly in the
 relevant Musical Example / Annotated Notation sections. Part II
 (Harmonic Motion) chapters are more concise than Parts I/III and are
 being brought up to matching depth. None of this has been reviewed —
-Phase 5 (Technical Review) hasn't started, and Phase 4 (Multimedia)
-and Phase 6 (Publication) are largely open beyond the Quarto/Typst
-scaffold and cover/author art already in place.
+Phase 5 (Technical Review) hasn't started. Phase 4 (Multimedia) and
+Phase 6 (Publication) now have the Quarto/Typst scaffold, cover/author
+art, and CI (`.github/workflows/`) publishing to GitHub Pages and a
+rolling release on every push to `main` — the website, EPUB, and PDF
+outputs themselves are otherwise unreviewed first-draft output.
 
 ## How the project is organized
 
@@ -40,6 +42,15 @@ scaffold and cover/author art already in place.
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
 | [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Checks that `publish/_quarto.yml`'s chapter list and `book/`'s files on disk agree; run in CI. |
 | [`publish/`](publish/) | The Quarto book project: `_quarto.yml`, front-matter pages, and the abcjs notation/audio widget (`publish/assets/notation-head.html`). |
+| [`.github/workflows/`](.github/workflows/) | `validate.yml` checks manuscript structure and does an HTML render sanity check on every push/PR; `build-book.yml` renders the full book and deploys it on every push to `main`. |
+
+## Reading the built book
+
+**[Read it online](https://alessandrobessi.github.io/thinking-in-groove/)**
+— rebuilt automatically on every push to `main`. A PDF and EPUB of the
+same build are attached to the repo's
+[latest release](../../releases/tag/latest-build), also updated on
+every push.
 
 ## Building the book locally
 

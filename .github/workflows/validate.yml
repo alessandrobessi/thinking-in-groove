@@ -1,0 +1,22 @@
+name: Validate manuscript
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python3 scripts/validate_book_structure.py
+      - name: Stage chapters for the Quarto build
+        run: python3 scripts/prepare_manuscript_for_publish.py
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render HTML as a build sanity check
+        working-directory: publish
+        run: quarto render --to html
