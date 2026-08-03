@@ -1,0 +1,17 @@
+# Welcome {.unnumbered}
+
+**A Mental Model for Bass Harmony, Groove, and Musical Motion.**
+
+> The chord tells you where you are. The role, the motion, and the
+> groove tell you what your bass line is actually doing about it.
+
+Thinking in Groove is not a bass method. It teaches bass playing through
+three questions instead of scales and arpeggios: what **Role** does this
+note play, how does it create harmonic **Motion**, and how does it
+create **Groove**.
+
+In this web edition, worked examples are notated as you read them:
+click **Play** under any example to hear it, not just see it.
+
+*This is a structural draft. Manuscript writing has not yet begun — see
+the repository README for current project status.*

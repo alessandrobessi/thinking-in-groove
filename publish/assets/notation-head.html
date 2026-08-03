@@ -1,0 +1,140 @@
+<script src="https://cdn.jsdelivr.net/npm/abcjs@6.4.4/dist/abcjs-basic-min.js"></script>
+<style>
+.score-example {
+  margin: 1.75em 0;
+  padding: 0.9em 1.1em 1.1em;
+  border: 1px solid #d8d3c8;
+  border-radius: 8px;
+  background: #fbf9f5;
+  overflow-x: auto;
+}
+.score-example .abc-source {
+  display: none;
+}
+.score-example .abc-rendered {
+  overflow-x: auto;
+}
+.score-example .abc-rendered svg {
+  max-width: 100%;
+  height: auto;
+}
+.score-example .abc-caption {
+  margin: 0 0 0.5em;
+  font-size: 0.85em;
+  color: #6b6558;
+  font-style: italic;
+}
+.score-example .abc-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-top: 0.4em;
+  padding: 0.35em 0.9em;
+  font-size: 0.85em;
+  border: 1px solid #b5502f;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #b5502f;
+  cursor: pointer;
+}
+.score-example .abc-play:hover:not(:disabled) {
+  background: #b5502f;
+  color: #ffffff;
+}
+.score-example .abc-play:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+.score-example .abc-play[data-state="playing"] {
+  background: #b5502f;
+  color: #ffffff;
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (typeof ABCJS === "undefined") return;
+
+  var audioContext = null;
+  var currentSynth = null;
+  var currentButton = null;
+
+  function stopCurrent() {
+    if (currentSynth) {
+      try { currentSynth.stop(); } catch (e) { /* already stopped */ }
+    }
+    if (currentButton) {
+      currentButton.textContent = "▶ Play";
+      currentButton.removeAttribute("data-state");
+    }
+    currentSynth = null;
+    currentButton = null;
+  }
+
+  var examples = document.querySelectorAll(".score-example");
+  examples.forEach(function (el) {
+    var source = el.querySelector(".abc-source");
+    var target = el.querySelector(".abc-rendered");
+    var button = el.querySelector(".abc-play");
+    if (!source || !target) return;
+
+    var abcText = source.textContent;
+    var rendered = ABCJS.renderAbc(target, abcText, {
+      responsive: "resize",
+      staffwidth: 480,
+      add_classes: true,
+    });
+    var visualObj = rendered[0];
+
+    if (!button) return;
+
+    if (!window.AudioContext && !window.webkitAudioContext) {
+      button.remove();
+      return;
+    }
+    if (!ABCJS.synth || !ABCJS.synth.supportsAudio || !ABCJS.synth.supportsAudio()) {
+      button.remove();
+      return;
+    }
+
+    button.addEventListener("click", function () {
+      if (currentButton === button) {
+        stopCurrent();
+        return;
+      }
+      stopCurrent();
+
+      if (!audioContext) {
+        var Ctor = window.AudioContext || window.webkitAudioContext;
+        audioContext = new Ctor();
+      }
+
+      button.disabled = true;
+      button.textContent = "Loading…";
+
+      var synth = new ABCJS.synth.CreateSynth();
+      synth
+        .init({ visualObj: visualObj, audioContext: audioContext, options: {} })
+        .then(function () {
+          return synth.prime();
+        })
+        .then(function (result) {
+          button.disabled = false;
+          button.textContent = "⏹ Stop";
+          button.setAttribute("data-state", "playing");
+          currentSynth = synth;
+          currentButton = button;
+          synth.start();
+          var durationMs = (result && result.duration ? result.duration : 4) * 1000 + 250;
+          setTimeout(function () {
+            if (currentButton === button) stopCurrent();
+          }, durationMs);
+        })
+        .catch(function (err) {
+          console.error("notation widget: audio unavailable", err);
+          button.disabled = true;
+          button.textContent = "▶ Play unavailable";
+        });
+    });
+  });
+});
+</script>

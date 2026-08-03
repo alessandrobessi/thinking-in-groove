@@ -1,0 +1,14 @@
+X:1
+T:<Example title>
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+% chapter: 00-template
+% role: <RoleTerm>
+% motion: <MotionTerm>
+% groove: <GrooveTerm, difficulty-relevant tags>
+% difficulty: <beginner|intermediate|advanced>
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal]"C,,4 C,,4 | C,,2 "^[R:Connector]""_[M:Passing Motion]"D,,2 E,,2 F,,2 |]

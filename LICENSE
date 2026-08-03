@@ -1,0 +1,23 @@
+Copyright (c) 2026 Alessandro Bessi.
+
+This work — the manuscript, notation, and prose under `book/`,
+`docs/`, and `examples/` — is licensed under the Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License
+(CC BY-NC-ND 4.0).
+
+To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View,
+CA 94042, USA.
+
+In short: you may share this work in its original, unmodified form for
+non-commercial purposes, with attribution to the author. You may not
+alter, transform, or build upon it, and you may not use it
+commercially, without prior written permission from the copyright
+holder.
+
+Supporting tooling under `scripts/` and the Quarto/Typst project
+scaffolding under `publish/` (excluding manuscript content and
+notation) may be covered by a separate, more permissive license in a
+future revision, once a deliberate decision is made about reuse of the
+example-generation tooling independent of the manuscript itself.

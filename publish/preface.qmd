@@ -1,0 +1,80 @@
+# Preface {.unnumbered}
+
+Bass players often know more than they can easily explain. A line can
+live under the fingers for years before its internal logic becomes
+explicit. This book is written for that gap. It assumes musical
+intelligence but never assumes that technical facility guarantees a
+complete mental model.
+
+Our recurring loop is **HEAR -> NAME THE ROLE -> HEAR THE MOTION -> FEEL
+THE GROOVE -> PLAY -> VARY -> COMPOSE**. Every chapter isolates one term
+from `docs/vocabulary.md` so the ear can attribute what changed to the
+concept that produced it.
+
+## Why Role, Motion, and Groove instead of scales
+
+This book deliberately avoids answering "which scale should I play?" or
+"which arpeggio should I learn?" as its organizing question.
+
+A scale or an arpeggio describes available pitches. It does not describe
+what a bass line is *for* in a given moment — whether it is grounding
+the harmony, redirecting it, or simply making the time feel good. Two
+bass lines can share identical pitches and function completely
+differently depending on their Role, their harmonic Motion, and their
+Groove.
+
+We therefore organize the entire book around three questions asked of
+every example:
+
+**What Role is this note playing? What Motion is it creating? What
+Groove is it creating?**
+
+Naming a scale answers none of these questions on its own. A concept
+from this book's vocabulary always does.
+
+## A note on notation
+
+Every worked example pairs standard notation with a bass tab and with
+inline Role/Motion/Groove annotations — see `docs/notation-conventions.md`
+for the exact convention. The annotations are scaffolding: they exist so
+you can see which decision produced which sound, and may be ignored once
+that connection is audible without them.
+
+No fingerings or right-hand/left-hand technique are prescribed; this
+book is about what to play and why, not how to physically execute it on
+a given instrument.
+
+In this web edition, every notated example is also playable: press the
+**Play** button beneath a score to hear it rendered at a plain, even
+tempo. The audio is a plain synthesized reference, not a performance —
+it exists so you can check what you think you're hearing against what
+is actually on the page.
+
+## Why we stay on one groove for so long
+
+A method about relationships can paradoxically become harder to learn if
+every example changes tempo, feel, and harmony at once. Many chapters
+therefore return to a small set of fixed laboratory progressions so the
+ear receives repeated exposure to the same harmonic and rhythmic ground
+while only the chapter's own variable changes. Later chapters
+deliberately vary the ground, once the relationship being taught is
+stable enough to survive the change.
+
+## The learning sequence
+
+Every practical concept in this book follows the same order:
+
+**hear the term in context -> isolate it in a short worked example ->
+play it slowly against a click -> vary it once -> combine it with
+already-known terms -> use it in an original bass line**
+
+The order matters. Combining terms too early can hide the sound we are
+trying to isolate. A concept should first become audible on its own.
+Only then do we let it interact with everything the reader already
+knows.
+
+## How notation and practice work together
+
+Exercises appear inside the relevant chapters so that sound and
+explanation remain adjacent. The standalone `examples/` ABC repository
+collects the same material for uninterrupted practice at the instrument.

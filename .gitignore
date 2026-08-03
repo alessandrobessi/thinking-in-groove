@@ -1,0 +1,4 @@
+publish/chapters/
+publish/_book/
+publish/.quarto/
+.DS_Store
