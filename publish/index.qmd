@@ -13,5 +13,5 @@ create **Groove**.
 In this web edition, worked examples are notated as you read them:
 click **Play** under any example to hear it, not just see it.
 
-*This is a structural draft. Manuscript writing has not yet begun — see
-the repository README for current project status.*
+*This is a first complete draft, not a finished, professionally edited
+book — see the repository README for current project status.*
