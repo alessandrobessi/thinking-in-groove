@@ -56,9 +56,9 @@ Lay-back is marked exactly like a Pocket shift — a dot displaced left
 only one or two ticks in an otherwise dead-center (or consistently
 offset) timeline, rather than across every dot in the passage. The
 visual contrast between the isolated displaced dot and its evenly
-spaced, undisplaced neighbors is what identifies it as a Push/Lay-back
+spaced, undisplaced neighbors is what identifies it as a Push / Lay-back
 gesture rather than a change of overall Pocket. Placing a Pocket diagram
-(Chapter 19) and a Push/Lay-back diagram side by side is the clearest
+(Chapter 19) and a Push / Lay-back diagram side by side is the clearest
 way to see the difference: one shows a uniform lean across every dot,
 the other shows a single dot pulled out of an otherwise uniform line.
 

@@ -132,7 +132,7 @@ K:C
 % difficulty: intermediate
 % harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 |]
+z8 | z3 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 z1 | z8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -156,7 +156,7 @@ here in a real arrangement, in place of the usual harmonic-device tag.
 G|--------|--------|--------|
 D|--------|--------|--------|
 A|--------|--------|--------|
-E|--------|----3-10|--------|
+E|--------|---3-10-|--------|
 ```
 
 

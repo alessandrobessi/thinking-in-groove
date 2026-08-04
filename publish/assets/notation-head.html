@@ -18,6 +18,19 @@
   max-width: 100%;
   height: auto;
 }
+/* Thinking in Groove's .abc files always declare T:/C:/Q: explicitly
+   (see docs/notation-conventions.md -- unlike Thinking in Layers'
+   widgets, which omit them entirely), so the rendered score would
+   otherwise show a large title/composer/tempo block dwarfing the
+   staff. The caption above already carries that information, and Q:
+   is still used correctly for audio playback tempo (the synth reads
+   the parsed tune object, not the SVG) -- only the visual text is
+   hidden here. */
+.score-example .abcjs-title,
+.score-example .abcjs-composer,
+.score-example .abcjs-tempo {
+  display: none;
+}
 .score-example .abc-caption {
   margin: 0 0 0.5em;
   font-size: 0.85em;

@@ -12,7 +12,7 @@ Zoom out from any single harmonic event — a root change, a pedal, an approach 
 
 ## Mental Model
 
-**Motion Profile** is the overall harmonic shape a bass line traces across a phrase — static, ascending, cyclical, or wandering — and it is the synthesis term for everything else in this Part. Every device covered so far (Root Motion, Pedal, Passing Motion, Approach Note, Substituted Root, Deceptive Motion, Cadential Motion, Harmonic Rhythm) is a decision made at a single moment. Motion Profile is what those decisions add up to once you step back far enough to see a whole phrase, section, or piece.
+**Motion Profile** is the overall harmonic shape a bass line traces across a phrase — static, ascending, cyclical, or wandering — and it is the synthesis term for everything else in this Part. Every device covered so far (**Root Motion**, **Pedal**, **Passing Motion**, **Approach Note**, **Substituted Root**, **Deceptive Motion**, **Cadential Motion**, **Harmonic Rhythm**) is a decision made at a single moment. Motion Profile is what those decisions add up to once you step back far enough to see a whole phrase, section, or piece.
 
 Four shapes are worth naming explicitly, because each has a distinct effect on a listener.
 

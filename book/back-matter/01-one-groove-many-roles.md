@@ -6,7 +6,7 @@ A single 8-bar bass line, notated once, then reinterpreted under every Role term
 
 ## The base line
 
-Here is the line, fixed for the whole appendix: eight bars in C, over a static Cmaj7, using only five pitches — **C, E, G, B, D** — in this rhythm, repeated with small variation across the phrase: a dotted-quarter/eighth/quarter shape landing the first note on beat 1, the second on the "and" of beat 2, and the third on beat 4. Nothing about the pitches or the rhythm changes across the eight reinterpretations below. Only the listening frame changes — and, in performance, only a handful of small physical decisions (attack, dynamic, which beat gets emphasized) that a player makes *because* of which Role they've chosen.
+Here is the line, fixed for the whole appendix: eight bars in C, over a static Cmaj7 — the arrival chord of the book's own Dm7-G7-Cmaj7 laboratory, held here rather than moving on, precisely so this appendix's claim can be tested without the confound of the harmony changing underneath it — using only five pitches — **C, E, G, B, D** — in this rhythm, repeated with small variation across the phrase: a dotted-quarter/eighth/quarter shape landing the first note on beat 1, the second on the "and" of beat 2, and the third on beat 4. Nothing about the pitches or the rhythm changes across the eight reinterpretations below. Only the listening frame changes — and, in performance, only a handful of small physical decisions (attack, dynamic, which beat gets emphasized) that a player makes *because* of which Role they've chosen.
 
 This is the central claim of Part I stated as directly as this book can state it: identical notes, identical rhythm, eight different jobs.
 

@@ -31,7 +31,7 @@ together as a single, recognizable identity:
 
 - **Pocket** (Chapter 19) — where, relative to the pulse, this style's
   notes characteristically sit: ahead, dead-center, or behind.
-- **Syncopation Points** (Chapter 20) — which subdivisions this style
+- **Syncopation Point** (Chapter 20) — which subdivisions this style
   habitually favors for its rhythmic surprises, and which it avoids.
 - **Space** (Chapter 21) — how much silence this style leaves, and
   where it characteristically falls.
@@ -70,7 +70,7 @@ replaced by hollow rings (Space), all grouped into repeating brackets
 (Repetition Cell), some of those brackets carrying a dashed overlay
 (Variation Layer), the overall dot count per bar read as sparse or
 dense (Density), and at least one isolated displaced dot standing out
-against an otherwise uniform pocket (Push/Lay-back). No single symbol on
+against an otherwise uniform pocket (Push / Lay-back). No single symbol on
 this diagram is new — what's new is seeing all of them coexist on one
 timeline as a single, coordinated picture, which is exactly what a
 Groove Signature is.
@@ -168,7 +168,7 @@ E|10--10--|3-103-10|8---8---|10--10--|
 - **Seven-dial analysis.** Pick a recording in a style you want to
   internalize and describe its bass part along all seven dials from
   this chapter — Pocket, Syncopation Points, Space, Repetition Cell
-  length, Variation Layer activity, Density, and Push/Lay-back use.
+  length, Variation Layer activity, Density, and Push / Lay-back use.
   Naming each setting explicitly is usually the fastest way to
   reproduce a style deliberately rather than by vague imitation.
 - **Same harmony, two signatures.** Take one static chord or short
@@ -192,7 +192,7 @@ E|10--10--|3-103-10|8---8---|10--10--|
 A Groove Signature is not an eighth, new technique — it is the
 consistent, coordinated combination of the seven Groove-layer choices
 introduced across this Part: Pocket, Syncopation Points, Space,
-Repetition Cell, Variation Layer, Density, and Push/Lay-back. Held
+Repetition Cell, Variation Layer, Density, and Push / Lay-back. Held
 together consistently, these seven settings are what let a listener
 recognize a style, or a specific bass line, from a few seconds of
 rhythm alone, with no melody or harmony required. Part IV now turns to

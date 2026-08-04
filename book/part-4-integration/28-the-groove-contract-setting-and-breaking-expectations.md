@@ -14,7 +14,7 @@ The first few bars of almost any bass line teach the listener how to listen to t
 
 A Groove Contract has two moments, not one: the moment it is *set*, and the moment it is *paid off* — either by being kept, or by being broken in a way the listener can feel as broken rather than as a mistake.
 
-Setting the contract usually happens fast, often within the first one or two **Repetition Cells** of a piece. Whatever combination of **Pocket**, **Density**, and cell-length appears there becomes the implicit baseline — the **Groove Signature** the rest of the piece will be measured against, whether or not it's ever repeated identically again.
+Setting the contract usually happens fast, often within the first one or two repetitions of a Repetition Cell. Whatever combination of **Pocket**, **Density**, and cell-length appears there becomes the implicit baseline — the **Groove Signature** the rest of the piece will be measured against, whether or not it's ever repeated identically again.
 
 Keeping the contract means every subsequent **Variation Layer** stays recognizably related to that baseline — same cell, ornamented; same pocket, occasionally pushed for one beat then returned. The listener's trust is rewarded, and the groove reads as coherent.
 

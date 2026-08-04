@@ -165,7 +165,7 @@ E|10----12|3-----57|8-------|
   of the arrival.
 - Isolate the last beat of a measure before a chord change. Practice
   arriving at the new root from a half step below, then from a whole
-  step above, then from a scale step below, on the same progression.
+  step above, then from a diatonic step below, on the same progression.
   Compare how each approach direction changes the emotional color of
   the arrival, even though all three "work."
 - Practice deliberately overshooting: connect toward a target a beat

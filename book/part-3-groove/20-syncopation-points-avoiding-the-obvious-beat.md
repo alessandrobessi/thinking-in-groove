@@ -124,7 +124,7 @@ K:C
 % difficulty: beginner
 % harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-z2 "_[G:Syncopation Point]"D,6 | z2 G,,6 | z2 C,6 |]
+z1 "_[G:Syncopation Point]"D,7 | z1 G,,7 | z1 C,7 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -148,7 +148,7 @@ subdivision it's permitted to land on.
 G|--------|--------|--------|
 D|--------|--------|--------|
 A|--------|--------|--------|
-E|--10----|--3-----|--8-----|
+E|-10-----|-3------|-8------|
 ```
 
 

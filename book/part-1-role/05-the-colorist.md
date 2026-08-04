@@ -131,7 +131,7 @@ K:C
 % difficulty: intermediate
 % harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Colorist]""_[M:Substituted Root]"E,8 | "^[R:Colorist]"A,,8 | "^[R:Colorist]"D,8 |]
+"^[R:Colorist]"E,8 | "^[R:Colorist]"A,,8 | "^[R:Colorist]"D,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>

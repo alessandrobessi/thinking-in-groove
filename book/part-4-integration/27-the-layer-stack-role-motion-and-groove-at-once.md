@@ -70,7 +70,7 @@ V:Bass clef=bass
 
 :::
 
-Now read through all three layers simultaneously rather than one at a time: D opens as Anchor / Pedal / on-the-Pocket. A short Connector run, pushed, leads into G7. A — the 9th, a Colorist choice — lands on a Syncopation Point. C closes with Cadential Motion.
+Now read through all three layers simultaneously rather than one at a time: D opens as Anchor / Pedal / on-the-Pocket. A short Connector run leads into G7. A — the 9th, a Colorist choice, arriving off the beat — lands on a Syncopation Point. C closes with Cadential Motion.
 
 :::{.content-hidden when-format="epub"}
 
@@ -92,7 +92,7 @@ K:C
 % difficulty: advanced
 % harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | "^[R:Connector]""_[M:Passing Motion|G:Push]"E,2 ^F,2 G,,4 | "^[R:Colorist]""_[G:Syncopation Point]"A,,4 "^[R:Anchor]""_[M:Cadential Motion]"C,4 |]
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | "^[R:Connector]""_[M:Passing Motion]"E,2 ^F,2 G,,4 | z1 "^[R:Colorist]""_[G:Syncopation Point]"A,,3 "^[R:Anchor]""_[M:Cadential Motion]"C,4 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -109,9 +109,9 @@ Three notes carry a full three-part tag apiece — Role above the staff, Motion 
 
 ```text
 G|--------|--------|--------|
-D|--------|--9-----|--------|
-A|--------|12--3---|5---8---|
-E|10------|--------|--------|
+D|--------|--------|--------|
+A|--------|--9-----|--------|
+E|10------|12--3---|-5--8---|
 ```
 
 

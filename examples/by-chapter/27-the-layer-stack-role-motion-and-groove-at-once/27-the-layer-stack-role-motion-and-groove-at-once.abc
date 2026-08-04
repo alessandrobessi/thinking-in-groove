@@ -12,4 +12,4 @@ K:C
 % difficulty: advanced
 % harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | "^[R:Connector]""_[M:Passing Motion|G:Push]"E,2 ^F,2 G,,4 | "^[R:Colorist]""_[G:Syncopation Point]"A,,4 "^[R:Anchor]""_[M:Cadential Motion]"C,4 |]
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | "^[R:Connector]""_[M:Passing Motion]"E,2 ^F,2 G,,4 | z1 "^[R:Colorist]""_[G:Syncopation Point]"A,,3 "^[R:Anchor]""_[M:Cadential Motion]"C,4 |]

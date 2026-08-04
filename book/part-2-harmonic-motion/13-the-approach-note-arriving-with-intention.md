@@ -16,7 +16,7 @@ An **Approach Note** is a single bass note, chromatic or diatonic, placed a half
 
 Direction matters as much as distance. An approach from below (a half step under the target) reads as a lift, a small push upward into resolution. An approach from above reads as a settling, a gentle fall into place. Both are common; the choice changes the emotional color of the arrival even when the target itself is identical.
 
-Chromatic approach notes — outside the key — are the more dramatic version, borrowing a half-step's worth of outside color specifically to intensify the pull toward the target. Diatonic approach notes — a whole step or a scale-step away, inside the key — are gentler, more like a soft anticipation than a chromatic shove. Both are Approach Notes; the difference is intensity, not category.
+Chromatic approach notes — outside the key — are the more dramatic version, borrowing a half-step's worth of outside color specifically to intensify the pull toward the target. Diatonic approach notes — a whole step or a diatonic step away, inside the key — are gentler, more like a soft anticipation than a chromatic shove. Both are Approach Notes; the difference is intensity, not category.
 
 Three quick checks confirm you're looking at a genuine Approach Note:
 
