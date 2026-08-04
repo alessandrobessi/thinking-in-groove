@@ -131,39 +131,30 @@ change together, not just one label.
 
 ## Musical Example
 
-Return to the four-bar Dm7 vamp described above — Anchor, Definer,
-Driver, Connector, one Role per bar — and extend it into an 8-bar
-phrase by repeating the pattern with variation: bars 5–6 repeat the
-Anchor/Definer opening, but bars 7–8 replace the Driver/Connector
-closing with a Voice-Leader passage that glides smoothly into whatever
-chord follows the vamp, rather than repeating the same Connector run
-verbatim. The result is a phrase that establishes a clear internal
-logic (settle, clarify, energize, transition) in its first half, then
-varies that logic just enough in its second half to avoid feeling
-mechanically repetitive.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Role Shift -- worked example (one Role per bar)</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Role Shift -- worked example (one Role per bar)
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=90
-K:F
-% chapter: 09-role-shift-when-the-job-changes-mid-phrase
-% role: role shift (all 8 roles)
-% motion: varies by bar
-% groove: varies by bar
-% difficulty: advanced
-% harmony: Fm groove; each bar demonstrates a different Role in sequence
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]"F,,8 | "^[R:Connector]""_[M:Passing Motion]"F,,2 G,,2 _A,,2 A,,2 | "^[R:Driver]""_[G:Density]"_B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 | "^[R:Colorist]""_[M:Substituted Root]"D,8 | "^[R:Shadow]"C,2 _E,2 F,,2 G,,2 | "^[R:Voice-Leader]""_[M:Passing Motion]"G,,2 F,,2 _E,2 D,2 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 z2 | "^[R:Anchor]"F,,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -172,24 +163,54 @@ V:Bass clef=bass
 
 :::
 
+Same progression; watch the Role change mid-bar — Anchor into
+Connector in bar 1, Colorist into Voice-Leader in bar 2, arriving on a
+final Anchor.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Role Shift: same lab, the job changes mid-bar</p>
+<pre class="abc-source">
+X:1
+T:Role Shift: same lab, the job changes mid-bar
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:C
+% chapter: 09-role-shift-when-the-job-changes-mid-phrase
+% role: role shift
+% motion: varies
+% groove: varies
+% difficulty: advanced
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]"D,4 "^[R:Connector]""_[M:Passing Motion]"E,2 ^F,2 | "^[R:Colorist]"A,,4 "^[R:Voice-Leader]""_[M:Passing Motion]"B,,2 C,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, this 8-bar phrase would show four distinct Role-layer icons in
-its first four bars (triangle, diamond, chevron, bridge) and three in
-its second four (triangle, diamond, zig-zag), each beginning exactly at
-the bar line where the underlying motivation for the shift occurs. A
-caption at each shift point names the trigger ("vamp ending, shift to
-Connector" / "vamp ending, shift to Voice-Leader instead") so a reader
-can see not just that the Role changed, but why.
+Bar 1 opens `"^[R:Anchor]"` on D, then switches to `"^[R:Connector]"`
+partway through — the same bar, two Role icons. Bar 2 opens
+`"^[R:Colorist]"` on A (the 9th of G7), then switches to
+`"^[R:Voice-Leader]"` for the step into C. Bar 3 settles on a single
+`"^[R:Anchor]"`, the shifting finally stopping at the arrival.
 
-*Bass tab for “Role Shift -- worked example (one Role per bar)” (see `examples/by-chapter/09-role-shift-when-the-job-changes-mid-phrase/` for the source files)*
+*Bass tab for "Role Shift: same lab, the job changes mid-bar" (see `examples/by-chapter/09-role-shift-when-the-job-changes-mid-phrase/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|1-------|1-3-4-5-|66666666|10------|8-111-3-|3-1-1110|----3---|1-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|------9-|--------|--------|
+E|10--12--|5---7-8-|8-------|
 ```
 
 

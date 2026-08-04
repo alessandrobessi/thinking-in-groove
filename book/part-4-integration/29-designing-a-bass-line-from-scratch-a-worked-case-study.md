@@ -27,59 +27,35 @@ The order matters. Notice that Motion Profile and Groove Signature — both *phr
 
 ## Visual Explanation
 
-This chapter's diagram is the fullest version of the four-layer stack introduced across the whole book: every note in the finished 8-bar phrase below carries its own Role icon (blue), Motion arc (amber), and Groove pulse-dot (green), with a purple Layer Stack bracket at each structurally important note, and two purple Groove Contract brackets spanning measures 1–2 (set) and measures 7–8 (restored after a deliberate break in measures 5–6). Reading this diagram from left to right, bar by bar, is effectively reading a transcript of every decision this chapter narrates below.
+This chapter's diagram is the fullest version of the four-layer stack introduced across the whole book: every marked note in the three-bar phrase below carries its own Role icon (blue), Motion arc (amber), and Groove pulse-dot (green), with a purple Layer Stack bracket at each structurally important note. Reading this diagram from left to right, bar by bar, is effectively reading a transcript of every decision this chapter narrates below.
 
 ## Musical Example
 
-**The situation.** A slow-to-medium neo-soul groove, around 84 BPM, over the same laboratory progression used by this book's companion volume on harmony, *Thinking in Layers*: **Dm7 – G7 – Cmaj7**, here treated as a two-bar-per-chord vamp stretched across an 8-bar phrase (Dm7 for bars 1–3, G7 for bars 4–5, Cmaj7 for bars 6–8), so there's room to develop an idea within each chord rather than changing on every bar.
+**The situation.** The same laboratory progression used throughout this book, **Dm7 – G7 – Cmaj7**, one bar each, around 84 BPM. Every decision below is made against this three-bar frame — the phrase-level decisions (Steps 1–3 and 7 in the Mental Model above) matter just as much in a longer piece, but a fuller worked-out example of *those* belongs in a real composition, not a three-bar laboratory excerpt. What a three-bar frame can show concretely is Steps 4–6 and 8: naming a Role, filling in Motion, placing Groove, and checking the result.
 
-**Step 1 — Harmonic situation.** Slow harmonic rhythm relative to the groove: three full bars of Dm7 before the first change. This immediately suggests that **Harmonic Rhythm** (the bass's own implied rate of change) can be made *slower* than the notated chord symbols by treating bars 1–3 as one long harmonic idea rather than three repetitions of the same idea.
-
-**Step 2 — Motion Profile for the whole phrase.** Chosen shape: *static, then ascending, then cadential* — bars 1–3 stay close to a single center (Dm), bars 4–5 climb toward the dominant, bars 6–8 settle by **Cadential Motion** into Cmaj7. This is a Motion Profile decision made before any note exists.
-
-**Step 3 — Groove Signature for the whole phrase.** Chosen identity: a two-bar **Repetition Cell** with moderate **Density** (mostly eighth notes with two strategic rests) and a **Pocket** sitting slightly behind the beat throughout — a relaxed, unhurried neo-soul feel. This Groove Signature is what bars 1–2 will establish as this phrase's **Groove Contract**.
-
-**Step 4 — Assign Role to structural notes.**
-- Bar 1, beat 1: D as **Anchor** — establishes the center the static opening needs.
-- Bar 3, beat 3: F as **Definer** — restates the minor third of Dm7 right before the harmony moves, making the quality of the chord about to be left unambiguous.
-- Bar 4, beat 1: G as **Connector**, arriving from the Definer above by **Passing Motion** through the space of a third.
-- Bar 5, beat 3: B as **Colorist** — the major third of G7 voiced high in the bass register, adding brightness right before the resolution.
-- Bar 6, beat 1: C as **Anchor** again — the arrival, closing the Role loop that opened the phrase.
-- Bar 7: a short **Commentator** fragment, echoing a rhythmic figure implied earlier by the melody instrument (not notated in the bass part elsewhere in this phrase), independent of strict harmonic duty.
-- Bar 8: back to **Anchor**, held, as the phrase's final Groove Contract resolution.
-
-That's a full **Role Shift** arc across the phrase: Anchor → Definer → Connector → Colorist → Anchor → Commentator → Anchor — never staying on one Role for more than three bars, which keeps the phrase from feeling static despite its slow Harmonic Rhythm.
-
-**Step 5 — Fill in Motion between the structural notes.** Bars 1–3 use **Pedal** motion under the static Dm7, with the Definer arriving only at the very end of bar 3 to signal the coming change. Bars 4–5 use **Passing Motion** and one **Approach Note** (a chromatic neighbor a half step below the Colorist's B, arriving on the "and" of beat 2) to connect Connector to Colorist smoothly. Bars 6–8 use **Cadential Motion** into the Cmaj7 arrival, followed by a brief **Deceptive Motion** gesture in bar 7 — the Commentator fragment implies a move away from C that never actually leaves the underlying harmony, a moment of harmonic misdirection that resolves back to Anchor in bar 8.
-
-**Step 6 — Fill in Groove.** The two-bar Repetition Cell from Step 3 governs bars 1–2 and reappears, varied, as a **Variation Layer** in bars 3–4 (same skeleton, one note's rhythm anticipated by an eighth note — a **Push**). Bars 5–6 hold the established **Pocket** exactly, so the arrival in bar 6 reads as a payoff rather than another variation. Bar 7's Commentator fragment is where **Space** and a **Syncopation Point** do the most work: two beats of silence, then a fragment landing entirely off the beat, deliberately breaking the established Pocket for one bar.
-
-**Step 7 — State and manage the Groove Contract.** Bars 1–2 set the contract: a relaxed, behind-the-beat two-bar cell. Bars 3–6 keep it, varied but recognizable. Bar 7 breaks it — the Syncopation Point and the sudden silence are a genuine departure, not a variation. Bar 8 restores it, returning to the held, behind-the-beat Anchor that closes the phrase and confirms retroactively that bar 7 was a deliberate break.
-
-**Step 8 — Review as Layer Stacks.** Checking bar 5, beat 3 (the Colorist note) against its own three layers: Role = Colorist, Motion = Passing Motion into a chromatic Approach Note, Groove = on the "and" of beat 2, pushed. All three layers agree on the same effect — brightness arriving slightly early — so the stack is coherent and the note is kept as designed. This kind of check is where a phrase built top-down (Steps 2–3 before Step 4) still needs a final bottom-up pass, because it's only at the level of one note that layer contradictions become audible.
-
+The laboratory, stated plainly, as a reference point:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Designing a Bass Line from Scratch -- worked case study</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Designing a Bass Line from Scratch -- worked case study
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=84
+Q:1/4=88
 K:C
-% chapter: 29-designing-a-bass-line-from-scratch-a-worked-case-study
-% role: full Role Shift arc
-% motion: full arc
-% groove: full arc
-% difficulty: advanced
-% harmony: Dm7 | Dm7 | Dm7 (Definer near the end) | G7 (Connector arriving) | G7 (Colorist voiced high) | Cmaj7 (arrival) | Cmaj7 (Commentator, deceptive) | Cmaj7 (close)
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | D,8 | D,4 "^[R:Definer]"F,,4 | "^[R:Connector]""_[M:Passing Motion]"G,,8 | G,,4 "^[R:Colorist]""_[M:Approach Note]"B,4 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | z4 "^[R:Commentator]""_[M:Deceptive Motion]"G,2 z2 | "^[R:Anchor]""_[G:Lay-back]"C,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -88,18 +64,54 @@ V:Bass clef=bass
 
 :::
 
+**Step 4 — Assign Role to structural notes.** D opens Dm7 as **Anchor**; F, arriving in the second half of bar 1, is the **Definer** that confirms the b3 right before the harmony moves. G opens G7 as **Connector**; B, in the second half of bar 2, is the **Colorist** — the major 3rd of G7, voiced high. C closes Cmaj7 as **Anchor** again. That's a **Role Shift** arc in three bars: Anchor → Definer → Connector → Colorist → Anchor.
+
+**Step 5 — Fill in Motion.** D to F is **Pedal**-adjacent stillness resolving into a Definer, not a leap. G to B moves by **Passing Motion** into an **Approach Note** — a chromatic neighbor a half step below B, arriving just before it. The final C arrives by **Cadential Motion**.
+
+**Step 6 — Fill in Groove.** D sits on the **Pocket**. The Connector run into G7 is **Push**ed — arriving slightly ahead. The final C is **Lay-back** — arriving slightly behind — so the phrase opens on time and settles late, a small deliberate asymmetry.
+
+**Step 8 — Review as Layer Stacks.** Checking the Colorist B: Role = Colorist, Motion = Approach Note, Groove = mid-bar, unhurried. All three agree on the same effect — brightness, arriving with intention rather than rushed — so the stack is coherent and the note is kept as designed. This is the check every one of this book's short examples has secretly been teaching you to run.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The laboratory progression with every decision named: D as Anchor/Pedal, F as Definer, G as Connector, B as Colorist (voiced high, approached chromatically), and C as the final Anchor, laid back.</p>
+<pre class="abc-source">
+X:1
+T:Designing a Bass Line: the lab, every layer named
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=84
+K:C
+% chapter: 29-designing-a-bass-line-from-scratch-a-worked-case-study
+% role: full arc
+% motion: full arc
+% groove: full arc
+% difficulty: advanced
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,4 "^[R:Definer]"F,,4 | "^[R:Connector]""_[M:Passing Motion]"G,,4 "^[R:Colorist]""_[M:Approach Note]"B,4 | "^[R:Anchor]""_[M:Cadential Motion|G:Lay-back]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-The finished notation for this chapter should be the densest in the book: every structurally important note carries a full Role/Motion/Groove tag per `docs/notation-conventions.md`, the two-bar Repetition Cell and its Variation Layer are bracketed per `docs/visual-language.md`'s Groove-layer convention, and the two Groove Contract spans (set in bars 1–2, broken in bar 7, restored in bar 8) are marked with the horizontal purple brackets introduced in Chapter 28. Read together, the annotated score should function as a complete answer key to every decision narrated in this chapter's Musical Example section.
+Every note in this example carries a full Role/Motion tag, and two carry a Groove tag as well, per `docs/notation-conventions.md`'s combined-tag syntax — the densest tagging in the book relative to the number of bars, since the whole point of a capstone example is that no layer goes unnamed. Read left to right, the tags are literally Steps 4–6 of the Mental Model's method, transcribed onto the staff.
 
-*Bass tab for “Designing a Bass Line from Scratch -- worked case study” (see `examples/by-chapter/29-designing-a-bass-line-from-scratch-a-worked-case-study/` for the source files)*
+*Bass tab for the worked case study (see `examples/by-chapter/29-designing-a-bass-line-from-scratch-a-worked-case-study/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|----9---|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|----10--|--------|
-E|10------|10------|10--1---|3-------|3-------|8-------|--------|8-------|
+G|--------|--------|--------|
+D|--------|----9---|--------|
+A|--------|--------|--------|
+E|10--1---|3-------|8-------|
 ```
 
 

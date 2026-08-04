@@ -1,15 +1,15 @@
 X:1
-T:The Groove Signature -- worked example
+T:The Groove Signature: the lab, looped, one identity throughout
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=98
-K:E
+Q:1/4=96
+K:C
 % chapter: 26-the-groove-signature-what-makes-a-line-recognizable
 % role: n/a
 % motion: n/a
-% groove: Pocket (pushed) + Density (moderate) + Repetition Cell, combined into one recognizable identity
+% groove: groove signature
 % difficulty: advanced
-% harmony: E7#9 one-chord vamp; the pushed pocket, moderate density, and repeating cell together are what make this groove recognizable as itself
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression, looped once
 V:Bass clef=bass
-z1 "_[G:Groove Signature]"E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 E,,2 z1 |]
+"_[G:Groove Signature]"D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 | D,2 A,2 D,2 A,2 |]

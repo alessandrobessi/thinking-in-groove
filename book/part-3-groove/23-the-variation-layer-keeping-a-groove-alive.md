@@ -67,46 +67,30 @@ changed parameter visually obvious.
 
 ## Musical Example
 
-Extend Chapter 22's 8-bar Bb7 funk cell (root on beat 1, syncopated
-fifth before beat 3, rest on the "and" of 4) by replacing four of its
-eight verbatim repetitions with variations, one technique per
-repetition, so each is isolated and identifiable:
-
-Bars 1–2 state the cell plainly, twice, exactly as in Chapter 22 — the
-stable reference. Bar 3 applies **displacement**: the same root-then-
-fifth shape now lands an eighth note later than before, shifting the
-whole cell's rhythmic position while keeping every pitch identical. Bar
-4 returns to the plain statement. Bar 5 applies **substitution**: the
-fifth (F) is replaced by the major sixth (G) on the same beat, in the
-same rhythm — a different color, identical shape. Bar 6 returns to
-plain again. Bar 7 applies **ornament**: a quick chromatic grace note
-approaches the root from a half-step below, immediately before beat 1,
-with everything else in the cell left untouched. Bar 8 closes on the
-plain statement, so the phrase both opens and closes on the
-listener's stable reference point.
-
+Take Chapter 22's cell over the same laboratory, then vary it under the
+second and third chords instead of repeating it verbatim.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Variation Layer -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Variation Layer -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
-K:E
-% chapter: 23-the-variation-layer-keeping-a-groove-alive
-% role: n/a
-% motion: n/a
-% groove: one cell, three controlled variations
-% difficulty: intermediate
-% harmony: Bars 1-4: the Repetition Cell straight. Bars 5-8: displacement, substitution, ornament, then a return to the original cell.
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[G:Repetition Cell]"E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | z1 "_[G:Variation Layer]"E,,2 G,,2 A,,2 z1 | E,,2 G,,2 _B,,2 z2 | E,,1 G,,1 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -115,26 +99,57 @@ V:Bass clef=bass
 
 :::
 
+Same progression, same cell as before — but displaced by an eighth
+under G7 and one note substituted under Cmaj7, so the groove stays
+alive without losing its identity.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Variation Layer: same cell, displaced then substituted</p>
+<pre class="abc-source">
+X:1
+T:The Variation Layer: same cell, displaced then substituted
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:C
+% chapter: 23-the-variation-layer-keeping-a-groove-alive
+% role: n/a
+% motion: n/a
+% groove: cell, then displaced, then substituted
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"_[G:Repetition Cell]"D,2 A,2 D,2 A,2 | z1 "_[G:Variation Layer]"G,,2 D,2 G,,2 D,1 | C,2 E,2 C,2 G,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Plain-statement bars carry `"_[G:Repetition Cell]"` as in Chapter 22.
-Varied bars carry a compound tag identifying both the base cell and the
-technique applied: `"_[G:Repetition Cell+Displacement]"` in bar 3,
-`"_[G:Repetition Cell+Substitution]"` in bar 5, and
-`"_[G:Repetition Cell+Ornament]"` in bar 7 — the `+` explicitly marking
-that this is a variation of the established cell, not an unrelated
-Groove event. The Role tag (`"^[R:Driver]"`) remains constant across all
-eight bars, confirming that variation changes surface detail, not the
-line's underlying job.
+Bar 1 keeps the `"_[G:Repetition Cell]"` tag from Chapter 22 unchanged.
+Bar 2 carries `"_[G:Variation Layer]"` at its displaced entrance — the
+whole cell is pushed an eighth later, trimmed by one unit at the end so
+the bar still totals eight — a **displacement**. Bar 3 keeps the
+cell's original rhythmic position but swaps its second note (the fifth)
+for the third (E instead of A) — a **substitution** — while staying
+untagged for Groove, since substitution changes pitch content, not
+timing.
 
-*Bass tab for “The Variation Layer -- worked example” (see `examples/by-chapter/23-the-variation-layer-keeping-a-groove-alive/` for the source files)*
+*Bass tab for "The Variation Layer: same cell, displaced then substituted"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|0-3-5---|0-3-5---|0-3-5---|0-3-5---|-0-3-5--|0-3-6---|033-5---|0-3-5---|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--12--12|--------|------10|
+E|10--10--|-3-103-1|8-128---|
 ```
 
 

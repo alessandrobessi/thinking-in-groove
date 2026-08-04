@@ -64,44 +64,30 @@ the other shows a single dot pulled out of an otherwise uniform line.
 
 ## Musical Example
 
-An 8-bar phrase over **G7 to Cmaj7** (a single dominant-to-tonic
-resolution stretched across the full phrase) isolates the gesture at
-exactly the moment it's most useful: the arrival of the tonic chord.
-
-Bars 1–6 establish a stable, dead-center Pocket over the G7 — steady
-quarter notes stating the Anchor role, with no rhythmic surprises, so
-the ear settles fully into a predictable baseline. In bar 7, the note
-that leads into the arriving Cmaj7 (an Approach Note, per Chapter 13) is
-played as a Push: anticipated by an eighth note ahead of where the
-stable pocket established in bars 1–6 would place it, driving hard into
-the arrival in bar 8. As a contrasting variant, the same phrase could
-instead delay that same approach note by an eighth note — a Lay-back —
-producing a held-back, suspended arrival instead of a propulsive one;
-worth composing and comparing both versions of bar 7 to hear the two
-opposite effects from the identical harmonic material.
-
+Take the laboratory progression and delay the middle chord's arrival
+by one eighth note.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Push and Lay-Back -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Push and Lay-Back -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=96
-K:E
-% chapter: 25-push-and-lay-back-playing-around-the-beat
-% role: n/a
-% motion: n/a
-% groove: contrast: on-beat, then laid-back
-% difficulty: intermediate
-% harmony: E7#9 one-chord vamp. Bars 1-4: hits land on the beat. Bars 5-8: the same two-hit pattern, delayed into the following eighth. Groove-layer timing (push/lay-back) is shown here as a full eighth-note shift, a common written approximation -- see docs/visual-language.md's pulse-timeline convention for the finer-grained diagram version.
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[G:Pocket]"E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | z1 "_[G:Lay-back]"E,,2 z3 E,,2 | z1 E,,2 z3 E,,2 | z1 E,,2 z3 E,,2 | z1 E,,2 z3 E,,2 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -110,25 +96,55 @@ V:Bass clef=bass
 
 :::
 
+Same progression; Dm7 and Cmaj7 land exactly on the beat, but G7
+arrives a full eighth-note late — a Lay-back placed deliberately in the
+middle chord for contrast.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Push and Lay-Back: same lab, G7 arrives a full eighth late</p>
+<pre class="abc-source">
+X:1
+T:Push and Lay-Back: same lab, G7 arrives a full eighth late
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 25-push-and-lay-back-playing-around-the-beat
+% role: n/a
+% motion: n/a
+% groove: on-beat, then laid-back
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+D,8 | z1 "_[G:Lay-back]"G,,7 | C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Bars 1–6 carry `"_[G:Center]"` at every note, establishing the stable
-baseline. Bar 7's approach note carries `"_[M:Approach Note|G:Push]"`
-(or, in the lay-back variant, `"_[M:Approach Note|G:Lay-back]"`) — the
-only Groove tag in the whole phrase that departs from center, making
-its isolation immediately legible in the annotation itself, not just on
-the rendered timeline. Bar 8's arrival returns to `"_[G:Center]"`,
-confirming the gesture was momentary rather than a lasting shift in
-Pocket.
+Bars 1 and 3 are untagged for Groove, identical to the laboratory. Bar
+2 opens with a one-unit rest before G finally lands, and that G carries
+`"_[G:Lay-back]"` — a single eighth-note delay, isolated against two
+otherwise on-time neighbors, is enough to read as a deliberate lean
+rather than a timing error, precisely because bars 1 and 3 establish
+what "on time" sounds like first.
 
-*Bass tab for “Push and Lay-Back -- worked example” (see `examples/by-chapter/25-push-and-lay-back-playing-around-the-beat/` for the source files)*
+*Bass tab for "Push and Lay-Back: same lab, G7 arrives a full eighth late"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|0---0---|0---0---|0---0---|0---0---|-0----0-|-0----0-|-0----0-|-0----0-|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|-3------|8-------|
 ```
 
 

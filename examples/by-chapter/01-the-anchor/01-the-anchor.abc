@@ -1,15 +1,15 @@
 X:1
-T:The Anchor -- worked example
+T:The Anchor: same lab, D refuses to move
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=78
-K:Fm
+Q:1/4=88
+K:C
 % chapter: 01-the-anchor
 % role: anchor
 % motion: pedal
 % groove: low-density
 % difficulty: beginner
-% harmony: Fm9 | Fm9 | Dbmaj7#11 | Dbmaj7#11 | Ebm7 | Fm9 | Fm9 | Fm9
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal]"F,8 | "_[M:Pedal]"F,8 | "^[R:Anchor]"F,8 | F,8 | "^[R:Anchor]""_[M:Root Motion]"_E,8 | "^[R:Anchor]""_[M:Root Motion]"F,8 | F,8 | "_[G:Space]"F,4 z4 |]
+"^[R:Anchor]""_[M:Pedal]"D,8 | "_[M:Pedal]"D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]

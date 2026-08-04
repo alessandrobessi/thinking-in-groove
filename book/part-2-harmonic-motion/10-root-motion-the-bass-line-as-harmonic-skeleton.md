@@ -32,34 +32,29 @@ This is the plainest of the Motion-layer shapes, and every other Motion symbol i
 
 ## Musical Example
 
-Imagine an 8-measure funk-jazz phrase in C, tempo around 96 bpm, built specifically to make Root Motion audible on its own, stripped of harmonic color. Bars 1-2: root on C, held as a Driver-style eighth-note pulse, then a leap down a fifth to F for bars 3-4 — a classic descending-fifth motion, the strongest possible directional pull in the vocabulary. Bars 5-6: from F, a leap up a fourth to Bb, restating the same distance in the opposite direction, so the ear can compare "down a fifth" against "up a fourth" (the same two pitch classes, opposite motion, different effect). Bars 7-8: a stepwise descent, Bb to A to G, arriving back at C by contrary means — proving that you can reach the same destination by leap or by step, and that the journey changes the character of the arrival even when the destination doesn't change.
-
-A second, contrasting 4-bar tag could extend the idea into third-related motion: from the C arrival, a leap down a major third to Ab, then back up a major third to C — a relationship common in more chromatic, cinematic harmony and audibly different in character from the cycle-of-fifths motion in bars 1-6, even though both are still, plainly, Root Motion.
-
-Each root change would carry a `"_[M:Root Motion]"` tag in the annotated score, letting a reader see exactly where the interval changes even before comparing pitches by ear.
-
+Dm7-G7-Cmaj7 is this book's laboratory progression: the same three chords every chapter returns to, so the ear can isolate exactly one variable at a time. Stated plainly, the bass takes each chord's root:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Root Motion -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Root Motion -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
+Q:1/4=88
 K:C
-% chapter: 10-root-motion-the-bass-line-as-harmonic-skeleton
-% role: n/a
+% chapter: lab-baseline
+% role: anchor
 % motion: root motion
-% groove: moderate-density
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Am7 | Am7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[M:Root Motion]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "_[M:Root Motion]"C,8 | C,8 | "_[M:Root Motion]"A,,8 | A,,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -68,18 +63,48 @@ V:Bass clef=bass
 
 :::
 
+D to G is a descending fifth; G to C is an ascending fourth — the same two pitch classes as their inversions, opposite directions, different effects. Extending the laboratory one chord makes a third interval type audible in the same breath: Cmaj7 to Am7 is a descending third.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Root Motion: the lab, extended one chord</p>
+<pre class="abc-source">
+X:1
+T:Root Motion: the lab, extended one chord
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+% chapter: 10-root-motion-the-bass-line-as-harmonic-skeleton
+% role: n/a
+% motion: root motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 | Am7 -- the laboratory, extended one chord
+V:Bass clef=bass
+"_[M:Root Motion]"D,8 | "_[M:Root Motion]"G,,8 | "_[M:Root Motion]"C,8 | "_[M:Root Motion]"A,,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Once notated, this example's annotated score would show a Motion-layer diagonal line at each of the three root changes in the main phrase: a steep downward line (fifth) between bars 2 and 3, a steep upward line (fourth) between bars 4 and 5, and three shallow stepwise lines across bars 6 through 8. The optional third-related tag would add two more diagonal lines of a visibly different steepness (a third is neither a leap nor a step), giving a reader three distinct slopes to compare side by side. Comparing the steepness and direction of these lines is the fastest way to internalize how much information is carried by root movement alone, before any chord quality is even glanced at.
+Each bar carries a `"_[M:Root Motion]"` tag marking the interval just taken, not the note itself: a fifth down into G7, a fourth up into Cmaj7, a third down into Am7. Reading the tags in sequence traces the interval pattern directly, without needing to compare pitches by ear first.
 
-*Bass tab for “Root Motion -- worked example” (see `examples/by-chapter/10-root-motion-the-bass-line-as-harmonic-skeleton/` for the source files)*
+*Bass tab for "Root Motion: the lab, extended one chord":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|3-------|3-------|8-------|8-------|5-------|5-------|
+G|--------|--------|--------|--------|
+D|--------|--------|--------|--------|
+A|--------|--------|--------|--------|
+E|10------|3-------|8-------|5-------|
 ```
 
 

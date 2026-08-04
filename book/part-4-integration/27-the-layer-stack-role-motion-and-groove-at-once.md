@@ -39,37 +39,29 @@ Reading a Layer Stack diagram is a matter of reading top to bottom at one horizo
 
 ## Musical Example
 
-The example for this chapter should be a single 8-measure phrase, in a moderate jazz-funk feel, that deliberately assigns a full, named Layer Stack to at least four distinct notes across the phrase — not to every note, since that would be visual noise, but to the structurally important ones. A workable brief:
-
-- Measures 1–2: root as **Anchor** / **Pedal** / on-the-**Pocket** — establishing the stack the rest of the phrase will be measured against.
-- Measures 3–4: a **Connector** moving by **Passing Motion**, placed with a **Push** — the first deliberate deviation from the opening stack.
-- Measures 5–6: a **Colorist** note landing on a **Syncopation Point** — introducing tension in two layers (Role and Groove) at once while Motion stays simple.
-- Measures 7–8: a return to **Anchor** / **Cadential Motion** / **Lay-back** — resolving all three layers together, so the ear feels one combined arrival rather than three separate ones.
-
-Key and tempo are open; a minor-key funk vamp around 92–100 BPM suits the contrast between measures 1–2 and 5–6 well.
-
+The laboratory progression, Dm7-G7-Cmaj7, stated plainly:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Layer Stack -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Layer Stack -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=96
-K:Cm
-% chapter: 27-the-layer-stack-role-motion-and-groove-at-once
-% role: varies (full stacks)
-% motion: varies
-% groove: varies
-% difficulty: advanced
-% harmony: Cm funk vamp; each marked note carries a full Role + Motion + Groove stack, not a single isolated layer
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal|G:Pocket]"C,8 | C,8 | z1 "^[R:Connector]""_[M:Passing Motion|G:Push]"D,2 _E,2 z3 | F,8 | z2 "^[R:Colorist]""_[G:Syncopation Point]"_A,2 z2 _A,2 | z2 _A,2 z4 | "^[R:Anchor]""_[M:Cadential Motion]"G,4 z4 | z1 "_[G:Lay-back]"C,2 z5 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -78,18 +70,48 @@ V:Bass clef=bass
 
 :::
 
+Now read through all three layers simultaneously rather than one at a time: D opens as Anchor / Pedal / on-the-Pocket. A short Connector run, pushed, leads into G7. A — the 9th, a Colorist choice — lands on a Syncopation Point. C closes with Cadential Motion.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The laboratory progression with a full Role+Motion+Groove stack marked at each structurally important note -- the same three-chord lab, now read through every layer at once.</p>
+<pre class="abc-source">
+X:1
+T:The Layer Stack: the lab, full stacks marked at each key note
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:C
+% chapter: 27-the-layer-stack-role-motion-and-groove-at-once
+% role: varies
+% motion: varies
+% groove: varies
+% difficulty: advanced
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | "^[R:Connector]""_[M:Passing Motion|G:Push]"E,2 ^F,2 G,,4 | "^[R:Colorist]""_[G:Syncopation Point]"A,,4 "^[R:Anchor]""_[M:Cadential Motion]"C,4 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-When notated, this example should carry a full three-part tag at each of the four marked notes rather than the single-layer tags used in earlier chapters — for instance, at measure 1: `"^[R:Anchor]"` above the staff and `"_[M:Pedal|G:Pocket]"` below it, per `docs/notation-conventions.md`'s combined-tag syntax. This is the first chapter where a reader should expect to see all three tag types stacked on individual notes throughout an example, rather than one tag type demonstrated in isolation.
+Three notes carry a full three-part tag apiece — Role above the staff, Motion and Groove combined below it, per `docs/notation-conventions.md`'s syntax — rather than the single-layer tags used to isolate one variable at a time in earlier chapters. This is the first example where a reader should expect a marked note to answer all three of this book's questions at once.
 
-*Bass tab for “The Layer Stack -- worked example” (see `examples/by-chapter/27-the-layer-stack-role-motion-and-groove-at-once/` for the source files)*
+*Bass tab for the Layer Stack example (see `examples/by-chapter/27-the-layer-stack-role-motion-and-groove-at-once/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|8-------|--11--11|--11----|10------|--------|
-E|8-------|8-------|-1011---|--------|--------|--------|--------|-8------|
+G|--------|--------|--------|
+D|--------|--9-----|--------|
+A|--------|12--3---|5---8---|
+E|10------|--------|--------|
 ```
 
 

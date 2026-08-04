@@ -32,32 +32,29 @@ The Role layer above an Approach Note's target is almost always an Anchor or a D
 
 ## Musical Example
 
-Picture a 4-measure neo-soul phrase in Eb, groove around 84 bpm. Bar 1: root Eb, functioning as an Anchor. Bar 2: a short Repetition Cell figure. Bar 3: on the "and" of beat 4, a chromatic approach note, D natural (a half step below the target), aimed directly at the Ab root arriving on beat 1 of bar 4 — the classic below-the-target chromatic approach, timed to land just late enough that its resolution coincides with the new chord's downbeat. Bar 4: Ab arrives exactly on time, and the chromatic tension from the approach note resolves the instant it's needed.
-
-A companion 4-bar phrase makes the from-above case audible for comparison: approaching the same Ab target with a diatonic Bb (a whole step above) instead of the chromatic D natural below it. The destination and the timing are identical; only the direction and the color of the approach change, and the difference between "lifted into" and "settled onto" the same note is the entire content of the comparison.
-
+The laboratory stated plainly leaps straight into each root, unannounced:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Approach Note -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Approach Note -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=94
+Q:1/4=88
 K:C
-% chapter: 13-the-approach-note-arriving-with-intention
-% role: n/a
-% motion: approach note
-% groove: moderate-density
-% difficulty: intermediate
-% harmony: Dm7 | G7 | Cmaj7 | Cmaj7 | Am7 | Am7 | Dm7 | Dm7
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]"D,6 "_[M:Approach Note]"^F,,2 | "_[M:Root Motion]"G,,8 | G,,6 "_[M:Approach Note]"B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,6 "_[M:Approach Note]"_A,,2 | "_[M:Root Motion]"A,,8 | A,,6 "_[M:Approach Note]"^C,2 | "^[R:Anchor]"D,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,48 @@ V:Bass clef=bass
 
 :::
 
+One chromatic Approach Note, a half step below, precedes each new root instead: F# leads into G, B natural leads into C — one note, one target, placed immediately before the arrival rather than filling the whole gap the way Passing Motion would.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Approach Note: same lab, chromatic approach before each root</p>
+<pre class="abc-source">
+X:1
+T:The Approach Note: same lab, chromatic approach before each root
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:C
+% chapter: 13-the-approach-note-arriving-with-intention
+% role: n/a
+% motion: approach note
+% groove: moderate-density
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+D,6 "_[M:Approach Note]"^F,2 | G,,6 "_[M:Approach Note]"B,,2 | "^[R:Anchor]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-In the annotated score, the D natural on the "and" of beat 4 in bar 3 would carry a short amber hook curving forward into the Ab downbeat of bar 4, with the Role layer marking the Ab arrival itself with an Anchor icon — making visible that everything before the hook exists to make that one Anchor land with more weight than it would have landed with unannounced.
+Each `"_[M:Approach Note]"` tag falls on the last eighth-note of its bar — a single note, immediately before the target — where a Passing Motion tag from Chapter 12 would instead span several notes filling the whole gap. The target itself carries the Role tag: `"^[R:Anchor]"` on the arriving C, marking that everything before it exists to make that one note land with more weight.
 
-*Bass tab for “The Approach Note -- worked example” (see `examples/by-chapter/13-the-approach-note-arriving-with-intention/` for the source files)*
+*Bass tab for "The Approach Note: same lab, chromatic approach before each root":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10----2-|3-------|3-----7-|8-------|8-----4-|5-------|5-----9-|10------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|------9-|--------|--------|
+E|10------|3-----7-|8-------|
 ```
 
 

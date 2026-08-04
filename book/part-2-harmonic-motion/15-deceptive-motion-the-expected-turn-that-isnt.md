@@ -32,32 +32,29 @@ Because the diagram makes the bend visible, comparing several Deceptive Motion e
 
 ## Musical Example
 
-Picture an 8-measure jazz-fusion turnaround in C, tempo around 120 bpm. Bars 1-6 repeat a ii-V pattern (Dm7 to G7) three times, each time resolving normally down a fifth to C — training the listener thoroughly on what "the resolution" sounds and feels like. Bar 7: the same Dm7-G7 setup appears a fourth time, root motion aimed the same way, everything about the setup identical to the previous three. Bar 8: instead of resolving to C, the bass moves up a step to A, landing on Am7 — the deceptive destination — before the phrase eventually finds its way back to C over the measures that follow.
-
-Weaken the same setup deliberately for comparison: repeat the ii-V pattern only once instead of three times before diverting. The destination and the interval of the deception are identical, but with no repeated pattern behind it, the "surprise" barely registers — direct evidence that the effect lives in the strength of the setup, not in the interval of the diversion itself.
-
+By this point in the book you've heard the laboratory resolve G7 to Cmaj7 in nearly every chapter — the setup doesn't need to be repeated inside this one example, because you've already been trained on it by the rest of the book:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Deceptive Motion -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Deceptive Motion -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=98
+Q:1/4=88
 K:C
-% chapter: 15-deceptive-motion-the-expected-turn-that-isnt
-% role: n/a
-% motion: deceptive motion
-% groove: moderate-density
-% difficulty: intermediate
-% harmony: Dm7 | Dm7 | G7 | G7 | Am7 (deceptive) | Am7 | G7 | Cmaj7 (delayed resolution)
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "_[M:Deceptive Motion]"A,,8 | A,,8 | "_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,48 @@ V:Bass clef=bass
 
 :::
 
+This time, C never arrives. G7 resolves up a step to A instead — the vi where the ear expected the I:
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Deceptive Motion: same lab, G resolves to A instead of C</p>
+<pre class="abc-source">
+X:1
+T:Deceptive Motion: same lab, G resolves to A instead of C
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 15-deceptive-motion-the-expected-turn-that-isnt
+% role: n/a
+% motion: deceptive motion
+% groove: moderate-density
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Am7 (deceptive -- C never arrives)
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | "_[M:Root Motion]"G,,8 | "_[M:Deceptive Motion]"A,,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-The annotated score would show three identical straight Root Motion lines for the first three resolutions (bars 2, 4, 6), each landing cleanly on C, followed by a fourth line in bar 8 that begins on the same trajectory but visibly bends upward at the last moment toward A — a reader scanning only the Motion layer would see the pattern break before hearing it.
+Bar 2 carries the same `"_[M:Root Motion]"` tag as every other chapter's G7 bar — nothing about the setup itself is marked as unusual, because it isn't yet. Bar 3 is where the tag changes to `"_[M:Deceptive Motion]"`, at the exact point the bent-line convention (see `docs/visual-language.md`) departs from the straight Root Motion line a reader would otherwise expect.
 
-*Bass tab for “Deceptive Motion -- worked example” (see `examples/by-chapter/15-deceptive-motion-the-expected-turn-that-isnt/` for the source files)*
+*Bass tab for "Deceptive Motion: same lab, G resolves to A instead of C":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|3-------|3-------|5-------|5-------|3-------|8-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|3-------|5-------|
 ```
 
 

@@ -1,15 +1,15 @@
 X:1
-T:Designing a Bass Line from Scratch -- worked case study
+T:Designing a Bass Line: the lab, every layer named
 C:Thinking in Groove
 M:4/4
 L:1/8
 Q:1/4=84
 K:C
 % chapter: 29-designing-a-bass-line-from-scratch-a-worked-case-study
-% role: full Role Shift arc
+% role: full arc
 % motion: full arc
 % groove: full arc
 % difficulty: advanced
-% harmony: Dm7 | Dm7 | Dm7 (Definer near the end) | G7 (Connector arriving) | G7 (Colorist voiced high) | Cmaj7 (arrival) | Cmaj7 (Commentator, deceptive) | Cmaj7 (close)
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,8 | D,8 | D,4 "^[R:Definer]"F,,4 | "^[R:Connector]""_[M:Passing Motion]"G,,8 | G,,4 "^[R:Colorist]""_[M:Approach Note]"B,4 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | z4 "^[R:Commentator]""_[M:Deceptive Motion]"G,2 z2 | "^[R:Anchor]""_[G:Lay-back]"C,8 |]
+"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,4 "^[R:Definer]"F,,4 | "^[R:Connector]""_[M:Passing Motion]"G,,4 "^[R:Colorist]""_[M:Approach Note]"B,4 | "^[R:Anchor]""_[M:Cadential Motion|G:Lay-back]"C,8 |]

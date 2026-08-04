@@ -32,32 +32,29 @@ Compare the dotted line here to Deceptive Motion (Chapter 15)'s bent line: a Sub
 
 ## Musical Example
 
-Picture a 4-measure fusion vamp, chart reading G7 for the full four bars, tempo around 100 bpm. Bars 1-2: the bass plays the expected G root, establishing the "home" sound of G7 clearly first. Bars 3-4: without any chord symbol changing, the bass substitutes Db as the root — a tritone away from G — reframing the same G7 harmony as a Db7-flavored sound (sharing G7's tritone of B and F, respelled as Db7's 3rd and b7). The upper harmony hasn't moved a single note; only the bass's reinterpretation makes the substitution audible.
-
-A second, milder case is worth hearing right after the first: instead of a full tritone away, substitute the chord's own third (B) in the bass under the same static G7. The reframing this time is much subtler — closer to a first-inversion color than a wholesale reinterpretation — which is useful evidence that Substituted Root names a whole spectrum of boldness, not one fixed effect.
-
+The laboratory plays G7's own root, G, in the middle bar:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Substituted Root -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Substituted Root -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=96
+Q:1/4=88
 K:C
-% chapter: 14-substituted-root-implying-a-different-chord
-% role: n/a
-% motion: substituted root
-% groove: sparse
-% difficulty: advanced
-% harmony: Dm7 | Dm7 | G7 (tritone sub: Db in the bass) | Db7 | Cmaj7 | Cmaj7 | Am7 | Dm7
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]"D,8 | D,8 | "_[M:Substituted Root]"_D,8 | _D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | "_[M:Root Motion]"A,,8 | "_[M:Root Motion]"D,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,48 @@ V:Bass clef=bass
 
 :::
 
+A Substituted Root replaces G entirely with Db — a tritone away, sharing G7's tritone of B and F, respelled as Db7's 3rd and b7. Nothing above the bass changes; only the bass's reinterpretation makes the substitution audible. The resolution into C even gets smoother: Db to C is a half step, where G to C was a fourth.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Substituted Root: same lab, Db replaces G entirely</p>
+<pre class="abc-source">
+X:1
+T:Substituted Root: same lab, Db replaces G entirely
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:C
+% chapter: 14-substituted-root-implying-a-different-chord
+% role: n/a
+% motion: substituted root
+% groove: sparse
+% difficulty: advanced
+% harmony: Dm7 | G7 (Db substituted in the bass) | Cmaj7
+V:Bass clef=bass
+"^[R:Anchor]"D,8 | "_[M:Substituted Root]"_D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-The annotated score would mark bars 1-2's G root as a plain Anchor with no Motion tag (nothing being substituted yet), then mark the Db in bars 3-4 with a dotted amber diagonal line back to the "expected" G, alongside a Colorist icon in the Role layer — making clear that this note is doing two jobs at once: reframing the harmony (Motion) and adding color (Role).
+Bar 1's D carries no Motion tag beyond plain `"^[R:Anchor]"` — nothing being reinterpreted yet. The Db in bar 2 carries `"_[M:Substituted Root]"`, marking that this note is standing in for the written G rather than stating it. Compare its dotted-line convention (see `docs/visual-language.md`) against the baseline's solid Root Motion line at the same position — the dotted line is what signals "this implies a different chord than the one written."
 
-*Bass tab for “Substituted Root -- worked example” (see `examples/by-chapter/14-substituted-root-implying-a-different-chord/` for the source files)*
+*Bass tab for "Substituted Root: same lab, Db replaces G entirely":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|9-------|9-------|8-------|8-------|5-------|10------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|9-------|8-------|
 ```
 
 

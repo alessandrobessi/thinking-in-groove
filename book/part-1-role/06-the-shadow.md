@@ -67,43 +67,30 @@ more useful here than the usual layer annotations.
 
 ## Musical Example
 
-Picture a funk arrangement with a 2-measure horn figure — a syncopated,
-punchy melodic hit spelling out a rhythmic motif in unison with the
-guitar — occurring at the end of every 8-bar verse as a transition into
-the chorus. For the first three verses, the bass plays its own
-independent line underneath the horns and guitar, functioning mostly as
-a Driver. On the fourth and final verse, right before the last chorus,
-the bass drops its independent line for those same two measures and
-instead doubles the horn figure exactly, an octave below.
-
-The figure itself hasn't changed. What changes is that, for those two
-bars, the entire band is suddenly moving as one voice instead of several
-interlocking ones — a deliberate arrangement choice to make the final
-transition into the last chorus feel like the whole group is throwing
-its weight behind it at once.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Shadow -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Shadow -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=98
-K:Bb
-% chapter: 06-the-shadow
-% role: shadow
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
 % motion: root motion
-% groove: moderate-density
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: Bb7 funk riff; bass doubles the horn/guitar hit unison/octave
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 | "^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 | "^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 | "^[R:Shadow]"_B,,2 D,2 F,,2 _B,,2 | _B,,2 z6 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -112,29 +99,55 @@ V:Bass clef=bass
 
 :::
 
+Same progression; instead of stating roots, the bass doubles an
+implied upper-voice arpeggio (D-F-A, G-B-D, C-E-G) an octave below —
+the definition of a Shadow.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Shadow: same lab, doubling an implied upper-voice arpeggio</p>
+<pre class="abc-source">
+X:1
+T:The Shadow: same lab, doubling an implied upper-voice arpeggio
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 06-the-shadow
+% role: shadow
+% motion: root motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression; bass doubles an implied melody an octave below
+V:Bass clef=bass
+"^[R:Shadow]"D,2 F,2 A,2 z2 | G,2 B,2 D2 z2 | C,2 E,2 G,2 z2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, every note in the two-measure figure carries `"^[R:Shadow]"`,
-with a caption identifying the doubled part ("shadows horns/gtr unison
-figure, 8ve below"). No Motion or Groove tags are marked independently
-for this passage — a note in the caption directs the reader to the horn
-part's own notation for the rhythmic detail, since duplicating that
-detail in the bass's annotation would be redundant with the very unison
-the passage is built on.
+`"^[R:Shadow]"` appears once, at the start of bar 1, understood to
+apply to the whole arpeggiated figure that follows across all three
+bars — every note here exists only because it doubles a part living
+elsewhere in the arrangement, so no independent Motion or Groove tags
+are marked; a caption pointing to the doubled part carries that
+information instead.
 
-On the bass tab, this passage should be positioned directly beneath the
-horn or lead-guitar notation it doubles wherever the book's layout
-allows it, so the visual alignment reinforces the unison the reader is
-meant to hear.
-
-*Bass tab for “The Shadow -- worked example” (see `examples/by-chapter/06-the-shadow/` for the source files)*
+*Bass tab for "The Shadow: same lab, doubling an implied upper-voice arpeggio" (see `examples/by-chapter/06-the-shadow/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|6-101-6-|6-------|6-101-6-|6-------|6-101-6-|6-------|6-101-6-|6-------|
+G|--------|--------|--------|
+D|--------|--9-12--|--------|
+A|--8-12--|10------|----10--|
+E|10------|--------|8-12----|
 ```
 
 

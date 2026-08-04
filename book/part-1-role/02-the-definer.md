@@ -71,42 +71,30 @@ both tags appear together.
 
 ## Musical Example
 
-Picture a medium-swing jazz eighth-bar phrase in **C major**, on a
-Cmaj7 chord sustained by the rhythm section for the full bar, with a
-guitar comping only shell voicings that omit the 3rd (root and 7th
-only) — a common, deliberately ambiguous voicing choice. On beat 1, the
-bass plays C, a plain root, functioning as an Anchor. On the "and" of
-beat 2, instead of staying on C or walking generically, the bass
-touches **E** — the major 3rd — for a single eighth note, then returns
-to C for beat 3, holding through beat 4.
-
-That one eighth-note E is the entire example's job. Nothing else in the
-band states, anywhere in that bar, whether this is Cmaj7 or Cm7. The
-guitar's shell voicing is quality-neutral by design. The bass's single
-Definer note is what tells the listener's ear, unambiguously, "major."
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Definer -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Definer -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
+Q:1/4=88
 K:C
-% chapter: 02-the-definer
-% role: definer
+% chapter: lab-baseline
+% role: anchor
 % motion: root motion
-% groove: sparse
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Definer]"F,,8 | F,,8 | "^[R:Definer]"B,,8 | "_[M:Pedal]"B,,8 | B,,8 | B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | "_[G:Space]"C,4 z4 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -115,28 +103,54 @@ V:Bass clef=bass
 
 :::
 
+Same progression; the bass states the defining tone of each chord
+instead of the root — F (the b3 that makes Dm7 minor), then B (the 3rd
+of G7), which turns out to already be the 7th Cmaj7 needs.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Definer: same lab, defining tones instead of roots</p>
+<pre class="abc-source">
+X:1
+T:The Definer: same lab, defining tones instead of roots
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 02-the-definer
+% role: definer
+% motion: root motion
+% groove: sparse
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Definer]"F,,8 | "^[R:Definer]"B,,8 | "^[R:Definer]""_[M:Pedal]"B,,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, the C on beat 1 carries `"^[R:Anchor]"`. The E on the "and" of
-beat 2 carries `"^[R:Definer]"`, with no Motion tag needed underneath it
-since it isn't functioning as a passing or approach device — it's a
-direct statement of quality, not a device connecting two other points.
-The return to C on beat 3 goes back to `"^[R:Anchor]"`.
+F carries `"^[R:Definer]"` in bar 1 — the note that makes Dm7 minor
+rather than major. B carries the same tag in bar 2, defining G7 as
+dominant. In bar 3 the tag repeats on the identical pitch, now with a
+Pedal tag underneath: B hasn't moved, but its meaning has — it's gone
+from "the 3rd of G7" to "the 7th of Cmaj7" without changing.
 
-On the bass tab, this reads as a brief, single-fret departure in the
-middle of an otherwise static passage — visually small, but the tab's
-caption (per `docs/notation-conventions.md`'s semantic metadata block)
-would flag it as the harmonically decisive moment in the bar, since its
-importance is completely out of proportion to its duration on the page.
-
-*Bass tab for “The Definer -- worked example” (see `examples/by-chapter/02-the-definer/` for the source files)*
+*Bass tab for "The Definer: same lab, defining tones instead of roots" (see `examples/by-chapter/02-the-definer/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|1-------|1-------|7-------|7-------|7-------|7-------|8-------|8-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|1-------|7-------|7-------|
 ```
 
 

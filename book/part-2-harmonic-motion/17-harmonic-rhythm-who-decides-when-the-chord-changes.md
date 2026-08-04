@@ -32,32 +32,29 @@ This makes Harmonic Rhythm the one Motion-layer symbol that's easiest to confuse
 
 ## Musical Example
 
-Picture a 16-measure fusion piece in E minor, tempo around 92 bpm, built specifically to contrast two Harmonic Rhythms over the same written chart. Bars 1-8 (the "verse"): the chart calls for a chord change every two beats, but the bass rides a Pedal on E under all of it, implying a Harmonic Rhythm of essentially zero — one long harmonic event, regardless of what's written above. Bars 9-16 (the "bridge"): the same chart's harmonic rate doubles in the writing, chords now changing every beat, and the bass matches it exactly with root motion on every beat, plus an occasional Passing Motion tone implying even faster harmonic movement than the chart specifies. The contrast between the two halves is audible as a shift in pacing even though the actual tempo in bpm never changes.
-
-A useful third case to add for comparison: keep the bridge's dense, busy rhythm (high Density) but have every note belong to the same implied chord rather than tracking the written changes — proving, by ear, that a busy bass line and a fast Harmonic Rhythm are not the same thing, even though they're easy to conflate on a first listen.
-
+Take the laboratory and ignore the chart's own pacing in both directions at once. The Dm7-to-G7 change gets skipped entirely — the bass stays on D — while the single Cmaj7 bar gets subdivided into four implied harmonic events instead of one:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Harmonic Rhythm -- worked example</p>
+<p class="abc-caption">Harmonic Rhythm: same lab, bass sets its own rate</p>
 <pre class="abc-source">
 X:1
-T:Harmonic Rhythm -- worked example
+T:Harmonic Rhythm: same lab, bass sets its own rate
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
+Q:1/4=92
 K:C
 % chapter: 17-harmonic-rhythm-who-decides-when-the-chord-changes
 % role: n/a
 % motion: harmonic rhythm
-% groove: contrast: sparse then dense
+% groove: contrast: static then busy
 % difficulty: advanced
-% harmony: Dm7 | G7 (bass holds -- slow implied rhythm) | Cmaj7 | Cmaj7 | Cmaj7 (bass now moves every beat -- fast implied rhythm) | Cmaj7 | Cmaj7 | Cmaj7
+% harmony: Dm7 | G7 (bass doesn't move) | Cmaj7 (bass moves 4x within one chord)
 V:Bass clef=bass
-"_[M:Harmonic Rhythm]"D,8 | D,8 | C,8 | C,8 | "_[M:Harmonic Rhythm]"C,2 E,,2 G,,2 B,,2 | C,2 E,,2 G,,2 B,,2 | C,2 E,,2 G,,2 B,,2 | C,2 E,,2 G,,2 B,,2 |]
+"_[M:Harmonic Rhythm]"D,8 | D,8 | "_[M:Harmonic Rhythm]"C,2 E,2 G,2 B,2 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,19 @@ V:Bass clef=bass
 
 :::
 
+Bar 2 proves the felt rhythm can be *slower* than the chart: the written change to G7 gets no new root at all. Bar 3 proves the opposite in the same breath: four implied harmonic events inside one written chord, faster than the chart specifies. Neither bar changes the tempo; both change the pacing.
 
 ## Annotated Notation
 
-The annotated score's Motion layer would show widely spaced tick marks (roughly one every four bars, at the Pedal's rare restrikes) under bars 1-8, then a visibly denser cluster of tick marks, one or two per bar, under bars 9-16 — the density difference itself functioning as a chart of the piece's pacing.
+The `"_[M:Harmonic Rhythm]"` tag appears exactly twice, marking the two moments where the bass's own pacing visibly disagrees with the chart: once for declining to move in bar 2, once for moving four times in bar 3. Compare the Groove layer underneath — bar 3 is also high-**Density** (Chapter 24), but the two tags are answering different questions: Density counts note-events, Harmonic Rhythm counts only events that imply a chord change.
 
-*Bass tab for “Harmonic Rhythm -- worked example” (see `examples/by-chapter/17-harmonic-rhythm-who-decides-when-the-chord-changes/` for the source files)*
+*Bass tab for "Harmonic Rhythm: same lab, bass sets its own rate":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|8-------|8-------|8-0-3-7-|8-0-3-7-|8-0-3-7-|8-0-3-7-|
+G|--------|--------|--------|
+D|--------|--------|------9-|
+A|--------|--------|----10--|
+E|10------|10------|8-12----|
 ```
 
 

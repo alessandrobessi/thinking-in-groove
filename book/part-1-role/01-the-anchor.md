@@ -81,52 +81,34 @@ instead; the two Roles rarely share a rhythmic profile.
 
 ## Musical Example
 
-Imagine an 8-measure fragment in a laid-back neo-soul feel, **F minor**,
-around 78 BPM, swung eighth notes. The harmony above the bass moves
-through a fairly rich progression — Fm9, then a Dbmaj7#11, then Ebm7,
-then back to Fm9 — the kind of chord motion that, on its own, would ask
-a listener to keep re-locating the key center every two beats.
+Every example in this book is read against one fixed laboratory:
+**Dm7 – G7 – Cmaj7**, one chord per bar. Fix the progression, and a
+single changed variable is all the ear has to account for.
 
-The bass line does almost nothing. It sits on **F**, low, for the first
-two measures — not a rearticulated repeated note, but a single long
-tone that decays and gets touched again only when it's about to run out
-of sustain. When the harmony changes to Dbmaj7#11 in measure 3, the bass
-does not move to Db. It stays on F, which is now the 3rd of Db major —
-still centered, still legible, still doing its one job. Only in measure
-5, under Ebm7, does the bass finally move, and even then it moves the
-smallest possible distance: down a whole step to Eb, the new root,
-functioning as a fresh (very brief) Anchor for that chord before the
-progression resolves back to Fm9 and the original F Anchor returns for
-the last two bars.
-
-The takeaway the example is built to demonstrate: an Anchor doesn't
-need to track every chord symbol above it. Its job is to give the
-listener one stable reference point while the harmony explores how far
-it can wander from that point and still be understood as belonging to
-it.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Anchor -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Anchor -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=78
-K:Fm
-% chapter: 01-the-anchor
+Q:1/4=88
+K:C
+% chapter: lab-baseline
 % role: anchor
-% motion: pedal
-% groove: low-density
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: Fm9 | Fm9 | Dbmaj7#11 | Dbmaj7#11 | Ebm7 | Fm9 | Fm9 | Fm9
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal]"F,8 | "_[M:Pedal]"F,8 | "^[R:Anchor]"F,8 | F,8 | "^[R:Anchor]""_[M:Root Motion]"_E,8 | "^[R:Anchor]""_[M:Root Motion]"F,8 | F,8 | "_[G:Space]"F,4 z4 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -135,30 +117,53 @@ V:Bass clef=bass
 
 :::
 
+Same progression as the laboratory; the bass holds D under G7 instead
+of moving to G, then resolves to C — an Anchor refusing to yield to
+the harmony above it.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Anchor: same lab, D refuses to move</p>
+<pre class="abc-source">
+X:1
+T:The Anchor: same lab, D refuses to move
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+% chapter: 01-the-anchor
+% role: anchor
+% motion: pedal
+% groove: low-density
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal]"D,8 | "_[M:Pedal]"D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-When notated, this example would carry the Role tag `"^[R:Anchor]"`
-above the sustained F in measures 1–2 and again in measures 7–8, and
-above the brief Eb in measure 5. Underneath, the Motion layer would
-carry a Pedal bracket (`"_[M:Pedal]"`) spanning measures 1–2 and 7–8,
-since the harmony is changing while the bass note is not. Measure 5's
-Eb, by contrast, gets a Root Motion tag rather than a Pedal tag — it's
-briefly re-anchoring on a new root, not sustaining under a static bass
-against moving harmony.
+The Role tag `"^[R:Anchor]"` sits above D in bar 1 and above C at the
+arrival in bar 3. Underneath, a Pedal tag (`"_[M:Pedal]"`) spans bars
+1–2 — the harmony changes from Dm7 to G7 while the bass note doesn't —
+and a Cadential Motion tag marks the resolution into C in bar 3.
 
-The bass tab for this passage would show almost nothing happening
-rhythmically for six of the eight bars — long open horizontal space on
-the E string — which is itself the point: the tab's visual sparseness
-should look, at a glance, like what stillness sounds like.
-
-*Bass tab for “The Anchor -- worked example” (see `examples/by-chapter/01-the-anchor/` for the source files)*
+*Bass tab for "The Anchor: same lab, D refuses to move" (see `examples/by-chapter/01-the-anchor/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|8-------|8-------|8-------|8-------|--------|8-------|8-------|8-------|
-E|--------|--------|--------|--------|11------|--------|--------|--------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|10------|8-------|
 ```
 
 

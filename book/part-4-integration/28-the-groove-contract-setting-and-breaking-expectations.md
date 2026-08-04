@@ -26,35 +26,29 @@ The Groove Contract is the first term in this book that is drawn across an entir
 
 ## Musical Example
 
-The example for this chapter needs at least 12 measures to have room to establish, hold, and then break a contract convincingly. A workable brief:
-
-- Measures 1–4: establish a clear **Groove Signature** — one **Repetition Cell**, consistent **Pocket** (say, a touch behind the beat), moderate **Density**. This is the contract being set.
-- Measures 5–8: a **Variation Layer** on that same cell — the contract is renewed, not broken; the listener's trust is being rewarded.
-- Measures 9–10: the contract is broken — a sudden jump in Density and a Pocket shift to ahead-of-the-beat, timed to land at a harmonically significant moment (a **Cadential Motion** approach works well here).
-- Measures 11–12: return to the opening cell and Pocket — the contract is restored, confirming retroactively that measures 9–10 were a deliberate break, not a mistake.
-
+The cell this whole example loops is the laboratory itself, played as a repeating root-fifth figure rather than one note per bar:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Groove Contract -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Groove Contract -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
-K:G
-% chapter: 28-the-groove-contract-setting-and-breaking-expectations
-% role: n/a
-% motion: n/a
-% groove: set / renewed / broken / restored
-% difficulty: advanced
-% harmony: G funk vamp. % contract: set (bars 1-4), renewed (bars 5-8), broken -- density jump + ahead-of-the-beat (bars 9-10), restored (bars 11-12)
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-z1 "_[G:Groove Contract]"G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | "_[G:Groove Contract]"G,,1 _B,,1 D,1 G,1 D,1 _B,,1 G,,1 D,1 | G,,1 _B,,1 D,1 G,1 D,1 _B,,1 G,,1 D,1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -63,18 +57,49 @@ z1 "_[G:Groove Contract]"G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,2 D,2 z1 | z1 G,,2 _B,,
 
 :::
 
+The laboratory progression looped four times: the groove is set (bars 1-3), renewed (bars 4-6), broken with a sudden dense, displaced figure (bars 7-8), then restored (bars 9-11) and closed on a held Anchor.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Groove Contract: the lab looped, set, broken, restored</p>
+<pre class="abc-source">
+X:1
+T:The Groove Contract: the lab looped, set, broken, restored
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=94
+K:C
+% chapter: 28-the-groove-contract-setting-and-breaking-expectations
+% role: n/a
+% motion: n/a
+% groove: set / renewed / broken / restored
+% difficulty: advanced
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression, looped 4x with a break in bars 7-8
+% contract: set (bars 1-3), renewed (bars 4-6), broken (bars 7-8), restored (bars 9-11), close (bar 12)
+V:Bass clef=bass
+"_[G:Groove Contract]"D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 | D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 | D,1 A,1 D1 A,1 D1 A,1 D,1 A,1 | D,1 A,1 D1 A,1 D1 A,1 D,1 A,1 | D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 | "^[R:Anchor]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Because this term spans measures rather than marking a single note, its notation should carry a `% contract: set` / `% contract: broken` / `% contract: restored` comment line (following the semantic metadata block convention in `docs/notation-conventions.md`) placed at the start of the relevant measure group, in addition to whatever per-note Role/Motion/Groove tags those measures already carry from their own layers.
+Because this term spans measures rather than marking a single note, its notation carries a `% contract:` comment line (the phrase-level convention in `docs/notation-conventions.md`) naming which bars set, renew, break, and restore the groove, in addition to the one per-note `Groove Contract` tag marking where the cell first appears. The break itself (bars 7-8) needs no tag of its own — it's audible as a break because bars 1-6 already established what "normal" sounds like.
 
-*Bass tab for “The Groove Contract -- worked example” (see `examples/by-chapter/28-the-groove-contract-setting-and-breaking-expectations/` for the source files)*
+*Bass tab for the Groove Contract example (see `examples/by-chapter/28-the-groove-contract-setting-and-breaking-expectations/` for the source files)*
 
 ```text
 G|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|---10---|---10---|--------|--------|
-E|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|-3-6-10-|36101631|36101631|-3-6-10-|-3-6-10-|
+D|--------|--------|--------|--------|--------|--------|--1212--|--1212--|--------|--------|--------|--------|
+A|--12--12|--------|--10--10|--12--12|--------|--10--10|-1212121|-1212121|--12--12|--------|--10--10|--------|
+E|10--10--|3-103-10|8---8---|10--10--|3-103-10|8---8---|10----10|10----10|10--10--|3-103-10|8---8---|8-------|
 ```
 
 

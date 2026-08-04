@@ -34,30 +34,29 @@ Motion Profile doesn't get its own new symbol in the Motion layer — instead, i
 
 ## Musical Example
 
-Picture a 16-measure fusion piece in A minor, tempo around 100 bpm, built to demonstrate all four Motion Profiles back to back, four bars each. Bars 1-4 (static): a Pedal on A under a slowly shifting upper harmony, Harmonic Rhythm nearly flat. Bars 5-8 (ascending): Root Motion climbs A, C, D, E in even two-bar steps, each arrival reinforced by a diatonic Approach Note. Bars 9-12 (cyclical): a descending-fifth cycle, E, A, D, G, closing with Cadential Motion back to a strong A in bar 12. Bars 13-16 (wandering): a Substituted Root reframes the harmony unexpectedly in bar 14, followed by Deceptive Motion in bar 15 that avoids the "obvious" resolution, closing the piece on a note that is stable but not the one a listener would have predicted four bars earlier.
-
+Three of this chapter's four shapes fit inside the laboratory's own three bars in miniature — static, ascending, and a cadential close (the fourth, wandering, is better heard by ear; try it in Practice Ideas below):
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Motion Profile -- worked example</p>
+<p class="abc-caption">Motion Profile: same lab, static then ascending then cadential</p>
 <pre class="abc-source">
 X:1
-T:Motion Profile -- worked example
+T:Motion Profile: same lab, static then ascending then cadential
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=95
+Q:1/4=90
 K:C
 % chapter: 18-motion-profile-the-shape-of-a-phrase
 % role: n/a
-% motion: motion profile (static, ascending, cyclical, cadential)
+% motion: motion profile
 % groove: varies by section
 % difficulty: advanced
-% harmony: Dm7 (static) | Dm7 | (ascending) | (ascending) | (peak) | (cyclical) | (cyclical) | Cmaj7 (cadential)
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"_[M:Pedal]"D,8 | D,8 | "_[M:Passing Motion]"D,2 E,2 F,2 G,2 | "_[M:Root Motion]"A,8 | "_[M:Root Motion]"B,8 | "_[M:Motion Profile]"G,2 E,2 G,2 E,2 | G,2 E,2 G,2 E,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+"_[M:Pedal]"D,8 | "_[M:Passing Motion]"G,,2 A,,2 B,,2 C,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,4 z4 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +65,19 @@ V:Bass clef=bass
 
 :::
 
+Bar 1 is static (a Pedal, no Root Motion at all). Bar 2 is ascending (a Passing Motion run climbing four steps). Bar 3 closes cadentially, with room to breathe. A cyclical profile would need the phrase to return to D by its end — this laboratory, being a ii-V-I, is inherently more cadential than cyclical, which is itself worth noticing: not every progression can demonstrate every shape equally well.
 
 ## Annotated Notation
 
-Across the full 16 bars, the annotated score's Motion layer would visibly change character every four measures: a static run of flat brackets, then a steadily rising staircase of diagonal lines, then a repeating descending pattern closed by a double-tick, then a scattered, irregular mix of dotted and bent lines — the shape of the piece would be legible from the Motion layer alone, before reading a single pitch.
+Watch the Motion tag change with every bar: `"_[M:Pedal]"`, then `"_[M:Passing Motion]"`, then `"_[M:Cadential Motion]"` — three different tag types in three bars is itself the visual signature of a phrase whose shape is changing, as opposed to the single repeated tag type you'd see under a purely static or purely cyclical passage.
 
-*Bass tab for “Motion Profile -- worked example” (see `examples/by-chapter/18-motion-profile-the-shape-of-a-phrase/` for the source files)*
+*Bass tab for "Motion Profile: same lab, static then ascending then cadential":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|9-------|--------|--------|--------|
-A|--------|--------|----8-10|12------|--------|10--10--|10--10--|--------|
-E|10------|10------|1012----|--------|--------|--12--12|--12--12|8-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|3-5-7-8-|8-------|
 ```
 
 

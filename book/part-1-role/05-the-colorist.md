@@ -75,43 +75,30 @@ color before the line moves on.
 
 ## Musical Example
 
-Imagine a slow, spacious neo-soul ballad passage in **Ab major**, one
-chord — Abmaj7 — held for a full 4-measure phrase while the melody
-floats above it. Rather than sitting on the root Ab for all four bars, a
-Colorist choice: the bass moves to **Bb**, the 9th, at the top of
-measure 3 and stays there, unresolved, through the end of the phrase.
-
-Nothing about the underlying chord changes — it's still functionally
-Abmaj7 — but the character shifts noticeably. The bottom of the harmony
-opens up, the sense of "home" softens without disappearing, and the
-phrase ends on a note of gentle unresolve rather than the flat
-confirmation a root would have provided. The choice only works because
-the first two measures already established Ab clearly enough that the
-listener isn't confused about where "home" is — the Colorist is spending
-trust the earlier Anchor already built.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Colorist -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Colorist -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=88
 K:C
-% chapter: 05-the-colorist
-% role: colorist
-% motion: substituted root
-% groove: sparse
-% difficulty: intermediate
-% harmony: Cmaj7 held throughout
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Colorist]""_[M:Substituted Root]"D,8 | D,8 | "^[R:Colorist]"A,,8 | A,,8 | D,8 | A,,8 | D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -120,29 +107,54 @@ V:Bass clef=bass
 
 :::
 
+Same progression; the bass states the 9th of each chord (E, A, D)
+instead of the root — a consistent color choice rather than a
+functional one.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Colorist: same lab, the 9th of each chord instead of the root</p>
+<pre class="abc-source">
+X:1
+T:The Colorist: same lab, the 9th of each chord instead of the root
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=90
+K:C
+% chapter: 05-the-colorist
+% role: colorist
+% motion: substituted root
+% groove: sparse
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Colorist]""_[M:Substituted Root]"E,8 | "^[R:Colorist]"A,,8 | "^[R:Colorist]"D,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, the Ab in measures 1–2 carries `"^[R:Anchor]"`. The Bb
-beginning in measure 3 carries `"^[R:Colorist]"`, with no Motion tag
-underneath — it isn't approaching or connecting anything, it's simply
-being sustained for its own color. A hollow-ring Space marker appears
-immediately before it on the Groove layer, visually setting the
-color tone apart from what preceded it.
+Every bar carries `"^[R:Colorist]"`: E over Dm7, A over G7, D over
+Cmaj7 — each one the chord's 9th rather than its root. Only the first
+carries a Motion tag (`"_[M:Substituted Root]"`), since it's the moment
+the ear first hears the root deliberately withheld; the two that follow
+read as a confirmed choice rather than a fresh substitution.
 
-On the bass tab, the shift from Ab to Bb is a small physical move — a
-single fret or a short position shift — which is worth noting
-explicitly in a caption, since the visual modesty of the move on the
-page understates how much the harmonic character actually changes when
-it's heard.
-
-*Bass tab for “The Colorist -- worked example” (see `examples/by-chapter/05-the-colorist/` for the source files)*
+*Bass tab for "The Colorist: same lab, the 9th of each chord instead of the root" (see `examples/by-chapter/05-the-colorist/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|5-------|5-------|10------|5-------|10------|8-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|12------|5-------|10------|
 ```
 
 

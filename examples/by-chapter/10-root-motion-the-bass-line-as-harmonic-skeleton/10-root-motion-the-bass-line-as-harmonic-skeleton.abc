@@ -1,15 +1,15 @@
 X:1
-T:Root Motion -- worked example
+T:Root Motion: the lab, extended one chord
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
+Q:1/4=88
 K:C
 % chapter: 10-root-motion-the-bass-line-as-harmonic-skeleton
 % role: n/a
 % motion: root motion
 % groove: moderate-density
 % difficulty: beginner
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Am7 | Am7
+% harmony: Dm7 | G7 | Cmaj7 | Am7 -- the laboratory, extended one chord
 V:Bass clef=bass
-"_[M:Root Motion]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "_[M:Root Motion]"C,8 | C,8 | "_[M:Root Motion]"A,,8 | A,,8 |]
+"_[M:Root Motion]"D,8 | "_[M:Root Motion]"G,,8 | "_[M:Root Motion]"C,8 | "_[M:Root Motion]"A,,8 |]

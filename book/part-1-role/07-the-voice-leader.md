@@ -80,32 +80,50 @@ character.
 
 ## Musical Example
 
-Consider a jazz ballad passage in **Eb major**, four bars, moving
-through Ebmaj7 – Cm7 – Fm7 – Bb7. A root-motion bass line here would
-play Eb, C, F, Bb — a perfectly functional set of leaps, several of
-them a fourth or more. A voice-led alternative instead plays: Eb (the
-root, since it's the starting point and no motion has happened yet),
-then **Bb** (the 5th of Cm7, one step down from... actually a fourth
-below Eb, but reachable smoothly via an intermediate passing tone), then
-**Ab** (the 7th of Fm7, a whole step from Bb), then **A** (the 3rd of
-Bb7, a half step up from Ab) — each successive note within a step or two
-of the last, tracing a smooth descending-then-rising contour, and each
-one a legitimate chord tone of its own chord.
-
-The two approaches serve the same four chords. The root-motion version
-announces each chord unmistakably. The voice-led version trades some of
-that clarity for a bass line that itself sounds like a considered
-melody, worth listening to independent of the chords it's supporting.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Voice-Leader -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Voice-Leader -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
+Same progression; instead of leaping by root motion, the bass moves by
+the smallest possible step — C (the b7 of Dm7) down to B (the 3rd of
+G7), then back up to C (now the root of Cmaj7).
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Voice-Leader: same lab, smallest possible steps</p>
+<pre class="abc-source">
+X:1
+T:The Voice-Leader: same lab, smallest possible steps
 C:Thinking in Groove
 M:4/4
 L:1/8
@@ -116,9 +134,9 @@ K:C
 % motion: passing motion
 % groove: sparse
 % difficulty: intermediate
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Voice-Leader]"D,8 | D,8 | "_[M:Passing Motion]"C,8 | C,8 | "_[M:Passing Motion]"B,,8 | B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 |]
+"^[R:Voice-Leader]"C,8 | "_[M:Passing Motion]"B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -127,29 +145,21 @@ V:Bass clef=bass
 
 :::
 
-
 ## Annotated Notation
 
-Notated, each of the four notes in the voice-led version carries
-`"^[R:Voice-Leader]"`, with the connecting zig-zag icon drawn across all
-four rather than repeated individually. Beneath, short diagonal Motion
-lines connect each consecutive pair, each labeled with the interval
-being traversed (a 4th, a 2nd, a 2nd) so a reader can see at a glance how
-small the steps are relative to the harmonic distance being covered.
+C carries `"^[R:Voice-Leader]"` in bar 1 — the b7 of Dm7, not its root.
+B, a half step below, carries `"_[M:Passing Motion]"` in bar 2. Bar 3
+returns to C, now `"^[R:Anchor]""_[M:Cadential Motion]"` — the same
+pitch that opened the phrase, reinterpreted as an arrival rather than a
+color choice.
 
-On the bass tab, a genuinely voice-led passage should show a compact,
-narrow range of frets and strings compared to the wider jumps a
-root-motion tab of the same four chords would require — that visual
-compactness is itself a useful check on whether a line is really
-voice-leading or only approximately doing so.
-
-*Bass tab for “The Voice-Leader -- worked example” (see `examples/by-chapter/07-the-voice-leader/` for the source files)*
+*Bass tab for "The Voice-Leader: same lab, smallest possible steps" (see `examples/by-chapter/07-the-voice-leader/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|8-------|8-------|7-------|7-------|8-------|8-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|8-------|7-------|8-------|
 ```
 
 

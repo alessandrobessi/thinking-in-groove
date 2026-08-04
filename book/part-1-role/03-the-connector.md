@@ -73,45 +73,30 @@ points it's bridging.
 
 ## Musical Example
 
-Consider a funk-influenced 4-measure turnaround in **G major**, moving
-from a Gmaj7 chord in measure 1 to an Em7 in measure 2, then to Am7 in
-measure 3, resolving to a D7 in measure 4 before the form repeats. Each
-of these four chords is a full measure, played by the rhythm section as
-sustained hits on beat 1 with syncopated comping afterward — plenty of
-harmonic space for the bass to work in.
-
-Rather than jumping from root to root at each bar line (G to E to A to
-D — all perfectly functional, but harmonically abrupt), the bass spends
-the second half of each measure walking stepwise toward the next
-measure's root: G down to F# down to E arriving exactly on beat 1 of
-measure 2; E up to F# up to G# arriving on A in measure 3; A stepping
-down through G to F# arriving on D in measure 4. Every arrival lands
-squarely on the new root, but nothing about getting there feels like a
-jump — the ear has been told, one step at a time, exactly where this is
-headed.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Connector -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Connector -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=96
-K:F
-% chapter: 03-the-connector
-% role: connector
-% motion: passing motion
-% groove: moderate-density
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: Gm7 | Gm7 | C7 | C7 | Gm7 | Gm7 | C7 | F
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,8 | G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]"C,8 | "^[R:Anchor]""_[M:Cadential Motion]"F,,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -120,29 +105,54 @@ G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]"
 
 :::
 
+Same progression; short connecting runs (E-F#, A-B) fill the space
+right before each new chord instead of leaping straight to the root.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Connector: same lab, short runs instead of leaps</p>
+<pre class="abc-source">
+X:1
+T:The Connector: same lab, short runs instead of leaps
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 03-the-connector
+% role: connector
+% motion: passing motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]"D,6 "^[R:Connector]""_[M:Passing Motion]"E,1 ^F,1 | G,,6 A,,1 B,,1 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, the sustained root at the start of each measure carries
-`"^[R:Anchor]"`, and the stepwise notes crossing into the next measure
-carry `"^[R:Connector]"` with `"_[M:Passing Motion]"` beneath them,
-grouped by a shallow slur spanning from the first connecting note to the
-arrival. The arrival note itself reverts to `"^[R:Anchor]"` for the new
-chord, since a Connector's job ends the instant it lands.
+D carries `"^[R:Anchor]"` for the first six eighths of bar 1; the last
+two eighths, E and F#, carry `"^[R:Connector]"` with
+`"_[M:Passing Motion]"` beneath them — a short stepwise run pointing
+directly at G. The same shape repeats at the end of bar 2 (A, B)
+pointing at C, where the tag reverts to `"^[R:Anchor]"` the instant it
+lands.
 
-On the bass tab, this pattern reads as a visually obvious diagonal run
-of frets crossing each bar line — a shape a reader can recognize at a
-glance even before playing it, which is itself a useful check: if a
-line intended as connecting motion doesn't look directional on the tab,
-it probably won't sound directional either.
-
-*Bass tab for “The Connector -- worked example” (see `examples/by-chapter/03-the-connector/` for the source files)*
+*Bass tab for "The Connector: same lab, short runs instead of leaps" (see `examples/by-chapter/03-the-connector/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|3-------|3-5-6-7-|8-------|8-------|3-------|3-5-6-7-|8-------|1-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|-------9|--------|--------|
+E|10----12|3-----57|8-------|
 ```
 
 

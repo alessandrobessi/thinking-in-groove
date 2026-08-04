@@ -65,44 +65,29 @@ incomplete example) is visible on the page.
 
 ## Musical Example
 
-An 8-bar neo-soul-style vamp over **Fmaj7** demonstrates Space well,
-since the genre's feel depends heavily on restraint.
-
-Bars 1–4 establish a moderately busy one-bar Repetition Cell (see
-Chapter 22) built from the root, the third, and a passing approach note,
-played on beats 1, the "and" of 2, and beat 4 — enough activity that the
-groove is clearly, confidently stated. Bar 5 removes the bass
-entirely — a full bar of Space — timed to coincide with a drum fill and
-a chordal hit from the rest of the ensemble, so the silence is
-functioning as ensemble choreography, not an accident. Bar 6 re-enters
-with the same cell from bars 1–4, now landing with noticeably more
-impact for having been absent. Bars 7–8 introduce a second, smaller gap:
-the bass drops out only on beat 4 of bar 7, right before the phrase's
-final cadential arrival in bar 8 — a short Space used to set up a
-resolution rather than to make room for another instrument.
-
+Take the laboratory progression and remove almost everything.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Space as Content -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Space as Content -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=90
-K:E
-% chapter: 21-space-as-content-the-power-of-not-playing
-% role: n/a
-% motion: n/a
-% groove: sparse, one hit per bar
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: E7#9 one-chord vamp; a single hit per bar, its position moving bar to bar so silence itself becomes the variable
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[G:Space]"E,,2 z6 | z2 E,,2 z4 | z4 E,,2 z2 | z6 E,,2 | E,,2 z6 | z2 E,,2 z4 | z4 E,,2 z2 | z6 E,,2 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -111,25 +96,55 @@ V:Bass clef=bass
 
 :::
 
+Same progression, reduced to almost nothing — one short hit per chord,
+the rest of each bar left as Space.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Space: same lab, reduced to almost nothing</p>
+<pre class="abc-source">
+X:1
+T:Space: same lab, reduced to almost nothing
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=88
+K:C
+% chapter: 21-space-as-content-the-power-of-not-playing
+% role: n/a
+% motion: n/a
+% groove: sparse
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"_[G:Space]"D,2 z6 | G,,2 z6 | C,2 z6 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-The full-bar rest in bar 5 is tagged `"_[G:Space]"` on the rest itself
-(ABC's rest token, `z`, can still carry a positioned annotation) rather
-than left as a bare, untagged gap — this is what distinguishes an
-authored silence from an unremarkable one under this book's notation
-conventions. The Role tag carried by the surrounding notes (`"^[R:Anchor]"`
-in bars 1–4, returning in bar 6) does not appear on the rest itself,
-since a rest cannot hold a harmonic Role — only the Groove tag applies
-to a deliberate absence.
+Each root shrinks from a whole bar (`D,8` in the laboratory) to a single
+quarter-note hit followed by six units of rest (`D,2 z6`), and each hit
+carries `"_[G:Space]"` — ABC's rest token, `z`, cannot itself hold an
+annotation, so the tag lands on the note that precedes the silence it
+creates. The Role tag (`"^[R:Anchor]"`, implied by continuity with the
+laboratory) is unchanged; only how much of the bar that Role gets to
+occupy has changed.
 
-*Bass tab for “Space as Content -- worked example” (see `examples/by-chapter/21-space-as-content-the-power-of-not-playing/` for the source files)*
+*Bass tab for "Space: same lab, reduced to almost nothing"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|0-------|--0-----|----0---|------0-|0-------|--0-----|----0---|------0-|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|3-------|8-------|
 ```
 
 

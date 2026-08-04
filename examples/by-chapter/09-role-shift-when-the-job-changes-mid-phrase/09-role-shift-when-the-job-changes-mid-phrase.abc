@@ -1,15 +1,15 @@
 X:1
-T:Role Shift -- worked example (one Role per bar)
+T:Role Shift: same lab, the job changes mid-bar
 C:Thinking in Groove
 M:4/4
 L:1/8
 Q:1/4=90
-K:F
+K:C
 % chapter: 09-role-shift-when-the-job-changes-mid-phrase
-% role: role shift (all 8 roles)
-% motion: varies by bar
-% groove: varies by bar
+% role: role shift
+% motion: varies
+% groove: varies
 % difficulty: advanced
-% harmony: Fm groove; each bar demonstrates a different Role in sequence
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]"F,,8 | "^[R:Connector]""_[M:Passing Motion]"F,,2 G,,2 _A,,2 A,,2 | "^[R:Driver]""_[G:Density]"_B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 _B,,1 | "^[R:Colorist]""_[M:Substituted Root]"D,8 | "^[R:Shadow]"C,2 _E,2 F,,2 G,,2 | "^[R:Voice-Leader]""_[M:Passing Motion]"G,,2 F,,2 _E,2 D,2 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 z2 | "^[R:Anchor]"F,,8 |]
+"^[R:Anchor]"D,4 "^[R:Connector]""_[M:Passing Motion]"E,2 ^F,2 | "^[R:Colorist]"A,,4 "^[R:Voice-Leader]""_[M:Passing Motion]"B,,2 C,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]

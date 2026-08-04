@@ -1,15 +1,15 @@
 X:1
-T:The Repetition Cell -- worked example
+T:The Repetition Cell: same lab, a root-fifth cell under every chord
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
-K:E
+Q:1/4=96
+K:C
 % chapter: 22-the-repetition-cell-the-riff-atom
 % role: n/a
 % motion: n/a
-% groove: one riff atom, repeated unvaried
+% groove: repeated cell
 % difficulty: beginner
-% harmony: E7#9 one-chord funk vamp; the same one-bar cell repeated eight times, establishing the groove's identity
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"_[G:Repetition Cell]"E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 |]
+"_[G:Repetition Cell]"D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 |]

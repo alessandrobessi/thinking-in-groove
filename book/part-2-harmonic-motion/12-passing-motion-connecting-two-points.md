@@ -32,32 +32,29 @@ Compare this shape to the **Approach Note** (Chapter 13)'s short hook: a hook co
 
 ## Musical Example
 
-Consider a 4-measure fragment inside a longer funk-jazz tune, moving from Am7 (root A) to Fmaj7 (root F), a third apart. Bar 1: A held as an Anchor. Bar 2: passing tones G and F# used as connective stepwise motion descending from A toward F, landing bar 3 on F as the new root. Bar 4: F sustained briefly, then a short Repetition Cell figure establishes the new harmony's groove. The passing tones G and F# never appear as chord symbols anywhere in the chart — they exist only inside the bass line's stepwise logic.
-
-A second, wider case is worth hearing back to back with the first: connecting two roots a fourth apart (say, Dm7 to G7, D down to G) needs two passing tones instead of one — C and B natural, filling the gap D-C-B-G — and the extra note noticeably changes the pacing of the connection, giving the ear more time to register the direction before the arrival lands.
-
+The laboratory's baseline leaps from root to root — D to G is a fourth, G to C is a fifth:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Passing Motion -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Passing Motion -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
+Q:1/4=88
 K:C
-% chapter: 12-passing-motion-connecting-two-points
-% role: n/a
-% motion: passing motion
-% groove: moderate-density
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: Dm7 | (passing) | G7 | (passing) | Cmaj7 | Cmaj7 | (turnaround) | Dm7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]"D,8 | "_[M:Passing Motion]"D,2 E,,2 F,,2 ^F,,2 | "_[M:Root Motion]"G,,8 | "_[M:Passing Motion]"G,,2 A,,2 B,,2 C,2 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | "_[M:Passing Motion]"C,2 B,,2 A,,2 G,,2 | "_[M:Root Motion]"D,8 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,48 @@ V:Bass clef=bass
 
 :::
 
+Passing Motion fills both gaps by step instead: D-E-F-F# into G, then G-A-B-C into C. Neither F#, A, nor B is a notated chord anywhere in this progression — they exist only because the line needed to get from one root to the next.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Passing Motion: same lab, full stepwise lines</p>
+<pre class="abc-source">
+X:1
+T:Passing Motion: same lab, full stepwise lines
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 12-passing-motion-connecting-two-points
+% role: n/a
+% motion: passing motion
+% groove: moderate-density
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"_[M:Passing Motion]"D,2 E,2 F,2 ^F,2 | G,,2 A,,2 B,,2 C,2 | C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-In the annotated score, the two passing tones (G, F#) would sit under one continuous amber slur bridging the Anchor on A and the new Anchor on F, with a Connector icon in the Role layer positioned over the slur's midpoint — visually confirming that these two notes are doing a single connective job together, not two separate harmonic events.
+A single `"_[M:Passing Motion]"` tag at the start of bar 1 covers the whole four-note run into G7; the same shape repeats into Cmaj7. Compare this against the baseline's `"_[M:Root Motion]"` tags, which mark a single leap rather than a run — the tag type itself tells you whether the bass is leaping or filling.
 
-*Bass tab for “Passing Motion -- worked example” (see `examples/by-chapter/12-passing-motion-connecting-two-points/` for the source files)*
+*Bass tab for "Passing Motion: same lab, full stepwise lines":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|100-1-2-|3-------|3-5-7-8-|8-------|8-------|8-7-5-3-|10------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|----8-9-|--------|--------|
+E|1012----|3-5-7-8-|8-------|
 ```
 
 

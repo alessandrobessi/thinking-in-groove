@@ -77,52 +77,31 @@ Groove Signature is.
 
 ## Musical Example
 
-Two contrasting 8-bar grooves over the same static **Dm7**, built from
-the identical harmonic material, demonstrate how the same seven dials,
-set differently, produce two unmistakably different identities.
-
-**Groove A ("laid-back neo-soul"):** a heavy lay-back Pocket throughout;
-low Density (roughly one to two notes per beat); a short, two-bar
-Repetition Cell built around the root and the seventh with one
-syncopation point per cell; generous Space, including a full silent
-beat in every cell; minimal Variation Layer activity — the cell is
-altered only once across the whole 8 bars, by a single substitution;
-and no Push/Lay-back gestures beyond the baseline lay-back pocket
-itself.
-
-**Groove B ("driving fusion"):** a dead-center to slightly-ahead
-Pocket; high Density (consistent sixteenth-note activity); a short,
-one-bar Repetition Cell with two syncopation points; almost no Space;
-active Variation Layer use — the cell changes by displacement or
-ornament in nearly every repetition; and a deliberate Push at the
-arrival of bar 5, the phrase's midpoint.
-
-Both grooves use the identical seven ingredients from this Part. The
-specific setting of each one, held consistently, is the entire
-difference between them — which is the chapter's point made audible.
-
+Take the laboratory progression, apply the Repetition Cell from Chapter
+22 unchanged under every chord, and loop it once — the resulting
+consistency is itself the signature.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Groove Signature -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Groove Signature -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=98
-K:E
-% chapter: 26-the-groove-signature-what-makes-a-line-recognizable
-% role: n/a
-% motion: n/a
-% groove: Pocket (pushed) + Density (moderate) + Repetition Cell, combined into one recognizable identity
-% difficulty: advanced
-% harmony: E7#9 one-chord vamp; the pushed pocket, moderate density, and repeating cell together are what make this groove recognizable as itself
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-z1 "_[G:Groove Signature]"E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 E,,2 z1 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -131,29 +110,56 @@ z1 "_[G:Groove Signature]"E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,2 A,,2 z1 | z1 E,,2 G,,
 
 :::
 
+The full laboratory progression, looped once: the same root-fifth cell
+at the same density and placement under every chord is what makes this
+groove instantly recognizable as itself, chord after chord.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Groove Signature: the lab, looped, one identity throughout</p>
+<pre class="abc-source">
+X:1
+T:The Groove Signature: the lab, looped, one identity throughout
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:C
+% chapter: 26-the-groove-signature-what-makes-a-line-recognizable
+% role: n/a
+% motion: n/a
+% groove: groove signature
+% difficulty: advanced
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression, looped once
+V:Bass clef=bass
+"_[G:Groove Signature]"D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 | D,2 A,2 D,2 A,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Both grooves share the Role tag `"^[R:Anchor]"` throughout, since both
-are grounding the identical Dm7 harmony — confirming that a Groove
-Signature is a purely rhythmic identity, independent of Role. Groove A's
-Groove tags read, cell by cell,
-`"_[G:Lay-back|Repetition Cell|Space]"`, with a single
-`"_[G:Repetition Cell+Substitution]"` marking its one variation. Groove
-B's tags read `"_[G:Center|Repetition Cell]"` at high density
-throughout, with `"_[G:Repetition Cell+Displacement]"` or
-`"_[G:Repetition Cell+Ornament]"` appearing in nearly every bar, and a
-single `"_[G:Push]"` at bar 5. Reading the two tag sequences side by
-side, without even hearing the audio, should already suggest two very
-differently styled grooves.
+Only the first note of the whole 4-bar loop carries `"_[G:Groove
+Signature]"` — the tag marks the identity, not each individual
+occurrence of it. The cell recurs identically (root-fifth-root-fifth,
+same rhythmic placement) under all four bars, including the repeated
+Dm7 in bar 4: hearing the exact same rhythmic-intervallic shape return
+at the top of the loop is what makes it recognizable as a signature
+rather than a coincidence.
 
-*Bass tab for “The Groove Signature -- worked example” (see `examples/by-chapter/26-the-groove-signature-what-makes-a-line-recognizable/` for the source files)*
+*Bass tab for "The Groove Signature: the lab, looped, one identity throughout"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-5--|-0-3-0--|
+G|--------|--------|--------|--------|
+D|--------|--------|--------|--------|
+A|--12--12|--------|--10--10|--12--12|
+E|10--10--|3-103-10|8---8---|10--10--|
 ```
 
 

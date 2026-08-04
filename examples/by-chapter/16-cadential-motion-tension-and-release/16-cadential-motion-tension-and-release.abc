@@ -1,15 +1,15 @@
 X:1
-T:Cadential Motion -- worked example
+T:Cadential Motion: the lab exactly, arrival given room
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=88
 K:C
 % chapter: 16-cadential-motion-tension-and-release
 % role: n/a
 % motion: cadential motion
 % groove: sparse
 % difficulty: beginner
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | C,8 | "_[G:Space]"C,4 z4 |]
+D,8 | G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,4 "_[G:Space]"z4 |]

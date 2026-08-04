@@ -1,15 +1,15 @@
 X:1
-T:The Colorist -- worked example
+T:The Colorist: same lab, the 9th of each chord instead of the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=90
 K:C
 % chapter: 05-the-colorist
 % role: colorist
 % motion: substituted root
 % groove: sparse
 % difficulty: intermediate
-% harmony: Cmaj7 held throughout
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Colorist]""_[M:Substituted Root]"D,8 | D,8 | "^[R:Colorist]"A,,8 | A,,8 | D,8 | A,,8 | D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+"^[R:Colorist]""_[M:Substituted Root]"E,8 | "^[R:Colorist]"A,,8 | "^[R:Colorist]"D,8 |]

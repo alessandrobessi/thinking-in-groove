@@ -65,44 +65,30 @@ diagram shows the same solid bracket shape recurring unchanged.
 
 ## Musical Example
 
-An 8-bar funk groove over static **Bb7** works well, since funk is a
-genre organized almost entirely around short, distinctive cells.
-
-Bar 1 states the cell in full: root (Bb) on beat 1, a syncopated
-sixteenth-note anticipation into the fifth (F) just before beat 3
-(a Syncopation Point, per Chapter 20), and a brief rest on the "and" of
-4 (a small, local Space, per Chapter 21) before the cell repeats. That
-one-bar figure — root, syncopated fifth, held rest — is the entire
-Repetition Cell: distinctive enough to recognize immediately, brief
-enough to state in one bar. Bars 2 through 8 repeat this exact cell
-verbatim, unchanged, seven more times. The example is deliberately
-monotonous in this chapter — no variation is introduced yet — so the
-identity of the cell itself, and the effect of hearing it locked in
-place bar after bar, is unmistakable before Chapter 23 shows what
-happens when it starts to change.
-
+Take the laboratory progression and replace each plain root with a
+short repeating cell.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Repetition Cell -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Repetition Cell -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
-K:E
-% chapter: 22-the-repetition-cell-the-riff-atom
-% role: n/a
-% motion: n/a
-% groove: one riff atom, repeated unvaried
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: E7#9 one-chord funk vamp; the same one-bar cell repeated eight times, establishing the groove's identity
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[G:Repetition Cell]"E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 | E,,2 G,,2 A,,2 z2 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -111,25 +97,56 @@ V:Bass clef=bass
 
 :::
 
+Same progression; the same root-fifth-root-fifth rhythmic cell repeats
+under each chord — a Repetition Cell, its identity constant even as the
+pitches change underneath it.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Repetition Cell: same lab, a root-fifth cell under every chord</p>
+<pre class="abc-source">
+X:1
+T:The Repetition Cell: same lab, a root-fifth cell under every chord
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:C
+% chapter: 22-the-repetition-cell-the-riff-atom
+% role: n/a
+% motion: n/a
+% groove: repeated cell
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"_[G:Repetition Cell]"D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Every bar carries an identical annotation stack — `"^[R:Driver]"` above
-the staff (this cell's job is rhythmic propulsion more than harmonic
-definition) and `"_[M:Root Motion|G:Repetition Cell]"` below it — and
-the bracket grouping described above spans each bar individually rather
-than the phrase as a whole, since the cell being illustrated is one bar
-long. Identical annotation across all 8 bars is itself the point: there
-is nothing for the eye to compare between bars because nothing has
-changed yet.
+Each bar now carries four attacks instead of the laboratory's one, but
+the shape is identical bar to bar: root, fifth, root, fifth, tagged
+`"_[G:Repetition Cell]"` at the first note of bar 1. The cell's pitches
+change with the harmony (D-A under Dm7, G-D under G7, C-G under Cmaj7)
+but its rhythmic and intervallic shape doesn't — that constancy across
+changing harmony is what makes it a cell rather than three unrelated
+figures.
 
-*Bass tab for “The Repetition Cell -- worked example” (see `examples/by-chapter/22-the-repetition-cell-the-riff-atom/` for the source files)*
+*Bass tab for "The Repetition Cell: same lab, a root-fifth cell under every chord"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|0-3-5---|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--12--12|--------|--10--10|
+E|10--10--|3-103-10|8---8---|
 ```
 
 

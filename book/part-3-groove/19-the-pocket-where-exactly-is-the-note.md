@@ -78,53 +78,30 @@ Pocket is an independent axis, not a property of Role or Motion.
 
 ## Musical Example
 
-An 8-bar illustration works best as three short passes over the same
-material rather than one long line, since Pocket only becomes audible in
-contrast.
-
-Set a static vamp: **Dm7** for the full 8 bars, a moderate funk tempo
-(quarter = 92), 4/4. The bass line itself is intentionally simple and
-repetitive — a one-bar cell built from the root and fifth (D and A),
-played as steady quarter notes with one eighth-note pickup into bar 2,
-4, 6, and 8 — so that the *only* variable across the three passes is
-where each attack sits relative to the click:
-
-- **Pass 1 (bars 1–2, repeated as the reference):** every note
-  dead-center on the pulse.
-- **Pass 2 (bars 3–4):** the identical rhythm, every note shifted
-  consistently behind the beat — late enough to be clearly audible
-  against a click, not so late it reads as a mistake.
-- **Pass 3 (bars 5–6):** the identical rhythm again, shifted ahead of
-  the beat instead.
-- **Bars 7–8:** return to dead-center, so the ear has a stable reference
-  to compare all three against on the way out.
-
-The point of the example is that the pitch content, the rhythm on the
-page, and the Role (Anchor throughout — this is a pedal-like, root/fifth
-grounding line) never change. Only the Pocket does.
-
+Take the laboratory progression and change only one thing: when each
+root actually lands.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Pocket -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Pocket -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=96
-K:E
-% chapter: 19-the-pocket-where-exactly-is-the-note
-% role: n/a
-% motion: n/a
-% groove: pocket contrast: on-beat then pushed
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: E7#9 one-chord funk vamp throughout. Groove-layer timing (push/lay-back) is shown here as a full eighth-note shift, a common written approximation -- see docs/visual-language.md's pulse-timeline convention for the finer-grained diagram version.
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[G:Pocket]"E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | E,,2 z2 E,,2 z2 | z1 "_[G:Push]"E,,2 z1 z1 E,,2 z1 | z1 E,,2 z1 z1 E,,2 z1 | z1 E,,2 z1 z1 E,,2 z1 | z1 E,,2 z1 z1 E,,2 z1 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -133,25 +110,55 @@ V:Bass clef=bass
 
 :::
 
+Same progression; each new root arrives an eighth-note early, on the
+"and" of the last beat of the previous bar, instead of landing on beat
+1 — the Pocket sitting ahead of the beat.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Pocket: same lab, each root arrives an eighth early</p>
+<pre class="abc-source">
+X:1
+T:The Pocket: same lab, each root arrives an eighth early
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=94
+K:C
+% chapter: 19-the-pocket-where-exactly-is-the-note
+% role: n/a
+% motion: n/a
+% groove: pushed
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]"D,7 "_[G:Push]"G,,1 | G,,7 C,1 | C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Once notated, all three passes share identical Role tags
-(`"^[R:Anchor]"`) and identical Motion tags (`"_[M:Pedal]"`) at every
-note — reinforcing that Role and Motion are unchanged. The Groove tag is
-the only one that differs pass to pass: `"_[G:Center]"` for bars 1–2 and
-7–8, `"_[G:Lay-back]"` for bars 3–4, `"_[G:Push]"` for bars 5–6. On the
-rendered diagram, this is the only layer whose symbol moves — the green
-dots drift right, then left, of their ticks while the blue Role icon and
-amber Motion arc stay fixed in place above and below them.
+The laboratory's tags read `"^[R:Anchor]""_[M:Root Motion]"` at each
+root, with no Groove tag at all — a plain reading makes no claim about
+time-feel. In the variation, the one note that arrives ahead of its
+bar — the G that anticipates beat 1 of bar 2 — carries `"_[G:Push]"`;
+every other note is untagged for Groove because it lands exactly where
+notation already implies it should.
 
-*Bass tab for “The Pocket -- worked example” (see `examples/by-chapter/19-the-pocket-where-exactly-is-the-note/` for the source files)*
+*Bass tab for "The Pocket: same lab, each root arrives an eighth early"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|0---0---|0---0---|0---0---|0---0---|-0---0--|-0---0--|-0---0--|-0---0--|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10-----3|3------8|8-------|
 ```
 
 

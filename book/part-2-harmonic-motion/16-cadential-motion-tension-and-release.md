@@ -32,32 +32,29 @@ Because the tick is added on top of whatever Motion line precedes it, a full cad
 
 ## Musical Example
 
-Picture the final 4 measures of a 16-bar jazz-funk head in F, tempo around 108 bpm. Bars 13-14: harmony sits on Gm7 (ii), the bass playing a Driver-Role eighth-note pattern that gradually thins out, a subtle slowing of Harmonic Rhythm signaling an ending is near. Bar 15: root motion down a fifth to C7 (V), the dominant, held with rhythmic space around it — the tension point. Bar 16: root motion down a fifth again, resolving fully to F (I), landing exactly on the downbeat with nothing else happening rhythmically around it, letting the resolution breathe. This full cadence closes the head cleanly, distinct from an earlier half cadence at bar 8 that only reached C7 before continuing.
-
-Set directly beside that half cadence at bar 8 — the same Gm7-to-C7 motion, the same held space around the arrival — the contrast is instructive: identical Root Motion, identical rhythmic treatment, and yet bar 8 reads as a comma while bar 16 reads as a period, purely because of what harmony each one lands on.
-
+The laboratory itself is already a full cadence — Dm7-G7-Cmaj7 is exactly a ii-V-I. What makes the final arrival read as cadential rather than as one more root change is simply the room it's given:
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Cadential Motion -- worked example</p>
+<p class="abc-caption">Cadential Motion: the lab exactly, arrival given room</p>
 <pre class="abc-source">
 X:1
-T:Cadential Motion -- worked example
+T:Cadential Motion: the lab exactly, arrival given room
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=88
 K:C
 % chapter: 16-cadential-motion-tension-and-release
 % role: n/a
 % motion: cadential motion
 % groove: sparse
 % difficulty: beginner
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Anchor]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 | C,8 | "_[G:Space]"C,4 z4 |]
+D,8 | G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,4 "_[G:Space]"z4 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,19 @@ V:Bass clef=bass
 
 :::
 
+Compare this to Chapter 10's baseline, which plays the identical three roots with no space after the arrival: same Root Motion, same pitches, but without the held space and phrase-final position, it reads as one root change among several rather than a close. A half cadence would use the same shape but stop on G7 instead of continuing to C — try it yourself in Practice Ideas below.
 
 ## Annotated Notation
 
-The annotated score would place a single double-tick mark directly over the downbeat of bar 16, at the end of the two stacked Root Motion diagonal lines (Gm7-to-C7, C7-to-F), making it visually clear that this specific arrival — and not the identical-looking descending-fifth motion elsewhere in the piece — is the one doing cadential, phrase-ending work.
+The double-tick Cadential Motion marker sits only on the C arrival, not on the D-to-G or G-to-C root changes themselves — position, not interval, is what the tag is marking. The trailing `"_[G:Space]"` tag on the second half of the final bar is doing real work here: it's the held silence that gives the ear room to register the arrival as an ending.
 
-*Bass tab for “Cadential Motion -- worked example” (see `examples/by-chapter/16-cadential-motion-tension-and-release/` for the source files)*
+*Bass tab for "Cadential Motion: the lab exactly, arrival given room":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|10------|10------|3-------|3-------|8-------|8-------|8-------|8-------|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|3-------|8-------|
 ```
 
 

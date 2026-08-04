@@ -32,32 +32,29 @@ A Pedal's Groove layer is almost always low-**Density** (Chapter 24) — sparse,
 
 ## Musical Example
 
-Picture a 12-measure fusion ballad passage in D, around 66 bpm, built to showcase a dominant pedal. Bars 1-4: bass holds A (the fifth of D) in a slow, breathing rhythm — dotted-quarter, eighth, half — while the harmony above moves Bm7 to G6/9 to F#m7 to Em7, none of it resolving. Bars 5-8: the same A pedal continues, now under an Fmaj7#11 and an Ebmaj7#11 — chords increasingly distant from D major, the pedal the only thing telling the ear "we have not left D, we have only wandered from it." Bars 9-12: the pedal finally releases, walking down by step, A-G-F#-E-D, arriving on a low D exactly as the harmony above resolves to Dmaj7 — the release of both tensions, harmonic and rhythmic, at once.
-
-A shorter, contrasting 4-bar tag could show the other flavor: a tonic pedal opening a piece, D held under a Dmaj7-Em7-Fmaj7#11-Dmaj7 progression that never really leaves home — no release needed here, because the point of a tonic pedal is usually to establish "we are here" before the piece moves anywhere at all, rather than to manufacture suspense the way the dominant pedal above does.
-
+Against the laboratory stated plainly —
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Pedal -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Pedal -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=66
-K:D
-% chapter: 11-the-pedal-stillness-under-change
+Q:1/4=88
+K:C
+% chapter: lab-baseline
 % role: anchor
-% motion: pedal
-% groove: low-density
-% difficulty: intermediate
-% harmony: Bm7 | Bm7 | G6/9 | G6/9 | F#m7 | Em7 | Fmaj7#11 | Fmaj7#11 | Ebmaj7#11 | Ebmaj7#11 | (release) | Dmaj7
+% motion: root motion
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal]"A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | A,,8 | "_[M:Root Motion]"A,,8 | G,,8 | ^F,,8 | E,,4 "^[R:Anchor]""_[M:Cadential Motion]"D,4 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -66,18 +63,50 @@ V:Bass clef=bass
 
 :::
 
+— a Pedal keeps the bass on D through both Dm7 and G7, restruck rather than left to sustain, before finally releasing to C:
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Pedal: same lab, D restruck through two chords</p>
+<pre class="abc-source">
+X:1
+T:The Pedal: same lab, D restruck through two chords
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=84
+K:C
+% chapter: 11-the-pedal-stillness-under-change
+% role: anchor
+% motion: pedal
+% groove: low-density
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Anchor]""_[M:Pedal]"D,4 D,4 | D,4 D,4 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
+
+Root Motion would have moved D to G on beat 1 of the second bar, exactly as the baseline does. The Pedal declines: D stays, restruck, straight through the G7 bar, and the only Root Motion in this example is the eventual release into C.
 
 ## Annotated Notation
 
-The annotated score would show one continuous amber bracket running under bars 1-8, broken only where the pedal note is restruck (visible as repeated Anchor icons in the Role layer along its length), and then a clean transition into a short Root Motion diagonal line for the stepwise release in bars 9-12 — letting a reader see, at a glance, exactly where "held" gives way to "moving" and how that moment lines up with the harmonic resolution above it.
+The `"_[M:Pedal]"` tag spans both D bars, distinguishing this from a plain `"^[R:Anchor]"` reading of the same pitch — the tag marks that the note is being held *against* a change happening above it, not simply stating an unchanging root. The release carries its own tag, `"_[M:Cadential Motion]"`, marking the moment the held note finally lets go.
 
-*Bass tab for “The Pedal -- worked example” (see `examples/by-chapter/11-the-pedal-stillness-under-change/` for the source files)*
+*Bass tab for "The Pedal: same lab, D restruck through two chords":*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-E|5-------|5-------|5-------|5-------|5-------|5-------|5-------|5-------|5-------|3-------|2-------|0---10--|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10--10--|10--10--|8-------|
 ```
 
 

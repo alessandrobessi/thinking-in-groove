@@ -79,42 +79,30 @@ manufacture the sensation of forward lean.
 
 ## Musical Example
 
-Picture an 8-measure fusion vamp in **E minor**, tempo around 132 BPM,
-straight sixteenth-note feel, under a keyboard solo. The harmony is a
-single Em7 chord for the entire passage — there is, on purpose, nothing
-for the bass to define or connect, because the harmonic interest has
-been handed entirely to the soloist.
-
-The bass plays a two-beat repeating cell: E, E, G, E — sixteenth notes,
-landing hard on the low E on beats 1 and 3 of every measure, with the
-G functioning as a brief melodic lift rather than a harmonic event. The
-same four-note cell repeats, unchanged, for all 8 measures. What carries
-the example is not variation but insistence: the same rhythmic gesture,
-played with unwavering consistency, functioning as a motor the rest of
-the band can lean against.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Driver -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Driver -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=104
-K:E
-% chapter: 04-the-driver
-% role: driver
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
 % motion: root motion
-% groove: high-density
-% difficulty: intermediate
-% harmony: E7#9 (one-chord funk vamp throughout)
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"^[R:Driver]""_[G:Density]"E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 z1 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -123,30 +111,54 @@ V:Bass clef=bass
 
 :::
 
+Same three roots as the laboratory, but restruck on every eighth note
+instead of held once per bar — momentum replacing stillness.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Driver: same lab, restruck on every eighth note</p>
+<pre class="abc-source">
+X:1
+T:The Driver: same lab, restruck on every eighth note
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+% chapter: 04-the-driver
+% role: driver
+% motion: root motion
+% groove: high-density
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"^[R:Driver]""_[G:Density]"D,1 D,1 D,1 D,1 D,1 D,1 D,1 D,1 | G,,1 G,,1 G,,1 G,,1 G,,1 G,,1 G,,1 G,,1 | C,1 C,1 C,1 C,1 C,1 C,1 C,1 C,1 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, a single `"^[R:Driver]"` tag appears above the first
-occurrence of the repeating cell in measure 1, understood to apply to
-every repetition that follows, rather than being re-marked on each
-individual repeat — re-tagging every instance would visually clutter
-exactly the kind of passage whose point is unbroken repetition. The
-Groove layer beneath carries a **Repetition Cell** bracket (Chapter 22)
-spanning each two-beat unit.
+A single `"^[R:Driver]"` tag appears on the first eighth note of bar 1,
+understood to apply to every repetition that follows rather than being
+re-marked on each one — re-tagging every eighth would clutter exactly
+the passage whose point is unbroken repetition. The Groove layer
+carries a Density tag at the same spot: eight notes per bar, where the
+laboratory had one.
 
-On the bass tab, this example should look almost mechanically regular —
-the same fret pattern repeated measure after measure with no rhythmic
-deviation — and that visual regularity is itself diagnostic: if a
-passage intended as a Driver looks irregular on the tab, it likely won't
-deliver the locked-in feel the Role depends on.
-
-*Bass tab for “The Driver -- worked example” (see `examples/by-chapter/04-the-driver/` for the source files)*
+*Bass tab for "The Driver: same lab, restruck on every eighth note" (see `examples/by-chapter/04-the-driver/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|00000000|00000000|00000001|00000000|00000000|00000000|00000001|0000000-|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|11111111|33333333|88888888|
 ```
 
 

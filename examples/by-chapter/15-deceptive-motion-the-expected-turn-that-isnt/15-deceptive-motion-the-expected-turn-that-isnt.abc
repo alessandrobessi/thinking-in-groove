@@ -1,15 +1,15 @@
 X:1
-T:Deceptive Motion -- worked example
+T:Deceptive Motion: same lab, G resolves to A instead of C
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=98
+Q:1/4=92
 K:C
 % chapter: 15-deceptive-motion-the-expected-turn-that-isnt
 % role: n/a
 % motion: deceptive motion
 % groove: moderate-density
 % difficulty: intermediate
-% harmony: Dm7 | Dm7 | G7 | G7 | Am7 (deceptive) | Am7 | G7 | Cmaj7 (delayed resolution)
+% harmony: Dm7 | G7 | Am7 (deceptive -- C never arrives)
 V:Bass clef=bass
-"^[R:Anchor]"D,8 | D,8 | "_[M:Root Motion]"G,,8 | G,,8 | "_[M:Deceptive Motion]"A,,8 | A,,8 | "_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
+"^[R:Anchor]"D,8 | "_[M:Root Motion]"G,,8 | "_[M:Deceptive Motion]"A,,8 |]

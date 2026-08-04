@@ -65,41 +65,30 @@ graphic convention.
 
 ## Musical Example
 
-An 8-bar phrase over a static **Cm7** demonstrates Density directly by
-holding every other variable fixed and changing only the note count.
-
-Bars 1–4 present a low-density passage: the root and fifth (C and G),
-one note per beat, functioning as a plain Anchor. Bars 5–8 restate the
-identical harmonic content and the identical underlying Role — still
-grounding Cm7, still built from the same two pitches — but at high
-density: the same two notes now cycle through a driving sixteenth-note
-pattern, four times the note count per bar. Nothing about the harmony,
-the Role, or even the pitch material has changed between the two
-halves. Only Density has, and the perceived energy shift from bar 4 to
-bar 5 should be the most obvious event in the whole example.
-
+Take the laboratory progression and change the note count under the
+middle chord only.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Density -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Density -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
-K:E
-% chapter: 24-density-controlling-energy-through-note-count
-% role: n/a
-% motion: n/a
-% groove: contrast: low density then high density
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: E7#9 one-chord vamp. Bars 1-4: one note per bar. Bars 5-8: eight notes per bar, same harmony, far more energy.
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-"_[G:Density]"E,,8 | E,,8 | E,,8 | E,,8 | "_[G:Density]"E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 | E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 | E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 | E,,1 G,,1 E,,1 A,,1 E,,1 G,,1 E,,1 A,,1 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -108,24 +97,55 @@ V:Bass clef=bass
 
 :::
 
+Same progression; Dm7 and Cmaj7 stay at the laboratory's original low
+density, but G7 explodes into eight notes per bar — density as a
+deliberate, temporary choice, not a constant setting.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Density: same lab, G7 explodes into eight notes</p>
+<pre class="abc-source">
+X:1
+T:Density: same lab, G7 explodes into eight notes
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:C
+% chapter: 24-density-controlling-energy-through-note-count
+% role: n/a
+% motion: n/a
+% groove: contrast: low then high density
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+"_[G:Density]"D,8 | G,,1 A,,1 G,,1 A,,1 G,,1 A,,1 G,,1 A,,1 | C,8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Both halves carry the identical Role tag, `"^[R:Anchor]"`, and the
-identical Motion tag, `"_[M:Pedal]"` — the only difference in
-annotation is the Groove tag, `"_[G:Low Density]"` in bars 1–4 versus
-`"_[G:High Density]"` in bars 5–8. On the rendered diagram, this is
-meant to be the starkest possible contrast: identical Role icon,
-identical Motion arc shape, and a Groove-layer timeline that visibly
-switches from sparse to crowded exactly at the bar 4–5 boundary.
+Bars 1 and 3 keep the laboratory's single whole-note root, untagged for
+Groove. Bar 2 carries `"_[G:Density]"` at its first note, where eight
+separate eighth-note attacks (alternating G and its 9th, A) replace the
+single whole note the baseline used — the Role (`"^[R:Anchor]"`,
+unstated but implied by continuity) hasn't changed, only how many times
+per bar it gets restated.
 
-*Bass tab for “Density -- worked example” (see `examples/by-chapter/24-density-controlling-energy-through-note-count/` for the source files)*
+*Bass tab for "Density: same lab, G7 explodes into eight notes"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|0-------|0-------|0-------|0-------|03050305|03050305|03050305|03050305|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|10------|35353535|8-------|
 ```
 
 

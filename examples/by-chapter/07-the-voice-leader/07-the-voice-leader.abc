@@ -1,5 +1,5 @@
 X:1
-T:The Voice-Leader -- worked example
+T:The Voice-Leader: same lab, smallest possible steps
 C:Thinking in Groove
 M:4/4
 L:1/8
@@ -10,6 +10,6 @@ K:C
 % motion: passing motion
 % groove: sparse
 % difficulty: intermediate
-% harmony: Dm7 | Dm7 | G7 | G7 | Cmaj7 | Cmaj7 | Cmaj7 | Cmaj7
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Voice-Leader]"D,8 | D,8 | "_[M:Passing Motion]"C,8 | C,8 | "_[M:Passing Motion]"B,,8 | B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 | C,8 |]
+"^[R:Voice-Leader]"C,8 | "_[M:Passing Motion]"B,,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]

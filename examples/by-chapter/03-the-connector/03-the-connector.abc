@@ -1,15 +1,15 @@
 X:1
-T:The Connector -- worked example
+T:The Connector: same lab, short runs instead of leaps
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=96
-K:F
+Q:1/4=92
+K:C
 % chapter: 03-the-connector
 % role: connector
 % motion: passing motion
 % groove: moderate-density
 % difficulty: beginner
-% harmony: Gm7 | Gm7 | C7 | C7 | Gm7 | Gm7 | C7 | F
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]""_[M:Root Motion]"C,8 | C,8 | G,,8 | "^[R:Connector]""_[M:Passing Motion]"G,,2 A,,2 _B,,2 B,,2 | "^[R:Anchor]"C,8 | "^[R:Anchor]""_[M:Cadential Motion]"F,,8 |]
+"^[R:Anchor]"D,6 "^[R:Connector]""_[M:Passing Motion]"E,1 ^F,1 | G,,6 A,,1 B,,1 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]

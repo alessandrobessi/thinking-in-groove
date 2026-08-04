@@ -76,44 +76,30 @@ Motion tags still apply underneath it.
 
 ## Musical Example
 
-Picture a jazz trio passage in **F major**, medium swing, where the
-piano states a two-bar melodic idea and then rests for the following two
-bars, standard call-and-response phrasing. During the piano's rest, the
-bass — which had been walking a fairly conventional quarter-note line
-under the piano's statement — breaks from that walking pattern and
-plays a short, syncopated four-note answering phrase that rhythmically
-echoes the shape of the piano's final gesture, landing its last note
-exactly where the drummer's ride cymbal accents the "and" of beat 4.
-
-The harmonic content of that answering phrase is real but secondary —
-it happens to outline the current chord's 5th and 7th, which is
-harmonically sound, but the phrase was constructed primarily to answer
-the piano's rhythmic shape and meet the drummer's accent, not to serve
-any independent harmonic agenda. Once the piano re-enters with its next
-two-bar idea, the bass returns to its walking line.
-
+The laboratory, stated plainly: the bass states the root of each
+chord, one whole note per bar.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">The Commentator -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:The Commentator -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=100
-K:G
-% chapter: 08-the-commentator
-% role: commentator
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
 % motion: root motion
-% groove: syncopated, sparse
-% difficulty: intermediate
-% harmony: G7 vamp; bass punctuates independent of the harmony
+% groove: none (plain reading)
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -122,29 +108,55 @@ z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 | z4 "^[R:Commen
 
 :::
 
+Same progression; the bass drops out almost entirely, punctuating with
+one short rhythmic fragment independent of the chord changes —
+commentary, not accompaniment.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">The Commentator: same lab, almost silent, one fragment</p>
+<pre class="abc-source">
+X:1
+T:The Commentator: same lab, almost silent, one fragment
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=92
+K:C
+% chapter: 08-the-commentator
+% role: commentator
+% motion: n/a
+% groove: syncopated, sparse
+% difficulty: intermediate
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+z8 | z4 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 | z8 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-Notated, the walking passage under the piano's statement carries a mix
-of Anchor and Connector tags as usual. The four-note answering phrase
-carries `"^[R:Commentator]"`, with a caption reading "answers piano
-phrase, lands with ride cymbal accent" rather than a Motion tag, since
-the phrase's organizing logic is conversational timing rather than a
-harmonic device like passing motion or approach.
+Bars 1 and 3 are silent. The only sound in the whole example — G then
+D, in the second half of bar 2 — carries `"^[R:Commentator]"` above and
+`"_[G:Syncopation Point]"` below: no Motion tag, because the fragment
+isn't connecting or defining anything, it's reacting. A caption naming
+what it answers (a fill, a cue, another instrument's phrase) belongs
+here in a real arrangement, in place of the usual harmonic-device tag.
 
-On the bass tab, it can help to align the Commentator phrase visually
-with a brief transcription or description of the phrase it's answering
-(the piano's closing gesture, the drummer's accent), even in a
-single-instrument tab, so a reader without the full score can still see
-what the bass is reacting to.
-
-*Bass tab for “The Commentator -- worked example” (see `examples/by-chapter/08-the-commentator/` for the source files)*
+*Bass tab for "The Commentator: same lab, almost silent, one fragment" (see `examples/by-chapter/08-the-commentator/` for the source files)*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|--------|----3-10|--------|----3-10|--------|----3-10|--------|----3-10|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|--------|----3-10|--------|
 ```
 
 

@@ -1,15 +1,15 @@
 X:1
-T:The Driver -- worked example
+T:The Driver: same lab, restruck on every eighth note
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=104
-K:E
+Q:1/4=100
+K:C
 % chapter: 04-the-driver
 % role: driver
 % motion: root motion
 % groove: high-density
 % difficulty: intermediate
-% harmony: E7#9 (one-chord funk vamp throughout)
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
 V:Bass clef=bass
-"^[R:Driver]""_[G:Density]"E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,1 | E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 E,,1 z1 |]
+"^[R:Driver]""_[G:Density]"D,1 D,1 D,1 D,1 D,1 D,1 D,1 D,1 | G,,1 G,,1 G,,1 G,,1 G,,1 G,,1 G,,1 G,,1 | C,1 C,1 C,1 C,1 C,1 C,1 C,1 C,1 |]

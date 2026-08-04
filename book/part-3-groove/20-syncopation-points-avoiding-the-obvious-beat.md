@@ -69,42 +69,30 @@ push.
 
 ## Musical Example
 
-An 8-bar funk vamp over a static **Em7** makes the point cleanly, since
-a static harmony removes any ambiguity about whether a rhythmic surprise
-is being caused by the changing chord or by the syncopation itself.
-
-Bars 1–2 establish the reference: the root (E) played on beats 1 and 3,
-plainly on the strong beats, so the listener's ear locks onto where
-"the beat" lives. Bars 3–4 introduce the syncopation point: the same
-root note is now played on the *and* of 2 and the *and* of 4 instead —
-sixteenth-note or eighth-note anticipations that leave beats 1 and 3
-themselves silent. Bars 5–6 repeat the syncopated figure exactly,
-establishing it as a defining feature of the groove rather than a
-one-off accent. Bars 7–8 resolve back to landing squarely on beat 1,
-giving the tension somewhere to release.
-
+Take the laboratory progression and displace every root off the
+downbeat.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example">
-<p class="abc-caption">Syncopation Points -- worked example</p>
+<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
 <pre class="abc-source">
 X:1
-T:Syncopation Points -- worked example
+T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
 C:Thinking in Groove
 M:4/4
 L:1/8
-Q:1/4=98
-K:E
-% chapter: 20-syncopation-points-avoiding-the-obvious-beat
-% role: n/a
-% motion: n/a
-% groove: syncopated throughout
+Q:1/4=88
+K:C
+% chapter: lab-baseline
+% role: anchor
+% motion: root motion
+% groove: none (plain reading)
 % difficulty: beginner
-% harmony: E7#9 one-chord funk vamp; every hit lands on the "and" of 1 and 3, never on the downbeat
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
 V:Bass clef=bass
-z2 "_[G:Syncopation Point]"E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 |]
+"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
 </pre>
 <div class="abc-rendered"></div>
 <button class="abc-play" type="button">▶ Play</button>
@@ -113,24 +101,54 @@ z2 "_[G:Syncopation Point]"E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2 E,,2 z2 E,,2 | z2
 
 :::
 
+Same progression; every root lands on the "and" of beat 1 instead of
+the downbeat — a Syncopation Point repeated three times.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example">
+<p class="abc-caption">Syncopation Points: same lab, every root off the downbeat</p>
+<pre class="abc-source">
+X:1
+T:Syncopation Points: same lab, every root off the downbeat
+C:Thinking in Groove
+M:4/4
+L:1/8
+Q:1/4=96
+K:C
+% chapter: 20-syncopation-points-avoiding-the-obvious-beat
+% role: n/a
+% motion: n/a
+% groove: syncopated
+% difficulty: beginner
+% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
+V:Bass clef=bass
+z2 "_[G:Syncopation Point]"D,6 | z2 G,,6 | z2 C,6 |]
+</pre>
+<div class="abc-rendered"></div>
+<button class="abc-play" type="button">▶ Play</button>
+</div>
+```
+
+:::
 
 ## Annotated Notation
 
-The Motion tag at the syncopated notes reads `"_[M:Root Motion]"` since
-the pitch content is unchanged from the reference bars — only the
-Groove tag changes, from `"_[G:On-beat]"` in bars 1–2 to
-`"_[G:Syncopation Point]"` in bars 3–6 and back to `"_[G:On-beat]"` in
-bars 7–8. The Role tag stays `"^[R:Anchor]"` throughout, underlining
-that a syncopated Anchor is still an Anchor — displacement changes when
-the harmonic grounding is stated, not whether it's being stated.
+Every root here carries `"_[G:Syncopation Point]"` where the laboratory
+carried no Groove tag at all — the Role and Motion tags underneath are
+unchanged (`"^[R:Anchor]"` is implied by continuity, the pitch content
+is identical to the baseline), which is exactly the point: nothing
+about the note's job or its harmonic motion changed, only which
+subdivision it's permitted to land on.
 
-*Bass tab for “Syncopation Points -- worked example” (see `examples/by-chapter/20-syncopation-points-avoiding-the-obvious-beat/` for the source files)*
+*Bass tab for "Syncopation Points: same lab, every root off the downbeat"*
 
 ```text
-G|--------|--------|--------|--------|--------|--------|--------|--------|
-D|--------|--------|--------|--------|--------|--------|--------|--------|
-A|--------|--------|--------|--------|--------|--------|--------|--------|
-E|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|--0---0-|
+G|--------|--------|--------|
+D|--------|--------|--------|
+A|--------|--------|--------|
+E|--10----|--3-----|--8-----|
 ```
 
 
