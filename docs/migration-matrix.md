@@ -22,7 +22,7 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-2-harmonic-motion/16-cadential-motion-tension-and-release.md` | Migrated | Contrary Motion now uses opposing outer voices over shared functional harmony. |
 | `part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md` | Rewrite | Ch. 34 Harmonic Rhythm. |
 | `part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md` | Rewrite | Ch. 17 Motion Maps. |
-| `part-3-groove/19-the-pocket-where-exactly-is-the-note.md` | Remove/replace | Ch. 19 Attack Placement and Ch. 27 Performed Feel; old definition is contradictory. |
+| `part-3-groove/19-the-pocket-where-exactly-is-the-note.md` | Migrated | Attack Placement now separates the written grid from microtiming and performed pocket. |
 | `part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md` | Rewrite | Ch. 22 Syncopation. |
 | `part-3-groove/21-space-as-content-the-power-of-not-playing.md` | Rewrite | Ch. 21 Space with continuing right-hand context. |
 | `part-3-groove/22-the-repetition-cell-the-riff-atom.md` | Rewrite | Ch. 24 Repeated Cells. |

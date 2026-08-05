@@ -1,197 +1,144 @@
-# The Pocket — Where Exactly Is the Note
+# Attack Placement
 
-*Chapter 19 — Part 3, Groove: How the Bass Creates Feel.*
+*Groove Pilot — How Is Motion Organized in Time?*
 
-**Term:** Pocket
+## The Question
 
-**Definition:** The precise rhythmic placement of a note relative to the underlying pulse (ahead, dead-center, behind).
+How does a groove change when the same notes attack at different points in the written meter?
 
-## Intuition
+## The Mental Model
 
-Play the same eight bars for three different bass players and record all
-three. Same notes, same rhythm on paper, same tempo on the metronome.
-Listen back and you will hear three different feels — one urgent, one
-relaxed, one mechanical. Nothing about *what* they played differs.
-What differs is *exactly when*, inside the beat, each note actually
-lands. That's the Pocket, and it is the first Groove concept in this
-book precisely because it is invisible on the page and unmistakable to
-the ear.
+**Attack placement** is the location of a note’s beginning on the notated rhythmic grid. An attack can fall on a beat, on an offbeat, or on a smaller subdivision. If notation moves a note from beat 2 to the “and” of beat 2, it has changed attack placement.
 
-Every earlier chapter in this book asked what a note does — its Role,
-its harmonic Motion. The Pocket asks something a printed rhythm value
-cannot answer: relative to the pulse a listener feels, does this note
-arrive early, dead-center, or late?
+This is not microtiming. A performer may play either written attack slightly early or late, but conventional notation does not describe those tiny timing differences precisely. It describes the shared metrical address: beat 2, its “and,” or another named subdivision. **Pocket** belongs to the coordinated performed feel of the ensemble; it is not a synonym for a written offbeat.
 
-## Mental Model
+## The Microscope
 
-Standard notation quantizes time into fixed values — quarter notes,
-eighth notes, sixteenth notes — and treats a note as either "on" one of
-those grid positions or "off" it, with syncopation as the only
-recognized deviation. Pocket describes a much finer, continuous
-dimension underneath that grid: *within* a written eighth note, is this
-specific attack a few milliseconds ahead of the felt pulse, dead center
-on it, or a few milliseconds behind it?
-
-Three reference positions are useful:
-
-- **Ahead of the beat.** The note anticipates the pulse by a small,
-  consistent margin. This reads as urgency, forward lean, or
-  excitement — common in up-tempo bebop walking lines and aggressive
-  funk.
-- **Dead-center.** The note lands exactly with the felt pulse. This
-  reads as neutral, precise, sometimes mechanical if sustained across
-  an entire performance — useful as a deliberate effect, not just a
-  default.
-- **Behind the beat.** The note arrives a small, consistent margin
-  after the pulse. This reads as relaxed, heavy, or laid-back —
-  the signature feel of much neo-soul and blues-inflected playing.
-
-The critical word in all three is *consistent*. A note that's early one
-bar and late the next isn't demonstrating Pocket, it's demonstrating
-poor time. Pocket is a chosen, sustained relationship to the pulse, not
-a random scatter around it. A bass line's Role tells you its harmonic
-job; its Pocket tells you where in time that job gets done — the two
-are independent choices, which is why the same Anchor line can be played
-three different ways and feel like three different bass players.
-
-## Visual Explanation
-
-On the Groove-layer pulse timeline (green, `#16A34A`, beneath the tab —
-see `docs/visual-language.md`), each bass note is a filled dot plotted
-against a row of evenly spaced pulse ticks. Pocket is read directly off
-the dot's horizontal position relative to its nearest tick:
-
-- A dot **shifted left** of its tick = ahead of the beat.
-- A dot **centered** on its tick = dead-center.
-- A dot **shifted right** of its tick = behind the beat (lay-back).
-
-Because Pocket is a whole-line tendency rather than an isolated event,
-a chapter's diagram typically shows the *same* small leftward or
-rightward offset repeated across every dot in the excerpt — a visibly
-consistent lean, not an isolated outlier. (Compare this to Chapter 25,
-The Push and Lay-Back, where the offset appears at one specific,
-structurally meaningful moment rather than throughout.) The Role layer
-above the staff (blue) and the Motion layer below it (amber) are
-unaffected by Pocket — the same Anchor-Pedal combination can be drawn
-with the dots shifted any of the three ways, which is exactly the point:
-Pocket is an independent axis, not a property of Role or Motion.
-
-## Musical Example
-
-Take the laboratory progression and change only one thing: when each
-root actually lands.
+Both versions use the same C9 harmony, right-hand quarter-note reference, bass pitches, note lengths, register, and tempo. A places four short bass attacks on beats 1–4. B places them on the four eighth-note offbeats.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="attack-placement-lab">
+  <div class="comparison-controls" aria-label="Onbeat and offbeat attack comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Onbeats</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Offbeats</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="attack-onbeats">
+      <p class="abc-caption"><strong>A — Onbeats.</strong> Every bass note begins with a right-hand chord.</p>
+      <p class="abc-description">Two bars of C9 with short bass notes C, E-flat, G, and B-flat attacking on beats 1, 2, 3, and 4.</p>
+      <pre class="abc-source">X:1
+T:Attack Placement — onbeats
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^onbeats"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="attack-offbeats">
+      <p class="abc-caption"><strong>B — Offbeats.</strong> Every bass note begins halfway between right-hand chords.</p>
+      <p class="abc-description">The same C9 material with C, E-flat, G, and B-flat attacking on each written “and.”</p>
+      <pre class="abc-source">X:1
+T:Attack Placement — offbeats
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^offbeats"z1 C,1 z1 _E,1 z1 G,1 z1 _B,1 | z1 C,1 z1 _E,1 z1 G,1 z1 _B,1 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-Same progression; each new root arrives an eighth-note early, on the
-"and" of the last beat of the previous bar, instead of landing on beat
-1 — the Pocket sitting ahead of the beat.
+## Listen
+
+Use **Harmony only** to internalize the four beats. Then use **Bass only** and count aloud. In **Full**, A locks attack-for-attack with the chords; B interlocks between them.
+
+## See
+
+Every bass note is an eighth note in both versions. Only its starting position changes. The rests before or after those notes make the attack locations explicit; they do not claim that one performance is microscopically ahead or behind the beat.
+
+## Play
+
+Alternate one bar of onbeats with one bar of offbeats while the right hand keeps the same quarter-note reference.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The Pocket: same lab, each root arrives an eighth early</p>
-<pre class="abc-source">
-X:1
-T:The Pocket: same lab, each root arrives an eighth early
-C:Thinking in Groove
+<div class="score-example" id="attack-placement-exercise">
+  <p class="abc-caption"><strong>Inside the Grid.</strong> Bars 1 and 3 align; bars 2 and 4 interlock.</p>
+  <p class="abc-description">A four-bar C9 exercise alternating onbeat and offbeat versions of one bass cell.</p>
+  <pre class="abc-source">X:1
+T:Inside the Grid
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=94
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 19-the-pocket-where-exactly-is-the-note
-% role: n/a
-% motion: n/a
-% groove: pushed
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-"^[R:Anchor]"D,7 "_[G:Push]"G,,1 | G,,7 C,1 | C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^align"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | "^interlock"z1 C,1 z1 _E,1 z1 G,1 z1 _B,1 | "^align"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | "^interlock"z1 C,1 z1 _E,1 z1 G,1 z1 _B,1 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-The laboratory's tags read `"^[R:Anchor]""_[M:Root Motion]"` at each
-root, with no Groove tag at all — a plain reading makes no claim about
-time-feel. In the variation, the one note that arrives ahead of its
-bar — the G that anticipates beat 1 of bar 2 — carries `"_[G:Push]"`;
-every other note is untagged for Groove because it lands exactly where
-notation already implies it should.
+Keep the pitches and eighth-note durations fixed. Move only the final B-flat from beat 4 to the “and” of beat 4. Does that single displaced attack change the identity of the whole bar or only its ending?
 
-*Bass tab for "The Pocket: same lab, each root arrives an eighth early"*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|10-----3|3------8|8-------|
+“Grid Current” is an original eight-bar funk study. A two-bar cell mixes attacks on beats and offbeats while the right hand maintains an unambiguous quarter-note grid. The pitch pattern follows a compact C9–F9–G9 blues form; the groove identity comes from recurring attack locations rather than from simulated microtiming.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="grid-current-study">
+  <p class="abc-caption"><strong>Grid Current.</strong> A recurring mixed-placement cell moves through a short dominant form.</p>
+  <p class="abc-description">An eight-bar funk miniature with steady right-hand quarter notes and a monophonic sixteenth-grid bass groove.</p>
+  <pre class="abc-source">X:1
+T:Grid Current
+C:Alessandro Bessi
+R:Funk study
+M:4/4
+L:1/16
+Q:1/4=104
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]4 [E_Bd]4 [E_Bd]4 [E_Bd]4 | [E_Bd]4 [E_Bd]4 [E_Bd]4 [E_Bd]4 | [E_Bd]4 [E_Bd]4 [E_Bd]4 [E_Bd]4 | [E_Bd]4 [E_Bd]4 [E_Bd]4 [E_Bd]4 | "F9"[Ac_eg]4 [Ac_eg]4 [Ac_eg]4 [Ac_eg]4 | [Ac_eg]4 [Ac_eg]4 [Ac_eg]4 [Ac_eg]4 | "C9"[E_Bd]4 [E_Bd]4 [E_Bd]4 [E_Bd]4 | "G9"[BFa]4 [BFa]4 [BFa]4 [BFa]4 |]
+[V:LH] "^mixed cell"C,2 z4 _E,2 z2 G,2 z4 | z2 _B,2 z2 G,2 z4 F,2 z2 | C,2 z4 _E,2 z2 G,2 z4 | z2 _B,2 z2 G,2 z4 _E,2 z2 | "^same placement, new root"F,2 z4 _A,2 z2 C2 z4 | z2 _E2 z2 C2 z4 _B,2 z2 | C,2 z4 _E,2 z2 G,2 z4 | z2 _B,2 z2 G,2 z4 G,2 z2 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- **Three-pocket loop.** Loop a simple one-bar bass figure against a
-  metronome or drum machine. Play it dead-center for four bars, then
-  deliberately behind for four bars, then deliberately ahead for four
-  bars, without changing a single note. Record yourself; most players
-  are surprised how small the actual timing shift needs to be to read
-  clearly as a feel change.
-- **Match a recording's pocket.** Pick a recording known for a specific
-  feel (a laid-back neo-soul track, an urgent up-tempo bebop track).
-  Play along and try to disappear into its exact pocket rather than
-  your own default. This trains you to hear Pocket as a variable you
-  control, not a fixed personal trait.
-- **Click subdivision test.** Set a metronome to click only on beat 1
-  of each bar (not all four beats). Play a steady quarter-note line and
-  see how far you drift from dead-center without the constant
-  correction of a click on every beat — this reveals your unconscious,
-  undeliberate pocket tendency.
-- **Waveform check.** Record yourself against a click track in software
-  that shows a waveform, and visually measure how far your attacks land
-  from the click's own transient. Numbers (in milliseconds) make an
-  otherwise subjective feeling concrete and repeatable.
-
-## Summary
-
-The Pocket is the precise, consistent relationship between a note's
-actual attack and the pulse a listener feels — ahead, dead-center, or
-behind — and it operates completely independently of what a bass line's
-notes or Role are on paper. Because it lives underneath standard
-notation's grid, it can only be trained by ear and by playing against a
-steady reference, not by reading rhythms more carefully. Every example
-in the rest of this book carries an implicit Pocket choice; from here on,
-listen for it even in chapters that aren't about it.
+Which attack positions make “Grid Current” recognizable when you clap its rhythm without pitch, and which notes could move without destroying that identity?

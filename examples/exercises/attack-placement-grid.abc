@@ -1,0 +1,13 @@
+X:1
+T:Inside the Grid
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^align"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | "^interlock"z1 C,1 z1 _E,1 z1 G,1 z1 _B,1 | "^align"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | "^interlock"z1 C,1 z1 _E,1 z1 G,1 z1 _B,1 |]
