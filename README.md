@@ -16,7 +16,7 @@ Variation**.
 **Role pilot complete.** The published piano edition currently contains
 three finished chapters: **The Ground**, **The Definer**, and **The
 Inverter**. Every musical example is a piano grand staff with independent
-harmony/bass playback, looping, bounded tempo, highlighting, a controlled
+harmony/bass playback, current-note highlighting, a controlled
 laboratory, an exercise, and an eight-bar study.
 
 See `docs/content-audit.md`, `docs/technical-audit.md`, and

@@ -18,7 +18,7 @@ This is not a piano-technique book. Pianists may play both staves, bassists may 
 2. Hear the full texture.
 3. Isolate **Bass only** and **Harmony only**.
 4. For A/B examples, confirm that only one meaningful variable changes.
-5. Slow and loop the microscope.
+5. Compare the full texture with each staff in isolation.
 6. Play the exercise, make the constrained variation, then hear the longer study.
 
 Current-note highlighting links the sounding event to the score. A textual description remains available when audio cannot initialize. ABC source is implementation material and stays out of the explanatory flow.

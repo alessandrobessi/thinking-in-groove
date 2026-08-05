@@ -73,7 +73,7 @@ K:C
 
 ## Listen
 
-First use **Harmony only** on both versions: it should sound identical. Then use **Full** and switch A/B. Finally use **Bass only** to identify the single controlled difference. Loop each version at 72 BPM if the change feels too quick.
+First use **Harmony only** on both versions: it should sound identical. Then use **Full** and switch A/B. Finally use **Bass only** to identify the single controlled difference.
 
 ## See
 

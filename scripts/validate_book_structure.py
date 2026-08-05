@@ -12,6 +12,8 @@ from pathlib import Path
 
 import yaml
 
+from prepare_manuscript_for_publish import prepare_text
+
 ROOT = Path(__file__).resolve().parent.parent
 QUARTO_YML = ROOT / "publish" / "_quarto.yml"
 BOOK_DIR = ROOT / "book"
@@ -44,6 +46,7 @@ def main():
     }
 
     missing_on_disk = sorted(listed - available)
+    missing_in_config = sorted(available - listed)
 
     ok = True
     if missing_on_disk:
@@ -51,9 +54,14 @@ def main():
         print("_quarto.yml lists files that don't exist under book/:")
         for p in missing_on_disk:
             print(f"  {p}")
+    if missing_in_config:
+        ok = False
+        print("book chapters missing from the complete table of contents:")
+        for p in missing_in_config:
+            print(f"  {p}")
     for published in sorted(listed & available):
         relative = published.removeprefix("chapters/")
-        text = (BOOK_DIR / relative).read_text()
+        text = prepare_text(BOOK_DIR / relative)
         if "Bass tab" in text or ".tab.txt" in text:
             ok = False
             print(f"published chapter depends on tablature: {relative}")
@@ -65,8 +73,8 @@ def main():
     if not ok:
         sys.exit(1)
     print(
-        f"OK: {len(listed)} published chapters exist and use piano grand staff; "
-        f"{len(available) - len(listed)} legacy drafts remain unpublished."
+        f"OK: all {len(listed)} chapters are visible; published examples are "
+        "piano grand staff or explicitly marked as in preparation."
     )
 
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate the structural contract of canonical piano-edition ABC files."""
 
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,8 +37,12 @@ def main() -> None:
         raise SystemExit("no canonical piano examples found")
 
     errors: list[str] = []
+    sources_by_title: dict[str, tuple[Path, str]] = {}
     for path in files:
         text = path.read_text()
+        title_match = re.search(r"^T:(.+)$", text, re.MULTILINE)
+        if title_match:
+            sources_by_title[title_match.group(1)] = (path, text.strip())
         for marker in REQUIRED:
             if marker not in text:
                 errors.append(f"{path.relative_to(ROOT)}: missing {marker!r}")
@@ -62,6 +67,21 @@ def main() -> None:
     strip_symbols = lambda value: "".join(value.split('"')[::2]).strip()
     if strip_symbols(a_rh) != strip_symbols(b_rh):
         errors.append("inverter A/B pair changes sounded right-hand material")
+
+    embedded_by_title: dict[str, str] = {}
+    for chapter in sorted((ROOT / "book/part-1-role").glob("*.md")):
+        for abc in re.findall(
+            r'<pre class="abc-source">(.*?)</pre>', chapter.read_text(), re.DOTALL
+        ):
+            title_match = re.search(r"^T:(.+)$", abc, re.MULTILINE)
+            if title_match:
+                embedded_by_title[title_match.group(1)] = abc.strip()
+    for title, (path, source) in sources_by_title.items():
+        embedded = embedded_by_title.get(title)
+        if embedded is None:
+            errors.append(f"{path.relative_to(ROOT)}: not embedded in a piano chapter")
+        elif embedded != source:
+            errors.append(f"{path.relative_to(ROOT)}: embedded ABC copy has drifted")
 
     if errors:
         raise SystemExit("\n".join(errors))

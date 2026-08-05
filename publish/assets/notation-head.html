@@ -27,7 +27,6 @@
   margin-top: .65rem;
 }
 .score-example button,
-.score-example select,
 .comparison-controls button {
   min-height: 2.35rem;
   padding: .35rem .75rem;
@@ -41,7 +40,6 @@
 .score-example button[aria-pressed="true"],
 .comparison-controls button[aria-pressed="true"] { background: #9e442a; color: #fff; }
 .score-example button:focus-visible,
-.score-example select:focus-visible,
 .comparison-controls button:focus-visible { outline: 3px solid #f0a78e; outline-offset: 2px; }
 .score-example button:disabled { cursor: default; opacity: .55; }
 .abcjs-note.is-sounding, .abcjs-rest.is-sounding { fill: #b33f19; stroke: #b33f19; }
@@ -79,7 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
     clearHighlight(state);
     state.play.textContent = "Play";
     state.play.setAttribute("aria-pressed", "false");
-    state.restart.disabled = true;
     if (active === state) active = null;
   }
 
@@ -102,12 +99,10 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!audioContext) audioContext = new Context();
       if (audioContext.state === "suspended") await audioContext.resume();
       var voicesOff = state.mode === "bass" ? [0] : state.mode === "harmony" ? [1] : [];
-      var tempo = Number(state.tempo.value);
       var synth = new ABCJS.synth.CreateSynth();
       var result = await synth.init({
         visualObj: state.tune,
         audioContext: audioContext,
-        millisecondsPerMeasure: 240000 / tempo,
         options: { voicesOff: voicesOff }
       });
       await synth.prime();
@@ -117,23 +112,16 @@ document.addEventListener("DOMContentLoaded", function () {
       state.play.disabled = false;
       state.play.textContent = "Stop";
       state.play.setAttribute("aria-pressed", "true");
-      state.restart.disabled = false;
-      state.status.textContent = "Playing " + state.mode + " at " + tempo + " BPM.";
+      state.status.textContent = "Playing " + state.mode + ".";
       synth.start();
       state.timing = new ABCJS.TimingCallbacks(state.tune, {
-        qpm: tempo,
         eventCallback: function (event) { soundingEvent(state, event); }
       });
       state.timing.start();
       var duration = ((result && result.duration) || 4) * 1000;
       state.timer = window.setTimeout(function () {
-        if (state.loop.checked && active === state) {
-          stop(state);
-          play(state);
-        } else {
-          stop(state);
-          state.status.textContent = "Playback finished.";
-        }
+        stop(state);
+        state.status.textContent = "Playback finished.";
       }, duration + 150);
     } catch (error) {
       stop(state);
@@ -159,9 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
       '<button type="button" class="transport-mode" data-mode="full" aria-pressed="true">Full</button>' +
       '<button type="button" class="transport-mode" data-mode="bass" aria-pressed="false">Bass only</button>' +
       '<button type="button" class="transport-mode" data-mode="harmony" aria-pressed="false">Harmony only</button>' +
-      '<label><input type="checkbox" class="transport-loop"> Loop</label>' +
-      '<label>Tempo <select class="transport-tempo" aria-label="Playback tempo"><option>72</option><option selected>88</option><option>104</option></select></label>' +
-      '<button type="button" class="transport-restart" disabled>Restart</button>' +
       '<span class="visually-hidden transport-status" aria-live="polite"></span>';
     var legacy = el.querySelector(".abc-play");
     if (legacy) legacy.remove();
@@ -170,9 +155,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var state = {
       el: el, tune: rendered[0], synth: null, timing: null, timer: null, cancelled: false,
       mode: "full", play: controls.querySelector(".transport-play"),
-      restart: controls.querySelector(".transport-restart"),
-      loop: controls.querySelector(".transport-loop"),
-      tempo: controls.querySelector(".transport-tempo"),
       status: controls.querySelector(".transport-status")
     };
     if (!Context || !ABCJS.synth || !ABCJS.synth.supportsAudio()) {
@@ -180,7 +162,6 @@ document.addEventListener("DOMContentLoaded", function () {
       state.status.textContent = "Audio is not supported in this browser.";
     }
     state.play.addEventListener("click", function () { play(state); });
-    state.restart.addEventListener("click", function () { stop(state); play(state); });
     controls.querySelectorAll(".transport-mode").forEach(function (button) {
       button.addEventListener("click", function () {
         stop(state);

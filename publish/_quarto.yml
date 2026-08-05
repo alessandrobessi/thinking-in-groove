@@ -15,6 +15,44 @@ book:
         - chapters/part-1-role/01-the-ground.md
         - chapters/part-1-role/02-the-definer.md
         - chapters/part-1-role/03-the-inverter.md
+        - chapters/part-1-role/04-the-driver.md
+        - chapters/part-1-role/05-the-colorist.md
+        - chapters/part-1-role/06-the-shadow.md
+        - chapters/part-1-role/07-the-voice-leader.md
+        - chapters/part-1-role/08-the-commentator.md
+        - chapters/part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md
+    - part: "Part II — Harmonic Motion: How the Bass Moves the Music"
+      chapters:
+        - chapters/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md
+        - chapters/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md
+        - chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md
+        - chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md
+        - chapters/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md
+        - chapters/part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md
+        - chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md
+        - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md
+        - chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md
+    - part: "Part III — Groove: How the Bass Creates Feel"
+      chapters:
+        - chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md
+        - chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md
+        - chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md
+        - chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md
+        - chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md
+        - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md
+        - chapters/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md
+        - chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md
+    - part: "Part IV — Integration: Composing With All Three Layers"
+      chapters:
+        - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md
+        - chapters/part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md
+        - chapters/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md
+    - part: "Integrated Study and Appendices"
+      chapters:
+        - chapters/back-matter/01-one-groove-many-roles.md
+        - chapters/back-matter/02-the-role-motion-groove-map.md
+        - chapters/back-matter/03-a-mental-model-you-can-forget-while-playing.md
+        - chapters/back-matter/04-designing-your-own-bass-lines.md
 
 format:
   html:

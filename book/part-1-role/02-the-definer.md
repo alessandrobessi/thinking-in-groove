@@ -133,8 +133,8 @@ Q:1/4=88
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cm9/Eb"[CGd]6 z2 | "Fm9/Ab"[Fcg]4 z2 [Fcg]2 | "Bb13/D"[_B,Fg]6 z2 [_B,Fg]2 | "Ebmaj9/G"[_E_Bf]4 z4 |
-"Am7b5/C"[A_EG]6 z2 | "D7/F#"[DAd]4 z2 [DAd]2 | "G7/F"[GDB]6 z2 | "Cm9"[CGd]4 z2 [CGc]2 |]
+[V:RH] "Cm9/Eb"[CG_Bd]6 z2 | "Fm9/Ab"[Fc_eg]4 z2 [Fc_eg]2 | "Bb13/D"[_B,F_Ag]6 z2 [_B,F_Ag]2 | "Ebmaj9/G"[_E_Bf]4 z4 |
+"Am7b5/C"[A_EG]6 z2 | "D7/F#"[DAC]4 z2 [DAC]2 | "G7/F"[GDB]6 z2 | "Cm9"[C_EG_Bd]4 z2 [C_EG_Bd]2 |]
 [V:LH] "^minor third"_E,4 C,2 G,,2 | "^minor third"_A,4 F,2 C2 | "^major third"D,4 _B,,2 F,2 | "^major third"G,6 _E,2 |
 "^minor third"C,4 A,,2 E,2 | "^major third"^F,4 D,2 A,,2 | "^seventh: dominant"F,4 G,2 B,,2 | "^root: return"C,6 z2 |]</pre>
   <div class="abc-rendered"></div>

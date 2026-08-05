@@ -26,13 +26,12 @@ Audited 5 August 2026.
 
 ## Prototype changes
 
-The shared player now renders two named voices, provides Full/Bass only/Harmony only playback modes, Loop, Restart, three bounded tempos, current-event highlighting, accessible labels/status, mobile horizontal overflow, reduced-motion handling, and graceful audio failure. A comparison wrapper switches A/B panels. Audio initializes only after a user action.
+The shared player now renders two named voices and provides Full, Bass only, and Harmony only playback modes with current-event highlighting, accessible labels/status, mobile horizontal overflow, reduced-motion handling, and graceful audio failure. A comparison wrapper switches A/B panels. Audio initializes only after a user action.
 
 ## Known technical risks
 
 - ABC remains duplicated between standalone files and chapter HTML; a build-time include/schema is needed before broad conversion.
 - Voice isolation currently relies on stable RH/LH ordering and abcjs `voicesOff`; automated browser coverage must lock this contract down.
-- Looping repeats the complete tune, not an arbitrary measure region.
 - A/B switching does not yet preserve playhead position.
 - CDN dependence means notation cannot initialize offline, although textual content remains available.
 - PDF/EPUB intentionally omit interactive HTML and need a future static-score path.

@@ -98,6 +98,9 @@ M:4/4
 L:1/8
 Q:1/4=88
 %%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
 [V:RH] "C/E"[CEG]4 [CEG]4 | "C/E"[CEG]4 [CEG]4 |]
 [V:LH] "^third: inversion"E,4 E,4 | E,4 E,4 |]</pre>
       <div class="abc-rendered"></div>
@@ -171,9 +174,9 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Cm9"z2 [_EG_Bd]2 z2 [_EG_Bd]2 | z [_EG_Bd]2 z [_EG_Bd]2 z2 | "Abmaj7"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 |
-"Fm9"z2 [_Ac_EG]2 z2 [_Ac_EG]2 | z [_Ac_EG]2 z [_Ac_EG]2 z2 | "G7sus"z2 [CFGA]2 z2 [BDFG]2 | z [BDFG]2 z [BDFG]2 z2 |]
-[V:LH] "^ground"C,2 z C,2 G,,2 B,, | "^ground"C,2 z2 G,,2 z2 | "^ground"_A,,2 z E,2 G,2 C | "^ground"_A,,2 z2 E,2 z2 |
-"^ground"F,,2 z C,2 E,2 G, | "^ground"F,,2 z2 C,2 z2 | "^ground"G,,2 z D,2 F,2 A, | "^ground"G,,2 D,2 F,2 G,2 |]</pre>
+"Fm9"z2 [_Ac_EG]2 z2 [_Ac_EG]2 | z [_Ac_EG]2 z [_Ac_EG]2 z2 | "G9sus"z2 [CFGA]2 z2 "G7"[BDFG]2 | z [BDFG]2 z [BDFG]2 z2 |]
+[V:LH] "^ground"C,2 z C,2 G,,2 B,, | "^ground"C,2 z2 G,,2 z2 | "^ground"_A,,2 z _E,2 G,2 C | "^ground"_A,,2 z2 _E,2 z2 |
+"^ground"F,,2 z C,2 _E,2 G, | "^ground"F,,2 z2 C,2 z2 | "^ground"G,,2 z D,2 F,2 A, | "^ground"G,,2 D,2 F,2 G,2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
