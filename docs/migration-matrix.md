@@ -19,7 +19,7 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md` | Migrated | Approaching now uses controlled grand-staff comparison and shared functional harmony. |
 | `part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md` | Rewrite | Ch. 5 The Reframer. |
 | `part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md` | Merge | Ch. 15 Connecting Chords and variation studies. |
-| `part-2-harmonic-motion/16-cadential-motion-tension-and-release.md` | Merge | Ch. 15 Connecting Chords. |
+| `part-2-harmonic-motion/16-cadential-motion-tension-and-release.md` | Migrated | Contrary Motion now uses opposing outer voices over shared functional harmony. |
 | `part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md` | Rewrite | Ch. 34 Harmonic Rhythm. |
 | `part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md` | Rewrite | Ch. 17 Motion Maps. |
 | `part-3-groove/19-the-pocket-where-exactly-is-the-note.md` | Remove/replace | Ch. 19 Attack Placement and Ch. 27 Performed Feel; old definition is contradictory. |

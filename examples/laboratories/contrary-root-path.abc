@@ -1,0 +1,13 @@
+X:1
+T:Contrary Motion — root path
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGB]8 | "Am7"[EGAc]8 | "Dm7"[FAd]8 | "G7"[DFBf]8 |]
+[V:LH] "^root"C,8 | "^root"A,,8 | "^root"D,8 | "^root"G,,8 |]

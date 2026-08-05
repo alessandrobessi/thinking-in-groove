@@ -21,6 +21,7 @@ PIANO_CHAPTERS = {
     "part-1-role/03-the-inverter.md",
     "part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md",
     "part-2-harmonic-motion/12-passing-motion-connecting-two-points.md",
+    "part-2-harmonic-motion/16-cadential-motion-tension-and-release.md",
 }
 
 

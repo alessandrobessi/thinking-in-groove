@@ -1,0 +1,13 @@
+X:1
+T:Crossing Lines
+C:Alessandro Bessi
+R:Fusion study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7/E"[EGB]3 z1 [EGB]2 z2 | "Am7/C"[EGAc]3 z1 [EGAc]2 z2 | "Dm7/A"[FAd]3 z1 [FAd]2 z2 | "G7"[DFBf]3 z1 [DFBf]2 z2 | "Fmaj7"[FAce]3 z1 [FAce]2 z2 | "G7"[FGBd]3 z1 [FGBd]2 z2 | "Am7"[EGAc]3 z1 [EGAc]2 z2 | "G7/B"[DFGB]3 z1 [DFGB]2 z2 |]
+[V:LH] "^open: bass falls"E,2 z2 E,2 E,2 | C,2 z2 C,2 C,2 | A,,2 z2 A,,2 A,,2 | G,,2 z2 G,,2 G,,2 | "^close: bass rises"F,,2 z2 F,,2 F,,2 | G,,2 z2 G,,2 G,,2 | A,,2 z2 A,,2 A,,2 | B,,2 z2 B,,2 B,,2 |]
