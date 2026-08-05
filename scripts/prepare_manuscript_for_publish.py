@@ -26,6 +26,7 @@ PIANO_CHAPTERS = {
     "part-3-groove/25-push-and-lay-back-playing-around-the-beat.md",
     "part-3-groove/21-space-as-content-the-power-of-not-playing.md",
     "part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md",
+    "part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md",
 }
 
 

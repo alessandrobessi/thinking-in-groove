@@ -1,201 +1,144 @@
-# The Groove Signature — What Makes a Line Recognizable
+# Anticipation
 
-*Chapter 26 — Part 3, Groove: How the Bass Creates Feel.*
+*Groove Pilot — How Is Motion Organized in Time?*
 
-*Synthesis chapter — recombines the seven terms introduced earlier in Part III. No new vocabulary is introduced here.*
+## The Question
 
-**Term:** Groove Signature
+What changes when the bass announces the next harmony before that harmony formally begins?
 
-**Definition:** The combination of pocket, density, and repetition cell that makes a bass line recognizable as a style.
+## The Mental Model
 
-## Intuition
+An **anticipation** is an attack that presents an upcoming structural note before its formal chord or bar boundary. The note belongs to the destination, but it first sounds while the previous harmony is still active.
 
-Play two seconds of a bass line from a genre you know well, stripped of
-melody, harmony, and even a clear key — just the rhythm — and most
-listeners can still guess the style, sometimes the specific artist.
-Nothing about that recognition depends on pitch. It depends entirely on
-a bundle of rhythmic choices working together: how the notes sit
-relative to the pulse, how many of them there are, what shape repeats,
-where the silences fall, and where a moment jumps or holds back. No
-single one of those choices, alone, is enough to produce recognition.
-Together, consistently applied, they are. That bundle is a Groove
-Signature — and it is the reason this chapter closes Part III rather
-than opening a new topic: every term introduced so far in this Part is
-one of its ingredients.
+Anticipation is more specific than syncopation. Both may use a weak-position attack, but an anticipation points to a known future event—often the next root—and continues or resolves into that event. It is also not a microtiming “push”: an eighth-note anticipation occupies a written subdivision that every player can count.
 
-## Mental Model
+## The Microscope
 
-A Groove Signature is not a new technique to learn. It is the specific,
-consistent combination of choices already covered in this Part, applied
-together as a single, recognizable identity:
-
-- **Pocket** (Chapter 19) — where, relative to the pulse, this style's
-  notes characteristically sit: ahead, dead-center, or behind.
-- **Syncopation Point** (Chapter 20) — which subdivisions this style
-  habitually favors for its rhythmic surprises, and which it avoids.
-- **Space** (Chapter 21) — how much silence this style leaves, and
-  where it characteristically falls.
-- **Repetition Cell** (Chapter 22) — the characteristic length and
-  shape of the figure the style repeats to establish its groove.
-- **Variation Layer** (Chapter 23) — how much, and by what technique,
-  this style typically alters its cell across repetitions.
-- **Density** (Chapter 24) — the characteristic note-count-per-beat
-  this style sits at, and how far it typically ranges from that
-  baseline.
-- **Push / Lay-back** (Chapter 25) — whether, and where, this style
-  characteristically uses localized rhythmic gestures against its own
-  established pocket.
-
-A Groove Signature is the *settings* of all seven of these dials held
-consistently across a performance or a style, not any single setting in
-isolation. A heavy lay-back Pocket alone doesn't define neo-soul; a
-heavy lay-back Pocket combined with low density, generous Space, and a
-short, sparsely varied Repetition Cell starts to. Change enough of the
-dials at once and the recognizable identity dissolves, even if any one
-dial's setting, taken alone, still sounds plausible for the style.
-
-This is why Groove Signature belongs at the end of Part III rather than
-its own standalone concept introduced from scratch: it has no content
-of its own beyond the specific, coordinated combination of the six terms
-that came before it.
-
-## Visual Explanation
-
-A Groove Signature diagram overlays all of the Groove-layer symbols
-introduced earlier in this Part on a single pulse timeline (green,
-`#16A34A`) rather than isolating one at a time: dots shifted
-consistently in one direction (Pocket), some centered on weak
-subdivisions rather than strong ones (Syncopation Points), some
-replaced by hollow rings (Space), all grouped into repeating brackets
-(Repetition Cell), some of those brackets carrying a dashed overlay
-(Variation Layer), the overall dot count per bar read as sparse or
-dense (Density), and at least one isolated displaced dot standing out
-against an otherwise uniform pocket (Push / Lay-back). No single symbol on
-this diagram is new — what's new is seeing all of them coexist on one
-timeline as a single, coordinated picture, which is exactly what a
-Groove Signature is.
-
-## Musical Example
-
-Take the laboratory progression, apply the Repetition Cell from Chapter
-22 unchanged under every chord, and loop it once — the resulting
-consistency is itself the signature.
+Both versions keep Cmaj7–Am7–Dm7–G7, the right hand, bass roots, sounded durations, register, and tempo fixed. A attacks each root on its chord’s downbeat. B attacks A, D, and G on the “and” of beat 4 in the preceding bar and ties each across the chord boundary.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="anticipation-lab">
+  <div class="comparison-controls" aria-label="Downbeat and anticipated root comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — At the boundary</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Before the boundary</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="anticipation-boundary">
+      <p class="abc-caption"><strong>A — At the boundary.</strong> Every root begins with its chord.</p>
+      <p class="abc-description">Four functional chords with short root attacks on each downbeat.</p>
+      <pre class="abc-source">X:1
+T:Anticipation — at the boundary
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^with chord"C,2 z6 | A,,2 z6 | D,2 z6 | G,,2 z6 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="anticipation-before-boundary">
+      <p class="abc-caption"><strong>B — Before the boundary.</strong> Each upcoming root begins one eighth early.</p>
+      <p class="abc-description">The harmony still changes on downbeats; the bass anticipates A, D, and G from the previous bars.</p>
+      <pre class="abc-source">X:1
+T:Anticipation — before the boundary
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^present"C,2 z4 z1 "^anticipate A"A,,1- | A,,1 z6 "^anticipate D"D,1- | D,1 z6 "^anticipate G"G,,1- | G,,1 z4 z2 z1 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-The full laboratory progression, looped once: the same root-fifth cell
-at the same density and placement under every chord is what makes this
-groove instantly recognizable as itself, chord after chord.
+## Listen
+
+Use **Harmony only** to locate each formal chord change. With **Bass only**, hear the roots lean across the bar lines. In **Full**, the brief overlap with the old harmony should sound directional because each early note becomes the next chord’s root.
+
+## See
+
+The chord symbols remain at the beginnings of bars. In B, each tied bass note has only one attack: before the bar line. Its continuation after the bar line is not played again.
+
+## Play
+
+Begin with every root on the downbeat, then anticipate one destination at a time.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The Groove Signature: the lab, looped, one identity throughout</p>
-<pre class="abc-source">
-X:1
-T:The Groove Signature: the lab, looped, one identity throughout
-C:Thinking in Groove
+<div class="score-example" id="anticipation-exercise">
+  <p class="abc-caption"><strong>Lean Into Tomorrow.</strong> Three boundaries, three controlled anticipations.</p>
+  <p class="abc-description">A four-bar functional exercise moving each upcoming root to the final eighth of the prior bar.</p>
+  <pre class="abc-source">X:1
+T:Lean Into Tomorrow
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=96
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 26-the-groove-signature-what-makes-a-line-recognizable
-% role: n/a
-% motion: n/a
-% groove: groove signature
-% difficulty: advanced
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression, looped once
-V:Bass clef=bass
-"_[G:Groove Signature]"D,2 A,2 D,2 A,2 | G,,2 D,2 G,,2 D,2 | C,2 G,2 C,2 G,2 | D,2 A,2 D,2 A,2 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] C,2 G,2 E,2 z1 "^next root"A,,1- | A,,1 E,2 C,2 z2 "^next root"D,1- | D,1 A,2 F,2 z2 "^next root"G,,1- | G,,1 D,2 B,,2 z3 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-Only the first note of the whole 4-bar loop carries `"_[G:Groove
-Signature]"` — the tag marks the identity, not each individual
-occurrence of it. The cell recurs identically (root-fifth-root-fifth,
-same rhythmic placement) under all four bars, including the repeated
-Dm7 in bar 4: hearing the exact same rhythmic-intervallic shape return
-at the top of the loop is what makes it recognizable as a signature
-rather than a coincidence.
+Keep the anticipation on the “and” of 4 but replace the upcoming root with another chord tone. Does it still announce the destination as clearly, or does it become a general approach note?
 
-*Bass tab for "The Groove Signature: the lab, looped, one identity throughout"*
+## The Music
 
-```text
-G|--------|--------|--------|--------|
-D|--------|--------|--------|--------|
-A|--12--12|--------|--10--10|--12--12|
-E|10--10--|3-103-10|8---8---|10--10--|
+“Early Light” is an original eight-bar jazz study. Each bar develops a compact chord-tone idea, then the next root enters on the final eighth and ties across the boundary. The second four bars vary the internal line while preserving that anticipatory phrase rhythm.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="early-light-study">
+  <p class="abc-caption"><strong>Early Light.</strong> Every destination is heard just before it officially arrives.</p>
+  <p class="abc-description">An eight-bar functional-jazz miniature with sustained piano harmony and tied root anticipations.</p>
+  <pre class="abc-source">X:1
+T:Early Light
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^anticipatory phrase"C,2 G,2 E,2 z1 A,,1- | A,,1 E,2 C,2 z2 D,1- | D,1 A,2 F,2 z2 G,,1- | G,,1 D,2 F,2 z2 C,1- | C,1 E,2 B,,2 z2 A,,1- | A,,1 C,2 G,2 z2 D,1- | D,1 F,2 C,2 z2 G,,1- | G,,1 B,,2 D,2 z2 "^points beyond the excerpt"C,1 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- **Seven-dial analysis.** Pick a recording in a style you want to
-  internalize and describe its bass part along all seven dials from
-  this chapter — Pocket, Syncopation Points, Space, Repetition Cell
-  length, Variation Layer activity, Density, and Push / Lay-back use.
-  Naming each setting explicitly is usually the fastest way to
-  reproduce a style deliberately rather than by vague imitation.
-- **Same harmony, two signatures.** Take one static chord or short
-  progression and perform it twice, deliberately setting all seven
-  dials to imitate two different styles (as in this chapter's Groove A
-  and Groove B). Confirm a listener can identify which is which without
-  being told the target style in advance.
-- **Change one dial at a time.** Starting from a groove that
-  convincingly captures a target style, change only one of the seven
-  dials (say, raise the Density, or remove the Space) and notice how
-  much of the style's identity survives that single change, and how
-  much is lost.
-- **Compose your own signature.** Rather than imitating an existing
-  style, deliberately choose a setting for each of the seven dials
-  before playing a single note, then compose a Repetition Cell that
-  satisfies all seven choices at once. This is direct preparation for
-  Chapter 29's worked case study.
-
-## Summary
-
-A Groove Signature is not an eighth, new technique — it is the
-consistent, coordinated combination of the seven Groove-layer choices
-introduced across this Part: Pocket, Syncopation Points, Space,
-Repetition Cell, Variation Layer, Density, and Push / Lay-back. Held
-together consistently, these seven settings are what let a listener
-recognize a style, or a specific bass line, from a few seconds of
-rhythm alone, with no melody or harmony required. Part IV now turns to
-combining this entire Groove vocabulary with the Role vocabulary of
-Part I and the Harmonic Motion vocabulary of Part II into a single,
-integrated bass line.
+When does the early root in “Early Light” feel like tension against the old chord, and when does it make the new chord feel as though it has already begun?

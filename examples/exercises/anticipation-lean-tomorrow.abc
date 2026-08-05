@@ -1,0 +1,13 @@
+X:1
+T:Lean Into Tomorrow
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] C,2 G,2 E,2 z1 "^next root"A,,1- | A,,1 E,2 C,2 z2 "^next root"D,1- | D,1 A,2 F,2 z2 "^next root"G,,1- | G,,1 D,2 B,,2 z3 |]

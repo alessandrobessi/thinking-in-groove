@@ -29,7 +29,7 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md` | Rewrite | Ch. 25 Variation Without Collapse. |
 | `part-3-groove/24-density-controlling-energy-through-note-count.md` | Merge | Ch. 32 Density Balance; density is relational. |
 | `part-3-groove/25-push-and-lay-back-playing-around-the-beat.md` | Migrated | Duration now isolates note endings from attacks and performed feel. |
-| `part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md` | Merge | Ch. 24 Repeated Cells and Ch. 26 Phrase Rhythm. |
+| `part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md` | Migrated | Anticipation now separates early destination notes from chord boundaries and microtiming. |
 | `part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md` | Merge | Ch. 35 design algorithm. |
 | `part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md` | Merge | Ch. 24–26 groove identity and phrase rhythm. |
 | `part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md` | Rewrite | Ch. 35 and Ch. 40 capstone. |
