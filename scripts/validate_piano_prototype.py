@@ -40,6 +40,8 @@ def main() -> None:
     player = (ROOT / "publish/assets/notation-head.html").read_text()
     if "chordsOff: true" not in player:
         errors.append("player must keep chord symbols silent with chordsOff: true")
+    if "var result = await synth.prime()" not in player or "|| 4" in player:
+        errors.append("player must time completion from prime() without a short fallback")
     sources_by_title: dict[str, tuple[Path, str]] = {}
     for path in files:
         text = path.read_text()

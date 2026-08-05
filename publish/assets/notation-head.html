@@ -100,14 +100,17 @@ document.addEventListener("DOMContentLoaded", function () {
       if (audioContext.state === "suspended") await audioContext.resume();
       var voicesOff = state.mode === "bass" ? [0] : state.mode === "harmony" ? [1] : [];
       var synth = new ABCJS.synth.CreateSynth();
-      var result = await synth.init({
+      await synth.init({
         visualObj: state.tune,
         audioContext: audioContext,
         // Chord symbols are an analytical map, not a third playback layer.
         // Only pitches explicitly written in RH and LH may sound.
         options: { voicesOff: voicesOff, chordsOff: true }
       });
-      await synth.prime();
+      // prime() returns the duration of the audio that was actually built.
+      // init() does not, and using it previously triggered a four-second
+      // fallback that cut longer scores off mid-phrase.
+      var result = await synth.prime();
       if (state.cancelled) return;
       state.synth = synth;
       active = state;
@@ -120,11 +123,12 @@ document.addEventListener("DOMContentLoaded", function () {
         eventCallback: function (event) { soundingEvent(state, event); }
       });
       state.timing.start();
-      var duration = ((result && result.duration) || 4) * 1000;
-      state.timer = window.setTimeout(function () {
-        stop(state);
-        state.status.textContent = "Playback finished.";
-      }, duration + 150);
+      if (result && Number.isFinite(result.duration)) {
+        state.timer = window.setTimeout(function () {
+          stop(state);
+          state.status.textContent = "Playback finished.";
+        }, result.duration * 1000 + 500);
+      }
     } catch (error) {
       stop(state);
       state.play.disabled = true;
