@@ -1,0 +1,15 @@
+X:1
+T:Corner Lights
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |
+"Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]6 "Cmaj7"[EGBc]2 |]
+[V:LH] "^target"C,2 E,2 G,2 "^approach"^G,,2 | "^target"A,,2 C,2 E,2 "^approach"^C,2 | "^target"D,2 F,2 A,2 "^approach"^F,,2 | "^target"G,,2 B,,2 D,2 "^approach"B,,2 |
+"^target"C,2 G,2 E,2 "^approach"^G,,2 | "^target"A,,2 E,2 C,2 "^approach"^C,2 | "^target"D,2 A,,2 F,2 "^approach"^F,,2 | "^target"G,,2 D,2 "^approach"B,,2 "^arrival"C,2 |]

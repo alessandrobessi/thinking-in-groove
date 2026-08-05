@@ -74,7 +74,7 @@ def main() -> None:
         errors.append("inverter A/B pair changes sounded right-hand material")
 
     embedded_by_title: dict[str, str] = {}
-    for chapter in sorted((ROOT / "book/part-1-role").glob("*.md")):
+    for chapter in sorted((ROOT / "book").glob("*/*.md")):
         for abc in re.findall(
             r'<pre class="abc-source">(.*?)</pre>', chapter.read_text(), re.DOTALL
         ):

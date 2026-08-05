@@ -16,7 +16,7 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md` | Merge | Ch. 1 The Ground and Ch. 15 Connecting Chords. |
 | `part-2-harmonic-motion/11-the-pedal-stillness-under-change.md` | Rewrite | Ch. 4 The Pedal and Ch. 9 Staying. |
 | `part-2-harmonic-motion/12-passing-motion-connecting-two-points.md` | Rewrite | Ch. 10 Stepping and Ch. 15 Connecting Chords. |
-| `part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md` | Rewrite | Ch. 11 Approaching. |
+| `part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md` | Migrated | Approaching now uses controlled grand-staff comparison and shared functional harmony. |
 | `part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md` | Rewrite | Ch. 5 The Reframer. |
 | `part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md` | Merge | Ch. 15 Connecting Chords and variation studies. |
 | `part-2-harmonic-motion/16-cadential-motion-tension-and-release.md` | Merge | Ch. 15 Connecting Chords. |
