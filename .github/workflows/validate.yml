@@ -18,6 +18,8 @@ jobs:
       - name: Stage chapters for the Quarto build
         run: python3 scripts/prepare_manuscript_for_publish.py
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.10.18"
       - name: Render HTML as a build sanity check
         working-directory: publish
         run: quarto render --to html

@@ -23,7 +23,11 @@ jobs:
           python-version: "3.12"
       - name: Stage chapters for the Quarto build
         run: python3 scripts/prepare_manuscript_for_publish.py
+      # Pin the CLI so setup downloads directly from GitHub Releases instead
+      # of first depending on quarto.org's runtime release metadata endpoint.
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.10.18"
       - name: Render book (HTML, EPUB, PDF via Typst)
         working-directory: publish
         run: quarto render
