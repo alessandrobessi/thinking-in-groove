@@ -1,0 +1,15 @@
+X:1
+T:Glass Stairs
+C:Alessandro Bessi
+R:Fusion ballad
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj9"[EGBd]6 z2 | "G/B"[DGB]4 z2 [DGB]2 | "Am9"[CEGB]6 z2 | "C/G"[CEG]4 z4 |
+"Fmaj9"[EFAc]6 z2 | "C/E"[CEG]4 z2 [CEG]2 | "Dm9"[FACe]6 z2 | "G13"[FGBE]4 z2 [FGBD]2 |]
+[V:LH] "^ground"C,4 G,2 C2 | "^invert: descend"B,6 D2 | "^arrive"A,4 E2 G2 | "^invert: open"G,6 z2 |
+"^new ground"F,4 C2 E2 | "^invert: continue"E,6 G2 | "^prepare"D,4 A,2 C2 | "^dominant: return"G,6 z2 |]

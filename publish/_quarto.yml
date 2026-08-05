@@ -3,18 +3,18 @@ project:
 
 book:
   title: "Thinking in Groove"
-  subtitle: "A Mental Model for Bass Harmony, Groove, and Musical Motion"
+  subtitle: "Designing Bass Lines Through Harmony, Motion, and Time"
   author: "Alessandro Bessi"
   cover-image: assets/cover.png
   chapters:
     - index.qmd
     - preface.qmd
     - about-the-author.qmd
-    - part: "Part I — Role: What Job Is the Bass Doing?"
+    - part: "Part I — Role: What Is the Bass Responsible For?"
       chapters:
         - chapters/part-1-role/01-the-anchor.md
         - chapters/part-1-role/02-the-definer.md
-        - chapters/part-1-role/03-the-connector.md
+        - chapters/part-1-role/03-the-inverter.md
         - chapters/part-1-role/04-the-driver.md
         - chapters/part-1-role/05-the-colorist.md
         - chapters/part-1-role/06-the-shadow.md

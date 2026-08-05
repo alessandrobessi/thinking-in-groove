@@ -1,43 +1,39 @@
 # Thinking in Groove
 
-### A Mental Model for Bass Harmony, Groove, and Musical Motion
+### A Mental Model for Designing Bass Lines Through Harmony, Motion, and Time
 
-Thinking in Groove is not a bass method. It is a book about how bass
-players think.
+Thinking in Groove is an interactive, piano-score-based book about how
+musicians understand and design bass lines. The left hand is the bass;
+the right hand makes its harmonic and rhythmic context audible.
 
 Just as [Thinking in Layers](https://github.com/alessandrobessi/thinking-in-layers)
 teaches harmony through superimposed musical layers, Thinking in Groove
-teaches bass through a new conceptual vocabulary: **Role**, **Harmonic
-Motion**, and **Groove**. See [`BLUEPRINT.md`](BLUEPRINT.md) for the
-full vision and [`ROADMAP.md`](ROADMAP.md) for the phase plan.
+organizes each decision as **Role → Motion → Groove → Interaction →
+Variation**.
 
 ## Project status
 
-**Phase 1 — Foundations is complete** (see `docs/`: conceptual
-vocabulary, visual language, notation conventions, final chapter map).
+**Piano prototype in progress.** The legacy 29-chapter bass-tab draft
+has been audited and remains available as migration source. Chapter 3,
+**The Inverter**, is the first canonical piano-edition chapter, with a
+grand staff, independent voice playback, looping, bounded tempo,
+highlighting, an A/B laboratory, an exercise, and an eight-bar study.
 
-**Phase 2 and Phase 3 have a full first draft.** All 29 chapters have
-composed ABC examples + bass tabs (`examples/by-chapter/`) and full
-chapter prose (`book/`), with the examples embedded directly in the
-relevant Musical Example / Annotated Notation sections. Part II
-(Harmonic Motion) chapters are more concise than Parts I/III and are
-being brought up to matching depth. None of this has been reviewed —
-Phase 5 (Technical Review) hasn't started. Phase 4 (Multimedia) and
-Phase 6 (Publication) now have the Quarto/Typst scaffold, cover/author
-art, and CI (`.github/workflows/`) publishing to GitHub Pages and a
-rolling release on every push to `main` — the website, EPUB, and PDF
-outputs themselves are otherwise unreviewed first-draft output.
+See `docs/content-audit.md`, `docs/technical-audit.md`, and
+`docs/migration-matrix.md` for the explicit migration status. Legacy
+chapters have not yet passed the new musical, pedagogical, editorial,
+or technical gates.
 
 ## How the project is organized
 
 | | |
 |---|---|
 | [`BLUEPRINT.md`](BLUEPRINT.md) | Vision, core promise, audience, pillars, deliverables. |
-| [`ROADMAP.md`](ROADMAP.md) | The six-phase plan from foundations to publication. |
+| [`ROADMAP.md`](ROADMAP.md) | Legacy phase plan; superseded by the piano-edition roadmap being executed through the audit and migration documents. |
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
-| [`docs/`](docs/) | Phase 1 deliverables: `vocabulary.md`, `visual-language.md`, `notation-conventions.md`, `chapter-map.md`, plus `glossary.md` and `style-guide.md`. |
+| [`docs/`](docs/) | Vocabulary, migration audits, and the canonical piano notation/accompaniment guides. |
 | [`book/`](book/) | The manuscript, one file per chapter, organized by Part, plus a `back-matter/` folder for the integrated study and appendices. All 29 chapters + 4 appendices have full first-draft prose with embedded musical examples. |
-| [`examples/`](examples/) | The ABC notation example repository named as its own deliverable in `BLUEPRINT.md`: one `.abc` + one `.tab.txt` per musical example, cataloged in `examples/INDEX.md`. All 29 composed. |
+| [`examples/`](examples/) | Legacy chapter sources plus canonical `laboratories/`, `exercises/`, and `studies/` grand-staff sources. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
 | [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Checks that `publish/_quarto.yml`'s chapter list and `book/`'s files on disk agree; run in CI. |

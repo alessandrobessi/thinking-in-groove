@@ -1,17 +1,24 @@
 # Welcome {.unnumbered}
 
-**A Mental Model for Bass Harmony, Groove, and Musical Motion.**
+**Hear why a bass line works—and design one deliberately.**
 
-> The chord tells you where you are. The role, the motion, and the
-> groove tell you what your bass line is actually doing about it.
+After reading *Thinking in Groove*, you will hear low notes as choices about foundation, direction, time, and interaction, not as a collection of roots beneath chord symbols.
 
-Thinking in Groove is not a bass method. It teaches bass playing through
-three questions instead of scales and arpeggios: what **Role** does this
-note play, how does it create harmonic **Motion**, and how does it
-create **Groove**.
+> **Role → Motion → Groove → Interaction → Variation**
 
-In this web edition, worked examples are notated as you read them:
-click **Play** under any example to hear it, not just see it.
+The piano is this book's analytical laboratory, not its technical goal. The left hand represents a realistic, monophonic bass line. The right hand supplies the harmony, pulse, space, and conversation that give the bass meaning. Chord symbols show the map; annotations identify only the decision under study.
 
-*This is a first complete draft, not a finished, professionally edited
-book — see the repository README for current project status.*
+The format works for bassists, pianists, composers, arrangers, producers, and any musician who wants a practical model of bass-line construction. A bass player can practise the lower staff alone; two musicians can divide the staves; a producer can treat them as separate MIDI roles.
+
+## Start with one audible decision
+
+[Chapter 3, **The Inverter**](chapters/part-1-role/03-the-inverter.md) is the piano-edition prototype. Its A/B laboratory keeps the right hand fixed while one bass note changes the balance of the entire chord. Use **Full**, **Bass only**, and **Harmony only** playback to prove what changed.
+
+## Choose a path
+
+- **New to bass-line design:** begin with Part I and ask what responsibility the bass has.
+- **Studying harmony:** hear how inversions and routes reorganize chords.
+- **Studying groove:** separate written attack, duration, and space from performed microtiming.
+- **Composing or arranging:** follow the complete design sequence from Role through Variation.
+
+Notation can represent pitch, written rhythm, duration, accent, articulation, and register. It cannot fully encode touch, microtiming, ensemble response, or a stable performed pocket. Playback is therefore a listening reference, not a claim that notation captures a human performance.

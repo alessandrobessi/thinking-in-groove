@@ -1,80 +1,32 @@
 # Preface {.unnumbered}
 
-Bass players often know more than they can easily explain. A line can
-live under the fingers for years before its internal logic becomes
-explicit. This book is written for that gap. It assumes musical
-intelligence but never assumes that technical facility guarantees a
-complete mental model.
+Bass players often know more than they can easily explain. A line can live under the fingers for years before its internal logic becomes explicit. This book gives those decisions a compact mental model:
 
-Our recurring loop is **HEAR -> NAME THE ROLE -> HEAR THE MOTION -> FEEL
-THE GROOVE -> PLAY -> VARY -> COMPOSE**. Every chapter isolates one term
-from `docs/vocabulary.md` so the ear can attribute what changed to the
-concept that produced it.
+> **Role → Motion → Groove → Interaction → Variation**
 
-## Why Role, Motion, and Groove instead of scales
+## Why piano notation?
 
-This book deliberately avoids answering "which scale should I play?" or
-"which arpeggio should I learn?" as its organizing question.
+A bass note means something because of what surrounds it. C can ground C major, turn A minor into an inversion, hold steady beneath changing chords, or complete a rhythm begun above. An isolated bass staff hides too much of that evidence.
 
-A scale or an arpeggio describes available pitches. It does not describe
-what a bass line is *for* in a given moment — whether it is grounding
-the harmony, redirecting it, or simply making the time feel good. Two
-bass lines can share identical pitches and function completely
-differently depending on their Role, their harmonic Motion, and their
-Groove.
+Every canonical example therefore uses two staves. The lower staff is the bass line: monophonic, practical in register, and playable on electric or acoustic bass after octave adjustment where necessary. The upper staff is context: harmony, metric reference, phrase shape, call and response, or controlled contrast. It is never decorative filler.
 
-We therefore organize the entire book around three questions asked of
-every example:
+This is not a piano-technique book. Pianists may play both staves, bassists may isolate the lower one, two musicians may divide them, and producers may hear them as independent arrangement layers. The grand staff is simply the clearest place to see cause and effect together.
 
-**What Role is this note playing? What Motion is it creating? What
-Groove is it creating?**
+## How to use an example
 
-Naming a scale answers none of these questions on its own. A concept
-from this book's vocabulary always does.
+1. Read the listening question before the terminology.
+2. Hear the full texture.
+3. Isolate **Bass only** and **Harmony only**.
+4. For A/B examples, confirm that only one meaningful variable changes.
+5. Slow and loop the microscope.
+6. Play the exercise, make the constrained variation, then hear the longer study.
 
-## A note on notation
+Current-note highlighting links the sounding event to the score. A textual description remains available when audio cannot initialize. ABC source is implementation material and stays out of the explanatory flow.
 
-Every worked example pairs standard notation with a bass tab and with
-inline Role/Motion/Groove annotations — see `docs/notation-conventions.md`
-for the exact convention. The annotations are scaffolding: they exist so
-you can see which decision produced which sound, and may be ignored once
-that connection is audible without them.
+## What the page can and cannot say
 
-No fingerings or right-hand/left-hand technique are prescribed; this
-book is about what to play and why, not how to physically execute it on
-a given instrument.
+Conventional notation can show metric placement, subdivision, pitch, duration, rest, accent, articulation, and register. It cannot fully specify microtiming, touch, physical attack, interaction with a drummer, or the stability of a performed pocket. When the book discusses those qualities, it names them as performance—not as properties proved by an eighth note printed early or late.
 
-In this web edition, every notated example is also playable: press the
-**Play** button beneath a score to hear it rendered at a plain, even
-tempo. The audio is a plain synthesized reference, not a performance —
-it exists so you can check what you think you're hearing against what
-is actually on the page.
+## The learning rhythm
 
-## Why we stay on one groove for so long
-
-A method about relationships can paradoxically become harder to learn if
-every example changes tempo, feel, and harmony at once. Many chapters
-therefore return to a small set of fixed laboratory progressions so the
-ear receives repeated exposure to the same harmonic and rhythmic ground
-while only the chapter's own variable changes. Later chapters
-deliberately vary the ground, once the relationship being taught is
-stable enough to survive the change.
-
-## The learning sequence
-
-Every practical concept in this book follows the same order:
-
-**hear the term in context -> isolate it in a short worked example ->
-play it slowly against a click -> vary it once -> combine it with
-already-known terms -> use it in an original bass line**
-
-The order matters. Combining terms too early can hide the sound we are
-trying to isolate. A concept should first become audible on its own.
-Only then do we let it interact with everything the reader already
-knows.
-
-## How notation and practice work together
-
-Exercises appear inside the relevant chapters so that sound and
-explanation remain adjacent. The standalone `examples/` ABC repository
-collects the same material for uninterrupted practice at the instrument.
+Every finished chapter asks one question and introduces one idea. A two- to four-bar **Microscope** controls the evidence. An eight- to sixteen-bar **Music** study proves that the idea produces something worth practising. Between them, a small exercise and one constrained variation turn recognition into design.
