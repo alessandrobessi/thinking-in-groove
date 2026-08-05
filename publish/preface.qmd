@@ -23,6 +23,8 @@ This is not a piano-technique book. Pianists may play both staves, bassists may 
 
 Current-note highlighting links the sounding event to the score. A textual description remains available when audio cannot initialize. ABC source is implementation material and stays out of the explanatory flow.
 
+Chord symbols are visual labels only. Playback sounds exactly the notes written on the two staves: **Full** plays both, **Bass only** plays the lower staff, and **Harmony only** plays the upper staff.
+
 ## What the page can and cannot say
 
 Conventional notation can show metric placement, subdivision, pitch, duration, rest, accent, articulation, and register. It cannot fully specify microtiming, touch, physical attack, interaction with a drummer, or the stability of a performed pocket. When the book discusses those qualities, it names them as performance—not as properties proved by an eighth note printed early or late.

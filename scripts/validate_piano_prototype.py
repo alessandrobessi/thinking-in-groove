@@ -37,6 +37,9 @@ def main() -> None:
         raise SystemExit("no canonical piano examples found")
 
     errors: list[str] = []
+    player = (ROOT / "publish/assets/notation-head.html").read_text()
+    if "chordsOff: true" not in player:
+        errors.append("player must keep chord symbols silent with chordsOff: true")
     sources_by_title: dict[str, tuple[Path, str]] = {}
     for path in files:
         text = path.read_text()

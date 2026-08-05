@@ -103,7 +103,9 @@ document.addEventListener("DOMContentLoaded", function () {
       var result = await synth.init({
         visualObj: state.tune,
         audioContext: audioContext,
-        options: { voicesOff: voicesOff }
+        // Chord symbols are an analytical map, not a third playback layer.
+        // Only pitches explicitly written in RH and LH may sound.
+        options: { voicesOff: voicesOff, chordsOff: true }
       });
       await synth.prime();
       if (state.cancelled) return;

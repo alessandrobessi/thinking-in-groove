@@ -7,6 +7,7 @@ This document is authoritative for newly migrated examples. Legacy bass-only exa
 - Use a grand staff with `%%score { RH LH }`.
 - Name the upper voice `Harmony` and the lower voice `Bass`.
 - Put chord symbols above the upper staff.
+- Treat chord symbols as silent analytical labels; synthesized playback must set `chordsOff: true` so only written staff notes sound.
 - Keep the bass monophonic and generally within E1–G3.
 - Use two or four measures per system when the renderer permits it.
 - Use `C:Alessandro Bessi` in every new source file.
