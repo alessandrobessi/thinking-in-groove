@@ -1,0 +1,13 @@
+X:1
+T:The Definer — minor
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cm/Eb"[CG]4 [CG]4 | "Cm/Eb"[CG]4 [CG]4 |]
+[V:LH] "^minor third: defines"_E,8 | _E,8 |]

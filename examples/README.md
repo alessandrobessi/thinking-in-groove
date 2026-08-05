@@ -1,5 +1,18 @@
 # Examples — ABC Notation Repository
 
+## Piano-edition sources
+
+All new and published examples are piano grand-staff ABC files. The
+right hand is labelled `Harmony`; the left hand is labelled `Bass`.
+Canonical files live in `laboratories/`, `exercises/`, and `studies/`
+and must pass `python3 scripts/validate_piano_prototype.py`.
+
+`by-chapter/` and `_lab/` contain unpublished bass-only/tab-era material
+retained solely as migration source. Do not use those formats for new
+work and do not publish their `.tab.txt` companions.
+
+## Legacy source layout
+
 The standalone ABC repository named as its own deliverable in
 `BLUEPRINT.md`, independent of the book prose. See
 [`docs/notation-conventions.md`](../docs/notation-conventions.md) for

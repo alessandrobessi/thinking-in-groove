@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Check that publish/_quarto.yml's chapter list and book/*.md agree.
+"""Check that every published manuscript chapter exists and is piano-ready.
 
-Catches the two ways these can drift: a chapter file added to book/ but
-never wired into _quarto.yml (silently missing from every build), or a
-_quarto.yml entry pointing at a file that no longer exists (a broken
-build). Run in CI so a mismatch fails before it reaches Pages.
+Legacy drafts may remain under book/ while they are migrated, but they
+must not be published. Run in CI so missing files, tablature, or a
+bass-only score cannot reach Pages.
 
     python3 scripts/validate_book_structure.py
 """
@@ -38,14 +37,13 @@ def main():
     # pages (index.qmd, preface.qmd, about-the-author.qmd) live in
     # publish/ directly and aren't part of this cross-check.
     listed = {p for p in all_paths if p.startswith("chapters/")}
-    expected = {
+    available = {
         f"chapters/{f.parent.name}/{f.name}"
         for f in BOOK_DIR.glob("*/*.md")
         if not f.parent.name.startswith("_")  # e.g. book/_templates/, not a real part
     }
 
-    missing_on_disk = sorted(listed - expected)
-    missing_in_config = sorted(expected - listed)
+    missing_on_disk = sorted(listed - available)
 
     ok = True
     if missing_on_disk:
@@ -53,15 +51,23 @@ def main():
         print("_quarto.yml lists files that don't exist under book/:")
         for p in missing_on_disk:
             print(f"  {p}")
-    if missing_in_config:
-        ok = False
-        print("book/ has chapter files not listed in _quarto.yml:")
-        for p in missing_in_config:
-            print(f"  {p}")
+    for published in sorted(listed & available):
+        relative = published.removeprefix("chapters/")
+        text = (BOOK_DIR / relative).read_text()
+        if "Bass tab" in text or ".tab.txt" in text:
+            ok = False
+            print(f"published chapter depends on tablature: {relative}")
+        score_count = text.count('<div class="score-example"')
+        if score_count and text.count("%%score { RH LH }") != score_count:
+            ok = False
+            print(f"published chapter has a non-grand-staff score: {relative}")
 
     if not ok:
         sys.exit(1)
-    print(f"OK: {len(expected)} chapter files match _quarto.yml.")
+    print(
+        f"OK: {len(listed)} published chapters exist and use piano grand staff; "
+        f"{len(available) - len(listed)} legacy drafts remain unpublished."
+    )
 
 
 if __name__ == "__main__":

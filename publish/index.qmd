@@ -10,9 +10,9 @@ The piano is this book's analytical laboratory, not its technical goal. The left
 
 The format works for bassists, pianists, composers, arrangers, producers, and any musician who wants a practical model of bass-line construction. A bass player can practise the lower staff alone; two musicians can divide the staves; a producer can treat them as separate MIDI roles.
 
-## Start with one audible decision
+## Begin the Role pilot
 
-[Chapter 3, **The Inverter**](chapters/part-1-role/03-the-inverter.md) is the piano-edition prototype. Its A/B laboratory keeps the right hand fixed while one bass note changes the balance of the entire chord. Use **Full**, **Bass only**, and **Harmony only** playback to prove what changed.
+[Chapter 1, **The Ground**](chapters/part-1-role/01-the-ground.md) begins with the most direct responsibility: establishing the harmonic floor. **The Definer** then asks the bass to reveal chord quality, and **The Inverter** shows how one low note can reorganize an unchanged upper structure. Each chapter uses **Full**, **Bass only**, and **Harmony only** playback to prove its claim.
 
 ## Choose a path
 

@@ -4,9 +4,9 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 
 | Existing file | Decision | Destination / reason |
 |---|---|---|
-| `part-1-role/01-the-anchor.md` | Rewrite | Ch. 1 The Ground; distinguish root weight from sustained chord tone. |
-| `part-1-role/02-the-definer.md` | Rewrite | Ch. 2 The Definer with audible upper harmony. |
-| `part-1-role/03-the-connector.md` | Merge | Ch. 15 Connecting Chords; route is Motion, not Role. |
+| `part-1-role/01-the-anchor.md` | Migrated | Ch. 1 The Ground now distinguishes root weight from sustained chord tone. |
+| `part-1-role/02-the-definer.md` | Migrated | Ch. 2 The Definer now provides audible upper harmony. |
+| `part-1-role/03-the-connector.md` | Migrated/merge pending | Its chapter slot is now Ch. 3 The Inverter; useful Connector material moves later to Ch. 15. |
 | `part-1-role/04-the-driver.md` | Rewrite | Ch. 6 The Driver. |
 | `part-1-role/05-the-colorist.md` | Remove/replace | Ch. 5 The Reframer; “colour” hides harmonic reinterpretation. |
 | `part-1-role/06-the-shadow.md` | Merge | Ch. 28 Doubling and Ch. 8 The Conversationalist. |

@@ -1,186 +1,148 @@
 # The Definer
 
-*Chapter 2 — Part 1, Role: What Job Is the Bass Doing?*
+*Chapter 2 — Part I, Role: What Is the Bass Responsible For?*
 
-**Term:** Definer
+## The Question
 
-**Definition:** A bass note chosen specifically to define chord quality (e.g. the 3rd or 7th) rather than just stating the root.
+When the harmony above omits its third, can one bass note tell the ear whether the chord is major or minor?
 
-## Intuition
+## The Mental Model
 
-Play a root by itself — just one note, no context — and it tells you
-almost nothing. It doesn't say major or minor. It doesn't say dominant
-or maj7. A root is a location, not a description. Now play that same
-root, then a third above it. Suddenly you know something you didn't
-know a moment ago: whether the chord is bright or dark. That third just
-did the work an entire chord symbol usually does, using a single bass
-note.
+A root names a harmonic center, but it does not reveal quality by itself. Thirds, sevenths, and characteristic tones carry that information.
 
-That's a **Definer**: a bass note whose whole purpose is to tell you
-what *kind* of chord this is, not just where it lives.
+The **Definer** is the bass taking responsibility for a tone that makes chord quality audible. The label describes the note's principal job in context. A third in the bass also creates an inversion; it may weaken root identity; and a seventh may add directed tension. “Definer” does not erase those effects. It tells us why that note was chosen here.
 
-## Mental Model
+## The Microscope
 
-Every chord has a root, which answers "where are we," and a quality —
-major, minor, dominant, half-diminished, and so on — which answers
-"what does it feel like to be here." The root almost never answers the
-second question by itself. The notes that do answer it are the 3rd
-(major or minor) and the 7th (major, minor, or diminished), and to a
-lesser extent alterations like a b5 or a #9.
-
-A bass line built entirely from **Anchors** (Chapter 1) tells the
-listener where the harmony is centered but stays silent about what
-color that harmony is — that job gets left entirely to whatever
-instrument is playing the chord above. A Definer changes that division
-of labor: the bass itself briefly states the note that reveals quality,
-usually in passing, often on a weak beat or as part of a short
-approach, rather than settling on it the way a keyboard player would
-sustain a full voicing.
-
-This matters most in exactly the situations where nothing else in the
-arrangement is defining the chord for you — a horn hit that's just a
-unison line, a guitar comping with rootless upper-structure voicings
-that omit the 3rd, a moment where the harmony is implied rather than
-spelled out. In a trio with a chordal instrument that voices everything
-explicitly, the bass can get away with almost never defining anything.
-In a stripped-down horn-and-rhythm arrangement, a bass line that never
-defines quality can leave the harmony feeling unfinished no matter how
-solid its Anchors are.
-
-A useful diagnostic: if you removed every other instrument and left
-only the bass, could a listener tell major from minor at each chord
-change? If the answer is no more often than you'd like, the line
-probably needs more Definer moments, not more notes in general.
-
-## Visual Explanation
-
-The Definer's Role-layer icon is a **filled diamond**, in blue
-(`#2563EB`), placed above the specific note doing the defining — the 3rd
-or 7th (or altered tone) rather than the root. Unlike the Anchor's
-triangle, the diamond has no implied direction; it simply marks "this
-note is informationally load-bearing," regardless of how long it lasts.
-
-Because a Definer is often a short, passing event rather than a
-sustained one, its diamond frequently appears on a single eighth or
-sixteenth note rather than spanning a held duration the way an Anchor's
-triangle might. The Motion layer beneath it is often minimal or absent
-— defining quality is a harmonic-information job, not necessarily a
-directional-motion job — though a Definer that arrives via a half-step
-frequently doubles as an **Approach Note** (Chapter 13), in which case
-both tags appear together.
-
-## Musical Example
-
-The laboratory, stated plainly: the bass states the root of each
-chord, one whole note per bar.
+The right hand plays only C and G—an open fifth with no major or minor third. A and B change one bass pitch: E versus E-flat.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="definer-lab">
+  <div class="comparison-controls" aria-label="Major and minor defining-tone comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Major third</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Minor third</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="definer-major">
+      <p class="abc-caption"><strong>A — Major third.</strong> E supplies the quality omitted by the open fifth above.</p>
+      <p class="abc-description">Two bars of C and G in the right hand over low E, producing C major over E.</p>
+      <pre class="abc-source">X:1
+T:The Definer — major
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C/E"[CG]4 [CG]4 | "C/E"[CG]4 [CG]4 |]
+[V:LH] "^major third: defines"E,8 | E,8 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="definer-minor">
+      <p class="abc-caption"><strong>B — Minor third.</strong> E-flat changes the quality while every upper note remains fixed.</p>
+      <p class="abc-description">The identical open fifth sounds over low E-flat, producing C minor over E-flat.</p>
+      <pre class="abc-source">X:1
+T:The Definer — minor
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cm/Eb"[CG]4 [CG]4 | "Cm/Eb"[CG]4 [CG]4 |]
+[V:LH] "^minor third: defines"_E,8 | _E,8 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-Same progression; the bass states the defining tone of each chord
-instead of the root — F (the b3 that makes Dm7 minor), then B (the 3rd
-of G7), which turns out to already be the 7th Cmaj7 needs.
+## Listen
+
+Use **Harmony only** first. Neither version contains a third above. Then switch between the full versions: the bass supplies the only pitch that distinguishes major from minor. Finally, isolate **Bass only** and hear how little raw information produces such a large contextual change.
+
+## See
+
+E and E-flat are labelled as defining tones. Both also place the chord in first inversion. If the lesson were about balance and bass direction, we would call attention to inversion instead. Here the open fifth makes chord quality the audible question.
+
+A non-root bass tone is not automatically a Definer. A fifth does not distinguish major from minor. A chromatic approach may create tension without defining the destination until it arrives.
+
+## Play
+
+Hold each open fifth above while changing only the bass third. Say “major” or “minor” after hearing the result, not before playing it.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The Definer: same lab, defining tones instead of roots</p>
-<pre class="abc-source">
-X:1
-T:The Definer: same lab, defining tones instead of roots
-C:Thinking in Groove
+<div class="score-example" id="definer-exercise">
+  <p class="abc-caption"><strong>Quality from Below.</strong> The right hand supplies roots and fifths; the bass supplies every third.</p>
+  <p class="abc-description">Four bars contrasting major and minor qualities over C, A, D, and G harmonic centers.</p>
+  <pre class="abc-source">X:1
+T:Quality from Below
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 02-the-definer
-% role: definer
-% motion: root motion
-% groove: sparse
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-"^[R:Definer]"F,,8 | "^[R:Definer]"B,,8 | "^[R:Definer]""_[M:Pedal]"B,,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C/E"[CG]8 | "Am/C"[AE]8 | "Dm/F"[DA]8 | "G/B"[GD]8 |]
+[V:LH] "^major third"E,8 | "^minor third"C,8 | "^minor third"F,8 | "^major third"B,8 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-F carries `"^[R:Definer]"` in bar 1 — the note that makes Dm7 minor
-rather than major. B carries the same tag in bar 2, defining G7 as
-dominant. In bar 3 the tag repeats on the identical pitch, now with a
-Pedal tag underneath: B hasn't moved, but its meaning has — it's gone
-from "the 3rd of G7" to "the 7th of Cmaj7" without changing.
+Preserve the right hand, rhythm, and contour. Change bar 3 from F to F-sharp. Name the new quality you hear and describe how the bass note's tendency changes.
 
-*Bass tab for "The Definer: same lab, defining tones instead of roots" (see `examples/by-chapter/02-the-definer/` for the source files)*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|1-------|7-------|7-------|
+“Blue Lantern” is an original eight-bar jazz study. Sparse root-and-fifth shapes leave selected thirds and sevenths to the bass, so quality emerges from the relationship between the staves.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="blue-lantern-study">
+  <p class="abc-caption"><strong>Blue Lantern.</strong> Defining tones appear at phrase openings; roots return before each harmonic departure.</p>
+  <p class="abc-description">An eight-bar jazz study with open right-hand structures and a monophonic, phrase-shaped bass line.</p>
+  <pre class="abc-source">X:1
+T:Blue Lantern
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cm9/Eb"[CGd]6 z2 | "Fm9/Ab"[Fcg]4 z2 [Fcg]2 | "Bb13/D"[_B,Fg]6 z2 [_B,Fg]2 | "Ebmaj9/G"[_E_Bf]4 z4 |
+"Am7b5/C"[A_EG]6 z2 | "D7/F#"[DAd]4 z2 [DAd]2 | "G7/F"[GDB]6 z2 | "Cm9"[CGd]4 z2 [CGc]2 |]
+[V:LH] "^minor third"_E,4 C,2 G,,2 | "^minor third"_A,4 F,2 C2 | "^major third"D,4 _B,,2 F,2 | "^major third"G,6 _E,2 |
+"^minor third"C,4 A,,2 E,2 | "^major third"^F,4 D,2 A,,2 | "^seventh: dominant"F,4 G,2 B,,2 | "^root: return"C,6 z2 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- Take a tune with a chordal comping instrument. Ask that instrument to
-  play only rootless shells (no 3rd) for an entire chorus, and take
-  responsibility, in the bass, for stating the 3rd of every chord at
-  least once per bar. Notice how little of the bar needs to be spent on
-  that note for the quality to read clearly.
-- Play a ii–V–I with nothing but roots. Record it. Then play the same
-  progression using only roots and a single well-placed 3rd or 7th per
-  chord. Compare how much more harmonically "finished" the second
-  version sounds despite using almost the same number of notes.
-- Practice distinguishing, chord by chord, whether the 3rd or the 7th is
-  the more informative Definer for that specific chord. On a dominant
-  7th chord, the 3rd tells you major/minor-key context while the b7
-  tells you it's dominant at all — sometimes you need the 7th more than
-  the 3rd, and knowing which is a Definer decision, not a default.
-- On a static one-chord vamp, alternate: one chorus stating the Definer
-  tone on beat 1 of every bar, the next chorus stating it only once at
-  the very start of the whole vamp. Notice how the harmony's "settled"
-  feeling changes depending on how often you re-confirm its quality.
-
-## Summary
-
-A Definer is a bass note whose job is to state chord quality — usually
-the 3rd or 7th — often briefly and in passing, precisely because
-nothing else in the arrangement can be relied on to do it. Where the
-Anchor tells the listener where the harmony is centered, the Definer
-tells them what that harmony actually sounds like, and the two Roles
-frequently trade off within the same bar rather than competing for the
-same note.
+Which bass notes in “Blue Lantern” primarily tell you chord quality, and which primarily restore the root or lead toward the next bar?

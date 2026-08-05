@@ -13,11 +13,11 @@ Variation**.
 
 ## Project status
 
-**Piano prototype in progress.** The legacy 29-chapter bass-tab draft
-has been audited and remains available as migration source. Chapter 3,
-**The Inverter**, is the first canonical piano-edition chapter, with a
-grand staff, independent voice playback, looping, bounded tempo,
-highlighting, an A/B laboratory, an exercise, and an eight-bar study.
+**Role pilot complete.** The published piano edition currently contains
+three finished chapters: **The Ground**, **The Definer**, and **The
+Inverter**. Every musical example is a piano grand staff with independent
+harmony/bass playback, looping, bounded tempo, highlighting, a controlled
+laboratory, an exercise, and an eight-bar study.
 
 See `docs/content-audit.md`, `docs/technical-audit.md`, and
 `docs/migration-matrix.md` for the explicit migration status. Legacy
@@ -32,11 +32,11 @@ or technical gates.
 | [`ROADMAP.md`](ROADMAP.md) | Legacy phase plan; superseded by the piano-edition roadmap being executed through the audit and migration documents. |
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
 | [`docs/`](docs/) | Vocabulary, migration audits, and the canonical piano notation/accompaniment guides. |
-| [`book/`](book/) | The manuscript, one file per chapter, organized by Part, plus a `back-matter/` folder for the integrated study and appendices. All 29 chapters + 4 appendices have full first-draft prose with embedded musical examples. |
+| [`book/`](book/) | Three canonical piano chapters plus the unpublished legacy manuscript retained as migration source. |
 | [`examples/`](examples/) | Legacy chapter sources plus canonical `laboratories/`, `exercises/`, and `studies/` grand-staff sources. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
-| [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Checks that `publish/_quarto.yml`'s chapter list and `book/`'s files on disk agree; run in CI. |
+| [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Ensures every published chapter exists, contains only grand-staff examples, and has no tablature dependency. |
 | [`publish/`](publish/) | The Quarto book project: `_quarto.yml`, front-matter pages, and the abcjs notation/audio widget (`publish/assets/notation-head.html`). |
 | [`.github/workflows/`](.github/workflows/) | `validate.yml` checks manuscript structure and does an HTML render sanity check on every push/PR; `build-book.yml` renders the full book and deploys it on every push to `main`. |
 

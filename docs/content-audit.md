@@ -21,7 +21,7 @@ Audited 5 August 2026 against the 33 manuscript files and 29 chapter example pai
 | Part IV — Integration | 3 | rewritten into Interaction and Design |
 | Back matter | 4 | merged into Design, glossary, and exercises |
 
-The per-file decision is authoritative in [migration-matrix.md](migration-matrix.md). The first migrated chapter is **The Inverter**, replacing the former Chapter 3 slot while preserving the old Connector example as migration source.
+The per-file decision is authoritative in [migration-matrix.md](migration-matrix.md). **The Ground**, **The Definer**, and **The Inverter** now form the published Role pilot. Replaced legacy examples remain migration sources.
 
 ## Redundancy and contradictions
 
