@@ -1,0 +1,13 @@
+X:1
+T:Rate of Change
+C:Alessandro Bessi
+R:Harmonic-rhythm study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]4 "Dm7"[DFAC]4 | "G7"[DFGB]2 "Cmaj7"[EGBc]2 "Am7"[ACEG]2 "Dm7"[DFAC]2 | "G7"[DFGB]8 |]
+[V:LH] "^one change"C,8 | "^two changes"A,,4 D,4 | "^four changes"G,,2 C,2 A,,2 D,2 | "^slow again"G,,8 |]

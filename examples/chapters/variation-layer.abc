@@ -1,0 +1,13 @@
+X:1
+T:Same Cell, New Ending
+C:Alessandro Bessi
+R:Funk variation study
+M:4/4
+L:1/8
+Q:1/4=102
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^base cell"C,1 z1 G,1 _B,1 z2 G,1 z1 | "^pitch ending"C,1 z1 G,1 _B,1 z2 _E,1 z1 | "^space ending"C,1 z1 G,1 _B,1 z4 | "^return"C,1 z1 G,1 _B,1 z2 G,1 z1 |]

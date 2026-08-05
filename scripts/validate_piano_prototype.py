@@ -5,7 +5,14 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CANONICAL_DIRS = ("laboratories", "exercises", "studies", "comparisons", "capstone")
+CANONICAL_DIRS = (
+    "laboratories",
+    "exercises",
+    "studies",
+    "comparisons",
+    "capstone",
+    "chapters",
+)
 REQUIRED = (
     "X:",
     "T:",
@@ -81,6 +88,13 @@ def main() -> None:
             title_match = re.search(r"^T:(.+)$", abc, re.MULTILINE)
             if title_match:
                 embedded_by_title[title_match.group(1)] = abc.strip()
+    from prepare_manuscript_for_publish import LEGACY_PIANO_EXAMPLES
+
+    for filename in LEGACY_PIANO_EXAMPLES.values():
+        abc = (ROOT / "examples" / "chapters" / filename).read_text().strip()
+        title_match = re.search(r"^T:(.+)$", abc, re.MULTILINE)
+        if title_match:
+            embedded_by_title[title_match.group(1)] = abc
     for title, (path, source) in sources_by_title.items():
         embedded = embedded_by_title.get(title)
         if embedded is None:

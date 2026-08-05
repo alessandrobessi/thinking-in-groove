@@ -1,0 +1,13 @@
+X:1
+T:Nearest Route
+C:Alessandro Bessi
+R:Jazz role study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7/E"[EGBc]8 | "Am7/C"[ACEG]8 | "Dm7/A"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^voice-lead downward"E,8 | C,8 | A,,8 | G,,8 |]

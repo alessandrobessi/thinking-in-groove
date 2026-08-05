@@ -1,0 +1,13 @@
+X:1
+T:Shared Outline
+C:Alessandro Bessi
+R:Fusion role study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGc]4 [FAd]4 | "Em7"[GBd]4 [Ace]4 | "Fmaj7"[Ace]4 [GBd]4 | "G7"[FGB]4 [EGc]4 |]
+[V:LH] "^shadow top contour"C,4 D,4 | B,,4 E,4 | E,4 D,4 | B,,4 C,4 |]

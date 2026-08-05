@@ -29,6 +29,45 @@ PIANO_CHAPTERS = {
     "part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md",
 }
 
+LEGACY_PIANO_EXAMPLES = {
+    "part-1-role/04-the-driver.md": "driver-pulse.abc",
+    "part-1-role/05-the-colorist.md": "reframer-floor.abc",
+    "part-1-role/06-the-shadow.md": "shadow-doubling.abc",
+    "part-1-role/07-the-voice-leader.md": "voice-leading-line.abc",
+    "part-1-role/08-the-commentator.md": "commentator-response.abc",
+    "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
+    "part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md": "root-motion.abc",
+    "part-2-harmonic-motion/11-the-pedal-stillness-under-change.md": "pedal-point.abc",
+    "part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md": "substituted-root.abc",
+    "part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md": "deceptive-motion.abc",
+    "part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md": "harmonic-rhythm.abc",
+    "part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md": "motion-profile.abc",
+    "part-3-groove/22-the-repetition-cell-the-riff-atom.md": "repetition-cell.abc",
+    "part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md": "variation-layer.abc",
+    "part-3-groove/24-density-controlling-energy-through-note-count.md": "density-curve.abc",
+    "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md": "layer-stack.abc",
+    "part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md": "groove-contract.abc",
+    "part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md": "design-study.abc",
+}
+
+
+def replacement_example(filename: str) -> str:
+    abc = (ROOT / "examples" / "chapters" / filename).read_text().strip()
+    title = re.search(r"^T:(.+)$", abc, re.MULTILINE).group(1)
+    style = re.search(r"^R:(.+)$", abc, re.MULTILINE).group(1)
+    slug = Path(filename).stem
+    return (
+        "## Musical Example\n\n"
+        ':::{.content-hidden when-format="epub"}\n\n'
+        "```{=html}\n"
+        f'<div class="score-example" id="{slug}-example">\n'
+        f'<p class="abc-caption"><strong>{title}.</strong> A checked piano example for this chapter.</p>\n'
+        f'<p class="abc-description">{style} for harmony and monophonic bass, with semantic bass annotations.</p>\n'
+        f'<pre class="abc-source">{abc}</pre>\n'
+        '<div class="abc-rendered"></div>\n</div>\n'
+        "```\n\n:::\n\n"
+    )
+
 
 def prepare_text(src: Path) -> str:
     """Keep legacy prose readable without publishing obsolete notation.
@@ -41,12 +80,10 @@ def prepare_text(src: Path) -> str:
     relative = src.relative_to(BOOK_DIR).as_posix()
     if relative in PIANO_CHAPTERS or 'class="score-example"' not in text:
         return text
-    replacement = (
-        "## Musical Example\n\n"
-        "> **Piano score in preparation.** This chapter's legacy example is "
-        "being rebuilt as a checked grand-staff score with independent "
-        "harmony and bass playback.\n\n"
-    )
+    filename = LEGACY_PIANO_EXAMPLES.get(relative)
+    if filename is None:
+        raise ValueError(f"legacy score has no piano replacement: {relative}")
+    replacement = replacement_example(filename)
     migrated, count = re.subn(
         r"^## Musical Example\n.*?(?=^## Practice Ideas\n)",
         replacement,

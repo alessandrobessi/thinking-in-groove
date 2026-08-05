@@ -62,6 +62,9 @@ def main():
     for published in sorted(listed & available):
         relative = published.removeprefix("chapters/")
         text = prepare_text(BOOK_DIR / relative)
+        if "Piano score in preparation" in text:
+            ok = False
+            print(f"published chapter still has a missing piano example: {relative}")
         if "Bass tab" in text or ".tab.txt" in text:
             ok = False
             print(f"published chapter depends on tablature: {relative}")
@@ -74,7 +77,7 @@ def main():
         sys.exit(1)
     print(
         f"OK: all {len(listed)} chapters are visible; published examples are "
-        "piano grand staff or explicitly marked as in preparation."
+        "piano grand staff with no missing-example notices."
     )
 
 

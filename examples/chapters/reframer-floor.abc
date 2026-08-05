@@ -1,0 +1,13 @@
+X:1
+T:Changing the Floor
+C:Alessandro Bessi
+R:Harmonic role study
+M:4/4
+L:1/8
+Q:1/4=84
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C"[CEG]8 | "Am7"[CEG]8 | "Fmaj9"[CEG]8 | "C/G"[CEG]8 |]
+[V:LH] "^ground"C,8 | "^reframe as Am7"A,,8 | "^reframe as F color"F,,8 | "^open inversion"G,,8 |]
