@@ -1,120 +1,126 @@
-# Passing Motion — Connecting Two Points
+# Connecting Chords
 
-*Chapter 12 — Part 2, Harmonic Motion: How the Bass Moves the Music.*
+*Motion Pilot — How Does the Bass Travel?*
 
-**Term:** Passing Motion
+## The Question
 
-**Definition:** Stepwise bass movement connecting two harmonic points, implying intermediate harmony.
+How can the bass make four separate chords sound like one continuous sentence?
 
-## Intuition
+## The Mental Model
 
-Two chords, a measure apart, a third apart in pitch. Instead of leaping, the bass fills the gap step by step. Nothing about the harmony above changed — the chord symbols on the page are still just two — but the bass has implied a small, temporary harmony of its own along the way, one that exists only because of how it gets from the first chord to the second.
+A connection is the route between harmonic destinations. Roots tell us where each chord begins; connecting notes explain how one destination becomes the next. A useful route respects the current chord, aims clearly at the next structural note, and has a contour the ear can remember.
 
-## Mental Model
+## The Microscope
 
-**Passing Motion** is stepwise bass movement that connects two harmonic points while implying intermediate harmony — a note or two that isn't a literal, notated chord but that briefly behaves like one because of its stepwise, directional placement between two real ones. This is a Harmonic Motion concept, not a Role: it describes the mechanism (stepwise, in-between, directional) rather than the job the note is doing. The Role most often built from Passing Motion is the Connector — but you can also find Passing Motion inside a line whose overall Role is something else, briefly, as one moment within a longer phrase.
-
-The key test for Passing Motion is whether the in-between note would sound strange in isolation but sounds inevitable in context. Play the passing tone by itself against the first chord: it will usually clash. Play it in the two-note stepwise run connecting chord one to chord two: it disappears into the logic of the line. That disappearing act — dissonance justified entirely by direction — is what separates Passing Motion from a Substituted Root, which implies a genuinely different harmony rather than a fleeting waypoint toward the next one.
-
-Passing Motion can fill a gap of a third (one passing tone), a fourth (two passing tones), or occasionally more, but the stepwise requirement is what defines it: leap-based connections belong to Root Motion, not here.
-
-Three checks separate a real passing tone from a note that only looks like one:
-
-1. **Direction never wavers.** A genuine passing tone moves consistently toward its target — reverse direction mid-run and you've built something closer to a **Voice-Leader** (Chapter 7) figure, which is allowed to zigzag in service of smooth chord-tone connections rather than a single directional gap.
-2. **Metrical weakness.** Passing tones usually fall on weaker subdivisions than the notes they connect, which is part of why they can get away with the dissonance — a passing tone landed squarely on a strong beat starts to read as its own event rather than connective tissue.
-3. **No independent harmonic identity.** If the "in-between" note is stable enough to be renamed as its own chord, you're no longer looking at Passing Motion — you're looking at a **Substituted Root** (Chapter 14) that happens to sit a step away from something.
-
-## Visual Explanation
-
-The Motion layer marks Passing Motion with a shallow arched slur drawn across the passing note or notes, in amber (`#D97706`) — visually softer and more continuous than Root Motion's straight diagonal line, reflecting that this is connective tissue rather than a structural leap. Where the passing tone briefly acts as its own miniature harmonic event, the Role layer above it will often show the Connector icon (two dots joined by a shallow arc) directly above the slur, reinforcing that Role and Motion are describing the same moment from two different angles.
-
-Compare this shape to the **Approach Note** (Chapter 13)'s short hook: a hook connects exactly two notes with a single step, aimed at one target, while a Passing Motion slur can stretch across two or three notes filling a wider gap. If you find yourself drawing a slur over only one note, it's worth asking whether what you actually have is an Approach Note wearing the wrong label.
-
-## Musical Example
-
-The laboratory's baseline leaps from root to root — D to G is a fourth, G to C is a fifth:
+Both versions keep Cmaj7–Am7–Dm7–G7, the right hand, rhythm, and register fixed. A uses only roots. B uses the same roots on beat 1 and fills the space between them.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="connecting-lab">
+<div class="comparison-controls" aria-label="Root jumps and connected route comparison">
+<button type="button" data-version="A" aria-pressed="true">A — Root jumps</button>
+<button type="button" data-version="B" aria-pressed="false">B — Connected route</button>
+</div>
+<div class="comparison-panel" data-version="A"><div class="score-example" id="connecting-roots">
+<p class="abc-caption"><strong>A — Destinations only.</strong> Each chord begins clearly, but the spaces between them say nothing.</p>
+<p class="abc-description">Four sustained chord roots beneath Cmaj7, Am7, Dm7, and G7.</p>
+<pre class="abc-source">X:1
+T:Connecting Chords — roots
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^destination"C,8 | "^destination"A,,8 | "^destination"D,8 | "^destination"G,8 |]</pre>
+<div class="abc-rendered"></div></div></div>
+<div class="comparison-panel" data-version="B" hidden><div class="score-example" id="connecting-route">
+<p class="abc-caption"><strong>B — Connected route.</strong> Beat 1 is unchanged; each remaining note prepares the next root.</p>
+<p class="abc-description">The same progression with a monophonic stepwise route between structural roots.</p>
+<pre class="abc-source">X:1
+T:Connecting Chords — route
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^destination"C,4 "^connect"B,,2 _B,,2 | "^destination"A,,4 B,,2 ^C,2 | "^destination"D,4 E,2 ^F,2 | "^destination"G,4 F,2 D,2 |]</pre>
+<div class="abc-rendered"></div></div></div>
 </div>
 ```
 
 :::
 
-Passing Motion fills both gaps by step instead: D-E-F-F# into G, then G-A-B-C into C. Neither F#, A, nor B is a notated chord anywhere in this progression — they exist only because the line needed to get from one root to the next.
+## Listen
+
+Use **Harmony only** to confirm the progression is unchanged. With **Bass only**, identify the beat-1 destinations first, then hear the remaining notes as routes rather than four unrelated fills.
+
+## See
+
+Destination and connection are different levels of the line. The roots carry harmonic structure; the intervening notes carry direction. A connector is not automatically chromatic and does not need to touch every available scale tone.
+
+## Play
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">Passing Motion: same lab, full stepwise lines</p>
-<pre class="abc-source">
-X:1
-T:Passing Motion: same lab, full stepwise lines
-C:Thinking in Groove
+<div class="score-example" id="connecting-exercise"><p class="abc-caption"><strong>Three-note bridges.</strong> Land on every root, then use only two notes to reach the next one.</p><p class="abc-description">A four-bar connection exercise over the shared functional progression.</p>
+<pre class="abc-source">X:1
+T:Three-Note Bridges
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 12-passing-motion-connecting-two-points
-% role: n/a
-% motion: passing motion
-% groove: moderate-density
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-"_[M:Passing Motion]"D,2 E,2 F,2 ^F,2 | G,,2 A,,2 B,,2 C,2 | C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
-</div>
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] C,4 B,,2 _B,,2 | A,,4 C,2 ^C,2 | D,4 E,2 ^F,2 | G,4 D,2 B,,2 |]</pre><div class="abc-rendered"></div></div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-A single `"_[M:Passing Motion]"` tag at the start of bar 1 covers the whole four-note run into G7; the same shape repeats into Cmaj7. Compare this against the baseline's `"_[M:Root Motion]"` tags, which mark a single leap rather than a run — the tag type itself tells you whether the bass is leaping or filling.
+Keep every beat-1 root. Reverse the direction of one bridge while preserving its rhythm and destination.
 
-*Bass tab for "Passing Motion: same lab, full stepwise lines":*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|----8-9-|--------|--------|
-E|1012----|3-5-7-8-|8-------|
+“Common Thread” is an original eight-bar jazz study. The harmony repeats; the second pass varies the bridges without moving the structural roots.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="common-thread-study"><p class="abc-caption"><strong>Common Thread.</strong> Two routes through identical harmony.</p><p class="abc-description">An eight-bar functional-jazz study with compact piano voicings and a connected monophonic bass.</p>
+<pre class="abc-source">X:1
+T:Common Thread
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]6 "Cmaj7"[EGBc]2 |]
+[V:LH] C,2 E,2 G,2 _B,,2 | A,,2 C,2 E,2 ^C,2 | D,2 F,2 A,2 ^F,2 | G,2 F,2 D,2 B,,2 | C,2 B,,2 _B,,2 A,,2 | A,,2 E,2 C,2 ^C,2 | D,2 A,,2 F,2 ^F,2 | G,2 D,2 B,,2 C,2 |]</pre><div class="abc-rendered"></div></div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- Take any two chords a third apart and connect their roots with a single stepwise passing tone. Play the passing tone alone against the first chord, then play the full three-note stepwise run. Notice the shift from "wrong" to "inevitable."
-- Extend the gap: connect two roots a fourth apart with two passing tones instead of one, and compare how the added tone changes the pacing of the connection.
-- Transcribe a walking bass line and mark every note that isn't a chord tone of the chord it falls under. Most of what you find will be Passing Motion.
-- Practice arriving at a passing tone on an off-beat versus on a strong beat, and notice how the metrical placement changes how "connective" versus "accented" it feels — a preview of the Groove concepts in Part III.
-
-## Summary
-
-Passing Motion is what lets a bass line travel between two real harmonic points by step rather than by leap, implying a brief, unwritten harmony along the way that justifies itself entirely through direction and placement rather than through any chord symbol on the page.
+Which bridge sounds inevitable because it moves by step, and which works because its contour balances the phrase?
