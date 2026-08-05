@@ -1,180 +1,144 @@
-# Space as Content — The Power of Not Playing
+# Space
 
-*Chapter 21 — Part 3, Groove: How the Bass Creates Feel.*
+*Groove Pilot — How Is Motion Organized in Time?*
 
-**Term:** Space
+## The Question
 
-**Definition:** Intentional silence used as a rhythmic/harmonic device — rest as content, not absence of content.
+How can a missing bass attack become an active part of the groove?
 
-## Intuition
+## The Mental Model
 
-Mute a bass line's busiest bar and something odd happens: the surrounding
-bars often get *more* interesting, not less. What's missing draws
-attention to what's still there, and it hands the listener's attention
-somewhere else in the ensemble for a moment. A rest that does this on
-purpose is not an absence of musical content. It is content — the same
-way a pause in a sentence can carry more weight than the words on either
-side of it.
+**Space** is intentional bass silence that changes how the surrounding music is heard. It can expose another voice, create anticipation, or let an established pattern continue in the listener’s memory.
 
-This chapter is not about the ordinary rests every rhythm has. It is
-about the specific, chosen decision to leave a moment empty when a note
-could easily go there, because the emptiness itself is doing work.
+A rest is not automatically a meaningful use of space. The silence becomes structural when the context makes an event plausible or expected and the bass deliberately leaves it open. Duration asks when a sounded note ends; space asks what the ensemble does after the bass has chosen not to sound.
 
-## Mental Model
+## The Microscope
 
-There is a useful test for distinguishing accidental silence from Space:
-*would removing this rest change what the listener understands about the
-music?* If yes, it's Space. If the bar would sound identical whether or
-not something filled that gap — if it's simply a place nothing happened
-to be written — it's not a deliberate device, just an empty beat.
-
-Space typically does one of a few specific jobs:
-
-- **Creates room for another voice.** A drummer's fill, a vocal
-  entrance, a horn hit — Space in the bass line is often an invitation
-  for another instrument to be heard clearly, rather than competing for
-  the same rhythmic slot.
-- **Builds anticipation.** A gap immediately before a strong arrival
-  (a downbeat, a new section, a resolved chord) makes that arrival land
-  harder than if the bass had simply kept playing through it.
-- **Implies continuation.** A groove strongly established in the bars
-  before a rest keeps "playing" in the listener's memory even during
-  the silence — the pulse doesn't actually stop, only the bass's
-  contribution to stating it does. This is why removing an expected
-  note can feel just as rhythmically active as adding an unexpected
-  one.
-
-Space works by contrast, just like Chapter 20's Syncopation Point — and
-the two are close cousins. A Syncopation Point avoids a strong beat by
-moving a note to a weak one; Space avoids a beat by not playing a note
-at all. Where a syncopation still states something, just displaced,
-Space states nothing, and lets that nothing be heard.
-
-## Visual Explanation
-
-On the Groove-layer pulse timeline (green, `#16A34A`), a deliberate rest
-is drawn as a hollow ring on the tick it occupies, rather than the empty
-gap left by an ordinary unmarked beat. This distinguishes "nothing was
-notated here" from "silence was notated here on purpose" — the hollow
-ring is itself a symbol, occupying visual space on the timeline the way
-a rest occupies time in the bar. Because Space is defined by what
-precedes and follows it, its diagrams typically show at least one full
-bar of activity immediately before the ringed gap, so the contrast that
-makes the rest legible as Space (rather than as a section boundary or an
-incomplete example) is visible on the page.
-
-## Musical Example
-
-Take the laboratory progression and remove almost everything.
+Both versions keep the same C9 harmony, right-hand quarter-note reference, register, tempo, and short bass-note duration. A attacks on all four beats. B omits beats 2 and 4. The right hand continues, making those two absences audible.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="space-lab">
+  <div class="comparison-controls" aria-label="Filled and open bass groove comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Filled</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Open</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="space-filled">
+      <p class="abc-caption"><strong>A — Filled.</strong> A short bass note confirms every beat.</p>
+      <p class="abc-description">Two bars of C9 with C, E-flat, G, and B-flat attacking on beats 1–4.</p>
+      <pre class="abc-source">X:1
+T:Space — filled
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^filled"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="space-open">
+      <p class="abc-caption"><strong>B — Open.</strong> The bass leaves beats 2 and 4 to the continuing harmony.</p>
+      <p class="abc-description">The same C9 context with the E-flat and B-flat bass attacks intentionally omitted.</p>
+      <pre class="abc-source">X:1
+T:Space — open
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^play"C,1 z3 "^play"G,1 z3 | C,1 z3 G,1 z3 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-Same progression, reduced to almost nothing — one short hit per chord,
-the rest of each bar left as Space.
+## Listen
+
+Use **Harmony only** to hear that the metrical and harmonic reference never disappears. Then compare **Bass only** and **Full**: in B, the right hand occupies the beats the bass leaves open.
+
+## See
+
+The first and third bass notes retain the same attacks and durations. The second and fourth are not displaced or shortened; they are absent. The rests span those expected positions while the upper staff continues.
+
+## Play
+
+Establish the filled cell, then remove one expected attack at a time.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">Space: same lab, reduced to almost nothing</p>
-<pre class="abc-source">
-X:1
-T:Space: same lab, reduced to almost nothing
-C:Thinking in Groove
+<div class="score-example" id="space-exercise">
+  <p class="abc-caption"><strong>Make a Window.</strong> Each bar opens one more place in the bass pattern.</p>
+  <p class="abc-description">A four-bar C9 exercise that progressively removes attacks while the right hand keeps four beats.</p>
+  <pre class="abc-source">X:1
+T:Make a Window
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 21-space-as-content-the-power-of-not-playing
-% role: n/a
-% motion: n/a
-% groove: sparse
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-"_[G:Space]"D,2 z6 | G,,2 z6 | C,2 z6 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C9"[E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 | [E_Bd]2 [E_Bd]2 [E_Bd]2 [E_Bd]2 |]
+[V:LH] "^four attacks"C,1 z1 _E,1 z1 G,1 z1 _B,1 z1 | "^three"C,1 z1 _E,1 z3 _B,1 z1 | "^two"C,1 z3 G,1 z3 | "^one"C,1 z7 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-Each root shrinks from a whole bar (`D,8` in the laboratory) to a single
-quarter-note hit followed by six units of rest (`D,2 z6`), and each hit
-carries `"_[G:Space]"` — ABC's rest token, `z`, cannot itself hold an
-annotation, so the tag lands on the note that precedes the silence it
-creates. The Role tag (`"^[R:Anchor]"`, implied by continuity with the
-laboratory) is unchanged; only how much of the bar that Role gets to
-occupy has changed.
+Return to the four-attack bar. Remove only beat 1. Does the missing downbeat create more useful tension than removing beat 4, or does it weaken the groove’s identity?
 
-*Bass tab for "Space: same lab, reduced to almost nothing"*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|10------|3-------|8-------|
+“Negative Space” is an original eight-bar funk study. Offbeat right-hand stabs remain active while a two-bar bass cell leaves changing windows around them. The form moves from D9 to G9 and back before an A9 turnaround.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="negative-space-study">
+  <p class="abc-caption"><strong>Negative Space.</strong> The accompaniment answers inside the bass line’s holes.</p>
+  <p class="abc-description">An eight-bar dominant-funk miniature with offbeat harmony and a sparse monophonic bass cell.</p>
+  <pre class="abc-source">X:1
+T:Negative Space
+C:Alessandro Bessi
+R:Funk study
+M:4/4
+L:1/16
+Q:1/4=102
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "D9"z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 | z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 | z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 | z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 | "G9"z2 [Bfa]2 z2 [Bfa]2 z2 [Bfa]2 z2 [Bfa]2 | z2 [Bfa]2 z2 [Bfa]2 z2 [Bfa]2 z2 [Bfa]2 | "D9"z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 z2 [^Fce]2 | "A9"z2 [^Cgb]2 z2 [^Cgb]2 z2 [^Cgb]2 z2 [^Cgb]2 |]
+[V:LH] "^leave the ands open"D,2 z4 F,2 z4 A,2 z2 | z2 C2 z4 A,2 z6 | D,2 z4 F,2 z4 A,2 z2 | z2 C2 z4 A,2 z6 | "^same windows"G,2 z4 _B,2 z4 D2 z2 | z2 F2 z4 D2 z6 | D,2 z4 F,2 z4 A,2 z2 | z2 G,2 z4 A,2 z6 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- **Subtraction drill.** Take a bass line you already know well and
-  remove one note per bar, choosing the removal that makes the
-  remaining notes sound most intentional rather than incomplete. This
-  trains the ear to hear rests as compositional choices rather than
-  gaps to eventually fill in.
-- **Trade fours with silence.** Practice a groove where you play for
-  four bars and rest for four bars, listening closely to what the rest
-  of the band does in your silence. This builds the habit of treating
-  Space as an active listening tool, not just a technical rest.
-- **One-bar-of-nothing rule.** In a practice loop, force yourself to
-  leave at least one full bar completely silent every 8 or 16 bars,
-  regardless of how the material naturally falls. Notice how the
-  imposed constraint changes what you choose to play in the surrounding
-  bars.
-- **Compare two versions.** Record a groove with no deliberate rests,
-  then record the same groove with one well-placed bar of Space added.
-  A/B them back to back and identify specifically what the silent
-  version does that the busy version can't.
-
-## Summary
-
-Space is a rest that would change what the listener understands if it
-were filled in — it makes room for another voice, builds anticipation
-before an arrival, or lets an established groove keep implying itself
-through the listener's memory of what came before it. Distinguishing
-Space from an ordinary, unremarkable rest is a matter of intent and
-contrast: a deliberate absence is heard against what surrounds it, the
-same way a Syncopation Point is heard against the strong beat it avoids.
+Which rests in “Negative Space” let the right hand feel like an answer, and which simply separate bass notes? What musical evidence makes the difference?

@@ -24,7 +24,7 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md` | Rewrite | Ch. 17 Motion Maps. |
 | `part-3-groove/19-the-pocket-where-exactly-is-the-note.md` | Migrated | Attack Placement now separates the written grid from microtiming and performed pocket. |
 | `part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md` | Rewrite | Ch. 22 Syncopation. |
-| `part-3-groove/21-space-as-content-the-power-of-not-playing.md` | Rewrite | Ch. 21 Space with continuing right-hand context. |
+| `part-3-groove/21-space-as-content-the-power-of-not-playing.md` | Migrated | Space now removes expected bass attacks beneath continuing right-hand context. |
 | `part-3-groove/22-the-repetition-cell-the-riff-atom.md` | Rewrite | Ch. 24 Repeated Cells. |
 | `part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md` | Rewrite | Ch. 25 Variation Without Collapse. |
 | `part-3-groove/24-density-controlling-energy-through-note-count.md` | Merge | Ch. 32 Density Balance; density is relational. |
