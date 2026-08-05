@@ -23,6 +23,7 @@ PIANO_CHAPTERS = {
     "part-2-harmonic-motion/12-passing-motion-connecting-two-points.md",
     "part-2-harmonic-motion/16-cadential-motion-tension-and-release.md",
     "part-3-groove/19-the-pocket-where-exactly-is-the-note.md",
+    "part-3-groove/25-push-and-lay-back-playing-around-the-beat.md",
 }
 
 

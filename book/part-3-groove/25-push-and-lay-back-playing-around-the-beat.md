@@ -1,179 +1,144 @@
-# Push and Lay-Back — Playing Around the Beat
+# Duration
 
-*Chapter 25 — Part 3, Groove: How the Bass Creates Feel.*
+*Groove Pilot — How Is Motion Organized in Time?*
 
-**Term:** Push / Lay-back
+## The Question
 
-**Definition:** Deliberate rhythmic anticipation (push) or delay (lay-back) relative to the beat.
+Why can two bass lines with identical attacks and pitches create different grooves?
 
-## Intuition
+## The Mental Model
 
-A bass line can sit in a relaxed, behind-the-beat Pocket for an entire
-chorus (Chapter 19) and still, at one specific moment — the arrival of
-a new section, the last beat before a cadence — jump slightly ahead of
-that same pocket, just for an instant, before settling back. That
-single, localized jump is not a change of Pocket. The overall feel
-hasn't shifted; one moment inside it has been deliberately pushed (or,
-in the opposite direction, deliberately delayed). This chapter is about
-that targeted, momentary gesture, not the whole-line tendency Chapter 19
-covered.
+**Duration** is how long a note continues after its attack. Rhythm is not only a list of beginnings: every note also has an ending. A full-value note occupies the grid until the next attack; a shortened note releases early and leaves audible space.
 
-## Mental Model
+Duration is distinct from attack placement. If two notes begin on beat 2 but one ends on the “and” while the other lasts to beat 3, their attack placement is identical and their duration differs. It is also distinct from touch: notation can specify a written length or articulation, but playback cannot reproduce every physical nuance of a bassist’s release.
 
-The distinction from Pocket is the entire content of this chapter, so
-it is worth stating plainly and returning to it whenever the two
-concepts start to blur:
+## The Microscope
 
-- **Pocket** (Chapter 19) is a *sustained* relationship to the pulse,
-  applied consistently across a whole passage — a bassist's overall
-  lean, ahead or behind, that colors everything they play.
-- **Push / Lay-back** is a *localized* rhythmic gesture at one
-  specific, structurally meaningful moment — a single note or short
-  group of notes deliberately timed early (a push) or late (a lay-back)
-  relative to the surrounding pocket, precisely because that moment
-  needs to stand out from everything around it.
-
-A push typically appears right before an arrival the bass wants to
-propel into — anticipating a downbeat, a new chord, or a section change
-by a small, consistent margin, creating forward momentum exactly where
-momentum is needed. A lay-back typically appears where the music wants
-to hold back rather than arrive early — delaying a note just enough to
-create a moment of suspension before it finally lands, often used at
-the end of a phrase rather than its beginning.
-
-Because Push and Lay-back are defined by contrast against the
-surrounding pocket, they only read clearly when everything around them
-is rhythmically stable. A push in a line that already drifts
-inconsistently ahead of the beat throughout isn't a push — it's just
-more of the same instability. The gesture depends on a steady baseline
-to depart from and return to.
-
-## Visual Explanation
-
-On the Groove-layer pulse timeline (green, `#16A34A`), a Push or
-Lay-back is marked exactly like a Pocket shift — a dot displaced left
-(push) or right (lay-back) of its tick — but critically, it appears at
-only one or two ticks in an otherwise dead-center (or consistently
-offset) timeline, rather than across every dot in the passage. The
-visual contrast between the isolated displaced dot and its evenly
-spaced, undisplaced neighbors is what identifies it as a Push / Lay-back
-gesture rather than a change of overall Pocket. Placing a Pocket diagram
-(Chapter 19) and a Push / Lay-back diagram side by side is the clearest
-way to see the difference: one shows a uniform lean across every dot,
-the other shows a single dot pulled out of an otherwise uniform line.
-
-## Musical Example
-
-Take the laboratory progression and delay the middle chord's arrival
-by one eighth note.
+The harmony, right hand, bass pitches, attacks, register, and tempo are identical. A gives every bass note its full quarter-note value. B shortens each to an eighth note and uses the remaining eighth as silence.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="duration-lab">
+  <div class="comparison-controls" aria-label="Full-value and shortened duration comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Full value</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Shortened</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="duration-full-value">
+      <p class="abc-caption"><strong>A — Full value.</strong> Each bass note continues until the next attack.</p>
+      <p class="abc-description">Two bars of quarter-note chord tones under sustained Cmaj7 and Am7 harmony.</p>
+      <pre class="abc-source">X:1
+T:Duration — full value
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 |]
+[V:LH] "^full value"C,2 E,2 G,2 B,2 | A,,2 C,2 E,2 G,2 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="duration-shortened">
+      <p class="abc-caption"><strong>B — Shortened.</strong> The attacks stay put, but each note releases halfway to the next one.</p>
+      <p class="abc-description">The same notes attack on the same beats, shortened to eighth notes with written rests.</p>
+      <pre class="abc-source">X:1
+T:Duration — shortened
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 |]
+[V:LH] "^short release"C,1 z1 E,1 z1 G,1 z1 B,1 z1 | A,,1 z1 C,1 z1 E,1 z1 G,1 z1 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-Same progression; Dm7 and Cmaj7 land exactly on the beat, but G7
-arrives a full eighth-note late — a Lay-back placed deliberately in the
-middle chord for contrast.
+## Listen
+
+Use **Bass only** to confirm that both versions begin the same pitches on beats 1–4. Then use **Full**: the sustained harmony makes the gaps in B audible without stopping the harmonic context.
+
+## See
+
+A fills each two-eighth-note beat with sound. B divides that same beat into one eighth note and one eighth rest. Nothing has moved earlier or later; only the release point has changed.
+
+## Play
+
+Alternate full and shortened values without changing your attack grid.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">Push and Lay-Back: same lab, G7 arrives a full eighth late</p>
-<pre class="abc-source">
-X:1
-T:Push and Lay-Back: same lab, G7 arrives a full eighth late
-C:Thinking in Groove
+<div class="score-example" id="duration-exercise">
+  <p class="abc-caption"><strong>Hold and Release.</strong> One attack pattern, four duration treatments.</p>
+  <p class="abc-description">A four-bar exercise moving from full values to shortened notes and back.</p>
+  <pre class="abc-source">X:1
+T:Hold and Release
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 25-push-and-lay-back-playing-around-the-beat
-% role: n/a
-% motion: n/a
-% groove: on-beat, then laid-back
-% difficulty: intermediate
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-D,8 | z1 "_[G:Lay-back]"G,,7 | C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^full"C,2 E,2 G,2 B,2 | "^short"A,,1 z1 C,1 z1 E,1 z1 G,1 z1 | "^short"D,1 z1 F,1 z1 A,1 z1 C1 z1 | "^full"G,,2 B,,2 D,2 F,2 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-Bars 1 and 3 are untagged for Groove, identical to the laboratory. Bar
-2 opens with a one-unit rest before G finally lands, and that G carries
-`"_[G:Lay-back]"` — a single eighth-note delay, isolated against two
-otherwise on-time neighbors, is enough to read as a deliberate lean
-rather than a timing error, precisely because bars 1 and 3 establish
-what "on time" sounds like first.
+Keep all four attacks in one bar. Lengthen only the final note so it continues into the next harmony. Does that ending connect the bars or blur the change?
 
-*Bass tab for "Push and Lay-Back: same lab, G7 arrives a full eighth late"*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|10------|-3------|8-------|
+“Afterimage” is an original eight-bar fusion ballad. Its bass uses a recurring contrast between tones that linger and tones that release early. The right hand continues through the gaps, so every bass ending remains audible as a deliberate part of the groove.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="afterimage-study">
+  <p class="abc-caption"><strong>Afterimage.</strong> Long and short releases shape an eight-bar phrase.</p>
+  <p class="abc-description">A restrained fusion study with sustained harmony and a monophonic bass duration motif.</p>
+  <pre class="abc-source">X:1
+T:Afterimage
+C:Alessandro Bessi
+R:Fusion ballad
+M:4/4
+L:1/8
+Q:1/4=84
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj9"[EGBd]6 z2 | "Am9"[CEGB]8 | "Dm9"[FACe]6 z2 | "G13"[FGBE]8 | "Cmaj9"[EGBd]6 z2 | "Am9"[CEGB]8 | "Dm9"[FACe]6 z2 | "G13"[FGBE]6 "Cmaj9"[EGBd]2 |]
+[V:LH] "^linger"C,4 G,2 z2 | "^release"A,,2 z2 E,2 z2 | "^linger"D,6 z2 | "^release"G,,2 z2 B,,2 z2 | "^linger"C,4 B,,2 z2 | "^release"A,,2 z2 E,2 z2 | "^linger"D,4 A,2 z2 | "^connect"G,,2 z2 B,,2 C,2 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- **Six-stable-one-pushed drill.** Play six bars of a simple line
-  perfectly dead-center against a click, then push only the note
-  leading into bar 7 ahead of the beat, then return to dead-center for
-  bar 8. Isolating the gesture this way trains you to produce it on
-  demand rather than by accident.
-- **Push and lay-back, same note.** Practice the identical approach
-  note two ways — pushed ahead, then delayed behind — back to back,
-  and describe out loud what each version does differently to the
-  arrival that follows it.
-- **Find the gesture on a record.** Listen for a single moment in a
-  bass line you know well where the time noticeably stretches or
-  jumps for just one note, and identify whether it's a push (leading
-  into something) or a lay-back (holding something back).
-- **Push under pressure.** Practice pushing an approach note by a
-  consistent, small margin at increasing tempos. A push that's
-  reliable at a slow tempo often collapses into an ordinary early
-  entrance at speed — refining the margin is part of the skill.
-
-## Summary
-
-A Push or a Lay-back is a deliberate, localized rhythmic gesture — one
-note or a short group of notes played ahead of or behind an otherwise
-stable pocket — used at a specific structural moment such as an
-approaching arrival, rather than as a sustained feel applied throughout
-a passage. Distinguishing it from Chapter 19's Pocket is a matter of
-scope: Pocket colors everything, a Push or Lay-back stands out precisely
-because the material around it doesn't.
+In “Afterimage,” which bass endings create forward connection, and which create punctuation—even though the attack pattern remains sparse throughout?

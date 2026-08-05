@@ -1,0 +1,13 @@
+X:1
+T:Afterimage
+C:Alessandro Bessi
+R:Fusion ballad
+M:4/4
+L:1/8
+Q:1/4=84
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj9"[EGBd]6 z2 | "Am9"[CEGB]8 | "Dm9"[FACe]6 z2 | "G13"[FGBE]8 | "Cmaj9"[EGBd]6 z2 | "Am9"[CEGB]8 | "Dm9"[FACe]6 z2 | "G13"[FGBE]6 "Cmaj9"[EGBd]2 |]
+[V:LH] "^linger"C,4 G,2 z2 | "^release"A,,2 z2 E,2 z2 | "^linger"D,6 z2 | "^release"G,,2 z2 B,,2 z2 | "^linger"C,4 B,,2 z2 | "^release"A,,2 z2 E,2 z2 | "^linger"D,4 A,2 z2 | "^connect"G,,2 z2 B,,2 C,2 |]
