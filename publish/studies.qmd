@@ -1,6 +1,6 @@
 # Study Collection {.unnumbered}
 
-These fifteen original miniatures turn the book’s concepts into music worth practising. Every study is 8–10 bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback.
+These sixteen original miniatures turn the book’s concepts into music worth practising. Every study is 8–10 bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback.
 
 Use **Harmony only** to learn the form, **Bass only** to practise the line, and **Full** to judge whether the two parts make one convincing texture. The titles link to the complete notation, annotations, variation prompt, and reflection question.
 
@@ -12,6 +12,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Fixed Star](chapters/part-1-role/04-the-driver.md#the-music) | Fusion | Pedal point beneath changing upper harmony |
 | [Borrowed Ceiling](chapters/part-1-role/05-the-colorist.md#the-music) | Jazz-funk | Reframing one fixed upper structure from below |
 | [Redline](chapters/part-1-role/06-the-shadow.md#the-music) | Funk-fusion | Repeated bass activity as forward propulsion |
+| [Wide Shoulders](chapters/part-1-role/07-the-voice-leader.md#the-music) | Jazz-funk | Deliberate simplicity beneath an active upper layer |
 | [Common Thread](chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md#the-music) | Jazz | Connecting fixed harmonic destinations |
 | [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Direct and chromatic approaches |
 | [Crossing Lines](chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md#the-music) | Fusion | Contrary motion between outer voices |

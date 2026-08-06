@@ -1,0 +1,13 @@
+X:1
+T:The Supporter — competing bass
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Dm9"F A c e c A F E | "G13"F A B e d B A F | "Cmaj9"E G B d c B G E | "A7(b9)"^C E G _B A G E ^C |]
+[V:LH] "^competes"D, F, A, C D C A, F, | G,, B,, D, F, G, F, D, B,, | C, E, G, B, C B, G, E, | A,, ^C, E, G, A, G, E, ^C, |]

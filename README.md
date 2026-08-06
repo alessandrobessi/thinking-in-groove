@@ -15,7 +15,7 @@ Variation**.
 
 **Role, Motion, and written-Groove pilots complete.** The published piano
 edition contains all 33 manuscript chapters and 64 canonical grand-staff
-examples. The first musical collection includes fifteen original 8–10-bar
+examples. The first musical collection includes sixteen original 8–10-bar
 studies, each with independent harmony/bass playback and current-note
 highlighting. No missing-example notices or legacy bass-only scores remain
 in the published book.
@@ -34,7 +34,7 @@ architecture, followed by the progressive capstone.
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
 | [`docs/`](docs/) | The 40-chapter map, authoritative Vocabulary v2, migration audits, and canonical notation/accompaniment guides. |
 | [`book/`](book/) | Canonical chapter prose, including the fully rewritten pilot chapters. |
-| [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, and fifteen complete grand-staff studies. |
+| [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, and sixteen complete grand-staff studies. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
 | [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Ensures every published chapter exists, contains only grand-staff examples, and has no tablature dependency. |

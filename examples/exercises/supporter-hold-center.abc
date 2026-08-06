@@ -1,0 +1,13 @@
+X:1
+T:Hold the Center
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Fmaj9"z1 [EGAc]2 z1 [EGAc]1 z1 [EGAc]2 | "Em7"[EGBd]1 z1 [EGBd]2 z2 [EGBd]1 z1 | "Dm9"z1 [FAce]2 z1 [FAce]1 z1 [FAce]2 | "G13"[FABe]1 z1 [FABe]2 z2 [FABe]1 z1 |]
+[V:LH] "^one necessary event"F,,8 | E,8 | D,8 | G,,8 |]
