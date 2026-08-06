@@ -14,36 +14,13 @@
   width: 100%;
   min-width: 0;
   max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior-inline: contain;
-  scrollbar-gutter: stable;
-  touch-action: pan-x pan-y;
+  overflow: hidden;
 }
 .score-example .abc-rendered svg {
   display: block;
-  min-width: 620px;
-  width: auto;
-  max-width: none !important;
+  width: 100%;
+  max-width: 100% !important;
   height: auto;
-}
-.score-example .abc-rendered.is-scrollable {
-  padding-bottom: .35rem;
-  scrollbar-color: #9e442a #e6e0d6;
-  scrollbar-width: auto;
-}
-.score-example .abc-rendered.is-scrollable::-webkit-scrollbar {
-  height: 12px;
-}
-.score-example .abc-rendered.is-scrollable::-webkit-scrollbar-track {
-  border-radius: 999px;
-  background: #e6e0d6;
-}
-.score-example .abc-rendered.is-scrollable::-webkit-scrollbar-thumb {
-  border: 2px solid #e6e0d6;
-  border-radius: 999px;
-  background: #9e442a;
 }
 .score-example .abc-rendered:focus-visible {
   outline: 3px solid #f0a78e;
@@ -82,7 +59,6 @@
 .comparison-panel[hidden] { display: none; }
 @media (max-width: 700px) {
   .score-example { margin-inline: -.5rem; padding: .7rem; }
-  .score-example .abc-rendered svg { min-width: 680px; }
   .score-example .abc-transport { position: sticky; left: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -179,26 +155,21 @@ document.addEventListener("DOMContentLoaded", function () {
     var rhSource = source.textContent.split("[V:RH]")[1] || "";
     rhSource = rhSource.split("[V:LH]")[0];
     var bars = (rhSource.replace(/\|\]/g, "|").match(/\|/g) || []).length;
-    var scoreWidth = bars > 8 ? Math.max(900, bars * 135) : 760;
-    var rendered = ABCJS.renderAbc(target, source.textContent, {
-      staffwidth: scoreWidth, add_classes: true
-    });
+    var targetWidth = target.clientWidth || 760;
+    var scoreWidth = Math.max(300, Math.min(760, targetWidth));
+    var renderOptions = { staffwidth: scoreWidth, add_classes: true };
+    if (bars > 8) {
+      renderOptions.wrap = {
+        preferredMeasuresPerLine: targetWidth <= 700 ? 2 : 4,
+        minSpacing: 1.5,
+        maxSpacing: 2.5
+      };
+    }
+    var rendered = ABCJS.renderAbc(target, source.textContent, renderOptions);
     if (!rendered[0]) return;
     if (bars > 8) {
-      // abcjs supplies a wide viewBox, but site-wide responsive SVG rules can
-      // still collapse its layout width to the column. Pin the notation rail
-      // to the requested staff width so the constrained parent truly overflows.
-      var scoreSvg = target.querySelector("svg");
-      if (scoreSvg) {
-        scoreSvg.style.width = scoreWidth + "px";
-        scoreSvg.style.minWidth = scoreWidth + "px";
-        scoreSvg.style.maxWidth = "none";
-      }
-      target.classList.add("is-scrollable");
-      target.tabIndex = 0;
       var scoreTitle = (source.textContent.match(/^T:(.+)$/m) || [null, "music score"])[1];
-      target.setAttribute("role", "region");
-      target.setAttribute("aria-label", "Horizontally scrollable music score: " + scoreTitle);
+      target.setAttribute("aria-label", "Multi-row music score: " + scoreTitle);
     }
 
     var controls = document.createElement("div");
