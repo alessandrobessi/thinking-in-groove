@@ -1,6 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/abcjs@6.4.4/dist/abcjs-basic-min.js"></script>
 <style>
 .score-example {
+  min-width: 0;
   margin: 1.75em 0;
   padding: 1rem;
   border: 1px solid #d8d3c8;
@@ -9,6 +10,9 @@
 }
 .score-example .abc-source { display: none; }
 .score-example .abc-rendered {
+  display: block;
+  width: 100%;
+  min-width: 0;
   max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
@@ -20,12 +24,26 @@
 .score-example .abc-rendered svg {
   display: block;
   min-width: 620px;
+  width: auto;
   max-width: none !important;
   height: auto;
 }
 .score-example .abc-rendered.is-scrollable {
   padding-bottom: .35rem;
-  cursor: ew-resize;
+  scrollbar-color: #9e442a #e6e0d6;
+  scrollbar-width: auto;
+}
+.score-example .abc-rendered.is-scrollable::-webkit-scrollbar {
+  height: 12px;
+}
+.score-example .abc-rendered.is-scrollable::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: #e6e0d6;
+}
+.score-example .abc-rendered.is-scrollable::-webkit-scrollbar-thumb {
+  border: 2px solid #e6e0d6;
+  border-radius: 999px;
+  background: #9e442a;
 }
 .score-example .abc-rendered:focus-visible {
   outline: 3px solid #f0a78e;
@@ -167,6 +185,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     if (!rendered[0]) return;
     if (bars > 8) {
+      // abcjs supplies a wide viewBox, but site-wide responsive SVG rules can
+      // still collapse its layout width to the column. Pin the notation rail
+      // to the requested staff width so the constrained parent truly overflows.
+      var scoreSvg = target.querySelector("svg");
+      if (scoreSvg) {
+        scoreSvg.style.width = scoreWidth + "px";
+        scoreSvg.style.minWidth = scoreWidth + "px";
+        scoreSvg.style.maxWidth = "none";
+      }
       target.classList.add("is-scrollable");
       target.tabIndex = 0;
       var scoreTitle = (source.textContent.match(/^T:(.+)$/m) || [null, "music score"])[1];
