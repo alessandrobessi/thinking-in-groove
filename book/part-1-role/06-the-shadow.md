@@ -1,183 +1,140 @@
-# The Shadow
+# The Driver
 
-*Chapter 6 — Part 1, Role: What Job Is the Bass Doing?*
+*Chapter 6 — Part I, Role: What Is the Bass Responsible For?*
 
-**Term:** Shadow
+## The Question
 
-**Definition:** A bass line that doubles another instrument's line (unison/octave) to reinforce a melodic idea.
+When is the bass responsible for keeping the music moving forward?
 
-## Intuition
+## The Mental Model
 
-Watch two dancers move in unison and the effect isn't "two people doing
-the same thing" — it's one gesture made larger, more certain, harder to
-look away from. A **Shadow** does that for a melodic line. Instead of
-providing its own independent idea, the bass gives up its independence
-on purpose and doubles what another instrument is already playing,
-usually an octave below. The result isn't redundancy. It's emphasis.
+A **Driver** uses recurring bass activity to create propulsion. The pitches still need to agree with the harmony, but their primary responsibility is kinetic: if the bass stops repeating the figure, the music loses forward pressure.
 
-You've heard this in a horn hit that suddenly gets thicker and heavier
-exactly when the arrangement wants a stab to land hard, or in a unison
-line between bass and lead guitar that turns a melodic phrase into a
-statement the whole band seems to be making at once.
+This is not the same as a Pedal. A Pedal is defined by one pitch persisting while the harmony changes. A Driver may follow every chord and use several pitches; what persists is the activity. It is also possible to drive with relatively few notes. The role describes the effect of the line, not a required note count.
 
-## Mental Model
+## The Microscope
 
-Every other Role in this Part gives the bass its own agenda — grounding,
-defining, connecting, driving, coloring. The Shadow is the one Role that
-deliberately subordinates the bass's agenda to someone else's. This
-isn't a lesser choice; it's a specific tool for a specific effect:
-reinforcement.
-
-Three situations call for a Shadow more than any other Role:
-
-1. **Unison hits and figures.** A short rhythmic figure played by horns,
-   guitar, or keys gains weight and precision when the bass doubles it
-   exactly, because low frequencies make an accent feel more physical.
-2. **Melodic emphasis at structurally important moments.** A hook or a
-   head melody that the arrangement wants to land with maximum clarity
-   — often a first or final statement of a theme — benefits from the
-   bass shadowing it rather than harmonizing underneath it.
-3. **Unison lines as compositional devices**, especially in fusion and
-   funk writing, where a bass-and-lead unison line is often the melodic
-   backbone of an entire section, not an occasional embellishment.
-
-The key discipline of the Shadow Role is restraint of ego: while
-shadowing, the bass gives up the chance to define chord quality, connect
-harmonic areas, or add color, because doing any of those things at the
-same moment would break the unison and undercut the very reinforcement
-the Shadow exists to provide. A bass line that shadows "mostly" — doubling
-the rhythm but altering the pitches for harmonic reasons — isn't really
-shadowing. It's just a related but independent line, which is a
-perfectly fine choice, but a different one.
-
-## Visual Explanation
-
-The Shadow's Role-layer icon is a **dashed outline duplicate of the
-notehead**, in blue (`#2563EB`), placed directly above the bass note
-that is doubling another part — the dashed outline visually implies "this
-note is a copy," distinct from every other Role's icon, which marks an
-original decision the bass is making on its own.
-
-The Motion and Groove layers beneath a Shadow passage are typically
-inherited wholesale from whatever line is being doubled — there's
-little point marking Motion or Groove independently for the bass when,
-by definition, it's following someone else's rhythmic and melodic
-contour exactly. A caption noting which instrument is being shadowed is
-more useful here than the usual layer annotations.
-
-## Musical Example
-
-The laboratory, stated plainly: the bass states the root of each
-chord, one whole note per bar.
+The harmony, roots, form, tempo, register, and total span are identical. A sustains each root. B restrikes the same root on every eighth note. No new pitch information is added.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="driver-lab">
+  <div class="comparison-controls" aria-label="Sustained and repeated roots comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Sustained roots</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Repeated roots</button>
+  </div>
+  <div class="comparison-panel" data-version="A"><div class="score-example" id="driver-sustained-roots">
+    <p class="abc-caption"><strong>A — Sustained roots.</strong> The bass identifies each chord without generating repeated motion.</p>
+    <p class="abc-description">Four whole-note roots beneath sustained harmony.</p>
+    <pre class="abc-source">X:1
+T:The Driver — sustained roots
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Dm7"[FAce]8 | "G7"[DFGB]8 | "Cmaj7"[EGBc]8 | "A7"[^CEGA]8 |]
+[V:LH] "^state the floor"D,8 | G,,8 | C,8 | A,,8 |]</pre>
+    <div class="abc-rendered"></div>
+  </div></div>
+  <div class="comparison-panel" data-version="B" hidden><div class="score-example" id="driver-repeated-roots">
+    <p class="abc-caption"><strong>B — Repeated roots.</strong> The same harmonic information becomes a motor.</p>
+    <p class="abc-description">Only the restrikes change; harmony, bass pitch, and tempo remain controlled.</p>
+    <pre class="abc-source">X:1
+T:The Driver — repeated roots
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Dm7"[FAce]8 | "G7"[DFGB]8 | "Cmaj7"[EGBc]8 | "A7"[^CEGA]8 |]
+[V:LH] "^create propulsion"D, D, D, D, D, D, D, D, | G,, G,, G,, G,, G,, G,, G,, G,, | C, C, C, C, C, C, C, C, | A,, A,, A,, A,, A,, A,, A,, A,, |]</pre>
+    <div class="abc-rendered"></div>
+  </div></div>
 </div>
 ```
 
 :::
 
-Same progression; instead of stating roots, the bass doubles an
-implied upper-voice arpeggio (D-F-A, G-B-D, C-E-G) an octave below —
-the definition of a Shadow.
+## Listen
+
+With **Harmony only**, A and B are identical. With **Bass only**, both versions communicate D–G–C–A, but only B creates an unbroken stream of attacks. In **Full**, listen for a change in momentum without a change in tempo.
+
+## See
+
+The repeated notes in B do not add harmonic destinations. Their annotation spans the responsibility of the whole figure: propulsion emerges from recurrence, not from any isolated D, G, C, or A.
+
+## Play
+
+Build a one-bar engine from root, fifth, and octave, then move the same design through a short progression.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The Shadow: same lab, doubling an implied upper-voice arpeggio</p>
-<pre class="abc-source">
-X:1
-T:The Shadow: same lab, doubling an implied upper-voice arpeggio
-C:Thinking in Groove
+<div class="score-example" id="driver-exercise">
+  <p class="abc-caption"><strong>Keep It Moving.</strong> One recurring attack pattern follows four roots.</p>
+  <p class="abc-description">A four-bar exercise that preserves activity while the harmonic floor changes.</p>
+  <pre class="abc-source">X:1
+T:Keep It Moving
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 06-the-shadow
-% role: shadow
-% motion: root motion
-% groove: moderate-density
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression; bass doubles an implied melody an octave below
-V:Bass clef=bass
-"^[R:Shadow]"D,2 F,2 A,2 z2 | G,2 B,2 D2 z2 | C,2 E,2 G,2 z2 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Dm7"[FAce]4 z2 [FAce]2 | "G7"[DFGB]4 z2 [DFGB]2 | "Cmaj7"[EGBc]4 z2 [EGBc]2 | "A7"[^CEGA]4 z2 [^CEGA]2 |]
+[V:LH] "^same engine"D,2 A,,1 D,1 z1 D,1 A,,2 | G,,2 D,1 G,1 z1 G,1 D,2 | C,2 G,,1 C,1 z1 C,1 G,,2 | A,,2 E,1 A,1 z1 A,1 E,2 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-`"^[R:Shadow]"` appears once, at the start of bar 1, understood to
-apply to the whole arpeggiated figure that follows across all three
-bars — every note here exists only because it doubles a part living
-elsewhere in the arrangement, so no independent Motion or Groove tags
-are marked; a caption pointing to the doubled part carries that
-information instead.
+Remove the attack on beat 3 from every bar, but change nothing else. Does the line still drive, or has its responsibility shifted toward support? Defend the answer by describing the musical effect rather than counting notes.
 
-*Bass tab for "The Shadow: same lab, doubling an implied upper-voice arpeggio" (see `examples/by-chapter/06-the-shadow/` for the source files)*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--9-12--|--------|
-A|--8-12--|10------|----10--|
-E|10------|--------|8-12----|
+“Redline” is an original eight-bar funk-fusion study. A recurring bass engine follows D minor, G dominant, C major, and A dominant twice. The second pass alters the final notes of each cell while preserving the forward pull.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="redline-study">
+  <p class="abc-caption"><strong>Redline.</strong> A compact bass engine carries two passes through the form.</p>
+  <p class="abc-description">An eight-bar funk-fusion study with syncopated chord stabs and monophonic driving bass.</p>
+  <pre class="abc-source">X:1
+T:Redline
+C:Alessandro Bessi
+R:Funk-fusion driving study
+M:4/4
+L:1/8
+Q:1/4=102
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Dm9"[FAce]2 z2 [FAce]2 z2 | "G13(no5)"z1 [FABe]2 z1 [FABe]2 z2 | "Cmaj9"[EGBd]2 z2 [EGBd]2 z2 | "A7(b9)"z1 [G_B^c]2 z1 [G_B^c]2 z2 | "Dm9"[FAce]2 z2 [FAce]2 z2 | "G13(no5)"z1 [FABe]2 z1 [FABe]2 z2 | "Cmaj9"[EGBd]2 z2 [EGBd]2 z2 | "A7(b9)"z1 [G_B^c]2 z1 [G_B^c]2 z2 |]
+[V:LH] "^engine"D, D, A,, z D, A,, C, D, | G,, G,, D, z G, D, F, G, | C, C, G,, z C, G,, B,, C, | A,, A,, E, z A, E, G, A, | "^controlled change"D, D, A,, z D, C, A,, C, | G,, G,, D, z G, F, D, F, | C, C, G,, z C, B,, G,, B,, | A,, A,, E, z G, E, ^C, A,, |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- Take a melody you know from a recording — a horn line, a guitar riff,
-  a vocal hook — and learn to play it on bass, an octave below, exactly
-  as written, including its rhythm and phrasing nuances (slides,
-  accents, articulation). Notice how much of "shadowing well" is about
-  matching feel, not just matching pitches.
-- With another musician, play a short unison figure together
-  repeatedly until the attack, release, and dynamic shape of both
-  instruments line up so precisely that the two parts are difficult to
-  tell apart by ear.
-- In a tune you already play, find one moment of independent bass line
-  and replace it with a unison doubling of the melody or another part's
-  figure. Evaluate whether the moment gains the intended weight, or
-  whether it costs the arrangement something (harmonic movement,
-  rhythmic counterpoint) it actually needed.
-- Practice transitioning cleanly into and out of a Shadow passage —
-  the beat before entering unison and the beat after leaving it are
-  often the hardest to make sound intentional rather than abrupt.
-
-## Summary
-
-A Shadow is a bass line that gives up its own independent Role for a
-passage in order to double another instrument's line, usually an
-octave below, turning a melodic or rhythmic idea into a statement the
-whole ensemble seems to make together. It is the one Role defined by
-subordination rather than by an independent decision, and its value
-comes specifically from the moments its restraint creates — the unison
-hits harder because the bass chose, briefly, not to have an agenda of
-its own.
+Which features make “Redline” continue to feel like one engine after the bass cells vary in bars 5–8?

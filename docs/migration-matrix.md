@@ -7,9 +7,9 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-1-role/01-the-anchor.md` | Migrated | Ch. 1 The Ground now distinguishes root weight from sustained chord tone. |
 | `part-1-role/02-the-definer.md` | Migrated | Ch. 2 The Definer now provides audible upper harmony. |
 | `part-1-role/03-the-connector.md` | Migrated/merge pending | Its chapter slot is now Ch. 3 The Inverter; useful Connector material moves later to Ch. 15. |
-| `part-1-role/04-the-driver.md` | Migrated | Transitional file slot now publishes Ch. 4 The Pedal; Driver moves to its final Ch. 6 slot. |
+| `part-1-role/04-the-driver.md` | Migrated | Transitional file slot now publishes Ch. 4 The Pedal; Driver has moved to its final Ch. 6 slot. |
 | `part-1-role/05-the-colorist.md` | Migrated | Transitional file slot now publishes Ch. 5 The Reframer; “colour” is retired because it hides harmonic reinterpretation. |
-| `part-1-role/06-the-shadow.md` | Merge | Ch. 28 Doubling and Ch. 8 The Conversationalist. |
+| `part-1-role/06-the-shadow.md` | Migrated/merge pending | Transitional file slot now publishes Ch. 6 The Driver; useful Shadow material moves to Ch. 28 Doubling and Ch. 8 The Conversationalist. |
 | `part-1-role/07-the-voice-leader.md` | Merge | Ch. 15 Connecting Chords and Ch. 16 Contrary Motion. |
 | `part-1-role/08-the-commentator.md` | Merge | Ch. 8 The Conversationalist and Ch. 31 Call and Response. |
 | `part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md` | Merge | Ch. 35 design algorithm and capstone analysis. |
