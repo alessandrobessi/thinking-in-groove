@@ -49,16 +49,18 @@ def main() -> None:
         errors.append("player must keep chord symbols silent with chordsOff: true")
     if "var result = await synth.prime()" not in player or "|| 4" in player:
         errors.append("player must time completion from prime() without a short fallback")
-    wrapping_markers = (
+    scrolling_markers = (
+        "overflow-x: auto",
+        "-webkit-overflow-scrolling: touch",
         "bars > 8",
         "staffwidth: scoreWidth",
-        "preferredMeasuresPerLine",
-        'targetWidth <= 700 ? 2 : 4',
-        '"Multi-row music score: "',
+        'target.setAttribute("role", "region")',
     )
-    for marker in wrapping_markers:
+    for marker in scrolling_markers:
         if marker not in player:
-            errors.append(f"player is missing long-score wrapping contract: {marker}")
+            errors.append(f"player is missing long-score scrolling contract: {marker}")
+    if 'responsive: "resize"' in player:
+        errors.append("player must not shrink long scores with responsive resize")
     sources_by_title: dict[str, tuple[Path, str]] = {}
     for path in files:
         text = path.read_text()

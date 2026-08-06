@@ -26,7 +26,7 @@ Audited 5 August 2026.
 
 ## Prototype changes
 
-The shared player now renders two named voices and provides Full, Bass only, and Harmony only playback modes with current-event highlighting, accessible labels/status, responsive multi-system notation, reduced-motion handling, and graceful audio failure. A comparison wrapper switches A/B panels. Audio initializes only after a user action.
+The shared player now renders two named voices and provides Full, Bass only, and Harmony only playback modes with current-event highlighting, accessible labels/status, mobile horizontal overflow, reduced-motion handling, and graceful audio failure. A comparison wrapper switches A/B panels. Audio initializes only after a user action.
 
 ## Known technical risks
 
@@ -38,7 +38,7 @@ The shared player now renders two named voices and provides Full, Bass only, and
 
 ## Mobile assessment
 
-The old widget scaled an entire long score down to container width, risking unreadable notation. The player now wraps scores longer than eight bars into multiple systems: four measures per row on normal screens and two on narrow screens. Transport controls wrap and remain adjacent. Safari, Firefox, real-device, and screen-reader checks remain quality-gate work.
+The old widget scaled a score down to container width, risking unreadable notation. The prototype maintains a minimum score width and permits horizontal scrolling. Transport controls wrap and remain adjacent. This is a code-level proof; Safari, Firefox, real-device, and screen-reader checks remain quality-gate work.
 
 ## Deployment
 

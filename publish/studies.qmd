@@ -29,14 +29,14 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 
 ## Long Horizon — 6/8 study {#long-horizon-study}
 
-“Long Horizon” extends the collection beyond the eight-bar form. Its recurring `long–short–space–short–short` bass cell stays legible while the harmony travels through E minor. The ten-bar score wraps across multiple systems so every bar remains visible.
+“Long Horizon” extends the collection beyond the eight-bar form. Its recurring `long–short–space–short–short` bass cell stays legible while the harmony travels through E minor, and its ten-bar score provides a practical test of horizontal notation scrolling.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="long-horizon-score">
   <p class="abc-caption"><strong>Long Horizon.</strong> A ten-bar 6/8 fusion study with a clear final arrival.</p>
-  <p class="abc-description">Compound-meter harmony and monophonic bass. The ten-bar phrase is divided automatically across readable notation systems.</p>
+  <p class="abc-description">Compound-meter harmony and monophonic bass. On narrow screens and for scores wider than eight bars, swipe or horizontally scroll the notation.</p>
   <pre class="abc-source">X:1
 T:Long Horizon
 C:Alessandro Bessi
