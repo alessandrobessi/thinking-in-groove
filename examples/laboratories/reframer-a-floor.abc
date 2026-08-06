@@ -1,0 +1,13 @@
+X:1
+T:The Reframer — A floor
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=82
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Am7"[CEG]8 | [CEG]8 |]
+[V:LH] "^reframes as Am7"A,,8 | A,,8 |]
