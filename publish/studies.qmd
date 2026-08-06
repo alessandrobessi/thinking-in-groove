@@ -1,0 +1,28 @@
+# Study Collection {.unnumbered}
+
+These eleven original miniatures turn the book’s concepts into music worth practising. Every study is eight bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback in its chapter.
+
+Use **Harmony only** to learn the form, **Bass only** to practise the line, and **Full** to judge whether the two parts make one convincing texture. The titles link to the complete notation, annotations, variation prompt, and reflection question.
+
+| Study | Style | Primary focus |
+|---|---|---|
+| [First Foot Down](chapters/part-1-role/01-the-ground.md#the-music) | Funk | Grounding harmony with a memorable foundation |
+| [Blue Lantern](chapters/part-1-role/02-the-definer.md#the-music) | Jazz | Revealing chord quality from below |
+| [Glass Stairs](chapters/part-1-role/03-the-inverter.md#the-music) | Fusion ballad | Inversions and a continuous descending floor |
+| [Common Thread](chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md#the-music) | Jazz | Connecting fixed harmonic destinations |
+| [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Direct and chromatic approaches |
+| [Crossing Lines](chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md#the-music) | Fusion | Contrary motion between outer voices |
+| [Grid Current](chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md#the-music) | Funk | Written attack placement |
+| [Between the Numbers](chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md#the-music) | Jazz-funk | Tied offbeats and metrical resolution |
+| [Negative Space](chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md#the-music) | Funk | Active silence and accompaniment response |
+| [Afterimage](chapters/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md#the-music) | Fusion ballad | Long and short releases |
+| [Early Light](chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md#the-music) | Jazz | Root anticipations across chord boundaries |
+
+## A practical sequence
+
+1. Learn **First Foot Down**, **Grid Current**, and **Negative Space** to establish foundation, placement, and silence.
+2. Continue with **Blue Lantern**, **Glass Stairs**, and **Common Thread** for harmonic responsibility and motion.
+3. Add **Corner Lights**, **Crossing Lines**, and **Between the Numbers** for directional and metrical tension.
+4. Finish with **Afterimage** and **Early Light**, listening closely to note endings and phrase boundaries.
+
+Do not judge a study only at full speed. Reduce the tempo until both staves remain clear, then restore the written tempo without changing the line’s durations or attack locations.

@@ -21,4 +21,8 @@ The format works for bassists, pianists, composers, arrangers, producers, and an
 - **Studying groove:** separate written attack, duration, and space from performed microtiming.
 - **Composing or arranging:** follow the complete design sequence from Role through Variation.
 
+## Practise the music
+
+The [Study Collection](studies.qmd) gathers eleven original eight-bar jazz, funk, and fusion miniatures. Each piece links to its complete chapter and supports separate harmony and bass playback.
+
 Notation can represent pitch, written rhythm, duration, accent, articulation, and register. It cannot fully encode touch, microtiming, ensemble response, or a stable performed pocket. Playback is therefore a listening reference, not a claim that notation captures a human performance.

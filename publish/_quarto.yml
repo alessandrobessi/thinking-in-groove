@@ -49,6 +49,7 @@ book:
         - chapters/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md
     - part: "Integrated Study and Appendices"
       chapters:
+        - studies.qmd
         - chapters/back-matter/01-one-groove-many-roles.md
         - chapters/back-matter/02-the-role-motion-groove-map.md
         - chapters/back-matter/03-a-mental-model-you-can-forget-while-playing.md

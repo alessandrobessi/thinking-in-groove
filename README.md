@@ -13,16 +13,17 @@ Variation**.
 
 ## Project status
 
-**Role pilot complete.** The published piano edition currently contains
-three finished chapters: **The Ground**, **The Definer**, and **The
-Inverter**. Every musical example is a piano grand staff with independent
-harmony/bass playback, current-note highlighting, a controlled
-laboratory, an exercise, and an eight-bar study.
+**Role, Motion, and written-Groove pilots complete.** The published piano
+edition contains all 33 manuscript chapters and 64 canonical grand-staff
+examples. The first musical collection includes eleven original eight-bar
+studies, each with independent harmony/bass playback and current-note
+highlighting. No missing-example notices or legacy bass-only scores remain
+in the published book.
 
 See `docs/content-audit.md`, `docs/technical-audit.md`, and
-`docs/migration-matrix.md` for the explicit migration status. Legacy
-chapters have not yet passed the new musical, pedagogical, editorial,
-or technical gates.
+`docs/migration-matrix.md` for the explicit migration status. The next
+roadmap phase is the complete structural rewrite into the five-part
+architecture, followed by the progressive capstone.
 
 ## How the project is organized
 
@@ -32,8 +33,8 @@ or technical gates.
 | [`ROADMAP.md`](ROADMAP.md) | Legacy phase plan; superseded by the piano-edition roadmap being executed through the audit and migration documents. |
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
 | [`docs/`](docs/) | Vocabulary, migration audits, and the canonical piano notation/accompaniment guides. |
-| [`book/`](book/) | Three canonical piano chapters plus the unpublished legacy manuscript retained as migration source. |
-| [`examples/`](examples/) | Legacy chapter sources plus canonical `laboratories/`, `exercises/`, and `studies/` grand-staff sources. |
+| [`book/`](book/) | Canonical chapter prose, including the fully rewritten pilot chapters. |
+| [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, and eleven complete grand-staff studies. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
 | [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Ensures every published chapter exists, contains only grand-staff examples, and has no tablature dependency. |
@@ -69,6 +70,8 @@ open item (an EPUB-specific cover crop).
 ```sh
 pip install -r requirements.txt
 python3 scripts/validate_book_structure.py
+python3 scripts/validate_piano_prototype.py
+python3 scripts/validate_study_collection.py
 ```
 
 ## License
