@@ -1,0 +1,13 @@
+X:1
+T:Open Channel
+C:Alessandro Bessi
+R:Funk conversation study
+M:4/4
+L:1/8
+Q:1/4=100
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "F9"[Ac_eg]1 z1 [Ac_eg]2 z4 | "G9"[BFa]1 z1 [BFa]2 z4 | "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "Am9"[CEGB]1 z1 [CEGB]2 z4 | "D9"[^C^Fce]1 z1 [^C^Fce]2 z4 | "G13"[FABe]1 z1 [FABe]2 z4 | "Cmaj9"[EGBd]1 z1 [EGBd]2 z4 |]
+[V:LH] z4 "^answer"C,1 E,1 G,1 _B,,1 | z4 F,,1 A,,1 C,1 _E,1 | z4 G,,1 B,,1 D,1 F,1 | z4 C,1 G,,1 _B,,1 C,1 | z4 "^vary the reply"B,,1 C,1 E,1 A,,1 | z4 A,,1 ^F,1 E,1 D,1 | z4 B,,1 A,,1 F,1 G,,1 | z4 D,1 B,,1 G,,1 C,1 |]

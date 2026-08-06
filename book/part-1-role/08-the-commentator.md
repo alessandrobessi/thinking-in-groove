@@ -1,191 +1,140 @@
-# The Commentator
+# The Conversationalist
 
-*Chapter 8 — Part 1, Role: What Job Is the Bass Doing?*
+*Chapter 8 — Part I, Role: What Is the Bass Responsible For?*
 
-**Term:** Commentator
+## The Question
 
-**Definition:** A bass line that converses rhythmically/melodically with other instruments, independent of strict harmonic duty.
+When should the bass participate in an exchange instead of maintaining a continuous accompaniment?
 
-## Intuition
+## The Mental Model
 
-Two people having a good conversation don't take turns delivering
-prepared statements — they react to each other, finish thoughts, leave
-space, and occasionally interrupt. A **Commentator** bass line does that
-with a soloist, a drummer, a vocalist, or a horn section: it responds to
-what it just heard, in the moment, rather than executing a
-predetermined harmonic plan. It is the most improvisational and
-socially reactive of all the Roles in this Part.
+A **Conversationalist** treats another musical layer as a partner. It listens for a statement, interruption, or opening and contributes a related gesture. Its responsibility is relational: the bass phrase makes sense because of what another voice just played.
 
-You've heard this in a call-and-response moment where a singer holds a
-long note and the bass answers with a short, punchy fill in the gap, or
-in a jazz rhythm section where the bass seems to be having a running
-dialogue with the drummer's snare accents, landing exactly where a
-conversation partner would land a reply.
+This chapter identifies the role the bass chooses. Part IV will examine **Call and Response** as an interaction design in detail. For now, ask only whether the bass is maintaining its own continuous job or entering an audible exchange.
 
-## Mental Model
+## The Microscope
 
-Every other Role in this Part is defined by its relationship to the
-harmony — grounding it, defining it, connecting it, driving it,
-coloring it, doubling it, or voice-leading through it. The Commentator
-is defined by its relationship to *other musicians in time*, and
-harmony becomes secondary to that relationship for as long as the
-Commentator Role is active.
-
-This makes the Commentator the Role most likely to bend or briefly
-suspend strict harmonic accuracy in service of a rhythmic or melodic
-reply — a quick answering phrase that lands a beat after a horn hit
-might prioritize matching that hit's rhythmic shape over landing on a
-"correct" chord tone, because the conversational gesture is the point of
-the moment, not the harmonic content of it. This is a deliberate,
-bounded trade-off, not a license for carelessness: a Commentator that
-never lands on anything harmonically sensible stops sounding like
-dialogue and starts sounding like noise. The skill is choosing exactly
-how much harmonic latitude a given conversational moment can absorb.
-
-Three situations invite a Commentator more than any other Role:
-
-1. **Call-and-response passages**, where another part states a phrase
-   and leaves space, and the bass fills that space with a reply rather
-   than continuing its previous harmonic function unchanged.
-2. **Trading with a drummer**, especially in jazz and fusion contexts,
-   where the bass and drums develop a rhythmic dialogue that runs
-   somewhat independently of the chord changes underneath it.
-3. **Reacting to a soloist's phrasing**, where the bass momentarily
-   abandons its supporting Role to underline or answer a particularly
-   striking melodic gesture the soloist just played.
-
-A Commentator moment is usually brief by nature — a full chorus of
-constant conversational reacting tends to feel unmoored, the same way a
-person who only ever reacts and never states anything of their own can
-be exhausting to talk to. The Role works best as a punctuation mark
-inside a passage otherwise built from more harmonically grounded Roles.
-
-## Visual Explanation
-
-The Commentator's Role-layer icon is a **small speech-bubble glyph**,
-in blue (`#2563EB`), placed above the responding phrase — a deliberately
-literal icon, since the Role's whole identity is conversational.
-
-Because a Commentator phrase is reacting to something outside the bass
-line itself, its annotation often benefits from a caption naming what
-it's responding to ("answers snare fill, beat 4") rather than relying
-on the Motion and Groove layers alone, which describe the bass line in
-isolation and can't capture a call-and-response relationship on their
-own. Where the phrase does land on identifiable chord tones, ordinary
-Motion tags still apply underneath it.
-
-## Musical Example
-
-The laboratory, stated plainly: the bass states the root of each
-chord, one whole note per bar.
+The pitches, phrase rhythm, harmony, tempo, and register are controlled. In A, the bass fragment overlaps the right-hand statement. In B, the identical bass fragment waits for the right hand to finish and becomes an answer.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="conversationalist-lab">
+  <div class="comparison-controls" aria-label="Overlapping and answering bass comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Overlap</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Answer</button>
+  </div>
+  <div class="comparison-panel" data-version="A"><div class="score-example" id="conversation-overlap">
+    <p class="abc-caption"><strong>A — Overlap.</strong> Both voices speak at once.</p>
+    <p class="abc-description">The material is compatible, but no exchange is audible.</p>
+    <pre class="abc-source">X:1
+T:The Conversationalist — overlap
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "F9"[Ac_eg]1 z1 [Ac_eg]2 z4 |]
+[V:LH] "^overlap"C,1 E,1 G,1 _B,,1 z4 | F,,1 A,,1 C,1 _E,1 z4 |]</pre>
+    <div class="abc-rendered"></div>
+  </div></div>
+  <div class="comparison-panel" data-version="B" hidden><div class="score-example" id="conversation-answer">
+    <p class="abc-caption"><strong>B — Answer.</strong> The bass uses the opening left by the right hand.</p>
+    <p class="abc-description">The same four bass notes now function as a reply.</p>
+    <pre class="abc-source">X:1
+T:The Conversationalist — answer
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "F9"[Ac_eg]1 z1 [Ac_eg]2 z4 |]
+[V:LH] z4 "^answer"C,1 E,1 G,1 _B,,1 | z4 F,,1 A,,1 C,1 _E,1 |]</pre>
+    <div class="abc-rendered"></div>
+  </div></div>
 </div>
 ```
 
 :::
 
-Same progression; the bass drops out almost entirely, punctuating with
-one short rhythmic fragment independent of the chord changes —
-commentary, not accompaniment.
+## Listen
+
+Use **Harmony only** to learn the two calls, then **Bass only** to confirm that A and B contain the same replies. In **Full**, the placement in B should make the bass sound aware of the right hand rather than merely simultaneous with it.
+
+## See
+
+Each upper statement occupies the first half of its bar. The answering bass phrase occupies the second half. The rests are structural: they reveal who is speaking and make the relationship legible.
+
+## Play
+
+Practise four bars in which the right hand states a compact idea and the bass answers without overlapping it.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The Commentator: same lab, almost silent, one fragment</p>
-<pre class="abc-source">
-X:1
-T:The Commentator: same lab, almost silent, one fragment
-C:Thinking in Groove
+<div class="score-example" id="conversation-exercise">
+  <p class="abc-caption"><strong>Leave an Opening.</strong> Four calls, four chord-tone replies.</p>
+  <p class="abc-description">A four-bar exercise in listening, waiting, and answering.</p>
+  <pre class="abc-source">X:1
+T:Leave an Opening
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=92
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 08-the-commentator
-% role: commentator
-% motion: n/a
-% groove: syncopated, sparse
-% difficulty: intermediate
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-z8 | z3 "^[R:Commentator]""_[G:Syncopation Point]"G,,2 D,2 z1 | z8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "F9"[Ac_eg]1 z1 [Ac_eg]2 z4 | "G9"[BFa]1 z1 [BFa]2 z4 | "C9"[E_Bd]1 z1 [E_Bd]2 z4 |]
+[V:LH] z4 "^reply"C,1 E,1 G,1 _B,,1 | z4 F,,1 A,,1 C,1 _E,1 | z4 G,,1 B,,1 D,1 F,1 | z4 C,1 G,,1 _B,,1 C,1 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Vary
 
-Bars 1 and 3 are silent. The only sound in the whole example — G then
-D, in the second half of bar 2 — carries `"^[R:Commentator]"` above and
-`"_[G:Syncopation Point]"` below: no Motion tag, because the fragment
-isn't connecting or defining anything, it's reacting. A caption naming
-what it answers (a fill, a cue, another instrument's phrase) belongs
-here in a real arrangement, in place of the usual harmonic-device tag.
+Keep every right-hand call fixed. Change each bass reply so that it preserves the call’s phrase length but reverses its melodic direction. Does the relationship remain conversational?
 
-*Bass tab for "The Commentator: same lab, almost silent, one fragment" (see `examples/by-chapter/08-the-commentator/` for the source files)*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|--------|---3-10-|--------|
+“Open Channel” is an original eight-bar funk study. Compact keyboard statements occupy the first half of each bar; bass replies complete the thought in the second. The replies become less literal through the second four bars while the turn-taking remains clear.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="open-channel-study">
+  <p class="abc-caption"><strong>Open Channel.</strong> Upper statements and bass replies share each bar.</p>
+  <p class="abc-description">An eight-bar funk conversation with harmonically checked monophonic answers.</p>
+  <pre class="abc-source">X:1
+T:Open Channel
+C:Alessandro Bessi
+R:Funk conversation study
+M:4/4
+L:1/8
+Q:1/4=100
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "F9"[Ac_eg]1 z1 [Ac_eg]2 z4 | "G9"[BFa]1 z1 [BFa]2 z4 | "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "Am9"[CEGB]1 z1 [CEGB]2 z4 | "D9"[^C^Fce]1 z1 [^C^Fce]2 z4 | "G13"[FABe]1 z1 [FABe]2 z4 | "Cmaj9"[EGBd]1 z1 [EGBd]2 z4 |]
+[V:LH] z4 "^answer"C,1 E,1 G,1 _B,,1 | z4 F,,1 A,,1 C,1 _E,1 | z4 G,,1 B,,1 D,1 F,1 | z4 C,1 G,,1 _B,,1 C,1 | z4 "^vary the reply"B,,1 C,1 E,1 A,,1 | z4 A,,1 ^F,1 E,1 D,1 | z4 B,,1 A,,1 F,1 G,,1 | z4 D,1 B,,1 G,,1 C,1 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- With a partner (or a recording with clear phrasing gaps), practice
-  leaving space after every phrase you play and filling the other
-  person's space with a short reply, focusing on matching rhythmic
-  shape and phrase length rather than harmonic perfection.
-- Transcribe a short drum fill from a recording you like and construct
-  a bass phrase that rhythmically echoes it, landing on whatever chord
-  tones are available near that rhythm, rather than starting from the
-  harmony and working backward.
-- In a tune with a call-and-response form (many blues and gospel-derived
-  tunes have this built in), practice deliberately underplaying during
-  the "call" so your "response" has clearly defined space to land in —
-  a Commentator needs room to be heard as a reply, not a continuation.
-- Record yourself playing a chorus where you commit to reacting to
-  every accent the drummer plays, even at the cost of some harmonic
-  accuracy. Listen back and identify which reactions felt like genuine
-  dialogue and which felt like you'd abandoned the harmony without
-  gaining anything in return.
-
-## Summary
-
-A Commentator is a bass line that temporarily sets aside strict harmonic
-duty to react, in the moment, to another musician's rhythmic or melodic
-gesture — trading some harmonic precision for a conversational quality
-no purely harmony-driven Role can produce. It works as a punctuation
-mark rather than a default mode, and its success is measured less by
-which notes it plays than by whether a listener can hear it as a genuine
-reply to something that just happened.
+Which reply in “Open Channel” sounds most closely related to its call, and which sounds most independent while still belonging to the exchange?

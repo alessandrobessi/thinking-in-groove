@@ -11,7 +11,7 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-1-role/05-the-colorist.md` | Migrated | Transitional file slot now publishes Ch. 5 The Reframer; “colour” is retired because it hides harmonic reinterpretation. |
 | `part-1-role/06-the-shadow.md` | Migrated/merge pending | Transitional file slot now publishes Ch. 6 The Driver; useful Shadow material moves to Ch. 28 Doubling and Ch. 8 The Conversationalist. |
 | `part-1-role/07-the-voice-leader.md` | Migrated/merge pending | Transitional file slot now publishes Ch. 7 The Supporter; useful Voice-Leader material remains in Ch. 15 Connecting Chords and Ch. 16 Contrary Motion. |
-| `part-1-role/08-the-commentator.md` | Merge | Ch. 8 The Conversationalist and Ch. 31 Call and Response. |
+| `part-1-role/08-the-commentator.md` | Migrated/merge pending | Transitional file slot now publishes Ch. 8 The Conversationalist; detailed interaction technique moves to Ch. 31 Call and Response. |
 | `part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md` | Merge | Ch. 35 design algorithm and capstone analysis. |
 | `part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md` | Merge | Ch. 1 The Ground and Ch. 15 Connecting Chords. |
 | `part-2-harmonic-motion/11-the-pedal-stillness-under-change.md` | Merge | Pedal role is now Ch. 4; controlled immobility remains for Ch. 9 Staying. |

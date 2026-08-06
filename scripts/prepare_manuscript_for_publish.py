@@ -23,6 +23,7 @@ PIANO_CHAPTERS = {
     "part-1-role/05-the-colorist.md",
     "part-1-role/06-the-shadow.md",
     "part-1-role/07-the-voice-leader.md",
+    "part-1-role/08-the-commentator.md",
     "part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md",
     "part-2-harmonic-motion/12-passing-motion-connecting-two-points.md",
     "part-2-harmonic-motion/16-cadential-motion-tension-and-release.md",
@@ -34,7 +35,6 @@ PIANO_CHAPTERS = {
 }
 
 LEGACY_PIANO_EXAMPLES = {
-    "part-1-role/08-the-commentator.md": "commentator-response.abc",
     "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
     "part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md": "root-motion.abc",
     "part-2-harmonic-motion/11-the-pedal-stillness-under-change.md": "pedal-point.abc",
