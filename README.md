@@ -15,7 +15,7 @@ Variation**.
 
 **Role, Motion, and written-Groove pilots complete.** The published piano
 edition contains all 33 manuscript chapters and 64 canonical grand-staff
-examples. The first musical collection includes eleven original eight-bar
+examples. The first musical collection includes twelve original 8–10-bar
 studies, each with independent harmony/bass playback and current-note
 highlighting. No missing-example notices or legacy bass-only scores remain
 in the published book.

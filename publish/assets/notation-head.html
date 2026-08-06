@@ -9,11 +9,28 @@
 }
 .score-example .abc-source { display: none; }
 .score-example .abc-rendered {
+  max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   overscroll-behavior-inline: contain;
   scrollbar-gutter: stable;
+  touch-action: pan-x pan-y;
 }
-.score-example .abc-rendered svg { min-width: 620px; height: auto; }
+.score-example .abc-rendered svg {
+  display: block;
+  min-width: 620px;
+  max-width: none !important;
+  height: auto;
+}
+.score-example .abc-rendered.is-scrollable {
+  padding-bottom: .35rem;
+  cursor: ew-resize;
+}
+.score-example .abc-rendered:focus-visible {
+  outline: 3px solid #f0a78e;
+  outline-offset: 2px;
+}
 .score-example .abcjs-title,
 .score-example .abcjs-composer,
 .score-example .abcjs-tempo { display: none; }
@@ -141,10 +158,21 @@ document.addEventListener("DOMContentLoaded", function () {
     var source = el.querySelector(".abc-source");
     var target = el.querySelector(".abc-rendered");
     if (!source || !target) return;
+    var rhSource = source.textContent.split("[V:RH]")[1] || "";
+    rhSource = rhSource.split("[V:LH]")[0];
+    var bars = (rhSource.replace(/\|\]/g, "|").match(/\|/g) || []).length;
+    var scoreWidth = bars > 8 ? Math.max(900, bars * 135) : 760;
     var rendered = ABCJS.renderAbc(target, source.textContent, {
-      responsive: "resize", staffwidth: 760, add_classes: true
+      staffwidth: scoreWidth, add_classes: true
     });
     if (!rendered[0]) return;
+    if (bars > 8) {
+      target.classList.add("is-scrollable");
+      target.tabIndex = 0;
+      var scoreTitle = (source.textContent.match(/^T:(.+)$/m) || [null, "music score"])[1];
+      target.setAttribute("role", "region");
+      target.setAttribute("aria-label", "Horizontally scrollable music score: " + scoreTitle);
+    }
 
     var controls = document.createElement("div");
     controls.className = "abc-transport";

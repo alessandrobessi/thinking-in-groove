@@ -1,6 +1,6 @@
 # Study Collection {.unnumbered}
 
-These eleven original miniatures turn the book’s concepts into music worth practising. Every study is eight bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback in its chapter.
+These twelve original miniatures turn the book’s concepts into music worth practising. Every study is 8–10 bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback.
 
 Use **Harmony only** to learn the form, **Bass only** to practise the line, and **Full** to judge whether the two parts make one convincing texture. The titles link to the complete notation, annotations, variation prompt, and reflection question.
 
@@ -17,6 +17,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Negative Space](chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md#the-music) | Funk | Active silence and accompaniment response |
 | [Afterimage](chapters/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md#the-music) | Fusion ballad | Long and short releases |
 | [Early Light](chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md#the-music) | Jazz | Root anticipations across chord boundaries |
+| [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |
 
 ## A practical sequence
 
@@ -24,5 +25,34 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 2. Continue with **Blue Lantern**, **Glass Stairs**, and **Common Thread** for harmonic responsibility and motion.
 3. Add **Corner Lights**, **Crossing Lines**, and **Between the Numbers** for directional and metrical tension.
 4. Finish with **Afterimage** and **Early Light**, listening closely to note endings and phrase boundaries.
+
+## Long Horizon — 6/8 study {#long-horizon-study}
+
+“Long Horizon” extends the collection beyond the eight-bar form. Its recurring `long–short–space–short–short` bass cell stays legible while the harmony travels through E minor, and its ten-bar score provides a practical test of horizontal notation scrolling.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="long-horizon-score">
+  <p class="abc-caption"><strong>Long Horizon.</strong> A ten-bar 6/8 fusion study with a clear final arrival.</p>
+  <p class="abc-description">Compound-meter harmony and monophonic bass. On narrow screens and for scores wider than eight bars, swipe or horizontally scroll the notation.</p>
+  <pre class="abc-source">X:1
+T:Long Horizon
+C:Alessandro Bessi
+R:6/8 fusion study
+M:6/8
+L:1/8
+Q:3/8=70
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:G
+[V:RH] "Em9"[GBdf]6 | "Cmaj7"[EGBc]6 | "G6"[DEGB]6 | "Dadd9"[DEFA]6 | "Em9"[GBdf]6 | "Cmaj7"[EGBc]6 | "Am9"[CEGB]6 | "B7"[^DFAB]6 | "Em9"[GBdf]6 | [GBdf]6 |]
+[V:LH] "^6/8 cell"E,2 B,1 z1 D1 B,1 | C,2 G,1 z1 B,1 G,1 | G,,2 D,1 z1 E,1 D,1 | D,2 A,1 z1 E,1 A,1 | E,2 B,1 z1 G,1 B,1 | C,2 G,1 z1 E,1 G,1 | A,,2 E,1 z1 G,1 E,1 | B,,2 F,1 z1 A,1 ^D,1 | "^arrival"E,3 B,2 D1 | E,6 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
+```
+
+:::
 
 Do not judge a study only at full speed. Reduce the tempo until both staves remain clear, then restore the written tempo without changing the line’s durations or attack locations.

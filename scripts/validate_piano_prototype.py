@@ -49,6 +49,18 @@ def main() -> None:
         errors.append("player must keep chord symbols silent with chordsOff: true")
     if "var result = await synth.prime()" not in player or "|| 4" in player:
         errors.append("player must time completion from prime() without a short fallback")
+    scrolling_markers = (
+        "overflow-x: auto",
+        "-webkit-overflow-scrolling: touch",
+        "bars > 8",
+        "staffwidth: scoreWidth",
+        'target.setAttribute("role", "region")',
+    )
+    for marker in scrolling_markers:
+        if marker not in player:
+            errors.append(f"player is missing long-score scrolling contract: {marker}")
+    if 'responsive: "resize"' in player:
+        errors.append("player must not shrink long scores with responsive resize")
     sources_by_title: dict[str, tuple[Path, str]] = {}
     for path in files:
         text = path.read_text()
@@ -84,6 +96,13 @@ def main() -> None:
     for chapter in sorted((ROOT / "book").glob("*/*.md")):
         for abc in re.findall(
             r'<pre class="abc-source">(.*?)</pre>', chapter.read_text(), re.DOTALL
+        ):
+            title_match = re.search(r"^T:(.+)$", abc, re.MULTILINE)
+            if title_match:
+                embedded_by_title[title_match.group(1)] = abc.strip()
+    for page in sorted((ROOT / "publish").glob("*.qmd")):
+        for abc in re.findall(
+            r'<pre class="abc-source">(.*?)</pre>', page.read_text(), re.DOTALL
         ):
             title_match = re.search(r"^T:(.+)$", abc, re.MULTILINE)
             if title_match:
