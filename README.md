@@ -32,7 +32,7 @@ architecture, followed by the progressive capstone.
 | [`BLUEPRINT.md`](BLUEPRINT.md) | Vision, core promise, audience, pillars, deliverables. |
 | [`ROADMAP.md`](ROADMAP.md) | Legacy phase plan; superseded by the piano-edition roadmap being executed through the audit and migration documents. |
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
-| [`docs/`](docs/) | Vocabulary, migration audits, and the canonical piano notation/accompaniment guides. |
+| [`docs/`](docs/) | The 40-chapter map, authoritative Vocabulary v2, migration audits, and canonical notation/accompaniment guides. |
 | [`book/`](book/) | Canonical chapter prose, including the fully rewritten pilot chapters. |
 | [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, and eleven complete grand-staff studies. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |

@@ -1,92 +1,94 @@
-# Chapter Map (Phase 1 Deliverable)
+# Chapter Map v2
 
-30 sections: 1 unnumbered introduction (front matter) + 29 numbered
-concept chapters across 4 parts, plus a back-matter set of appendices.
-Each chapter introduces exactly one idea (Book Architect acceptance
-criterion in `AGENTS.md`) and is ordered for progressive learning
-(Curriculum Designer goal).
+This is the authoritative target architecture for the structural rewrite: 40 chapters across five parts. Each chapter introduces one primary idea; studies apply earlier ideas without silently creating new terminology.
 
-File paths below are the actual `book/` layout on disk — this table is
-the single source of truth that `publish/_quarto.yml` and
-`scripts/validate_book_structure.py` must agree with.
+The current 33-chapter table of contents remains live while chapters are migrated. `docs/migration-matrix.md` records where legacy material moves; this map defines the destination, not the transitional filenames.
 
-## Introduction (unnumbered front matter)
+## Part I — Role: What Is the Bass Responsible For?
 
-**How This Book Thinks** — lives in `publish/preface.qmd`, not under
-`book/`. Orients the reader to the Role / Motion / Groove mental model
-and the four-layer visual language, before any numbered chapter uses
-them.
+| # | Chapter | One idea |
+|---:|---|---|
+| 1 | The Ground | A root establishes harmonic identity and weight. |
+| 2 | The Definer | A characteristic tone reveals chord quality. |
+| 3 | The Inverter | A non-root chord tone reorganizes the sonority. |
+| 4 | The Pedal | One bass pitch persists beneath changing harmony. |
+| 5 | The Reframer | A bass note gives an upper structure a new harmonic meaning. |
+| 6 | The Driver | Repeated bass activity creates propulsion. |
+| 7 | The Supporter | Deliberate simplicity stabilizes active music. |
+| 8 | The Conversationalist | The bass participates in an exchange with another voice. |
 
-## Part I — Role: What Job Is the Bass Doing?
+Milestone: the reader can choose and explain the bass line’s responsibility.
 
-| # | Title | File |
-|---|---|---|
-| 1 | The Anchor | `book/part-1-role/01-the-anchor.md` |
-| 2 | The Definer | `book/part-1-role/02-the-definer.md` |
-| 3 | The Connector | `book/part-1-role/03-the-connector.md` |
-| 4 | The Driver | `book/part-1-role/04-the-driver.md` |
-| 5 | The Colorist | `book/part-1-role/05-the-colorist.md` |
-| 6 | The Shadow | `book/part-1-role/06-the-shadow.md` |
-| 7 | The Voice-Leader | `book/part-1-role/07-the-voice-leader.md` |
-| 8 | The Commentator | `book/part-1-role/08-the-commentator.md` |
-| 9 | Role Shift — When the Job Changes Mid-Phrase *(synthesis)* | `book/part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md` |
+## Part II — Motion: How Does the Bass Travel?
 
-## Part II — Harmonic Motion: How the Bass Moves the Music
+| # | Chapter | One idea |
+|---:|---|---|
+| 9 | Staying | Controlled immobility can shape a phrase. |
+| 10 | Stepping | Adjacent scale motion creates smooth contour. |
+| 11 | Approaching | A nearby note aims at a target. |
+| 12 | Enclosing | Upper and lower neighbours surround a target. |
+| 13 | Arpeggiating | Chord tones become a directed phrase. |
+| 14 | Leaping | A large interval creates emphasis and requires recovery. |
+| 15 | Connecting Chords | A bass route joins harmonic destinations. |
+| 16 | Contrary Motion | Bass and upper voice travel in opposite directions. |
+| 17 | Motion Maps | A phrase can be reduced to a sequence of motion decisions. |
 
-| # | Title | File |
-|---|---|---|
-| 10 | Root Motion — The Bass Line as Harmonic Skeleton | `book/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md` |
-| 11 | The Pedal — Stillness Under Change | `book/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md` |
-| 12 | Passing Motion — Connecting Two Points | `book/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md` |
-| 13 | The Approach Note — Arriving with Intention | `book/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md` |
-| 14 | Substituted Root — Implying a Different Chord | `book/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md` |
-| 15 | Deceptive Motion — The Expected Turn That Isn't | `book/part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md` |
-| 16 | Cadential Motion — Tension and Release | `book/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md` |
-| 17 | Harmonic Rhythm — Who Decides When the Chord Changes | `book/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md` |
-| 18 | Motion Profile — The Shape of a Phrase *(synthesis)* | `book/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md` |
+Milestone: the reader can design and compare routes through identical harmony.
 
-## Part III — Groove: How the Bass Creates Feel
+## Part III — Groove: How Is Motion Organized in Time?
 
-| # | Title | File |
-|---|---|---|
-| 19 | The Pocket — Where Exactly Is the Note | `book/part-3-groove/19-the-pocket-where-exactly-is-the-note.md` |
-| 20 | Syncopation Points — Avoiding the Obvious Beat | `book/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md` |
-| 21 | Space as Content — The Power of Not Playing | `book/part-3-groove/21-space-as-content-the-power-of-not-playing.md` |
-| 22 | The Repetition Cell — The Riff Atom | `book/part-3-groove/22-the-repetition-cell-the-riff-atom.md` |
-| 23 | The Variation Layer — Keeping a Groove Alive | `book/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md` |
-| 24 | Density — Controlling Energy Through Note Count | `book/part-3-groove/24-density-controlling-energy-through-note-count.md` |
-| 25 | Push and Lay-Back — Playing Around the Beat | `book/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md` |
-| 26 | The Groove Signature — What Makes a Line Recognizable *(synthesis)* | `book/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md` |
+| # | Chapter | One idea |
+|---:|---|---|
+| 18 | Subdivision | A shared temporal grid makes rhythmic locations countable. |
+| 19 | Attack Placement | A note begins at a specific written grid position. |
+| 20 | Duration | A note ending is an independent groove decision. |
+| 21 | Space | Intentional bass silence changes the surrounding texture. |
+| 22 | Syncopation | Weak-position emphasis contests a stronger metrical expectation. |
+| 23 | Anticipation | An upcoming structural note arrives before its formal boundary. |
+| 24 | Repeated Cells | Recurring attacks, rests, durations, and contour create identity. |
+| 25 | Variation Without Collapse | One parameter changes while the cell remains recognizable. |
+| 26 | Phrase Rhythm | Groove behavior extends across two-, four-, and eight-bar spans. |
+| 27 | Performed Feel | Notated rhythm and human microtiming are related but not identical. |
 
-## Part IV — Integration: Composing With All Three Layers
+Milestone: the reader can build and vary written groove without misnaming performed feel.
 
-| # | Title | File |
-|---|---|---|
-| 27 | The Layer Stack — Role, Motion, and Groove at Once | `book/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md` |
-| 28 | The Groove Contract — Setting and Breaking Expectations | `book/part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md` |
-| 29 | Designing a Bass Line from Scratch — A Worked Case Study *(capstone)* | `book/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md` |
+## Part IV — Interaction: What Happens Between Bass and Harmony?
 
-## Back Matter — Integrated Study and Appendices
+| # | Chapter | One idea |
+|---:|---|---|
+| 28 | Doubling | The bass reinforces a pitch stated above. |
+| 29 | Independence | The bass maintains a distinct contour or rhythm. |
+| 30 | Interlock | Alternating attacks create one composite groove. |
+| 31 | Call and Response | One staff makes a statement and the other answers. |
+| 32 | Density Balance | Activity is distributed deliberately between the two layers. |
+| 33 | Register and Separation | Spacing controls clarity, weight, and muddiness. |
+| 34 | Harmonic Rhythm | The rate of chord change constrains viable bass strategies. |
 
-| # | Title | File |
-|---|---|---|
-| 1 | One Groove, Many Roles | `book/back-matter/01-one-groove-many-roles.md` |
-| 2 | The Role / Motion / Groove Map | `book/back-matter/02-the-role-motion-groove-map.md` |
-| 3 | A Mental Model You Can Forget While Playing | `book/back-matter/03-a-mental-model-you-can-forget-while-playing.md` |
-| 4 | Designing Your Own Bass Lines | `book/back-matter/04-designing-your-own-bass-lines.md` |
+Milestone: the reader can coordinate bass density, register, rhythm, and contour with an upper layer.
 
-## Progression Logic
+## Part V — Design: Building Complete Bass Lines
 
-- Part I precedes Part II: you must be able to name a note's job before
-  discussing how it moves harmony.
-- Part II precedes Part III: harmonic motion is discussed independent of
-  time-feel before groove mechanics are introduced, avoiding conflating
-  "what" with "when."
-- Part III precedes Part IV: all three vocabularies must exist before
-  showing them combined.
-- Each Part ends with a synthesis chapter that only recombines
-  already-introduced terms — no new vocabulary — reinforcing retention
-  before moving to the next Part.
-- Back matter assumes the entire vocabulary and is not part of the
-  linear teaching sequence — analogous to Thinking in Layers'
-  "Integrated Study and Appendices" section.
+| # | Chapter | One idea |
+|---:|---|---|
+| 35 | The Bass-Line Design Algorithm | A repeatable sequence turns harmony into a tested bass line. |
+| 36 | Static Funk Vamp | Repetition, space, and controlled mutation sustain static harmony. |
+| 37 | Functional Jazz Progression | Destinations and voice leading organize moving harmony. |
+| 38 | Fusion Ostinato | A repeated bass cell can remain stable beneath upper change. |
+| 39 | Ballad and Inversion Study | Sparse inversions create slow emotional direction. |
+| 40 | Complete Capstone | One sixteen-bar composition demonstrates the entire method. |
+
+Milestone: the reader can construct, evaluate, simplify, and vary a complete line.
+
+## Migration gates
+
+A target chapter replaces its transitional source only when it has:
+
+1. one concrete question and one primary idea;
+2. a controlled grand-staff microscope;
+3. Full, Bass only, and Harmony only playback;
+4. a compact exercise and constrained variation;
+5. an original 8–16 bar study where the concept is audible;
+6. a reflection question;
+7. canonical ABC that passes musical and structural validation.
+
+URLs move only in part-sized checkpoints. A redirect map must accompany every filename change so published links and study-index entries remain valid.

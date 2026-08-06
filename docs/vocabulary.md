@@ -1,4 +1,6 @@
-# Conceptual Vocabulary
+# Conceptual Vocabulary (Legacy)
+
+> Superseded by [`vocabulary-v2.md`](vocabulary-v2.md). This file is retained only as a record of the original taxonomy and must not govern new prose or examples.
 
 Thinking in Groove does not teach bass through scales or arpeggios. It
 teaches through three questions, and each question has its own
