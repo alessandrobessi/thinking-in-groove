@@ -1,0 +1,13 @@
+X:1
+T:Fixed Floor
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=84
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[EGBc]8 | "Fmaj7/C"[EFAc]8 | "Cmaj7/G"[EGBc]8 | "G7"[DFGB]8 |]
+[V:LH] "^tonic pedal"C,8 | C,8 | "^dominant pedal"G,,8 | G,,8 |]

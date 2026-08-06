@@ -15,7 +15,7 @@ book:
         - chapters/part-1-role/01-the-ground.md
         - chapters/part-1-role/02-the-definer.md
         - chapters/part-1-role/03-the-inverter.md
-        - chapters/part-1-role/04-the-driver.md
+        - chapters/part-1-role/04-the-driver.md # Ch. 4 The Pedal; filename retained until part-sized URL migration
         - chapters/part-1-role/05-the-colorist.md
         - chapters/part-1-role/06-the-shadow.md
         - chapters/part-1-role/07-the-voice-leader.md

@@ -19,6 +19,7 @@ PIANO_CHAPTERS = {
     "part-1-role/01-the-ground.md",
     "part-1-role/02-the-definer.md",
     "part-1-role/03-the-inverter.md",
+    "part-1-role/04-the-driver.md",
     "part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md",
     "part-2-harmonic-motion/12-passing-motion-connecting-two-points.md",
     "part-2-harmonic-motion/16-cadential-motion-tension-and-release.md",
@@ -30,7 +31,6 @@ PIANO_CHAPTERS = {
 }
 
 LEGACY_PIANO_EXAMPLES = {
-    "part-1-role/04-the-driver.md": "driver-pulse.abc",
     "part-1-role/05-the-colorist.md": "reframer-floor.abc",
     "part-1-role/06-the-shadow.md": "shadow-doubling.abc",
     "part-1-role/07-the-voice-leader.md": "voice-leading-line.abc",
