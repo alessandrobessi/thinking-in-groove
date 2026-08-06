@@ -61,6 +61,8 @@ def main() -> None:
             errors.append(f"player is missing long-score scrolling contract: {marker}")
     if 'responsive: "resize"' in player:
         errors.append("player must not shrink long scores with responsive resize")
+    if 'source.textContent.indexOf("%%barsperstaff")' not in player:
+        errors.append("player must preserve score-local multi-system engraving")
     sources_by_title: dict[str, tuple[Path, str]] = {}
     for path in files:
         text = path.read_text()

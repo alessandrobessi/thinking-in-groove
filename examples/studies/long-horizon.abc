@@ -6,6 +6,7 @@ M:6/8
 L:1/8
 Q:3/8=70
 %%score { RH LH }
+%%barsperstaff 5
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:G

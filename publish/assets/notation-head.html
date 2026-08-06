@@ -179,12 +179,13 @@ document.addEventListener("DOMContentLoaded", function () {
     var rhSource = source.textContent.split("[V:RH]")[1] || "";
     rhSource = rhSource.split("[V:LH]")[0];
     var bars = (rhSource.replace(/\|\]/g, "|").match(/\|/g) || []).length;
-    var scoreWidth = bars > 8 ? Math.max(900, bars * 135) : 760;
+    var hasFixedSystems = source.textContent.indexOf("%%barsperstaff") !== -1;
+    var scoreWidth = bars > 8 && !hasFixedSystems ? Math.max(900, bars * 135) : 760;
     var rendered = ABCJS.renderAbc(target, source.textContent, {
       staffwidth: scoreWidth, add_classes: true
     });
     if (!rendered[0]) return;
-    if (bars > 8) {
+    if (bars > 8 && !hasFixedSystems) {
       var scoreSvg = target.querySelector("svg");
       if (scoreSvg) {
         scoreSvg.style.width = scoreWidth + "px";
