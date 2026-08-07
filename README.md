@@ -9,21 +9,27 @@ the right hand makes its harmonic and rhythmic context audible.
 Just as [Thinking in Layers](https://github.com/alessandrobessi/thinking-in-layers)
 teaches harmony through superimposed musical layers, Thinking in Groove
 organizes each decision as **Role → Motion → Groove → Interaction →
-Variation**.
+Design**.
 
 ## Project status
 
-**Role, Motion, and written-Groove pilots complete.** The published piano
-edition contains all 33 manuscript chapters and 64 canonical grand-staff
-examples. The first musical collection includes seventeen original 8–10-bar
-studies, each with independent harmony/bass playback and current-note
-highlighting. No missing-example notices or legacy bass-only scores remain
-in the published book.
+**All 40 chapters complete.** The published piano edition covers the
+full five-part architecture — Role (1–8), Motion (9–17), Groove
+(18–27), Interaction (28–34), and Design (35–40) — with over 160
+canonical grand-staff examples. The study collection includes 40
+original studies plus the closing sixteen-bar capstone, each with
+independent Full/Bass/Harmony playback and current-note highlighting.
+No missing-example notices or legacy bass-only scores remain in the
+published book, and five automated validators (structure, piano
+prototype, study collection, architecture docs, and drift detection)
+run on every push.
 
-See `docs/content-audit.md`, `docs/technical-audit.md`, and
-`docs/migration-matrix.md` for the explicit migration status. The next
-roadmap phase is the complete structural rewrite into the five-part
-architecture, followed by the progressive capstone.
+See `docs/migration-matrix.md` for the per-file migration record, and
+`docs/content-audit.md` / `docs/technical-audit.md` for the dated
+audits that motivated the piano pivot. Remaining open items: a
+`Notaroll`-based visual/animation layer (named in `AGENTS.md` and
+`BLUEPRINT.md`) is still undesigned, and the print-formatting pass
+(PDF/EPUB polish) has not had a dedicated review.
 
 ## How the project is organized
 
