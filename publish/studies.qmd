@@ -16,6 +16,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Open Channel](chapters/part-1-role/08-the-commentator.md#the-music) | Funk | Bass participation in an audible exchange |
 | [Low Tide](chapters/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md#the-music) | Funk | Staying on one chord, then finally leaving it |
 | [Even Ground](chapters/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md#the-music) | Jazz | A continuously stepwise line under moving harmony |
+| [Encircle](chapters/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md#the-music) | Jazz | Every arrival framed by an enclosure first |
 | [Common Thread](chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md#the-music) | Jazz | Connecting fixed harmonic destinations |
 | [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Direct and chromatic approaches |
 | [Crossing Lines](chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md#the-music) | Fusion | Contrary motion between outer voices |

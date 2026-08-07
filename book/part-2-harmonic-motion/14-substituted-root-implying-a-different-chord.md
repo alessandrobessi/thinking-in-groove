@@ -1,120 +1,146 @@
-# Substituted Root — Implying a Different Chord
+# Enclosing
 
-*Chapter 14 — Part 2, Harmonic Motion: How the Bass Moves the Music.*
+*Chapter 12 — Part II, Motion: How Does the Bass Travel?*
 
-**Term:** Substituted Root
+## The Question
 
-**Definition:** Using a note other than the expected root to imply a different underlying chord.
+How can two notes on either side of a target make its arrival feel more inevitable than a single approach note does?
 
-## Intuition
+## The Mental Model
 
-The chart says one chord. The bass plays a note that belongs to a different one. For a moment, the harmony the listener hears is not the harmony that's written — and if the substitution is well chosen, that new implied harmony doesn't fight the original, it reframes it.
+**Enclosing** surrounds a target with an upper neighbour and a lower neighbour immediately before it arrives. It's a stronger, more deliberate cousin of Approaching (Chapter 11): where Approaching commits to one direction, Enclosing frames the target from both sides at once, so the arrival reads as the resolution of a small, self-contained gesture rather than a single directional nudge.
 
-## Mental Model
+An arbitrary three-note turn isn't automatically an Enclosure — both neighbour notes have to actually point at the *same* target. Ab and F# only enclose G because both sit a half step away from it, one above and one below. Swap either neighbour for a note that doesn't share that relationship to G, and the figure stops enclosing anything.
 
-A **Substituted Root** is a bass note, other than the expected root, chosen specifically to imply a different underlying chord than the one written or assumed. This is a stronger, more deliberate move than Passing Motion or an Approach Note, both of which are transient, resolving quickly into the "real" harmony. A Substituted Root doesn't resolve away — it sits there, on purpose, and asks the rest of the ensemble (and the listener) to hear the harmony through its lens for as long as it lasts.
+## The Microscope
 
-The classic case is the tritone substitution: playing the root a tritone away from a dominant chord, implying a different dominant chord that shares the same tritone (the same 3rd and 7th, reinterpreted). But Substituted Root is broader than that one device. Playing the relative minor's root under a major chord, playing a chord's third in the bass to imply a first-inversion sound, playing an unrelated root that reframes a static vamp as something more colorful — all of these are Substituted Root moves, unified by the same principle: the bass, not the chart, decides what harmony the listener actually hears.
-
-This is also where the bass's Colorist Role and Harmonic Motion intersect most directly: a Substituted Root is very often how a Colorist choice gets executed, because reaching for an unexpected root is one of the most efficient ways to change a chord's implied color without anyone else in the band changing a note.
-
-Three tests separate a Substituted Root from a wrong note:
-
-1. **It's held, not brushed past.** A Substituted Root sits long enough for the reinterpretation to register — a fleeting chromatic neighbor on a weak subdivision is more likely an Approach Note (Chapter 13) than a genuine substitution.
-2. **It implies something coherent.** The substituted root should suggest a real, nameable chord of its own (a tritone away, a relative minor, an upper structure's root) — if the resulting sound doesn't cohere into anything a listener could label, it's dissonance rather than reinterpretation.
-3. **The rest of the band can still follow it.** A Substituted Root works because it reframes shared harmony, not because it abandons it — if nobody else in the ensemble could plausibly hear the logic, the substitution has crossed over into a different note choice's territory entirely, more Colorist flourish than Harmonic Motion device.
-
-## Visual Explanation
-
-The Motion layer marks a Substituted Root with a dotted diagonal line, in amber (`#D97706`) — the same basic shape as Root Motion's straight diagonal, but dotted to signal "this motion implies a different chord than the one written," distinguishing a deliberate reinterpretation from a literal root change. Where the substitution reinforces a Colorist Role, the Role layer above will typically show the Colorist icon at the substituted note itself.
-
-Compare the dotted line here to Deceptive Motion (Chapter 15)'s bent line: a Substituted Root reinterprets the *current* harmony without changing where the phrase is ultimately headed, while Deceptive Motion changes the destination itself. The two devices can appear in the same phrase — a substitution along the way, a deception at the arrival — without being the same thing.
-
-## Musical Example
-
-The laboratory plays G7's own root, G, in the middle bar:
+Both versions arrive on the same G. Only how many notes surround the arrival changes.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
-M:4/4
-L:1/8
-Q:1/4=88
-K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
-</div>
-```
-
-:::
-
-A Substituted Root replaces G entirely with Db — a tritone away, sharing G7's tritone of B and F, respelled as Db7's 3rd and b7. Nothing above the bass changes; only the bass's reinterpretation makes the substitution audible. The resolution into C even gets smoother: Db to C is a half step, where G to C was a fourth.
-
-:::{.content-hidden when-format="epub"}
-
-```{=html}
-<div class="score-example">
-<p class="abc-caption">Substituted Root: same lab, Db replaces G entirely</p>
-<pre class="abc-source">
-X:1
-T:Substituted Root: same lab, Db replaces G entirely
-C:Thinking in Groove
+<div data-comparison-group="enclosing-lab">
+  <div class="comparison-controls" aria-label="Enclosing comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Direct approach</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Enclosure</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="enclosing-direct-approach">
+      <p class="abc-caption"><strong>A — A direct approach.</strong> One neighbour, F#, leads into G from below.</p>
+      <p class="abc-description">A single approach note into the G7 root.</p>
+      <pre class="abc-source">X:1
+T:Enclosing — a direct approach
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 14-substituted-root-implying-a-different-chord
-% role: n/a
-% motion: substituted root
-% groove: sparse
-% difficulty: advanced
-% harmony: Dm7 | G7 (Db substituted in the bass) | Cmaj7
-V:Bass clef=bass
-"^[R:Anchor]"D,8 | "_[M:Substituted Root]"_D,8 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[CEGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^approach"C,6 ^F,2 | "^arrive"G,8 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="enclosing-neighbours">
+      <p class="abc-caption"><strong>B — An enclosure.</strong> Ab from above and F# from below both surround G before it arrives.</p>
+      <p class="abc-description">The same arrival, now framed by both neighbour tones in sequence.</p>
+      <pre class="abc-source">X:1
+T:Enclosing — upper and lower neighbours
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^enclose"C,4 _A,2 ^F,2 | "^arrive"G,8 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Listen
 
-Bar 1's D carries no Motion tag beyond plain `"^[R:Anchor]"` — nothing being reinterpreted yet. The Db in bar 2 carries `"_[M:Substituted Root]"`, marking that this note is standing in for the written G rather than stating it. Compare its dotted-line convention (see `docs/visual-language.md`) against the baseline's solid Root Motion line at the same position — the dotted line is what signals "this implies a different chord than the one written."
+Play **Bass only** on both. A's approach note gives G a single, clear direction to resolve from. B's two neighbour notes create a small orbit around G before landing — listen for how much more "prepared" the arrival feels with both sides represented, even though the target note itself is identical.
 
-*Bass tab for "Substituted Root: same lab, Db replaces G entirely":*
+## See
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|10------|9-------|8-------|
+In B, Ab sits a half step above G and F# sits a half step below it — both neighbours are visibly equidistant from the target on the staff. That symmetry is what the notation shows and what distinguishes a genuine Enclosure from two unrelated ornamental notes that happen to precede an arrival.
+
+## Play
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="enclosing-surround-the-target">
+  <p class="abc-caption"><strong>Surround the Target.</strong> Two enclosures, each resolving to a different chord's root.</p>
+  <p class="abc-description">Four bars alternating an enclosure figure with its resolution.</p>
+  <pre class="abc-source">X:1
+T:Surround the Target
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Cmaj7"[CEGB]8 | "Dm7"[DFAC]8 |]
+[V:LH] "^enclose"C,4 _B,2 ^G,2 | "^arrive"A,8 | "^enclose"C,4 _E,2 ^C,2 | "^arrive"D,8 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+Say the neighbour relationship out loud before you play each enclosure: "half step above, half step below, then the target." Naming the relationship before playing it is usually faster than finding it by ear alone.
 
-- Take a single static dominant chord and, underneath it, alternate between its written root and its tritone substitute every two bars. Listen for how much the "flavor" of the chord changes even though nobody above you changed a note.
-- Try substituting a chord's third or fifth as the bass note instead of a tritone away, and compare how much milder that reframing feels compared to a full tritone substitution.
-- Find a recording where the bass plays something that doesn't match the written chart (common in modern jazz and fusion) and figure out what chord the bass is implying instead.
-- Practice returning from a Substituted Root back to the expected root and notice how much relief that return provides — the substitution only works because the listener still remembers what "home" sounded like.
+## Vary
 
-## Summary
+Reverse the order of the two neighbour notes in each enclosure (lower neighbour first, then upper). Does the target still feel enclosed, or does reordering change which neighbour reads as the "real" approach and which reads as decoration?
 
-A Substituted Root lets the bass overrule the chart for as long as it holds a different note than expected, reframing the harmony above it through implication alone — a quiet but total kind of authority that belongs uniquely to the instrument holding down the bottom of the sound.
+## The Music
+
+"Encircle" is an original eight-bar jazz study that uses an enclosure to introduce each new chord's root.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="encircle-study">
+  <p class="abc-caption"><strong>Encircle.</strong> Every new chord root in this study is framed by its own enclosure first.</p>
+  <p class="abc-description">An eight-bar jazz study moving through Cmaj7, Am7, Dm7, and G7, each arrival enclosed.</p>
+  <pre class="abc-source">X:1
+T:Encircle
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
+"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^stay"C,8 | "^enclose"C,4 _B,2 ^G,2 | "^arrive"A,8 | "^stay"A,8 |
+"^enclose"A,4 _E,2 ^C,2 | "^arrive"D,8 | "^enclose"D,4 _A,2 ^F,2 | "^arrive"G,8 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
+```
+
+:::
+
+## Reflection
+
+Every arrival in "Encircle" is enclosed the same way: hold, then upper neighbour, then lower neighbour, then land. Would the study lose anything if one arrival used a plain Approaching instead — or does the repetition of the full enclosure figure itself become part of the piece's identity?

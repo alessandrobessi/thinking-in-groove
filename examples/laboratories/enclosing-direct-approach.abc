@@ -1,0 +1,13 @@
+X:1
+T:Enclosing — a direct approach
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^approach"C,6 ^F,2 | "^arrive"G,8 |]
