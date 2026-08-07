@@ -1,0 +1,13 @@
+X:1
+T:Name the Route
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"z6 [DFGB]2 |]
+[V:LH] C,8 | A,2 B,2 c2 B,2 | D,2 F,2 A,2 c2 | z6 B,2 |]

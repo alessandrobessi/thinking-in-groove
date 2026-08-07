@@ -32,6 +32,7 @@ PIANO_CHAPTERS = {
     "part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md",
     "part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md",
     "part-2-harmonic-motion/leaping.md",
+    "part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md",
     "part-3-groove/19-the-pocket-where-exactly-is-the-note.md",
     "part-3-groove/25-push-and-lay-back-playing-around-the-beat.md",
     "part-3-groove/21-space-as-content-the-power-of-not-playing.md",
@@ -42,7 +43,6 @@ PIANO_CHAPTERS = {
 LEGACY_PIANO_EXAMPLES = {
     "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
     "part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md": "harmonic-rhythm.abc",
-    "part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md": "motion-profile.abc",
     "part-3-groove/22-the-repetition-cell-the-riff-atom.md": "repetition-cell.abc",
     "part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md": "variation-layer.abc",
     "part-3-groove/24-density-controlling-energy-through-note-count.md": "density-curve.abc",

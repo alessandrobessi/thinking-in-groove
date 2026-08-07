@@ -1,0 +1,13 @@
+X:1
+T:Motion Maps — reading four decisions
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Dm7"[DFAC]8 | "G7"z2 c2 B2 A2 |]
+[V:LH] "^stay"C,8 | "^step"C,2 D,2 E,2 D,2 | "^arpeggio"D,2 F,2 A,2 c2 | "^contrary"D,2 E,2 F,2 G,2 |]
