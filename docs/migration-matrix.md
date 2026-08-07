@@ -32,11 +32,11 @@ Decisions use the new 40-chapter architecture. “Rewrite” means no legacy pag
 | `part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md` | Migrated | Anticipation now separates early destination notes from chord boundaries and microtiming. |
 | `part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md` | Merge | Ch. 35 design algorithm. |
 | `part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md` | Removed | Superseded by Ch. 24–26 groove identity and phrase rhythm; file deleted, no direct Part V replacement. |
-| `part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md` | Rewrite | Ch. 35 and Ch. 40 capstone. |
-| `back-matter/01-one-groove-many-roles.md` | Merge | Role comparison exercises and studies index. |
-| `back-matter/02-the-role-motion-groove-map.md` | Rewrite | Five-stage design map and vocabulary v2. |
-| `back-matter/03-a-mental-model-you-can-forget-while-playing.md` | Retain/rewrite | Closing essay after capstone. |
-| `back-matter/04-designing-your-own-bass-lines.md` | Merge | Ch. 35 algorithm and practice companion. |
+| `part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md` | Rewrite | Ch. 40 Complete Capstone (Ch. 35's algorithm draws on file 27, not this one). |
+| `back-matter/01-one-groove-many-roles.md` | Retain/rewrite | Same eight-reinterpretation structure, rewritten against the actual v2 Role mechanisms (Ground, Definer, Inverter, Pedal, Reframer, Driver, Supporter, Conversationalist) in place; not merged elsewhere. |
+| `back-matter/02-the-role-motion-groove-map.md` | Rewrite | Five-part map (Role/Motion/Groove/Interaction/Design) and vocabulary v2. |
+| `back-matter/03-a-mental-model-you-can-forget-while-playing.md` | Retain/rewrite | Closing essay after capstone; term references updated in place. |
+| `back-matter/04-designing-your-own-bass-lines.md` | Rewrite | Restates Ch. 35's algorithm verbatim as a checklist; sketches point to Ch. 36/37 instead of duplicating them. |
 
 ## Example inventory decision
 
