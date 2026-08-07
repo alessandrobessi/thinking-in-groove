@@ -66,6 +66,16 @@ Milestone: the reader can build and vary written groove without misnaming perfor
 
 Milestone: the reader can coordinate bass density, register, rhythm, and contour with an upper layer.
 
+*Placement note: Harmonic Rhythm reads as a Motion concept at first
+glance, but it closes Part IV deliberately rather than sitting in Part
+II. It asks which of every Role, Motion, and Interaction choice made
+so far remains viable once the rate of chord change is fixed — a
+question that only makes sense to ask after Interaction exists to be
+constrained, and it is the direct bridge into Part V, where each Design
+study is defined partly by its harmonic rhythm (a static funk vamp vs.
+a fast-moving jazz progression). See its entry in `vocabulary-v2.md`
+for the full boundary against Subdivision.*
+
 ## Part V — Design: Building Complete Bass Lines
 
 | # | Chapter | One idea |
