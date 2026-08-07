@@ -1,0 +1,19 @@
+X:1
+T:Single Weave
+C:Alessandro Bessi
+R:Jazz-funk study
+M:4/4
+L:1/16
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"C1z1E1z1G1z1E1z1C1z1E1z1G1z1E1z1 | "Am7"A1z1C1z1E1z1C1z1A1z1C1z1E1z1C1z1 |
+"Dm7"D1z1F1z1A1z1F1z1D1z1F1z1A1z1F1z1 | "G7"G1z1B1z1D1z1B1z1G1z1B1z1D1z1B1z1 |
+"Cmaj7"G1z1E1z1C1z1E1z1G1z1E1z1C1z1E1z1 | "Am7"E1z1C1z1A1z1C1z1E1z1C1z1A1z1C1z1 |
+"Dm7"A1z1F1z1D1z1F1z1A1z1F1z1D1z1F1z1 | "G7"[GBd]16 |]
+[V:LH] "^interlock"z1C,,1z1E,,1z1G,,1z1E,,1z1C,,1z1E,,1z1G,,1z1E,,1 | "^interlock"z1A,,1z1C,,1z1E,,1z1C,,1z1A,,1z1C,,1z1E,,1z1C,,1 |
+"^interlock"z1D,,1z1F,,1z1A,,1z1F,,1z1D,,1z1F,,1z1A,,1z1F,,1 | "^interlock"z1G,,1z1B,,1z1D,,1z1B,,1z1G,,1z1B,,1z1D,,1z1B,,1 |
+"^interlock"z1G,,1z1E,,1z1C,,1z1E,,1z1G,,1z1E,,1z1C,,1z1E,,1 | "^interlock"z1E,,1z1C,,1z1A,,1z1C,,1z1E,,1z1C,,1z1A,,1z1C,,1 |
+"^interlock"z1A,,1z1F,,1z1D,,1z1F,,1z1A,,1z1F,,1z1D,,1z1F,,1 | "^resolve"G,,16 |]
