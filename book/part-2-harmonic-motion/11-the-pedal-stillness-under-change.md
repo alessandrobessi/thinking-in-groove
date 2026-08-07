@@ -1,6 +1,12 @@
-# The Pedal — Stillness Under Change
+# Staying (transitional) — Stillness Under Change
 
 *Chapter 11 — Part 2, Harmonic Motion: How the Bass Moves the Music.*
+
+> **Pending migration:** the Pedal role now lives in Part I, Chapter 4,
+> "The Pedal." This page's material on sustained bass notes creating
+> stillness is slated to move to the planned Part II chapter "Staying"
+> — see `docs/migration-matrix.md`. Retitled here in the meantime so
+> it no longer duplicates Chapter 4's title.
 
 **Term:** Pedal
 
