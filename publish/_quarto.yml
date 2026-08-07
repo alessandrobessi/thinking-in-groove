@@ -44,6 +44,7 @@ book:
         - chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md # Ch.24 Repeated Cells
         - chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md # Ch.25 Variation Without Collapse
         - chapters/part-3-groove/phrase-rhythm.md # Ch.26 Phrase Rhythm
+        - chapters/part-3-groove/performed-feel.md # Ch.27 Performed Feel
         - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # legacy; destined for Part IV Ch.32 Density Balance, not yet moved
     - part: "Part IV — Integration: Composing With All Three Layers"
       chapters:
