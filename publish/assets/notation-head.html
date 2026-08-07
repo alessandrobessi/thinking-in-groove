@@ -192,12 +192,31 @@ document.addEventListener("DOMContentLoaded", function () {
         scoreSvg.style.minWidth = scoreWidth + "px";
         scoreSvg.style.maxWidth = "none";
       }
-      target.classList.add("is-scrollable");
-      target.tabIndex = 0;
-      var scoreTitle = (source.textContent.match(/^T:(.+)$/m) || [null, "music score"])[1];
-      target.setAttribute("role", "region");
-      target.setAttribute("aria-label", "Horizontally scrollable music score: " + scoreTitle);
     }
+
+    // abcjs sets its own inline overflow/height on the container for
+    // layout purposes (seen even on scores that don't hit the bars>8
+    // branch above, e.g. ones using %%barsperstaff that still don't fit
+    // the requested staffwidth). That inline style wins over our
+    // stylesheet's overflow-x:auto and silently clips the notation --
+    // audio keeps playing, but part of the score becomes unviewable
+    // with no way to reach it. Clear it unconditionally, then decide
+    // scrollability from the actual measured overflow rather than the
+    // bar-count heuristic above, so any current or future example that
+    // renders wider than its box is caught automatically.
+    target.style.overflow = "";
+    target.style.overflowX = "auto";
+    target.style.overflowY = "hidden";
+    target.style.height = "";
+    requestAnimationFrame(function () {
+      if (target.scrollWidth > target.clientWidth + 1) {
+        target.classList.add("is-scrollable");
+        target.tabIndex = 0;
+        var scoreTitle = (source.textContent.match(/^T:(.+)$/m) || [null, "music score"])[1];
+        target.setAttribute("role", "region");
+        target.setAttribute("aria-label", "Horizontally scrollable music score: " + scoreTitle);
+      }
+    });
 
     var controls = document.createElement("div");
     controls.className = "abc-transport";
@@ -239,8 +258,25 @@ document.addEventListener("DOMContentLoaded", function () {
     buttons.forEach(function (button) {
       button.addEventListener("click", function () {
         stop(active);
-        panels.forEach(function (panel) { panel.hidden = panel.dataset.version !== button.dataset.version; });
+        var shown = null;
+        panels.forEach(function (panel) {
+          panel.hidden = panel.dataset.version !== button.dataset.version;
+          if (!panel.hidden) shown = panel;
+        });
         buttons.forEach(function (other) { other.setAttribute("aria-pressed", String(other === button)); });
+        // A panel rendered while hidden measures 0-width, so the
+        // overflow check above can't have caught a score that only
+        // overflows once actually visible -- recheck now that it is.
+        if (shown) {
+          requestAnimationFrame(function () {
+            shown.querySelectorAll(".abc-rendered").forEach(function (target) {
+              if (target.scrollWidth > target.clientWidth + 1) {
+                target.classList.add("is-scrollable");
+                target.tabIndex = 0;
+              }
+            });
+          });
+        }
       });
     });
   });
