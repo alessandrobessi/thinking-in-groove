@@ -35,15 +35,15 @@ book:
         - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md # legacy; destined for Part IV Ch.34 Harmonic Rhythm, not yet moved
     - part: "Part III — Groove: How Is Motion Organized in Time?"
       chapters:
-        - chapters/part-3-groove/subdivision.md
-        - chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md
-        - chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md
-        - chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md
-        - chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md
-        - chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md
-        - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md
-        - chapters/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md
-        - chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md
+        - chapters/part-3-groove/subdivision.md # Ch.18 Subdivision
+        - chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md # Ch.19 Attack Placement
+        - chapters/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md # Ch.20 Duration
+        - chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md # Ch.21 Space
+        - chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md # Ch.22 Syncopation
+        - chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md # Ch.23 Anticipation
+        - chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md # Ch.24 Repeated Cells
+        - chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md # Ch.25 Variation Without Collapse, pending
+        - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # legacy; destined for Part IV Ch.32 Density Balance, not yet moved
     - part: "Part IV — Integration: Composing With All Three Layers"
       chapters:
         - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md
