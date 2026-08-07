@@ -115,12 +115,34 @@ document.addEventListener("DOMContentLoaded", function () {
     if (active === state) active = null;
   }
 
+  var prefersReducedMotion = window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function autoScrollToSounding(state, nodes) {
+    var container = state.target;
+    if (!container || !container.classList.contains("is-scrollable")) return;
+    var node = nodes.filter(function (n) { return n && n.getBoundingClientRect; })[0];
+    if (!node) return;
+    var containerRect = container.getBoundingClientRect();
+    var nodeRect = node.getBoundingClientRect();
+    // Only nudge the scroll once the sounding note gets close to either
+    // edge, rather than re-centering on every single note -- a look-ahead
+    // margin keeps the motion calm instead of jittery.
+    var margin = containerRect.width * 0.15;
+    if (nodeRect.right <= containerRect.right - margin && nodeRect.left >= containerRect.left + margin) return;
+    var nodeOffsetInContainer = (nodeRect.left - containerRect.left) + container.scrollLeft;
+    var targetScroll = Math.max(0, nodeOffsetInContainer - containerRect.width * 0.25);
+    container.scrollTo({ left: targetScroll, behavior: prefersReducedMotion ? "auto" : "smooth" });
+  }
+
   function soundingEvent(state, event) {
     clearHighlight(state);
     if (!event || !event.elements) return;
-    event.elements.flat().forEach(function (node) {
+    var nodes = event.elements.flat();
+    nodes.forEach(function (node) {
       if (node && node.classList) node.classList.add("is-sounding");
     });
+    autoScrollToSounding(state, nodes);
   }
 
   async function play(state) {
@@ -231,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
     el.appendChild(controls);
 
     var state = {
-      el: el, tune: rendered[0], synth: null, timing: null, timer: null, cancelled: false,
+      el: el, target: target, tune: rendered[0], synth: null, timing: null, timer: null, cancelled: false,
       mode: "full", play: controls.querySelector(".transport-play"),
       status: controls.querySelector(".transport-status")
     };
