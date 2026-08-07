@@ -1,0 +1,17 @@
+X:1
+T:Loose Thread
+C:Alessandro Bessi
+R:Jazz-funk study
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"C2 E2 G2 E2 | "Am7"A2 C2 E2 C2 | "Dm7"D2 F2 A2 F2 | "G7"G2 B2 D2 B2 |
+"Cmaj7"E2 G2 C2 G2 | "Am7"C2 E2 A2 E2 | "Dm7"F2 A2 D2 A2 | "G7"B2 D2 G4 |]
+[V:LH] "^independent"z1 C,,1 z1 G,,1 z1 E,,1 z1 C,,1 | "^independent"z1 A,,1 z1 E,,1 z1 C,,1 z1 A,,1 |
+"^independent"z1 D,,1 z1 A,,1 z1 F,,1 z1 D,,1 | "^independent"z1 G,,1 z1 D,,1 z1 B,,1 z1 G,,1 |
+"^independent"z1 E,,1 z1 C,,1 z1 G,,1 z1 C,,1 | "^independent"z1 C,,1 z1 A,,1 z1 E,,1 z1 A,,1 |
+"^independent"z1 F,,1 z1 D,,1 z1 A,,1 z1 D,,1 | "^resolve"G,,8 |]

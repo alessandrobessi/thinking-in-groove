@@ -34,6 +34,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Long Breath](chapters/part-3-groove/phrase-rhythm.md#the-music) | Jazz | A deliberate density arc across eight bars |
 | [What the Page Can't Say](chapters/part-3-groove/performed-feel.md#the-music) | Jazz-funk | Closes Part III on notation's honest limits |
 | [Same Voice](chapters/part-4-integration/doubling.md#the-music) | Jazz-funk | Bass doubling alternated deliberately with plain roots |
+| [Loose Thread](chapters/part-4-integration/independence.md#the-music) | Jazz-funk | A syncopated bass contour unlocked from the melody above |
 | [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |
 
 ## A practical sequence
