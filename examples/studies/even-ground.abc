@@ -1,0 +1,15 @@
+X:1
+T:Even Ground
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=100
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
+"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^step"C,2 D,2 E,2 F,2 | "^step"E,2 D,2 C,2 D,2 | "^step"E,2 F,2 G,2 A,2 | "^step"G,2 F,2 E,2 F,2 |
+"^step"G,2 A,2 B,2 C2 | "^step"B,2 A,2 G,2 F,2 | "^step"G,2 A,2 B,2 C2 | "^step: settle"D2 C2 B,2 G,2 |]

@@ -1,120 +1,146 @@
-# Root Motion — The Bass Line as Harmonic Skeleton
+# Stepping
 
-*Chapter 10 — Part 2, Harmonic Motion: How the Bass Moves the Music.*
+*Chapter 10 — Part II, Motion: How Does the Bass Travel?*
 
-**Term:** Root Motion
+## The Question
 
-**Definition:** The interval and direction between successive chord roots as stated by the bass.
+What makes a bass line sound smooth rather than jumpy, independent of where it eventually ends up?
 
-## Intuition
+## The Mental Model
 
-Play a bass note. Play another. Before either has a Role, before either has a groove, the fact that you moved from one pitch to the other already carries information: it moved up, or down, by some distance. That movement — independent of what the bass is doing on top, independent of feel — is the harmony's skeleton. Take any progression away from its melody, its voicings, its rhythm, and the bass roots by themselves still trace something the ear can follow.
+**Stepping** is motion by adjacent (second) intervals — a series of steps that produces a smooth melodic contour. It's a statement about *shape*, not about *destination*.
 
-Sing just the roots of a tune you know, with no rhythm, no harmony above it, nothing but the sequence of pitches a bass player would land on. It still sounds like something. That residual shape, left over after everything else has been stripped away, is Root Motion.
+That distinction matters because Stepping is easy to confuse with Connecting Chords (Chapter 15). A stepwise line can simply wander within one unchanging harmony, going nowhere in particular — that's Stepping on its own. The moment those same steps are aimed specifically at landing on the next chord's root as the harmony changes, the line is doing something more specific: it's Connecting Chords. Every Connecting Chords route may use steps, but not every stepwise line is connecting anything.
 
-## Mental Model
+## The Microscope
 
-**Root Motion** is the interval and direction between the roots of successive chords, exactly as the bass states them. It is the most literal layer of Harmonic Motion: not what a note implies (Substituted Root, Chapter 14), not where a note is heading (Approach Note, Chapter 13), just the plain fact of "we were on this pitch, now we are on that one, and here is the distance and direction between them."
-
-Three things make Root Motion worth naming as its own concept rather than something you absorb by osmosis:
-
-1. **Distance changes weight.** A leap of a fourth or fifth reads as structural, almost architectural — the harmony's foundation visibly shifting. A step reads as incremental, almost conversational. The size of the interval is information a listener processes before they've identified a single chord quality.
-2. **Direction changes character even at identical distance.** A descending fifth (G to C) reads as resolution, almost by physical law of the overtone series — it's the interval a fundamental and its strongest overtone share, and Western tonal harmony has trained several centuries of listeners to hear it as arrival. An ascending fourth is the same two pitch classes and, taken as raw acoustics, nearly the same relationship — yet it reads as a push forward rather than a settling, because rising motion in general carries more urgency than falling motion for most listeners.
-3. **Repeated patterns name a harmonic language.** A passage that moves mostly by fourths and fifths is speaking functional, cycle-of-fifths harmony. One that moves mostly by step is closer to modal or through-composed writing. One that favors thirds is often in more chromatic, cinematic territory. Naming the dominant interval in a passage tells you what kind of harmonic language you're in before you've analyzed a single chord symbol.
-
-Root Motion is also the term every other concept in this Part either specializes or complicates. An Anchor (Chapter 1) is, from the Motion side, often just a moment of zero Root Motion — the same root repeated rather than changed. A Connector (Chapter 3) is a Role built almost entirely out of directional Root Motion aimed at a destination. Cadential Motion (Chapter 16) is Root Motion's strongest pattern — the descending fifth — deployed specifically at a phrase's end. Deceptive Motion (Chapter 15) is a Root Motion path that changes destination mid-flight, and a Substituted Root (Chapter 14) is a root chosen to reinterpret rather than simply state the harmony. None of these replace Root Motion; they all borrow it for a more specific purpose, which is why it's introduced first in this Part — everything after it in Part II assumes you can already hear plain interval and direction on their own.
-
-## Visual Explanation
-
-In the four-layer diagram from `docs/visual-language.md`, Root Motion is drawn as a straight diagonal line between the two note stems it connects, in the Motion layer's amber (`#D97706`). The line's slope is not decorative: a steep line signals a large leap (a fourth or more), a shallow line signals stepwise motion, and the direction of the slope — rising left to right or falling — is the direction of the root movement itself. Where a bass line contains several consecutive Root Motion events, the diagram reads almost like a simple melodic contour drawn underneath the actual notation: you can see the skeleton's shape before you've read a single pitch name.
-
-This is the plainest of the Motion-layer shapes, and every other Motion symbol in this Part is a variation on it: Substituted Root (Chapter 14) uses the same diagonal line but dotted, to mark a root that's reinterpreting the harmony rather than literally changing it; Deceptive Motion (Chapter 15) uses the same diagonal line but with a bend in it, to mark a path that changed destination mid-flight; Cadential Motion (Chapter 16) adds a double-tick at the end of a Root Motion line to mark that this particular arrival is also a phrase boundary. Learning to read a plain diagonal line first is what makes those later, modified versions legible.
-
-## Musical Example
-
-Dm7-G7-Cmaj7 is this book's laboratory progression: the same three chords every chapter returns to, so the ear can isolate exactly one variable at a time. Stated plainly, the bass takes each chord's root:
+The bass plays the same three ascending steps both times. Only whether the harmony moves to meet them changes.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="stepping-lab">
+  <div class="comparison-controls" aria-label="Stepping comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — No destination</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Becomes a destination</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="stepping-no-destination">
+      <p class="abc-caption"><strong>A — Stepping, no destination.</strong> The harmony never changes, so the steps are pure contour.</p>
+      <p class="abc-description">Two bars of unchanging Cmaj7 while the bass steps up and back down.</p>
+      <pre class="abc-source">X:1
+T:Stepping — smooth contour, no destination
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 |]
+[V:LH] "^step"C,2 D,2 E,2 D,2 | "^step"C,2 D,2 E,2 D,2 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="stepping-destination">
+      <p class="abc-caption"><strong>B — The same steps, now a destination.</strong> The harmony changes to Dm7 exactly as the steps arrive on D.</p>
+      <p class="abc-description">The identical opening three steps, now landing precisely on the new chord's root.</p>
+      <pre class="abc-source">X:1
+T:Stepping — the same steps, now a destination
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Dm7"[DFAC]8 |]
+[V:LH] "^step"C,2 D,2 E,2 z2 | "^arrive: this is Connecting Chords now"D,8 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-D to G is a descending fifth; G to C is an ascending fourth — the same two pitch classes as their inversions, opposite directions, different effects. Extending the laboratory one chord makes a third interval type audible in the same breath: Cmaj7 to Am7 is a descending third.
+## Listen
+
+Play **Harmony only** on both: A holds one chord for two bars; B changes chord exactly when the steps would logically continue. Now play **Full** and compare. The bass gesture in bar 1 is identical in both versions — the difference only becomes audible once bar 2 either repeats the same harmony (A) or arrives somewhere new (B).
+
+## See
+
+In A, the steps end where they started (C up to E, back down toward D) — a shape with no destination stated anywhere on the page. In B, the final step lands exactly on the new chord symbol's root, at the exact moment it appears. The notation itself shows the difference: alignment between a bass arrival and a chord symbol is what turns Stepping into Connecting Chords.
+
+## Play
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">Root Motion: the lab, extended one chord</p>
-<pre class="abc-source">
-X:1
-T:Root Motion: the lab, extended one chord
-C:Thinking in Groove
+<div class="score-example" id="stepping-smooth-ground">
+  <p class="abc-caption"><strong>Smooth Ground.</strong> A four-bar stepwise contour under one unchanging chord.</p>
+  <p class="abc-description">Four bars of Cmaj7 while the bass climbs, descends, climbs again, and settles.</p>
+  <pre class="abc-source">X:1
+T:Smooth Ground
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 10-root-motion-the-bass-line-as-harmonic-skeleton
-% role: n/a
-% motion: root motion
-% groove: moderate-density
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 | Am7 -- the laboratory, extended one chord
-V:Bass clef=bass
-"_[M:Root Motion]"D,8 | "_[M:Root Motion]"G,,8 | "_[M:Root Motion]"C,8 | "_[M:Root Motion]"A,,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 |]
+[V:LH] "^step"C,2 D,2 E,2 F,2 | "^step"G,2 F,2 E,2 D,2 | "^step"C,2 D,2 E,2 F,2 | "^step: settle"G,8 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+Play all four bars without letting any note announce itself as more important than the others — the point is the shape of the line, not any one arrival. Then notice: the line never had anywhere it had to go, and it was still satisfying to play.
 
-Each bar carries a `"_[M:Root Motion]"` tag marking the interval just taken, not the note itself: a fifth down into G7, a fourth up into Cmaj7, a third down into Am7. Reading the tags in sequence traces the interval pattern directly, without needing to compare pitches by ear first.
+## Vary
 
-*Bass tab for "Root Motion: the lab, extended one chord":*
+Keep every pitch and rhythm identical. Add a new chord symbol under bar 4's final G (say, a C/G or a G7). Does the line retroactively feel like it was heading toward that destination all along, even though nothing about the bass part itself changed?
 
-```text
-G|--------|--------|--------|--------|
-D|--------|--------|--------|--------|
-A|--------|--------|--------|--------|
-E|10------|3-------|8-------|5-------|
+## The Music
+
+"Even Ground" is an original eight-bar jazz study built almost entirely from stepwise motion, even as the harmony itself moves through four different chords.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="even-ground-study">
+  <p class="abc-caption"><strong>Even Ground.</strong> A continuously stepwise bass line under a moving ii-V-based progression.</p>
+  <p class="abc-description">An eight-bar jazz study: Cmaj7, Am7, Dm7, and G7, connected almost entirely by adjacent motion.</p>
+  <pre class="abc-source">X:1
+T:Even Ground
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=100
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
+"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^step"C,2 D,2 E,2 F,2 | "^step"E,2 D,2 C,2 D,2 | "^step"E,2 F,2 G,2 A,2 | "^step"G,2 F,2 E,2 F,2 |
+"^step"G,2 A,2 B,2 C2 | "^step"B,2 A,2 G,2 F,2 | "^step"G,2 A,2 B,2 C2 | "^step: settle"D2 C2 B,2 G,2 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- Take any tune you already know and, away from your instrument, sing or hum only the root of each chord change in time. Notice which changes feel like falling into place and which feel like a push.
-- On your instrument, play only roots through a full chorus of a standard, in quarter notes, ignoring rhythm, color, and role entirely. Ask yourself after each change: was that a leap or a step, and which direction?
-- Take a ii-V-I and play its roots in as many different Root Motion "routes" as you can invent — by leap, by step, ascending, descending — while keeping the underlying harmony identical. Notice how much the harmony's felt direction changes even though the chords themselves haven't.
-- Transcribe eight bars of a bass line you admire and reduce it to nothing but its root-to-root intervals. Does the piece favor fourths and fifths, steps, or thirds? What does that tell you about its harmonic language, and does it match what you'd guess from the genre alone?
-
-## Summary
-
-Root Motion is the plainest fact a bass line states — how far, and which way, the harmony's foundation just moved — and it shapes a listener's sense of direction and resolution independent of chord quality, rhythm, or anything layered on top of it. Every other Harmonic Motion concept in this Part refines or complicates this one fact; none of them replace it.
+Several notes in "Even Ground" land exactly on a new chord's root or a close chord tone as the harmony changes — moments that are arguably Connecting Chords, not pure Stepping. Find one and explain what makes it a destination rather than just another step in the contour.

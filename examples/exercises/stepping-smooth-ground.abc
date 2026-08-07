@@ -1,0 +1,13 @@
+X:1
+T:Smooth Ground
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 |]
+[V:LH] "^step"C,2 D,2 E,2 F,2 | "^step"G,2 F,2 E,2 D,2 | "^step"C,2 D,2 E,2 F,2 | "^step: settle"G,8 |]

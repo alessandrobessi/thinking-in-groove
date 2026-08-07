@@ -1,0 +1,13 @@
+X:1
+T:Stepping — the same steps, now a destination
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Dm7"[DFAC]8 |]
+[V:LH] "^step"C,2 D,2 E,2 z2 | "^arrive: this is Connecting Chords now"D,8 |]

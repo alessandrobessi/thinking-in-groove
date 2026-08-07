@@ -1,0 +1,15 @@
+X:1
+T:Low Tide
+C:Alessandro Bessi
+R:Funk study
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:Cm
+[V:RH] "Cm"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 | "Cm"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 |
+"Cm"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 | "Ab"z2 [_Ac_e]2 z2 [_Ac_e]2 | "G"z [GBd]2 z [GBd]2 z2 |]
+[V:LH] "^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z |
+"^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z | "^leave"_A,,4 z _A,,2 z | "^stay ends"G,,8 |]

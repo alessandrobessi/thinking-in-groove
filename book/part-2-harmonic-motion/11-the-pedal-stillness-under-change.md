@@ -1,128 +1,146 @@
-# Staying (transitional) — Stillness Under Change
+# Staying
 
-*Chapter 11 — Part 2, Harmonic Motion: How the Bass Moves the Music.*
+*Chapter 9 — Part II, Motion: How Does the Bass Travel?*
 
-> **Pending migration:** the Pedal role now lives in Part I, Chapter 4,
-> "The Pedal." This page's material on sustained bass notes creating
-> stillness is slated to move to the planned Part II chapter "Staying"
-> — see `docs/migration-matrix.md`. Retitled here in the meantime so
-> it no longer duplicates Chapter 4's title.
+## The Question
 
-**Term:** Pedal
+What does it mean for the bass to choose not to move, even when the harmony would let it?
 
-**Definition:** Sustaining or repeating one bass note underneath changing harmony above it.
+## The Mental Model
 
-## Intuition
+Motion is not only about where the bass goes — it's also about the choice to go nowhere. **Staying** is that choice made deliberately: the bass holds its ground across a span of music, functioning as a real motion decision, not the absence of one.
 
-Hold one note. Let the harmony above you keep moving — chords rise, fall, resolve, reharmonize — while your note refuses to follow. The tension this creates is not a malfunction; it is one of the oldest and most reliable devices in harmony, because it lets a listener hear exactly how far the moving harmony has traveled by measuring it against something that stayed still.
+Staying is easy to confuse with a Pedal (Chapter 4), because both look identical on the page: one note, held or repeated. The difference is what happens *above* the bass while it holds. A Pedal requires the harmony to change while the note persists — that's what generates its characteristic tension. Staying requires no such change: the bass holds because the harmony isn't asking it to do anything else. The same physical note, held the same way, is Staying under one unchanging chord and a Pedal the instant the chord above it starts to move.
 
-## Mental Model
+## The Microscope
 
-A **Pedal** is a bass note sustained or repeated while the harmony above it changes. It is a Harmonic Motion concept built on an apparent contradiction: the bass isn't moving, and yet the Pedal is precisely what makes the surrounding motion audible. Without a fixed reference point, a listener has to reconstruct harmonic distance chord by chord; with a Pedal underneath, every new chord is instantly measured against the same ground.
-
-It's worth separating Pedal from the Role called Anchor. Anchor describes a job a single note performs in the moment — grounding the harmony. Pedal describes a specific technique: literal repetition or sustain of one pitch across multiple harmonic changes. A note can be an Anchor without being a Pedal (a root played once per bar, changing bar to bar, is anchoring each chord individually). A Pedal is nearly always functioning as an Anchor, but it's the sustained, unmoving quality across changes that makes it a Pedal specifically — and that unmoving quality is what generates the tension a plain Anchor doesn't.
-
-Two flavors matter in practice. A tonic pedal holds the key center while the harmony moves away from and back to it — used to open or close a piece, or to underscore a moment of unresolved anticipation before a cadence. A dominant pedal holds the fifth degree while harmony above it moves through chords that would, without the pedal, sound resolved on their own — manufacturing suspense that only releases when the pedal finally moves.
-
-Three things distinguish a genuine Pedal from a bass line that merely happens to repeat a note:
-
-1. **Harmonic independence.** The note held is chosen for its relationship to the key center (usually the tonic or the dominant), not because it happens to be convenient under the first chord and gets left there by accident.
-2. **Duration relative to the harmony above.** A Pedal spans multiple harmonic events — if the "chord" above only changes once, you likely have an Anchor (Chapter 1) doing ordinary work, not yet a Pedal earning its own name.
-3. **A deliberate release.** A Pedal that never moves isn't a device, it's just the piece's key center; what makes it legible as a Pedal is that the listener can eventually hear it let go, and that release is where most of the term's expressive payoff lives.
-
-## Visual Explanation
-
-The Motion layer marks a Pedal with a flat horizontal bracket, in amber (`#D97706`), spanning the entire duration the note is held or repeated — visually distinct from Root Motion's diagonal lines precisely because nothing is moving. Above the bracket, the Role layer will typically show the Anchor icon repeated at each reiteration if the note is restruck, or a single Anchor icon at the onset if it's a genuine sustain. Seeing a long flat bracket under a busy, chord-symbol-dense passage is itself the point: the diagram makes visible how much harmonic activity is happening over how little bass motion.
-
-A Pedal's Groove layer is almost always low-**Density** (Chapter 24) — sparse, widely spaced dots, since a note that's sustaining has little reason to be rearticulated often — and it frequently shows a **Space** (Chapter 21) marking right before the release, a beat or two of silence that sets up the walk-off. If the Groove layer under a claimed Pedal looks busy or syncopated, check whether the note is really a Pedal or has quietly turned into a **Repetition Cell** (Chapter 22) instead — the two can look similar on the page but serve very different jobs.
-
-## Musical Example
-
-Against the laboratory stated plainly —
+The bass plays the identical note both times. Only the harmony above it changes.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="staying-lab">
+  <div class="comparison-controls" aria-label="Staying comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Staying</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Becomes a Pedal</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="staying-static">
+      <p class="abc-caption"><strong>A — Staying.</strong> The chord never changes, so the held bass note is simply staying.</p>
+      <p class="abc-description">Two bars of an unchanging Cm triad over a held bass C.</p>
+      <pre class="abc-source">X:1
+T:Staying — static harmony
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=88
-K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:Cm
+[V:RH] "Cm"[C_EG]4 [C_EG]4 | "Cm"[C_EG]4 [C_EG]4 |]
+[V:LH] "^stay"C,4 C,4 | "^stay"C,4 C,4 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="staying-pedal">
+      <p class="abc-caption"><strong>B — The same choice, now a Pedal.</strong> The chord moves to Fm while the bass note refuses to follow.</p>
+      <p class="abc-description">The identical held bass C, now under a chord change from Cm to Fm.</p>
+      <pre class="abc-source">X:1
+T:Staying — becomes a pedal
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:Cm
+[V:RH] "Cm"[C_EG]4 [C_EG]4 | "Fm"[F_Ac]4 [F_Ac]4 |]
+[V:LH] "^stay"C,4 C,4 | "^pedal: same note, harmony moved"C,4 C,4 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-— a Pedal keeps the bass on D through both Dm7 and G7, restruck rather than left to sustain, before finally releasing to C:
+## Listen
+
+Hear **Harmony only** first on both versions: A holds one chord throughout; B changes chord in bar 2. Now hear **Full**. The bass note is identical in both — same pitch, same rhythm, same touch. What changed is entirely above it, yet that change is what turns a resting note into a taut one.
+
+## See
+
+Nothing in the bass staff itself distinguishes Staying from a Pedal — the annotation must reference the harmony above to tell them apart. This is a reminder that Motion terms are relationships, not properties of a single staff read in isolation.
+
+## Play
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The Pedal: same lab, D restruck through two chords</p>
-<pre class="abc-source">
-X:1
-T:The Pedal: same lab, D restruck through two chords
-C:Thinking in Groove
+<div class="score-example" id="staying-hold-the-floor">
+  <p class="abc-caption"><strong>Hold the Floor.</strong> The same held note plays two different roles across four bars.</p>
+  <p class="abc-description">A held C under two bars of Cmaj7, one bar of Fmaj7, and a final released bar.</p>
+  <pre class="abc-source">X:1
+T:Hold the Floor
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=84
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 11-the-pedal-stillness-under-change
-% role: anchor
-% motion: pedal
-% groove: low-density
-% difficulty: intermediate
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal]"D,4 D,4 | D,4 D,4 | "^[R:Anchor]""_[M:Cadential Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Fmaj7"[FAce]8 | "Cmaj7"[CEGB]8 |]
+[V:LH] "^stay"C,8 | "^stay"C,8 | "^stay: now a pedal"C,8 | "^released"C,8 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-Root Motion would have moved D to G on beat 1 of the second bar, exactly as the baseline does. The Pedal declines: D stays, restruck, straight through the G7 bar, and the only Root Motion in this example is the eventual release into C.
+Hold the bass note through all four bars without rearticulating it if your instrument allows it. Notice the exact bar where your held note stops being passive and starts creating tension — it's bar 3, the moment the chord above moves and you don't.
 
-## Annotated Notation
+## Vary
 
-The `"_[M:Pedal]"` tag spans both D bars, distinguishing this from a plain `"^[R:Anchor]"` reading of the same pitch — the tag marks that the note is being held *against* a change happening above it, not simply stating an unchanging root. The release carries its own tag, `"_[M:Cadential Motion]"`, marking the moment the held note finally lets go.
+Keep the bass note and its rhythm identical. Change only bar 3's chord from Fmaj7 to Abmaj7. Does the tension change in kind, or only in color? What does that tell you about what a Pedal actually depends on — the specific chord, or simply the fact that a chord changes at all?
 
-*Bass tab for "The Pedal: same lab, D restruck through two chords":*
+## The Music
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|10--10--|10--10--|8-------|
+"Low Tide" is an original eight-bar funk study. Six bars stay on one chord before the harmony finally moves in bar 7 — proof that staying is not the same as having nothing to say.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="low-tide-study">
+  <p class="abc-caption"><strong>Low Tide.</strong> Six bars of held ground, then a brief departure before the loop restarts.</p>
+  <p class="abc-description">An eight-bar funk study: six bars on Cm, a move through Ab, and a G that resolves back to the top.</p>
+  <pre class="abc-source">X:1
+T:Low Tide
+C:Alessandro Bessi
+R:Funk study
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:Cm
+[V:RH] "Cm"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 | "Cm"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 |
+"Cm"z2 [C_EG]2 z2 [C_EG]2 | z [C_EG]2 z [C_EG]2 z2 | "Ab"z2 [_Ac_e]2 z2 [_Ac_e]2 | "G"z [GBd]2 z [GBd]2 z2 |]
+[V:LH] "^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z |
+"^stay"C,4 z C,2 z | "^stay"C,4 z C,2 z | "^leave"_A,,4 z _A,,2 z | "^stay ends"G,,8 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- Pick any four chords you like the sound of. Play them as a comping pattern on piano or guitar (or loop them) while holding a single bass note underneath all four. Try the root of the first chord, then try the fifth. Notice how differently the same four chords feel depending on which note anchors them.
-- Practice releasing a pedal at different points — early, late, exactly on the downbeat of the resolving chord — and notice how the timing of the release changes the sense of relief.
-- Find a recording with an obvious pedal point (dominant pedals are common at the end of a tune, right before the final tonic) and transcribe only the bass note and its rhythm. How often is it restruck versus truly sustained?
-- Improvise a bass line that stays on one note for eight bars while imagining (or having someone else play) a harmony that moves freely above it. Resist the urge to move early.
-
-## Summary
-
-A Pedal turns stillness into a measuring stick: by refusing to move while everything above it does, a single sustained or repeated bass note makes the distance and tension of that motion audible, and its eventual release becomes one of the most dependable payoffs in the harmonic vocabulary.
+Six of "Low Tide"'s eight bars stay on the same chord. Does the bass line feel static for six bars, or does something else keep it interesting while the harmony holds still?
