@@ -33,8 +33,9 @@ book:
         - chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md # Ch.16 Contrary Motion
         - chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md # Ch.17 Motion Maps
         - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md # legacy; destined for Part IV Ch.34 Harmonic Rhythm, not yet moved
-    - part: "Part III — Groove: How the Bass Creates Feel"
+    - part: "Part III — Groove: How Is Motion Organized in Time?"
       chapters:
+        - chapters/part-3-groove/subdivision.md
         - chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md
         - chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md
         - chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md

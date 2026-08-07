@@ -1,6 +1,6 @@
 # Duration
 
-*Groove Pilot — How Is Motion Organized in Time?*
+*Chapter 20 — Part III, Groove: How Is Motion Organized in Time?*
 
 ## The Question
 

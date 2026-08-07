@@ -1,0 +1,13 @@
+X:1
+T:Subdivision — a sixteenth-note grid
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/16
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]16 |]
+[V:LH] z1 "^e of beat 1 -- no eighth-grid equivalent"C,15 |]

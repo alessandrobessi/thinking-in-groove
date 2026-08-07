@@ -1,6 +1,6 @@
 # Space
 
-*Groove Pilot — How Is Motion Organized in Time?*
+*Chapter 21 — Part III, Groove: How Is Motion Organized in Time?*
 
 ## The Question
 

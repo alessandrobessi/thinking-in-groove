@@ -1,0 +1,15 @@
+X:1
+T:Fine Grid
+C:Alessandro Bessi
+R:Funk study
+M:4/4
+L:1/16
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"z4 [CEGB]4 z4 [CEGB]4 | "Cmaj7"z4 [CEGB]4 z4 [CEGB]4 | "Am7"z4 [ACEG]4 z4 [ACEG]4 | "Am7"z4 [ACEG]4 z4 [ACEG]4 |
+"Dm7"z4 [DFAC]4 z4 [DFAC]4 | "Dm7"z4 [DFAC]4 z4 [DFAC]4 | "G7"z4 [DFGB]4 z4 [DFGB]4 | "G7"z4 [DFGB]4 z4 [DFGB]4 |]
+[V:LH] "^grid"C,4 z2 C,2 z4 C,4 | "^grid"C,4 z2 C,2 z4 C,4 | "^grid"A,4 z2 A,2 z4 A,4 | "^grid"A,4 z2 A,2 z4 A,4 |
+"^grid"D,4 z2 D,2 z4 D,4 | "^grid"D,4 z2 D,2 z4 D,4 | "^grid"G,4 z2 G,2 z4 G,4 | "^grid"G,4 z2 G,2 z4 G,4 |]
