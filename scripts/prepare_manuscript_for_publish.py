@@ -37,6 +37,7 @@ PIANO_CHAPTERS = {
     "part-3-groove/19-the-pocket-where-exactly-is-the-note.md",
     "part-3-groove/22-the-repetition-cell-the-riff-atom.md",
     "part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md",
+    "part-3-groove/phrase-rhythm.md",
     "part-3-groove/25-push-and-lay-back-playing-around-the-beat.md",
     "part-3-groove/21-space-as-content-the-power-of-not-playing.md",
     "part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md",

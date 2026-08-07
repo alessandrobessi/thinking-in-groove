@@ -1,0 +1,13 @@
+X:1
+T:Shape the Phrase
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=96
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Am7"[ACEG]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |]
+[V:LH] "^sparse"A,8 | "^moderate"A,2 z2 A,2 A,2 | "^busy"A,2 B,2 c2 B,2 | "^release"A,8 |]
