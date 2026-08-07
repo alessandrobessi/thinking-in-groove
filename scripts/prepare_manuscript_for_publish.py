@@ -50,11 +50,11 @@ PIANO_CHAPTERS = {
     "part-3-groove/24-density-controlling-energy-through-note-count.md",
     "part-4-integration/register-and-separation.md",
     "part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md",
+    "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {
     "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
-    "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md": "layer-stack.abc",
     "part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md": "design-study.abc",
 }
 

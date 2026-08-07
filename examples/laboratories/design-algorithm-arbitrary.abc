@@ -1,0 +1,13 @@
+X:1
+T:The Design Algorithm — the same harmony, no traceable choice
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Dm7"[dfa]8 | "G7"[gbd]8 | "Cmaj7"[ceg]8 |]
+[V:LH] "^arbitrary"F,,2 z1 A,,1 D,,4 | "^arbitrary"B,,4 D,,4 | "^arbitrary"E,,2 G,,2 C,,4 |]

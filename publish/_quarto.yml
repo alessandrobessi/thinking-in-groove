@@ -53,10 +53,10 @@ book:
         - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # Ch.32 Density Balance; filename retained until part-sized URL migration
         - chapters/part-4-integration/register-and-separation.md # Ch.33 Register and Separation
         - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md # Ch.34 Harmonic Rhythm; filename retained until part-sized URL migration
-    - part: "Part V (legacy) — Integration: Composing With All Three Layers" # transitional heading; content and title migrating to Part V, not yet moved
+    - part: "Part V — Design: Building Complete Bass Lines"
       chapters:
-        - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md
-        - chapters/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md
+        - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md # Ch.35 The Bass-Line Design Algorithm; filename retained until part-sized URL migration
+        - chapters/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md # legacy; destined for Part V Ch.40 Complete Capstone, not yet moved
     - part: "Integrated Study and Appendices"
       chapters:
         - studies.qmd
