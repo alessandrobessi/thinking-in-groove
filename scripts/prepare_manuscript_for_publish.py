@@ -31,6 +31,7 @@ PIANO_CHAPTERS = {
     "part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md",
     "part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md",
     "part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md",
+    "part-2-harmonic-motion/leaping.md",
     "part-3-groove/19-the-pocket-where-exactly-is-the-note.md",
     "part-3-groove/25-push-and-lay-back-playing-around-the-beat.md",
     "part-3-groove/21-space-as-content-the-power-of-not-playing.md",

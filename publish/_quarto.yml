@@ -23,15 +23,16 @@ book:
         - chapters/part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md
     - part: "Part II — Motion: How Does the Bass Travel?"
       chapters:
-        - chapters/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md
-        - chapters/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md
-        - chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md
-        - chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md
-        - chapters/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md
-        - chapters/part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md
-        - chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md
-        - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md
-        - chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md
+        - chapters/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md # Ch.9 Staying; filename retained until part-sized URL migration
+        - chapters/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md # Ch.10 Stepping
+        - chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md # Ch.11 Approaching
+        - chapters/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md # Ch.12 Enclosing
+        - chapters/part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md # Ch.13 Arpeggiating
+        - chapters/part-2-harmonic-motion/leaping.md # Ch.14 Leaping
+        - chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md # Ch.15 Connecting Chords
+        - chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md # Ch.16 Contrary Motion
+        - chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md # Ch.17 Motion Maps
+        - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md # legacy; destined for Part IV Ch.34 Harmonic Rhythm, not yet moved
     - part: "Part III — Groove: How the Bass Creates Feel"
       chapters:
         - chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md
