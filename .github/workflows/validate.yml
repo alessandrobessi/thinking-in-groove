@@ -17,6 +17,7 @@ jobs:
       - run: python3 scripts/validate_piano_prototype.py
       - run: python3 scripts/validate_study_collection.py
       - run: python3 scripts/validate_architecture_docs.py
+      - run: python3 scripts/validate_no_drift.py
       - name: Stage chapters for the Quarto build
         run: python3 scripts/prepare_manuscript_for_publish.py
       - uses: quarto-dev/quarto-actions/setup@v2

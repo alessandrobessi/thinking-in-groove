@@ -34,10 +34,11 @@ architecture, followed by the progressive capstone.
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
 | [`docs/`](docs/) | The 40-chapter map (`chapter-map.md`), authoritative `vocabulary-v2.md` (the legacy `vocabulary.md` has been removed), migration audits, and canonical notation/accompaniment guides. |
 | [`book/`](book/) | Canonical chapter prose, including the fully rewritten pilot chapters. |
-| [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, and seventeen complete grand-staff studies. |
+| [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, complete grand-staff studies, and the closing capstone. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
 | [`scripts/prepare_manuscript_for_publish.py`](scripts/prepare_manuscript_for_publish.py) | Copies `book/*.md` into `publish/chapters/` ahead of every Quarto render. |
 | [`scripts/validate_book_structure.py`](scripts/validate_book_structure.py) | Ensures every published chapter exists, contains only grand-staff examples, and has no tablature dependency. |
+| [`scripts/validate_no_drift.py`](scripts/validate_no_drift.py) | Catches nav-order drift against `chapter-map.md`, orphaned legacy `.abc` placeholders, and stale bookkeeping entries. |
 | [`publish/`](publish/) | The Quarto book project: `_quarto.yml`, front-matter pages, and the abcjs notation/audio widget (`publish/assets/notation-head.html`). |
 | [`.github/workflows/`](.github/workflows/) | `validate.yml` checks manuscript structure and does an HTML render sanity check on every push/PR; `build-book.yml` renders the full book and deploys it on every push to `main`. |
 
@@ -73,6 +74,7 @@ python3 scripts/validate_book_structure.py
 python3 scripts/validate_piano_prototype.py
 python3 scripts/validate_study_collection.py
 python3 scripts/validate_architecture_docs.py
+python3 scripts/validate_no_drift.py
 ```
 
 ## License
