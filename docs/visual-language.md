@@ -1,87 +1,65 @@
 # Visual Language
 
-Every musical example in this book is shown as a **four-layer diagram**,
-mirroring the book's core idea that a bass line is a stack of
-simultaneous decisions.
+This document originally specified a four-layer color-coded diagram
+(Role icons, Motion arcs, a Groove pulse-timeline, all overlaid on a
+single bass-clef staff plus tab) for the book's pre-pivot single-voice
+format. None of it was ever built, and it doesn't fit the book's
+actual format since the piano pivot — grand-staff notation carries the
+harmonic context those overlays were meant to supply. This page now
+describes what a chapter's visual presentation actually is today.
 
-```
-[ ROLE LAYER   ]  icons above the staff        — blue   #2563EB
-[ NOTATION/TAB ]  standard staff + bass tab     — black
-[ MOTION LAYER ]  arcs/lines below the staff    — amber  #D97706
-[ GROOVE LAYER ]  pulse timeline below the tab  — green  #16A34A
-```
+## What every chapter's notation actually looks like
 
-Integration chapters (Part IV) additionally use a fifth accent color,
-purple `#7C3AED`, when showing all layers stacked together.
+Every musical example renders as plain two-voice grand-staff notation
+via [abcjs](https://abcjs.net) — harmony in the treble clef, bass in
+the bass clef — with no icon, color, or diagram overlay of any kind.
+The book's four categories (Role, Motion, Groove, Interaction) are not
+visually color-coded; they're distinguished entirely by which chapter
+and which vocabulary term a passage is discussing, named in prose and
+in the notation's own inline text tags.
 
-## Color Key
+**Semantic annotation** is a single short text tag — `"^ground"`,
+`"^approach"`, `"^cell"`, and so on — rendered by abcjs directly above
+the staff at the note it applies to, exactly as ABC's own text
+annotation syntax draws it. See
+[`notation-conventions.md`](notation-conventions.md) for the full tag
+convention. There is no separate colored arc, icon, or pulse-dot
+layer underneath it.
 
-| Category | Color | Hex |
-|---|---|---|
-| Role | Blue | `#2563EB` |
-| Harmonic Motion | Amber | `#D97706` |
-| Groove | Green | `#16A34A` |
-| Integration | Purple | `#7C3AED` |
+**The Microscope** (every chapter's controlled comparison) is a
+two-button toggle — `data-version="A"` / `data-version="B"` — that
+swaps which of two otherwise-identical grand-staff examples is
+visible, implemented in plain HTML/CSS/JS in
+[`publish/assets/notation-head.html`](../publish/assets/notation-head.html),
+not as a custom diagram.
 
-## Role Layer — Icon Set (placed above the staff, at the note it applies to)
+**Playback** offers Full, Bass only, and Harmony only controls per
+example, with the view auto-scrolling to follow the playhead on any
+example wide enough to need horizontal scrolling. This is the entire
+current "visual language" beyond standard music notation: two voices,
+one text tag per note of interest, one comparison toggle, three
+playback buttons.
 
-| Term | Icon description |
-|---|---|
-| Anchor | Filled downward triangle with a flat base (weight/grounding) |
-| Definer | Filled diamond |
-| Connector | Two dots joined by a shallow curved arc (a bridge) |
-| Driver | A forward-pointing chevron |
-| Colorist | A circle with a small sparkle/burst accent |
-| Shadow | A dashed outline duplicate of the notehead |
-| Voice-Leader | A short connected zig-zag line through consecutive notes |
-| Commentator | A small speech-bubble glyph |
+## What's deliberately not built
 
-## Motion Layer — Line/Arc Set (placed below the staff)
+`AGENTS.md`'s Example Curator role and `BLUEPRINT.md` both still name
+an eventual richer visual/animation layer — "Notaroll animation" per
+example — as a longer-term goal, distinct from and unrelated to this
+document's original icon-set design. That remains a real possibility
+for a future phase, but nothing about its actual look, its
+integration with the grand-staff notation above, or which concepts it
+would visualize has been designed yet. Do not resurrect this
+document's retired icon/color/pulse-timeline specification as a
+substitute for that decision — if and when a Notaroll-based visual
+layer is designed, it should be specified fresh, against the book's
+actual current format, not against the single-voice-plus-tab format
+this page used to describe.
 
-| Term | Shape |
-|---|---|
-| Root Motion | Straight diagonal line between the two note stems |
-| Pedal | Flat horizontal bracket spanning the sustained span |
-| Passing Motion | Shallow arched slur across the passing notes |
-| Approach Note | Short hook/arrow curving into the target note |
-| Substituted Root | Dotted diagonal line (vs. solid for literal root motion) |
-| Deceptive Motion | Diagonal line with a right-angle bend at the diversion point |
-| Cadential Motion | Double vertical tick at the resolution point |
-| Harmonic Rhythm | Small tick marks under each implied chord change |
+## Typography
 
-## Groove Layer — Pulse Timeline (placed beneath the tab)
-
-A horizontal row of evenly spaced tick marks represents the underlying
-pulse subdivision (defined per example). Each bass note is plotted as a
-dot:
-
-| Symbol | Meaning |
-|---|---|
-| Filled dot centered on a tick | On the beat |
-| Filled dot shifted left of a tick | Push (ahead of the beat) |
-| Filled dot shifted right of a tick | Lay-back (behind the beat) |
-| Hollow ring on a tick | Space / intentional rest |
-| Bracket spanning several dots | Repetition Cell grouping |
-| Bracket with a dashed overlay | Variation Layer (altered repeat of a cell) |
-
-## Typography Conventions
-
-- The first time a vocabulary term is used in a chapter, it is set in
-  **bold small caps, in its category color**.
-- Every chapter opens with a **Concept Card**: a small callout box with
-  the term's name, its icon, and its one-sentence definition, reproduced
-  verbatim from [`vocabulary-v2.md`](vocabulary-v2.md).
-- A compact master legend (this document, condensed) is reprinted at the
-  start of Part I, II, III, and IV so readers don't need to flip back to
-  the introduction.
-
-## Web edition note
-
-In the web (HTML) edition, layers are implemented as CSS-positioned
-overlays around each abcjs-rendered example rather than baked into the
-ABC source itself — see
-[`notation-conventions.md`](notation-conventions.md) for how Role/Motion/
-Groove tags travel with the `.abc` source as semantic annotations, and
-[`publish/assets/notation-head.html`](../publish/assets/notation-head.html)
-for the rendering widget. Building the actual overlay renderer is a
-Phase 4 (Multimedia) task, not this pass.
+- The first time a vocabulary term is used in a chapter, set it in
+  **bold**; do not re-bold it on later mentions in the same chapter
+  (see `style-guide.md`).
+- Chord symbols are shown on the staff (via ABC's own chord-symbol
+  syntax) but rendered silent during playback (`chordsOff: true`) so
+  only the two notated voices actually sound.
