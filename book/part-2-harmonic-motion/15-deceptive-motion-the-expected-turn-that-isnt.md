@@ -1,120 +1,146 @@
-# Deceptive Motion — The Expected Turn That Isn't
+# Arpeggiating
 
-*Chapter 15 — Part 2, Harmonic Motion: How the Bass Moves the Music.*
+*Chapter 13 — Part II, Motion: How Does the Bass Travel?*
 
-**Term:** Deceptive Motion
+## The Question
 
-**Definition:** Bass motion that sets up an expected resolution, then diverts to a different destination.
+What turns a series of leaps into something that sounds intentional rather than random?
 
-## Intuition
+## The Mental Model
 
-Every strong pull toward a destination creates an expectation, and every expectation can be denied. Set up the listener for the obvious next chord, then land somewhere else instead — not randomly, but somewhere that still makes sense, just not the sense they were braced for.
+**Arpeggiating** means outlining two or more tones of the *current* chord in a directed melodic sequence — the bass tracing the harmony's own structure rather than borrowing a shape from outside it.
 
-## Mental Model
+A single leap isn't yet an arpeggio. Leaping (Chapter 14) covers the general device of a large interval used for emphasis, whether or not it lands on a chord tone or continues anywhere afterward. The moment a leap keeps going — continuing on to state a second and third chord tone in sequence — it becomes something more specific: an Arpeggiating gesture that outlines the chord itself.
 
-**Deceptive Motion** is bass motion that establishes an expected resolution and then diverts to a different destination. It requires, as a precondition, that an expectation actually exists — which means Deceptive Motion is always defined against something else: usually Root Motion's most predictable pattern (the descending fifth) or Cadential Motion's most predictable arrival. You cannot deceive a listener who had no expectation to begin with; the strength of a deception is proportional to the strength of the setup.
+## The Microscope
 
-The classic version is the deceptive cadence: a dominant chord that "should" resolve down a fifth to the tonic instead moves up a step to the relative minor, or somewhere else entirely. But Deceptive Motion isn't limited to cadences. Any moment where a bass line has trained the listener, over several bars or several repetitions of a form, to expect a specific next root — and then doesn't deliver it — qualifies. The stronger and more repeated the pattern being broken, the more effective the deception.
-
-Deceptive Motion is closely related to, but distinct from, a Role Shift (Chapter 9). A Role Shift changes what job the bass is doing; Deceptive Motion changes where the bass goes next, harmonically. The two often occur together — a diversion is frequently also the moment the bass switches from, say, Driver to Commentator — but they're answering different questions: "what job?" versus "which destination?"
-
-Three conditions have to be met before a diversion counts as Deceptive Motion rather than just an unusual chord choice:
-
-1. **A real expectation exists first.** Without a pattern to violate — usually built from repeated, strong Root Motion or a familiar cadential shape — there is nothing to deceive. Play the "surprising" chord as the very first event in a piece and it isn't surprising at all.
-2. **The diversion is audibly close to the expected path, then departs.** The strongest deceptions share most of their trajectory with the expected resolution and only bend away at the last note — a destination that shares nothing in common with the setup reads as unrelated rather than deceptive.
-3. **The new destination still makes musical sense.** A deceptive resolution lands somewhere coherent (very often the relative minor, a step away, or another diatonically related chord) — landing somewhere arbitrary is a wrong note, not a device.
-
-## Visual Explanation
-
-The Motion layer marks Deceptive Motion with a diagonal line that includes a visible right-angle bend at the point of diversion, in amber (`#D97706`) — the bend itself is the whole point of the symbol: a straight Root Motion line shows a direct path, while the bent line shows a path that started toward one destination and turned toward another. The steeper and more direct the line before the bend, the stronger the original expectation being set up.
-
-Because the diagram makes the bend visible, comparing several Deceptive Motion events on the page is a fast way to judge how convincing each setup was before a single note is played: a line that barely deviates from straight was a weak deception, while a sharp bend right at the destination signals a diversion the listener will feel clearly. Compare this to the dotted line used for a Substituted Root (Chapter 14), which reframes the *current* chord rather than redirecting the phrase's destination — the two symbols are easy to tell apart once you know which question each one is answering.
-
-## Musical Example
-
-By this point in the book you've heard the laboratory resolve G7 to Cmaj7 in nearly every chapter — the setup doesn't need to be repeated inside this one example, because you've already been trained on it by the rest of the book:
+Both versions start with the same leap from C. Only whether it continues changes what the gesture is.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
-M:4/4
-L:1/8
-Q:1/4=88
-K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
-</div>
-```
-
-:::
-
-This time, C never arrives. G7 resolves up a step to A instead — the vi where the ear expected the I:
-
-:::{.content-hidden when-format="epub"}
-
-```{=html}
-<div class="score-example">
-<p class="abc-caption">Deceptive Motion: same lab, G resolves to A instead of C</p>
-<pre class="abc-source">
-X:1
-T:Deceptive Motion: same lab, G resolves to A instead of C
-C:Thinking in Groove
+<div data-comparison-group="arpeggiating-lab">
+  <div class="comparison-controls" aria-label="Arpeggiating comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — A single leap</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Becomes an arpeggio</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="arpeggiating-single-leap">
+      <p class="abc-caption"><strong>A — A single leap.</strong> C jumps to A, a color tone, and stops.</p>
+      <p class="abc-description">One bar: a root leaping up a sixth to the 13th, with nothing following it.</p>
+      <pre class="abc-source">X:1
+T:Arpeggiating — a single leap
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
 Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 15-deceptive-motion-the-expected-turn-that-isnt
-% role: n/a
-% motion: deceptive motion
-% groove: moderate-density
-% difficulty: intermediate
-% harmony: Dm7 | G7 | Am7 (deceptive -- C never arrives)
-V:Bass clef=bass
-"^[R:Anchor]"D,8 | "_[M:Root Motion]"G,,8 | "_[M:Deceptive Motion]"A,,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[CEGB]8 |]
+[V:LH] "^leap"C,4 A,4 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="arpeggiating-continued">
+      <p class="abc-caption"><strong>B — The same opening leap, continued.</strong> C, E, G, B trace the chord's own structure.</p>
+      <p class="abc-description">The same bar, now outlining root, third, fifth, and seventh in sequence.</p>
+      <pre class="abc-source">X:1
+T:Arpeggiating — the same leap, continued
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 |]
+[V:LH] "^arpeggio"C,2 E,2 G,2 B,2 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+## Listen
 
-Bar 2 carries the same `"_[M:Root Motion]"` tag as every other chapter's G7 bar — nothing about the setup itself is marked as unusual, because it isn't yet. Bar 3 is where the tag changes to `"_[M:Deceptive Motion]"`, at the exact point the bent-line convention (see `docs/visual-language.md`) departs from the straight Root Motion line a reader would otherwise expect.
+Play **Bass only** on both. A's leap to A is a single, isolated color choice — it doesn't explain itself any further. B's continuation makes the harmonic logic audible: every note names a specific chord tone, in order, so the ear can follow the chord's own shape rather than just registering one jump.
 
-*Bass tab for "Deceptive Motion: same lab, G resolves to A instead of C":*
+## See
 
-```text
-G|--------|--------|--------|
-D|--------|--------|--------|
-A|--------|--------|--------|
-E|10------|3-------|5-------|
+B's four notes — C, E, G, B — are exactly Cmaj7's stacked thirds, read straight off the chord symbol above. That's the visual test for Arpeggiating: can you name each bass note as a specific numbered chord tone in sequence? If the notes don't map onto the current chord's own structure, the line is doing something else — Stepping, Leaping, or Connecting Chords instead.
+
+## Play
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="arpeggiating-outline-the-chord">
+  <p class="abc-caption"><strong>Outline the Chord.</strong> A full ascending arpeggio under each of four different chords.</p>
+  <p class="abc-description">Four bars, each bass line tracing its own chord's root, third, fifth, and seventh.</p>
+  <pre class="abc-source">X:1
+T:Outline the Chord
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
+[V:LH] "^arpeggio"C,2 E,2 G,2 B,2 | "^arpeggio"A,2 C2 E2 G2 | "^arpeggio"D,2 F,2 A,2 C2 | "^arpeggio"G,2 B,2 D2 F2 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+Before playing each bar, say the four chord-tone numbers out loud — "root, third, fifth, seventh" — then play them. If you can't name a note's number without stopping, you're not yet arpeggiating that chord; you're guessing at a shape.
 
-- Play a ii-V-I three times in a row, resolving normally each time, then play it a fourth time and resolve deceptively to the relative minor instead. Notice how much the setup you built makes the fourth version land differently than if you'd played it first.
-- Try several different deceptive destinations from the same setup (up a step, down a step, to a distant key) and rank them by how surprising versus how "makes sense in hindsight" each one feels.
-- Find a recording of a tune with a written deceptive cadence and listen for how the arranger or soloist treats the moment rhythmically — is it emphasized, or slipped past quickly?
-- Compose your own four-bar setup using a repeated harmonic pattern, strong enough that a listener would bet on the outcome, then write two different endings: one that delivers the expected resolution and one that doesn't.
+## Vary
 
-## Summary
+Play the same four arpeggios in a different order (root, fifth, third, seventh, for instance) instead of strict ascending thirds. Does the line still read as an outline of the chord, or does breaking the ascending order make it start to sound like something else?
 
-Deceptive Motion spends the credibility built by a clear, repeated pattern of expectation and cashes it in for surprise, landing somewhere that only makes sense because the listener now understands exactly what didn't happen.
+## The Music
+
+"Full Outline" is an original eight-bar jazz study built entirely from ascending and descending arpeggios, one full outline per chord.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="full-outline-study">
+  <p class="abc-caption"><strong>Full Outline.</strong> Every bar traces its chord fully, alternating ascending and descending direction.</p>
+  <p class="abc-description">An eight-bar jazz study outlining Cmaj7, Am7, Dm7, and G7 in turn.</p>
+  <pre class="abc-source">X:1
+T:Full Outline
+C:Alessandro Bessi
+R:Jazz study
+M:4/4
+L:1/8
+Q:1/4=100
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
+"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
+[V:LH] "^arpeggio"C,2 E,2 G,2 B,2 | "^arpeggio"C2 B,2 G,2 E,2 | "^arpeggio"A,2 C2 E2 G2 | "^arpeggio"G2 E2 C2 A,2 |
+"^arpeggio"D,2 F,2 A,2 C2 | "^arpeggio"C2 A,2 F,2 D,2 | "^arpeggio"G,2 B,2 D2 F2 | "^arpeggio: settle"G,8 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
+```
+
+:::
+
+## Reflection
+
+"Full Outline" never leaves its current chord to arpeggiate — every note in a given bar belongs to that bar's own harmony. What would change about the piece's character if one bar's arpeggio borrowed a tone from the *next* chord instead?
