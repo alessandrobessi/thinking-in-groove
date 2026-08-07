@@ -1,127 +1,158 @@
-# Designing a Bass Line from Scratch — A Worked Case Study
+# Complete Capstone
 
-*Chapter 29 — Part 4, Integration: Composing With All Three Layers.*
+*Chapter 40 — Part V, Design: Building Complete Bass Lines. Closes the book: one sixteen-bar composition demonstrates the entire method.*
 
-**Term:** (capstone — no new term; recombines the full vocabulary)
+## The Question
 
-**Definition:** A worked, start-to-finish design of one original bass line, narrating every Role/Motion/Groove decision made along the way.
+Can one piece of music actually carry a Ground, an Approach Note, a Connecting run, a Repeated Cell, a Variation, a Space, a Density Balance choice, a Call and Response, and an Inversion — and still sound like one coherent line rather than a checklist?
 
-## Intuition
+## The Mental Model
 
-Every chapter before this one gave you a single tool and a small, controlled example to see it work in isolation. That is the right way to learn a tool. It is not the right way to design a real bass line, because a real bass line never asks you to apply one tool at a time — it asks you to make dozens of small decisions, fast, in an order that mostly isn't visible even to the player making them. This chapter slows that process down to a crawl and narrates it out loud, decision by decision, so you can see where every one of this book's terms actually earns its place in a finished line rather than in a demonstration.
+Every chapter before this one demonstrated one idea in isolation, because isolation is how a single idea gets learned clearly. A finished bass line never works that way — it stacks every layer at once, the way Chapter 35's Design Algorithm described, and this closing chapter is that algorithm run in full, across a real sixteen-bar piece instead of a three-chord laboratory.
 
-## Mental Model
+The **Complete Capstone** below moves through four four-bar sections, each adding one more layer on top of what came before, in the same order the Design Algorithm names them:
 
-Designing a bass line from scratch is not a single decision. It is a short, repeatable sequence of decisions, and this chapter's method states it explicitly:
+- **Bars 1–4** fix the harmonic situation and establish a plain Ground on every chord — nothing else yet.
+- **Bars 5–8** add Motion: an Approach Note, a stepwise Connecting run, and a second Approach Note prepare each new chord.
+- **Bars 9–12** add Groove: a Repeated Cell, a controlled pitch Variation, and a full bar of Space.
+- **Bars 13–16** add Interaction and resolve: a Density Balance passage, a Call and Response handoff, one more Approach, and a final Ground that closes the piece.
 
-1. **Fix the harmonic situation.** What progression, what harmonic rhythm, what's already implied.
-2. **Choose a Motion Profile for the phrase as a whole** — before choosing a single note, decide the overall harmonic shape you want the line to trace.
-3. **Choose a Groove Signature for the phrase as a whole** — before choosing a single rhythm, decide the overall pocket, density, and repetition-cell identity.
-4. **Assign a Role to each structurally important note**, in light of the harmonic situation and the Motion Profile already chosen.
-5. **Fill in Motion between those notes**, connecting the Role-assigned notes with the specific Motion terms (passing motion, approach notes, substitutions) that satisfy the chosen Motion Profile.
-6. **Fill in Groove**, placing every note precisely in time according to the chosen Groove Signature, including deliberate departures from it.
-7. **State the Groove Contract** the opening bars establish, and decide, deliberately, whether the rest of the phrase keeps it or breaks it.
-8. **Review the whole thing as a set of Layer Stacks**, note by note, and adjust anything where the three layers accidentally contradict each other.
+Nothing in the last four bars contradicts anything decided in the first four — the opening Ground is still there in spirit at the very end, just surrounded by everything the book added since Chapter 1. That's the entire claim of this chapter: complexity is additive, not a replacement for the fundamentals, and a finished line is still checkable one layer at a time even after every layer is present at once.
 
-The order matters. Notice that Motion Profile and Groove Signature — both *phrase-level* decisions — come before any single note is chosen. This is the opposite of how most bass lines get composed by instinct, which is usually note-by-note from the first beat forward. Working top-down, from the whole phrase's shape inward to individual notes, is slower the first few times you do it deliberately, and considerably faster once it becomes habit, because it eliminates the trial-and-error of playing four bars forward before realizing the shape doesn't work.
+## The Microscope
 
-## Visual Explanation
-
-This chapter's diagram is the fullest version of the four-layer stack introduced across the whole book: every marked note in the three-bar phrase below carries its own Role icon (blue), Motion arc (amber), and Groove pulse-dot (green), with a purple Layer Stack bracket at each structurally important note. Reading this diagram from left to right, bar by bar, is effectively reading a transcript of every decision this chapter narrates below.
-
-## Musical Example
-
-**The situation.** The same laboratory progression used throughout this book, **Dm7 – G7 – Cmaj7**, one bar each, around 84 BPM. Every decision below is made against this three-bar frame — the phrase-level decisions (Steps 1–3 and 7 in the Mental Model above) matter just as much in a longer piece, but a fuller worked-out example of *those* belongs in a real composition, not a three-bar laboratory excerpt. What a three-bar frame can show concretely is Steps 4–6 and 8: naming a Role, filling in Motion, placing Groove, and checking the result.
-
-The laboratory, stated plainly, as a reference point:
+Both panels use the piece's actual opening four bars, note for note the same chords. Only whether the bass line was designed changes.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory, stated plainly: the bass states the root of each chord, one whole note per bar. Every chapter's example below is a short variation on exactly this.</p>
-<pre class="abc-source">
-X:1
-T:The Laboratory: Dm7 - G7 - Cmaj7, bass states the root
-C:Thinking in Groove
+<div data-comparison-group="capstone-lab">
+  <div class="comparison-controls" aria-label="Complete Capstone comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — Designed</button>
+    <button type="button" data-version="B" aria-pressed="false">B — Arbitrary</button>
+  </div>
+  <div class="comparison-panel" data-version="A">
+    <div class="score-example" id="capstone-opening-designed">
+      <p class="abc-caption"><strong>A — Designed.</strong> A plain Ground on every chord, exactly as the capstone piece actually opens.</p>
+      <p class="abc-description">The Complete Capstone's real opening four bars: Cmaj7, Am7, Dm7, and G7, each answered by its own root.</p>
+      <pre class="abc-source">X:1
+T:The Capstone's Opening — designed
+C:Alessandro Bessi
+R:Concept study
 M:4/4
 L:1/8
-Q:1/4=88
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: lab-baseline
-% role: anchor
-% motion: root motion
-% groove: none (plain reading)
-% difficulty: beginner
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression used throughout the book
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Root Motion]"D,8 | "^[R:Anchor]""_[M:Root Motion]"G,,8 | "^[R:Anchor]""_[M:Root Motion]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |]
+[V:LH] "^ground"C,,8 | "^ground"A,,8 | "^ground"D,,8 | "^ground"G,,8 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
+  <div class="comparison-panel" data-version="B" hidden>
+    <div class="score-example" id="capstone-opening-arbitrary">
+      <p class="abc-caption"><strong>B — Arbitrary.</strong> The identical four chords, with every bass note a correct but undecided chord tone.</p>
+      <p class="abc-description">The same four-chord opening with a bass line built from legal chord tones placed without a governing Role.</p>
+      <pre class="abc-source">X:1
+T:The Capstone's Opening — arbitrary
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |]
+[V:LH] "^arbitrary"E,,2 z1 G,,1 C,,4 | "^arbitrary"C,,4 E,,4 | "^arbitrary"A,,2 F,,2 D,,4 | "^arbitrary"D,,4 B,,4 |]</pre>
+      <div class="abc-rendered"></div>
+    </div>
+  </div>
 </div>
 ```
 
 :::
 
-**Step 4 — Assign Role to structural notes.** D opens Dm7 as **Anchor**; F, arriving in the second half of bar 1, is the **Definer** that confirms the b3 right before the harmony moves. G opens G7 as **Connector**; B, in the second half of bar 2, is the **Colorist** — the major 3rd of G7, voiced high. C closes Cmaj7 as **Anchor** again. That's a **Role Shift** arc in three bars: Anchor → Definer → Connector → Colorist → Anchor.
+## Listen
 
-**Step 5 — Fill in Motion.** D to F is **Pedal**-adjacent stillness resolving into a Definer, not a leap. G to B moves by **Passing Motion** into an **Approach Note** — a chromatic neighbor a half step below B, arriving just before it. The final C arrives by **Cadential Motion**.
+Play **Full** on A and hear four plain, settled arrivals — nothing demanding attention yet, which is exactly right for an opening the rest of the piece is about to build on. Play **Full** on B: every note is a correct chord tone, and the passage is not unpleasant, but it commits to nothing a listener could point back to later as "the way this piece started."
 
-**Step 6 — Fill in Groove.** D sits on the **Pocket**. The Connector run into G7 is **Push**ed — arriving slightly ahead. The final C is **Lay-back** — arriving slightly behind — so the phrase opens on time and settles late, a small deliberate asymmetry.
+## See
 
-**Step 8 — Review as Layer Stacks.** Checking the Colorist B: Role = Colorist, Motion = Approach Note, Groove = mid-bar, unhurried. All three agree on the same effect — brightness, arriving with intention rather than rushed — so the stack is coherent and the note is kept as designed. This is the check every one of this book's short examples has secretly been teaching you to run.
+This is Chapter 35's own demonstration, reused on the capstone's real material instead of the three-chord laboratory: A's four bars are tagged `"^ground"` throughout, one plain, deliberate choice per bar. B's bars are tagged `"^arbitrary"`, built from chord tones with no shared logic between them. The rest of the capstone below is built by adding to A's foundation — B is only here to show what the piece would have sounded like without one.
+
+## Play
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example">
-<p class="abc-caption">The laboratory progression with every decision named: D as Anchor/Pedal, F as Definer, G as Connector, B as Colorist (voiced high, approached chromatically), and C as the final Anchor, laid back.</p>
-<pre class="abc-source">
-X:1
-T:Designing a Bass Line: the lab, every layer named
-C:Thinking in Groove
+<div class="score-example" id="capstone-two-chords">
+  <p class="abc-caption"><strong>Name It, Then Play It.</strong> Practice naming a Role and a Motion before playing the exact figure the capstone uses at its own chord change.</p>
+  <p class="abc-description">A held Dm7 Ground followed by the chromatic Approach Note the capstone itself uses twice.</p>
+  <pre class="abc-source">X:1
+T:Name It, Then Play It
+C:Alessandro Bessi
+R:Exercise
 M:4/4
 L:1/8
-Q:1/4=84
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:C
-% chapter: 29-designing-a-bass-line-from-scratch-a-worked-case-study
-% role: full arc
-% motion: full arc
-% groove: full arc
-% difficulty: advanced
-% harmony: Dm7 | G7 | Cmaj7 -- the fixed laboratory progression
-V:Bass clef=bass
-"^[R:Anchor]""_[M:Pedal|G:Pocket]"D,4 "^[R:Definer]"F,,4 | "^[R:Connector]""_[M:Passing Motion]"G,,4 "^[R:Colorist]""_[M:Approach Note]"B,4 | "^[R:Anchor]""_[M:Cadential Motion|G:Lay-back]"C,8 |]
-</pre>
-<div class="abc-rendered"></div>
-<button class="abc-play" type="button">▶ Play</button>
+[V:RH] "Dm7"[dfa]8 | "G7"[gbd]8 |]
+[V:LH] "^ground"D,,8 | "^approach"F,,2 ^F,,2 G,,4 |]</pre>
+  <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-## Annotated Notation
+Say the Role and the Motion out loud before you play each bar, the same discipline Chapter 35 asked for. Then find both bars inside the full capstone below — bar 3 and bar 8 use this exact same approach figure — and notice that a technique worth naming once is usually worth reusing deliberately, not just once for a demonstration.
 
-Every note in this example carries a full Role/Motion tag, and two carry a Groove tag as well, per `docs/notation-conventions.md`'s combined-tag syntax — the densest tagging in the book relative to the number of bars, since the whole point of a capstone example is that no layer goes unnamed. Read left to right, the tags are literally Steps 4–6 of the Mental Model's method, transcribed onto the staff.
+## Vary
 
-*Bass tab for the worked case study (see `examples/by-chapter/29-designing-a-bass-line-from-scratch-a-worked-case-study/` for the source files)*
+Choose any single bar from the capstone below and redesign it by changing exactly one layer — its Role, its Motion, its Groove, or its Interaction — while leaving the other three untouched. Does the piece still hold together, or does that one change ripple into bars around it? A design that survives a single deliberate change without falling apart is a stronger design than one that merely sounded fine before you tested it.
 
-```text
-G|--------|--------|--------|
-D|--------|----9---|--------|
-A|--------|--------|--------|
-E|10--1---|3-------|8-------|
+## The Music
+
+**The Complete Capstone** is a sixteen-bar jazz-funk piece over Cmaj7, Am7, Dm7, and G7, built in four four-bar stages that add Ground, then Motion, then Groove, then Interaction, before a closing Approach and a final resolved Ground bring it home — the entire book's method, run once, start to finish.
+
+:::{.content-hidden when-format="epub"}
+
+```{=html}
+<div class="score-example" id="complete-capstone">
+  <p class="abc-caption"><strong>The Complete Capstone.</strong> Four four-bar stages, each adding one more layer without erasing what came before.</p>
+  <p class="abc-description">A sixteen-bar jazz-funk capstone cycling Cmaj7, Am7, Dm7, and G7, building from a plain Ground through Motion, Groove, and Interaction to a final resolution.</p>
+  <pre class="abc-source">X:1
+T:The Complete Capstone
+C:Alessandro Bessi
+R:Jazz-funk capstone
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+%%barsperstaff 4
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
+"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
+"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
+"Dm7"[dfa]8 | "G7"[gbd]4 z4 | "Cmaj7"[ceg]8 | "Cmaj7"[ceg]8 |]
+[V:LH] "^ground"C,,8 | "^ground"A,,8 | "^ground"D,,8 | "^ground"G,,8 |
+"^ground"C,,8 | "^approach"B,,4 A,,4 | "^connect"A,,2 B,,2 C,,2 D,,2 | "^approach"F,,2 ^F,,2 G,,4 |
+"^cell"z1 C,,1 z1 E,,1 C,,2 z2 | "^cell"z1 A,,1 z1 C,,1 A,,2 z2 | "^varied"z1 D,,1 z1 A,,1 D,,2 z2 | "^space"z8 |
+"^dense"D,,1 E,,1 F,,1 E,,1 D,,1 E,,1 F,,1 E,,1 | z4 "^response"G,,2 B,,2 | "^approach"B,,4 C,,4 | "^resolve"C,,8 |]</pre>
+  <div class="abc-rendered"></div>
+</div>
 ```
 
+:::
 
-## Practice Ideas
+## Reflection
 
-- Take any progression you already play over regularly and run the eight-step method above on paper before touching your instrument: fix the harmony, choose a Motion Profile, choose a Groove Signature, assign Roles, fill in Motion, fill in Groove, state the Groove Contract, review as Layer Stacks. Only then play what you designed.
-- Compare a line you designed top-down this way against a line you improvise the usual way, note by note, over the same progression. Neither is "better" — the goal is to notice specifically where they differ, since that difference is what conscious design adds to instinct.
-- Redo Step 2 and Step 3 for the same Dm7–G7–Cmaj7 laboratory with a completely different Motion Profile (say, cyclical instead of ascending-then-cadential) and Groove Signature (say, dense and on-top-of-the-beat instead of sparse and behind it), and notice how much of the phrase's identity comes from those two decisions alone, before a single Role has even been assigned.
-- Try designing a phrase where you intentionally make Step 8 fail — build a Layer Stack where the three layers contradict each other on purpose (an Anchor with Deceptive Motion pushed hard ahead of the beat) — and listen for what that contradiction actually sounds like. Knowing what a broken stack sounds like sharpens your ear for why the coherent ones work.
-
-## Summary
-
-Designing a bass line from scratch is not a bigger version of any single chapter's idea — it's the discipline of making the same handful of decisions this book has been naming since Chapter 1, in a consistent order, for every note in a phrase instead of one demonstration note at a time. The vocabulary was never the point. The point was always to give you a small, checkable set of questions to ask about a line before you commit to playing it.
+Forty chapters ago, this book opened by asking what job a single bass note is doing underneath a chord. The Complete Capstone closes by showing that every one of this book's questions — what job, what motion, what timing, what relationship to the layer above — can still be asked and answered about a single note, even inside a finished sixteen-bar piece built from all of them at once. That was always the point of naming things this precisely: not to make you think about all of it while you play, but to give you a way to find, and fix, the one bar that isn't working — without having to guess which layer is actually responsible.

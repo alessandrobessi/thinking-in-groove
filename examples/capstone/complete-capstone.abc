@@ -1,0 +1,20 @@
+X:1
+T:The Complete Capstone
+C:Alessandro Bessi
+R:Jazz-funk capstone
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+%%barsperstaff 4
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
+"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
+"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
+"Dm7"[dfa]8 | "G7"[gbd]4 z4 | "Cmaj7"[ceg]8 | "Cmaj7"[ceg]8 |]
+[V:LH] "^ground"C,,8 | "^ground"A,,8 | "^ground"D,,8 | "^ground"G,,8 |
+"^ground"C,,8 | "^approach"B,,4 A,,4 | "^connect"A,,2 B,,2 C,,2 D,,2 | "^approach"F,,2 ^F,,2 G,,4 |
+"^cell"z1 C,,1 z1 E,,1 C,,2 z2 | "^cell"z1 A,,1 z1 C,,1 A,,2 z2 | "^varied"z1 D,,1 z1 A,,1 D,,2 z2 | "^space"z8 |
+"^dense"D,,1 E,,1 F,,1 E,,1 D,,1 E,,1 F,,1 E,,1 | z4 "^response"G,,2 B,,2 | "^approach"B,,4 C,,4 | "^resolve"C,,8 |]

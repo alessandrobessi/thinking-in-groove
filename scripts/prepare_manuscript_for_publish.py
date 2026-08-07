@@ -55,11 +55,11 @@ PIANO_CHAPTERS = {
     "part-4-integration/functional-jazz-progression.md",
     "part-4-integration/fusion-ostinato.md",
     "part-4-integration/ballad-and-inversion-study.md",
+    "part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {
     "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
-    "part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md": "design-study.abc",
 }
 
 

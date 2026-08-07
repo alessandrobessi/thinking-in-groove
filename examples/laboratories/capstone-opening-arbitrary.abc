@@ -1,0 +1,13 @@
+X:1
+T:The Capstone's Opening — arbitrary
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |]
+[V:LH] "^arbitrary"E,,2 z1 G,,1 C,,4 | "^arbitrary"C,,4 E,,4 | "^arbitrary"A,,2 F,,2 D,,4 | "^arbitrary"D,,4 B,,4 |]
