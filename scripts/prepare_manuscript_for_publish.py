@@ -51,6 +51,7 @@ PIANO_CHAPTERS = {
     "part-4-integration/register-and-separation.md",
     "part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md",
     "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md",
+    "part-4-integration/static-funk-vamp.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {

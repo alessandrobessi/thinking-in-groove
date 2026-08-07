@@ -56,6 +56,7 @@ book:
     - part: "Part V — Design: Building Complete Bass Lines"
       chapters:
         - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md # Ch.35 The Bass-Line Design Algorithm; filename retained until part-sized URL migration
+        - chapters/part-4-integration/static-funk-vamp.md # Ch.36 Static Funk Vamp
         - chapters/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md # legacy; destined for Part V Ch.40 Complete Capstone, not yet moved
     - part: "Integrated Study and Appendices"
       chapters:

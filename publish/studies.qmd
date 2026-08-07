@@ -41,6 +41,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Elbow Room](chapters/part-4-integration/register-and-separation.md#the-music) | Jazz-funk | Constant density; only the vertical register gap moves |
 | [Change of Pace](chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md#the-music) | Jazz-funk | Bass strategy shifts exactly when the chord-change rate does |
 | [By the Book](chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md#the-music) | Jazz-funk | Eight bars, eight distinct, traceable design decisions |
+| [Held Ground](chapters/part-4-integration/static-funk-vamp.md#the-music) | Funk | One held chord sustained by repetition, mutation, and space |
 | [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |
 
 ## A practical sequence
