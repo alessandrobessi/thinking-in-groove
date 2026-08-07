@@ -48,6 +48,7 @@ PIANO_CHAPTERS = {
     "part-4-integration/interlock.md",
     "part-4-integration/call-and-response.md",
     "part-3-groove/24-density-controlling-energy-through-note-count.md",
+    "part-4-integration/register-and-separation.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {

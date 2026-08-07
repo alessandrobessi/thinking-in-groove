@@ -38,6 +38,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Single Weave](chapters/part-4-integration/interlock.md#the-music) | Jazz-funk | Continuous sixteenth-note interlock resolving into one shared attack |
 | [Turn to Speak](chapters/part-4-integration/call-and-response.md#the-music) | Jazz-funk | Clean chordal calls answered into genuinely vacated space |
 | [Give and Take](chapters/part-3-groove/24-density-controlling-energy-through-note-count.md#the-music) | Jazz-funk | The busy layer and the sparse layer trade places, chord by chord |
+| [Elbow Room](chapters/part-4-integration/register-and-separation.md#the-music) | Jazz-funk | Constant density; only the vertical register gap moves |
 | [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |
 
 ## A practical sequence

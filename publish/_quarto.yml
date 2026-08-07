@@ -52,6 +52,7 @@ book:
         - chapters/part-4-integration/interlock.md # Ch.30 Interlock
         - chapters/part-4-integration/call-and-response.md # Ch.31 Call and Response
         - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # Ch.32 Density Balance; filename retained until part-sized URL migration
+        - chapters/part-4-integration/register-and-separation.md # Ch.33 Register and Separation
     - part: "Part V (legacy) — Integration: Composing With All Three Layers" # transitional heading; content and title migrating to Part V, not yet moved
       chapters:
         - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md
