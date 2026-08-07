@@ -1,17 +1,19 @@
 # BLUEPRINT.md
 
 # Thinking in Groove
-## A Mental Model for Bass Harmony, Groove, and Musical Motion
+## A Mental Model for Bass-Line Design, Taught Through a Piano Laboratory
 
 ## Vision
 
-Thinking in Groove is not a bass method.
+Thinking in Groove is not a bass method in the traditional sense.
 
-It is a book about how bass players think.
+It is a book about how bass lines work — the responsibility a bass note carries, how it moves through harmony, how that motion is organized in time, and how it interacts with the music around it — taught through a controlled piano grand-staff laboratory rather than an isolated bass staff.
 
-Just as *Thinking in Layers* teaches harmony through superimposed musical layers, *Thinking in Groove* teaches bass through a new conceptual vocabulary.
+The piano is the book's analytical instrument, not its technical goal. The right hand supplies the harmony, pulse, space, and conversation a bass line needs in order to mean anything; the left hand is a realistic, monophonic bass line. A bass decision is only checkable against an audible harmonic context — a bass-only staff can assert that a note is "the 9th" or "a pedal," but only a two-hand texture lets a reader actually hear it.
 
-The goal is that readers permanently change how they hear and design bass lines.
+Just as *Thinking in Layers* teaches harmony through superimposed musical layers, *Thinking in Groove* teaches bass-line design through its own conceptual vocabulary — Role, Motion, Groove, Interaction, and Design.
+
+The goal is that readers permanently change how they hear and design bass lines, whether they play bass, piano, or neither.
 
 ## Core Promise
 
@@ -22,28 +24,30 @@ The book does not answer:
 
 Instead it answers:
 
-- What role does this bass line play?
-- How does it change the harmony?
-- How does it create motion?
-- How does it create groove?
+- What responsibility does this bass note carry?
+- How does it move through the harmony?
+- How is that motion organized in time?
+- How does it interact with what the harmony is doing above it?
+- How do all of these combine into one deliberately designed bass line?
 
 ## Audience
 
-Intermediate players interested in jazz, funk, fusion, neo-soul and modern harmony.
+Bassists, pianists, composers, arrangers, and producers who want a practical, checkable model of bass-line construction — not bass players exclusively. A bassist can practice the lower staff alone; two musicians can split the staves; a producer can treat them as separate tracks.
 
 ## Pillars
 
 - Mental models before rules
+- A controlled grand-staff laboratory: every claim about the bass is checked against an audible harmonic context, never asserted in isolation
 - Original compositions instead of drills
 - One concept per chapter
-- Every concept demonstrated visually
-- Every example playable
-- Every example animated with Notaroll
+- Every concept demonstrated on notated grand staff, comparing controlled variants side by side
+- Every example playable in Full, Bass-only, and Harmony-only modes
+- Notation's limits stated honestly: it can show pitch, attack, duration, and register; it cannot fully encode touch, microtiming, or a performed pocket
 
 ## Deliverables
 
-- Book
-- Companion website
-- ABC repository
+- Book (HTML, EPUB, PDF)
+- Companion website with interactive grand-staff playback
+- Canonical ABC example library (laboratories, exercises, studies)
 - Interactive Notaroll examples
 - YouTube Shorts

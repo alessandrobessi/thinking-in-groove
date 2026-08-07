@@ -30,9 +30,9 @@ architecture, followed by the progressive capstone.
 | | |
 |---|---|
 | [`BLUEPRINT.md`](BLUEPRINT.md) | Vision, core promise, audience, pillars, deliverables. |
-| [`ROADMAP.md`](ROADMAP.md) | Legacy phase plan; superseded by the piano-edition roadmap being executed through the audit and migration documents. |
+| [`ROADMAP.md`](ROADMAP.md) | The six-phase plan, updated for the piano-based grand-staff edition and its nine-section chapter structure. |
 | [`AGENTS.md`](AGENTS.md) | Conceptual editorial roles (Book Architect, Composer, Harmony Reviewer, etc.) — reference only; not wired up as automated agents in this pass. |
-| [`docs/`](docs/) | The 40-chapter map, authoritative Vocabulary v2, migration audits, and canonical notation/accompaniment guides. |
+| [`docs/`](docs/) | The 40-chapter map (`chapter-map.md`), authoritative `vocabulary-v2.md` (the legacy `vocabulary.md` has been removed), migration audits, and canonical notation/accompaniment guides. |
 | [`book/`](book/) | Canonical chapter prose, including the fully rewritten pilot chapters. |
 | [`examples/`](examples/) | Canonical laboratories, exercises, chapter examples, and seventeen complete grand-staff studies. |
 | [`scripts/notation.py`](scripts/notation.py) | Authoring-time helpers for spelling ABC bass lines with correct octave placement and Role/Motion/Groove annotation tags. Not part of the build. |
@@ -72,6 +72,7 @@ pip install -r requirements.txt
 python3 scripts/validate_book_structure.py
 python3 scripts/validate_piano_prototype.py
 python3 scripts/validate_study_collection.py
+python3 scripts/validate_architecture_docs.py
 ```
 
 ## License

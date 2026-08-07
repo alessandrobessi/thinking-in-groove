@@ -1,7 +1,7 @@
 # Glossary
 
 Alphabetical index of every vocabulary term, cross-referenced to its
-chapter. Definitions live in [`vocabulary.md`](vocabulary.md); this page
+chapter. Definitions live in [`vocabulary-v2.md`](vocabulary-v2.md); this page
 is a lookup table only.
 
 | Term | Category | Chapter |

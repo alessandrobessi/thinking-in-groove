@@ -2,49 +2,63 @@
 
 *Chapter <NN> — Part <N>, <Part Title>.*
 
-**Term:** <Vocabulary Term>
+## The Question
 
-**Definition:** <one sentence, copied verbatim from `docs/vocabulary.md`>
+<One concrete question this chapter answers. Not a topic sentence —
+an actual question a reader could ask themselves at the keyboard.>
 
-## Intuition
+## The Mental Model
 
-<An everyday, non-technical way in to the idea — the "aha" before any
-terminology, per `ROADMAP.md` Phase 3, step 1.>
+<The everyday intuition first, then the concept stated precisely in
+its own defined terms, matching its entry in `docs/vocabulary-v2.md`
+exactly: what it means, what it does not mean, and — inline or via the
+example below — how it's commonly misclassified.>
 
-## Mental Model
+## The Microscope
 
-<The concept stated precisely, in the book's own vocabulary. This is
-where the term earns its bold-and-defined first use, per
-`docs/style-guide.md`.>
+<A controlled grand-staff comparison isolating exactly one variable.
+The right hand (or the surrounding harmonic context) stays identical
+across every version; only the bass decision under study changes. Use
+`data-comparison-group` + `.comparison-panel` A/B(/C/D) toggle buttons
+for more than two versions, or two side-by-side `score-example` blocks
+for a straight A/B. Every panel needs its own real ABC source — two
+voices, `V:RH clef=treble` / `V:LH clef=bass`, `%%score { RH LH }` — a
+caption naming what that version demonstrates, and a one-line
+`abc-description`.>
 
-## Visual Explanation
+## Listen
 
-<The four-layer diagram described in `docs/visual-language.md`, applied
-to this chapter's term. Describe what the reader should see before the
-musical example, so the diagram and the notation reinforce each other.>
+<What to listen for, explicitly: which playback mode (Full / Bass only
+/ Harmony only) to use first and why, and what the comparison should
+reveal to the ear.>
 
-## Musical Example
+## See
 
-<One original 8–16 measure piece (jazz/funk/fusion, per `AGENTS.md`'s
-Composer rules) that makes this chapter's idea audible. Embed via
-`scripts/notation.py`'s `widget()` helper, using the same `.abc` source
-that lives in `examples/by-chapter/<NN>-<term-slug>/` — see
-`docs/notation-conventions.md`.>
+<What to look for on the page: how the notation itself shows the
+concept — annotation text, rhythmic placement, register — separate
+from what's audible.>
 
-## Annotated Notation
+## Play
 
-<The same example, staff + bass tab, with Role/Motion/Groove inline
-tags per `docs/notation-conventions.md` and the icon/color conventions
-in `docs/visual-language.md`.>
+<A short, concrete instruction for practicing the idea at the
+keyboard, paired with its own compact exercise score-example (one
+`R:Exercise` ABC block, 2-4 bars, harmony changing under a fixed bass
+pattern or vice versa).>
 
-## Practice Ideas
+## Vary
 
-<Concrete things to try at the instrument — per `AGENTS.md`'s Pedagogy
-Reviewer questions: is one example enough, is this memorable, is the
-concept intuitive without the page in front of you.>
+<One constrained variation on the Microscope or Play material — change
+exactly one parameter and ask what does, and doesn't, change as a
+result.>
 
-## Summary
+## The Music
 
-<One paragraph. What changed in how the reader hears/plays, stated
-without introducing any new vocabulary — per the Book Architect's
-no-redundancy, smooth-progression acceptance criteria.>
+<One original 8-16 bar study (jazz/funk/fusion, per `AGENTS.md`'s
+Composer rules) that makes this chapter's idea audible in a real
+piece, not just an isolated demonstration. Piano grand staff, Full /
+Bass-only / Harmony-only playback, one `score-example` block.>
+
+## Reflection
+
+<One question the reader answers before moving on — ideally about the
+study just heard, not a restatement of The Question.>

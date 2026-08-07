@@ -2,7 +2,7 @@
 
 *Back matter — Integrated Study and Appendices.*
 
-A complete quick-reference chart of every vocabulary term in this book, grouped by category, each with its one-line definition (copied verbatim from `docs/vocabulary.md`) and chapter number. Use this page the way you'd use a harmonic cheat-sheet: not to learn a term for the first time, but to look one up fast while transcribing a line you're studying or composing one of your own.
+A complete quick-reference chart of every vocabulary term in this book, grouped by category, each with its one-line definition (copied verbatim from `docs/vocabulary-v2.md`) and chapter number. Use this page the way you'd use a harmonic cheat-sheet: not to learn a term for the first time, but to look one up fast while transcribing a line you're studying or composing one of your own.
 
 ## How to use this page
 

@@ -20,7 +20,8 @@ Orders concepts for maximum learning.
 
 ## Composer
 
-Writes original miniature compositions.
+Writes original miniature compositions on piano grand staff (harmony
+in the right hand, a realistic monophonic bass line in the left).
 
 Rules:
 
@@ -30,6 +31,9 @@ Rules:
 - 8–16 measures
 - memorable groove
 - no copyright inspiration
+- every harmonic claim about the bass must be checkable against the
+  right hand actually sounding at that moment — no claims about a
+  bass note's function against harmony that isn't notated
 
 ---
 
@@ -43,6 +47,10 @@ Validates:
 - voice leading
 - groove
 - educational value
+- the boundary rule (`docs/vocabulary-v2.md`): a term is only claimed
+  where notation can actually support it — microtiming, touch, and
+  performed pocket are named as *unverifiable from the page*, never
+  asserted as literally notated
 
 ---
 
@@ -68,11 +76,15 @@ Avoid unnecessary jargon.
 
 Ensures every chapter contains:
 
-- notation
-- bass tab
+- grand-staff notation (Harmony + Bass voices)
+- Full / Bass-only / Harmony-only playback
 - semantic annotations
 - Notaroll animation
 - practice experiment
+
+Bass tab is not produced for grand-staff chapters — it is
+content-level, not renderer-derived, and the two-hand notation already
+carries the harmonic context tab alone cannot show.
 
 ---
 

@@ -5,10 +5,10 @@ consistency and jargon avoidance across every chapter.
 
 ## Terminology
 
-- Use vocabulary terms exactly as spelled in `docs/vocabulary.md`
+- Use vocabulary terms exactly as spelled in `docs/vocabulary-v2.md`
   (e.g. always "Voice-Leader" with the hyphen, always "Push / Lay-back"
   with the slash). Do not introduce synonyms for a defined term —
-  if a synonym reads better in prose, it belongs in `vocabulary.md`
+  if a synonym reads better in prose, it belongs in `vocabulary-v2.md`
   itself as the canonical name, not as a one-off substitute.
 - Capitalize a term only when invoking it as a defined concept ("this
   bass line is functioning as a **Connector**"), not when using the

@@ -70,7 +70,7 @@ dot:
   **bold small caps, in its category color**.
 - Every chapter opens with a **Concept Card**: a small callout box with
   the term's name, its icon, and its one-sentence definition, reproduced
-  verbatim from [`vocabulary.md`](vocabulary.md).
+  verbatim from [`vocabulary-v2.md`](vocabulary-v2.md).
 - A compact master legend (this document, condensed) is reprinted at the
   start of Part I, II, III, and IV so readers don't need to flip back to
   the introduction.
