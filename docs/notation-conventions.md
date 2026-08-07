@@ -1,189 +1,151 @@
 # Notation Conventions
 
-Every musical example has one source-of-truth file: an **ABC notation**
-file. Bass tab is a hand-authored companion file kept in sync with it.
-This mirrors the approach used in the companion project
+Every musical example is a two-voice **ABC notation** file — piano
+grand staff, harmony in the right hand, bass in the left — rendered
+with [abcjs](https://abcjs.net) and played back through the shared
+widget in `publish/assets/notation-head.html`. There is no separate
+bass tab: the two-hand notation already carries the harmonic context
+tab alone can't show (see `AGENTS.md`'s Example Curator role).
+
+This mirrors the companion project
 [Thinking in Layers](https://github.com/alessandrobessi/thinking-in-layers),
-adapted for a single bass-clef voice instead of a two-hand piano grand
-staff, and extended with the Role/Motion/Groove semantic tags this book
-needs that a piano-harmony book does not.
+whose grand-staff format this book adopted directly, extended with the
+single-word semantic annotation tags this book's vocabulary needs that
+a piano-harmony book does not.
 
-## The Laboratory Progression
+## Required ABC Header
 
-Following Thinking in Layers' method of fixing one progression
-(**Dm7 – G7 – Cmaj7**) so the ear can isolate what changes between
-examples, every chapter's musical examples are built on that same
-three-chord laboratory rather than a new key/groove per chapter. This
-also means a Groove/Role/Motion chapter shows its idea as a *variation
-on a shared, already-familiar baseline* rather than as a new standalone
-piece:
-
-1. **The baseline widget** — the laboratory stated plainly: the bass
-   states the root of each chord, one whole note per bar, no rhythmic
-   or harmonic device applied. This widget's `.abc` is identical
-   everywhere it appears (`examples/_lab/laboratory.abc`), so a reader
-   who has seen it once recognizes it immediately in every later
-   chapter.
-2. **One or two term-specific widgets** — the *same* three-bar
-   laboratory, with exactly one variable changed to demonstrate the
-   chapter's term, each captioned precisely about what differs from
-   the baseline (e.g. "Same progression; the bass holds D under G7
-   instead of moving to G"). This mirrors Thinking in Layers' practice
-   of pairing a "stacked" and an "arpeggiated" version of the same
-   material rather than composing a new, unrelated example each time.
-
-Examples stay short — typically 3-4 bars, one per chord of the
-laboratory (occasionally a 4th turnaround bar) — not the 8-16 measure
-miniature compositions `ROADMAP.md`'s Phase 2 originally described.
-Longer, freely-composed pieces belonging to that original vision may
-still be worth producing later as a separate "repertoire" pass, but
-the primary teaching examples embedded in each chapter now follow this
-laboratory-and-variation model instead.
-
-A few Integration-category terms (the Groove Contract, in particular)
-describe a promise made and kept/broken across a full phrase, which
-can't be isolated in 3-4 bars — those examples loop the laboratory
-several times rather than shrinking it, and stay phrase-length.
-
-## Two places notation lives
-
-1. **`examples/by-chapter/<NN>-<term-slug>/`** — the standalone ABC
-   repository named as its own deliverable in `BLUEPRINT.md`. One example
-   = one `.abc` file + one companion `.tab.txt` file. This is the
-   source of truth, independently versionable and reusable outside the
-   book.
-2. **Inline in `book/part-*/NN-*.md`** — when Phase 3 writing embeds an
-   example directly in the prose (so sound and explanation stay
-   adjacent, as in Thinking in Layers), it uses the same `.abc` content
-   wrapped in the widget markup produced by `scripts/notation.py`'s
-   `widget()` helper. The standalone file under `examples/` and the
-   embedded copy must stay identical — `widget()` is the single place
-   that formats the wrapper, so there is only one place to update.
-
-## File Layout Per Example
-
-```
-examples/_lab/
-├── laboratory.abc              # the shared baseline widget, referenced by every chapter
-└── laboratory.tab.txt
-
-examples/by-chapter/<NN>-<term-slug>/
-├── <NN>-<term-slug>.abc        # primary term-specific widget
-├── <NN>-<term-slug>.tab.txt
-├── <NN>-<term-slug>-2.abc      # optional second contrasting widget
-└── <NN>-<term-slug>-2.tab.txt
-```
-
-- `NN` = two-digit chapter number (from `docs/chapter-map.md`), e.g. `01`.
-- `term-slug` = kebab-case chapter concept, e.g. `the-anchor` → `01-the-anchor`.
-- A chapter's `## Musical Example` section embeds the baseline widget
-  first, then its own term-specific widget(s), each with a caption
-  that names the one thing that changed. Once the baseline has been
-  shown a few times (e.g. by Part II), a chapter whose own widget is
-  itself nearly identical to the baseline may cross-reference an
-  earlier chapter by number instead of re-embedding it a fourth or
-  fifth time — judgment over mechanical repetition.
-
-## Required ABC Header Fields
-
-Every `.abc` file must declare these explicitly — never rely on ABC
-implicit defaults, so rendering is predictable across tools (abcjs
-today, other renderers later):
+Every canonical `.abc` file must declare these fields, in this order,
+explicitly — never rely on ABC implicit defaults, so rendering is
+predictable across tools:
 
 ```
 X:1
 T:<Example title>
-C:Thinking in Groove
+C:Alessandro Bessi
+R:<short style/purpose description, e.g. "Concept study", "Exercise", "Jazz-funk study", "Ballad", "Jazz-funk capstone">
 M:<meter, e.g. 4/4>
 L:<default note length, e.g. 1/8>
-Q:<tempo, e.g. 1/4=100>
+Q:<tempo, e.g. 1/4=92>
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
 K:<key>
 ```
 
-Following `scripts/notation.py`'s convention, examples use a single
-shared unit length, `L:1/8`, so every bar is a genuine measure at that
-meter with no scaled fictions.
+`scripts/validate_piano_prototype.py` enforces every one of these
+markers (including the exact `C:Alessandro Bessi` composer credit and
+the exact `%%score { RH LH }` / voice-declaration strings) on every
+file under the canonical directories below — a file missing any of
+them fails CI, not just review.
 
-## Semantic Annotation Block (whole-piece metadata)
-
-A `%` comment block (plain comment lines, ignored by every ABC
-renderer — deliberately *not* `%%` directives, which some renderers do
-interpret) immediately follows the header:
+## Canonical Directories
 
 ```
-% chapter: 01-the-anchor
-% role: anchor
-% motion: pedal
-% groove: syncopated, low-density
-% difficulty: beginner
+examples/
+├── laboratories/   # The Microscope: paired (or grouped) A/B/C comparison widgets,
+│                    # one variable changed between panels, everything else identical
+├── exercises/       # Play: one short, practicable drill per chapter
+├── studies/          # The Music: one 8-16 bar original piece per chapter, indexed
+│                    # in publish/studies.qmd
+├── capstone/         # The one 16-bar Complete Capstone (Chapter 40) — its own
+│                    # directory because it is not a per-chapter study
+└── chapters/         # Legacy replacement widgets for any chapter not yet fully
+                     # migrated to a canonical laboratories/exercises/studies set;
+                     # wired up via LEGACY_PIANO_EXAMPLES in
+                     # scripts/prepare_manuscript_for_publish.py
 ```
 
-## Inline Semantic Annotations (per-note tags)
+Every file's `T:` title must be unique across the whole repository —
+it is the join key `validate_piano_prototype.py` uses to confirm the
+standalone file and its embedded copy inside a chapter's markdown stay
+byte-identical.
 
-ABC supports positioned text annotations around a note: `"^text"` above
-the staff, `"_text"` below. We standardize their use as follows:
+## Where a Chapter Embeds Its Examples
 
-- **Role tag** (above the staff): `"^[R:Anchor]"`
-- **Motion + Groove tags** (below the staff, combined with a pipe):
-  `"_[M:Pedal|G:Push]"`
+A chapter's markdown embeds the exact same ABC source as its
+standalone file, inside a `<pre class="abc-source">` block wrapped in
+a `<div class="score-example">` (see `book/_templates/chapter-template.md`
+for the full nine-section chapter shape: Question, Mental Model,
+Microscope, Listen, See, Play, Vary, The Music, Reflection). The
+Microscope's two-or-more panels use a toggle instead of two static
+blocks:
 
-Example fragment:
+```html
+<div data-comparison-group="some-chapter-lab">
+  <div class="comparison-controls" aria-label="... comparison">
+    <button type="button" data-version="A" aria-pressed="true">A — ...</button>
+    <button type="button" data-version="B" aria-pressed="false">B — ...</button>
+  </div>
+  <div class="comparison-panel" data-version="A"> ... </div>
+  <div class="comparison-panel" data-version="B" hidden> ... </div>
+</div>
+```
+
+The standalone file and the embedded copy are never generated from one
+another — both are hand-authored and must match exactly, which is
+exactly what the validator checks.
+
+## Inline Semantic Annotations
+
+ABC supports positioned text annotations attached to a note:
+`"^text"` renders above the staff. This book uses a short, lowercase
+phrase — usually one word, sometimes two or three where a single word
+would be ambiguous — attached to the left-hand (bass) voice at the
+note where the concept becomes audible, never a combined multi-part
+tag in the old `"^[R:...]" "_[M:...|G:...]"` style:
 
 ```abc
-X:1
-T:The Anchor — worked fragment
-C:Thinking in Groove
-M:4/4
-L:1/8
-Q:1/4=90
-K:Cmaj
-% chapter: 01-the-anchor
-% role: anchor
-% motion: pedal
-% groove: low-density
-"^[R:Anchor]"C,4 "_[M:Pedal]"C,4 | C,2 "^[R:Connector]"D,2 "_[M:Passing Motion]"E,2 F,2 |
+[V:LH] "^ground"C,,8 | "^approach"F,,2 ^F,,2 G,,4 |]
 ```
 
-## Phrase-Level Annotations
+(Note the difference between an annotation and an accidental: `"^approach"`
+is a quoted string annotation; the un-quoted `^F,,2` right after it is
+an ABC sharp accidental on F. The two look similar but are unrelated
+syntax.)
 
-Most semantic tags mark a single note. A few Integration-category terms
-(Chapter 28's Groove Contract, in particular) describe a span of
-measures instead. For these, add a `%` comment line at the start of the
-relevant measure group, in addition to whatever per-note Role/Motion/
-Groove tags those measures already carry:
+A tag names the one decision a bar's `## See` prose should be pointing
+at, not a description of the pitch — `"^ground"`, `"^approach"`,
+`"^connect"`, `"^cell"`, `"^varied"`, `"^dense"`, `"^separated"`,
+`"^ostinato"`, `"^resolve"`, and their deliberate contrast tags
+(`"^arbitrary"`, `"^static"`, `"^competing"`, `"^muddy"`, `"^tracks"`,
+`"^coincidental"`) are typical examples, not an exhaustive or reserved
+list — invent the word each new chapter actually needs.
 
-```
-% contract: set
-% contract: broken
-% contract: restored
-```
+## Multi-System Engraving
 
-## Bass Tab Convention
-
-Tab is authored manually (auto-generation from ABC is a Phase 4 tooling
-candidate, not built now) as a plain ASCII 4-string tab block, string
-order G/D/A/E top-to-bottom, aligned by beat with the `.abc` file's
-rhythm:
+A long study that would otherwise render as one dense, hard-to-read
+system can force a bar count per line with a score-local directive
+placed after `%%score { RH LH }`:
 
 ```
-G|----------------|
-D|----------------|
-A|----------------|
-E|0---0---1---3---|
+%%barsperstaff 4
 ```
 
-- Default target instrument: 4-string bass, standard tuning (E A D G).
-- 5-string/extended-range notation is deferred to a later phase.
+The player (`publish/assets/notation-head.html`) preserves this
+directive per score rather than overriding it, and any example wider
+than its container becomes horizontally scrollable automatically, with
+the view auto-scrolling to follow the playhead during playback.
 
-## Naming, Numbering, and Indexing
+## Playback
 
-- One tune (`X:1`) per file — keeps each example independently
-  embeddable, matching Thinking in Layers' one-`X:1`-per-widget rule.
-  A chapter needing more than one comparison widget uses more files
-  (see File Layout above), never multiple `X:` tunes packed into one.
-- Every new example is added to `examples/INDEX.md` with: chapter,
-  title, role/motion/groove tags, difficulty.
-- Chapter numbering in `examples/`, `book/`, and `publish/_quarto.yml`
-  must always agree — this is exactly what
-  `scripts/validate_book_structure.py` checks for `book/`, and the same
-  discipline applies by convention to `examples/`.
+Every embedded example gets **Full**, **Bass only**, and **Harmony
+only** playback controls for free from the shared player — this is
+not something an individual `.abc` file's author needs to configure.
+Chord symbols are rendered but kept silent (`chordsOff: true`) so only
+the two notated voices actually sound.
+
+## Naming and Numbering
+
+- One tune (`X:1`) per file — a chapter needing more than two
+  Microscope panels uses more files, never multiple `X:` tunes packed
+  into one.
+- File names are kebab-case and describe the concept, not the chapter
+  number (`doubling-tracks-the-melody.abc`, not `28a.abc`) — chapter
+  numbers live in `docs/chapter-map.md` and in `publish/_quarto.yml`'s
+  inline `# Ch.N` comments, not in filenames.
+- `scripts/validate_no_drift.py` checks that every file referenced by
+  `LEGACY_PIANO_EXAMPLES` and `PIANO_CHAPTERS` in
+  `scripts/prepare_manuscript_for_publish.py` actually exists, and
+  that no orphaned placeholder is left behind under `examples/chapters/`
+  after a chapter's legacy score is retired.
