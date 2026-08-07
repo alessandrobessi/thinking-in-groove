@@ -32,7 +32,6 @@ book:
         - chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md # Ch.15 Connecting Chords
         - chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md # Ch.16 Contrary Motion
         - chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md # Ch.17 Motion Maps
-        - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md # legacy; destined for Part IV Ch.34 Harmonic Rhythm, not yet moved
     - part: "Part III — Groove: How Is Motion Organized in Time?"
       chapters:
         - chapters/part-3-groove/subdivision.md # Ch.18 Subdivision
@@ -53,6 +52,7 @@ book:
         - chapters/part-4-integration/call-and-response.md # Ch.31 Call and Response
         - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # Ch.32 Density Balance; filename retained until part-sized URL migration
         - chapters/part-4-integration/register-and-separation.md # Ch.33 Register and Separation
+        - chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md # Ch.34 Harmonic Rhythm; filename retained until part-sized URL migration
     - part: "Part V (legacy) — Integration: Composing With All Three Layers" # transitional heading; content and title migrating to Part V, not yet moved
       chapters:
         - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md

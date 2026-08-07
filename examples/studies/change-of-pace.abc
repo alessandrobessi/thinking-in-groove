@@ -1,0 +1,15 @@
+X:1
+T:Change of Pace
+C:Alessandro Bessi
+R:Jazz-funk study
+M:4/4
+L:1/8
+Q:1/4=90
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]8 | [ceg]8 | "Am7"[ace]8 | [ace]8 |
+"Dm7"[dfa]4 "G7"[gbd]4 | "Cmaj7"[ceg]4 "Am7"[ace]4 | "G7"[gbd]8 | "Cmaj7"[ceg]8 |]
+[V:LH] "^stay"C,,8 | C,,8 | "^stay"A,,8 | A,,8 |
+"^connect"C,,2 D,,2 F,,2 G,,2 | "^connect"B,,2 C,,2 B,,2 A,,2 | "^stay"G,,8 | "^resolve"C,,8 |]

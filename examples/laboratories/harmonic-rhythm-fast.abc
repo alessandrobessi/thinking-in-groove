@@ -1,0 +1,13 @@
+X:1
+T:Harmonic Rhythm — fast, under the same busy bass
+C:Alessandro Bessi
+R:Concept study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]4 "Am7"[ace]4 | "Dm7"[dfa]4 "G7"[gbd]4 |]
+[V:LH] "^dense"C,,1 D,,1 E,,1 F,,1 G,,1 F,,1 E,,1 D,,1 | C,,1 D,,1 E,,1 F,,1 G,,1 F,,1 E,,1 D,,1 |]
