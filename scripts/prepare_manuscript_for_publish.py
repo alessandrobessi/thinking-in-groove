@@ -36,6 +36,7 @@ PIANO_CHAPTERS = {
     "part-3-groove/subdivision.md",
     "part-3-groove/19-the-pocket-where-exactly-is-the-note.md",
     "part-3-groove/22-the-repetition-cell-the-riff-atom.md",
+    "part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md",
     "part-3-groove/25-push-and-lay-back-playing-around-the-beat.md",
     "part-3-groove/21-space-as-content-the-power-of-not-playing.md",
     "part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md",
@@ -45,7 +46,6 @@ PIANO_CHAPTERS = {
 LEGACY_PIANO_EXAMPLES = {
     "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
     "part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md": "harmonic-rhythm.abc",
-    "part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md": "variation-layer.abc",
     "part-3-groove/24-density-controlling-energy-through-note-count.md": "density-curve.abc",
     "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md": "layer-stack.abc",
     "part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md": "groove-contract.abc",

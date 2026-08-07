@@ -42,7 +42,7 @@ book:
         - chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md # Ch.22 Syncopation
         - chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md # Ch.23 Anticipation
         - chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md # Ch.24 Repeated Cells
-        - chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md # Ch.25 Variation Without Collapse, pending
+        - chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md # Ch.25 Variation Without Collapse
         - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # legacy; destined for Part IV Ch.32 Density Balance, not yet moved
     - part: "Part IV — Integration: Composing With All Three Layers"
       chapters:
