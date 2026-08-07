@@ -1,0 +1,15 @@
+X:1
+T:Turn to Speak
+C:Alessandro Bessi
+R:Jazz-funk study
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[CEG]4 z4 | "Am7"[ACE]4 z4 | "Dm7"[DFA]4 z4 | "G7"[GBD]4 z4 |
+"Cmaj7"[EGC]4 z4 | "Am7"[CEA]4 z4 | "Dm7"[FAD]4 z4 | "G7"[GBD]4 z4 |]
+[V:LH] z4 "^response"C,,2 E,,2 | z4 "^response"A,,2 C,,2 | z4 "^response"D,,2 F,,2 | z4 "^response"G,,2 B,,2 |
+z4 "^response"E,,2 G,,2 | z4 "^response"C,,2 E,,2 | z4 "^response"F,,2 A,,2 | z4 "^resolve"G,,4 |]

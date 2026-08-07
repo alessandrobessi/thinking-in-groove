@@ -51,6 +51,7 @@ book:
         - chapters/part-4-integration/doubling.md # Ch.28 Doubling
         - chapters/part-4-integration/independence.md # Ch.29 Independence
         - chapters/part-4-integration/interlock.md # Ch.30 Interlock
+        - chapters/part-4-integration/call-and-response.md # Ch.31 Call and Response
     - part: "Part V (legacy) — Integration: Composing With All Three Layers" # transitional heading; content and title migrating to Part V, not yet moved
       chapters:
         - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md

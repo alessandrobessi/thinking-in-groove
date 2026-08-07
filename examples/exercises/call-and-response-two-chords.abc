@@ -1,0 +1,13 @@
+X:1
+T:Clean Handoffs
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=88
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Am7"[ACE]4 z4 | "Dm7"[DFA]4 z4 |]
+[V:LH] z4 "^response"A,,2 C,,2 | z4 "^response"D,,2 F,,2 |]

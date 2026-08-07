@@ -46,6 +46,7 @@ PIANO_CHAPTERS = {
     "part-4-integration/doubling.md",
     "part-4-integration/independence.md",
     "part-4-integration/interlock.md",
+    "part-4-integration/call-and-response.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {

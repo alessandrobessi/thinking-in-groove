@@ -36,6 +36,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Same Voice](chapters/part-4-integration/doubling.md#the-music) | Jazz-funk | Bass doubling alternated deliberately with plain roots |
 | [Loose Thread](chapters/part-4-integration/independence.md#the-music) | Jazz-funk | A syncopated bass contour unlocked from the melody above |
 | [Single Weave](chapters/part-4-integration/interlock.md#the-music) | Jazz-funk | Continuous sixteenth-note interlock resolving into one shared attack |
+| [Turn to Speak](chapters/part-4-integration/call-and-response.md#the-music) | Jazz-funk | Clean chordal calls answered into genuinely vacated space |
 | [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |
 
 ## A practical sequence
