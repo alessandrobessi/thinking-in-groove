@@ -46,7 +46,10 @@ book:
         - chapters/part-3-groove/phrase-rhythm.md # Ch.26 Phrase Rhythm
         - chapters/part-3-groove/performed-feel.md # Ch.27 Performed Feel
         - chapters/part-3-groove/24-density-controlling-energy-through-note-count.md # legacy; destined for Part IV Ch.32 Density Balance, not yet moved
-    - part: "Part IV — Integration: Composing With All Three Layers"
+    - part: "Part IV — Interaction: What Happens Between Bass and Harmony?"
+      chapters:
+        - chapters/part-4-integration/doubling.md # Ch.28 Doubling
+    - part: "Part V (legacy) — Integration: Composing With All Three Layers" # transitional heading; content and title migrating to Part V, not yet moved
       chapters:
         - chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md
         - chapters/part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md

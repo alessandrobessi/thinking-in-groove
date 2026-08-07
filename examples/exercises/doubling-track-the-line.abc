@@ -1,0 +1,13 @@
+X:1
+T:Track the Line
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Am7"A2 c2 B2 A2 | "Dm7"D2 F2 E2 D2 |]
+[V:LH] "^double"A,,2 c,2 B,,2 A,,2 | "^double"D,,2 F,,2 E,,2 D,,2 |]

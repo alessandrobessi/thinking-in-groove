@@ -1,6 +1,6 @@
 # Study Collection {.unnumbered}
 
-These seventeen original miniatures turn the book’s concepts into music worth practising. Every study is 8–10 bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback.
+These original miniatures turn the book's concepts into music worth practising. Every study is 8–16 bars, uses piano grand staff, and offers **Full**, **Bass only**, and **Harmony only** playback.
 
 Use **Harmony only** to learn the form, **Bass only** to practise the line, and **Full** to judge whether the two parts make one convincing texture. The titles link to the complete notation, annotations, variation prompt, and reflection question.
 
@@ -33,6 +33,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Same Bones](chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md#the-music) | Jazz-funk | One cell varied by a single parameter at a time |
 | [Long Breath](chapters/part-3-groove/phrase-rhythm.md#the-music) | Jazz | A deliberate density arc across eight bars |
 | [What the Page Can't Say](chapters/part-3-groove/performed-feel.md#the-music) | Jazz-funk | Closes Part III on notation's honest limits |
+| [Same Voice](chapters/part-4-integration/doubling.md#the-music) | Jazz-funk | Bass doubling alternated deliberately with plain roots |
 | [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |
 
 ## A practical sequence
