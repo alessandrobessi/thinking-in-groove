@@ -59,6 +59,7 @@ book:
         - chapters/part-4-integration/static-funk-vamp.md # Ch.36 Static Funk Vamp
         - chapters/part-4-integration/functional-jazz-progression.md # Ch.37 Functional Jazz Progression
         - chapters/part-4-integration/fusion-ostinato.md # Ch.38 Fusion Ostinato
+        - chapters/part-4-integration/ballad-and-inversion-study.md # Ch.39 Ballad and Inversion Study
         - chapters/part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md # legacy; destined for Part V Ch.40 Complete Capstone, not yet moved
     - part: "Integrated Study and Appendices"
       chapters:

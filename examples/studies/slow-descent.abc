@@ -1,0 +1,15 @@
+X:1
+T:Slow Descent
+C:Alessandro Bessi
+R:Ballad
+M:4/4
+L:1/8
+Q:1/4=64
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Cmaj7"[ceg]8 | [ceg]8 | "Am7"[ace]8 | [ace]8 |
+"Dm7"[dfa]8 | [dfa]8 | "G7"[gbd]8 | "Cmaj7"[ceg]8 |]
+[V:LH] "^root"C,,8 | "^inversion"B,,8 | "^root"A,,8 | "^inversion"G,,8 |
+"^inversion"F,,8 | "^root"D,,8 | "^root"G,,8 | "^resolve"C,,8 |]

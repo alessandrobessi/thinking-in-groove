@@ -54,6 +54,7 @@ PIANO_CHAPTERS = {
     "part-4-integration/static-funk-vamp.md",
     "part-4-integration/functional-jazz-progression.md",
     "part-4-integration/fusion-ostinato.md",
+    "part-4-integration/ballad-and-inversion-study.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {
