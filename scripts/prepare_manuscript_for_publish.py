@@ -53,6 +53,7 @@ PIANO_CHAPTERS = {
     "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md",
     "part-4-integration/static-funk-vamp.md",
     "part-4-integration/functional-jazz-progression.md",
+    "part-4-integration/fusion-ostinato.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {
