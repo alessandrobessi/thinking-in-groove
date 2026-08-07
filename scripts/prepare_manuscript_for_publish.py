@@ -47,12 +47,12 @@ PIANO_CHAPTERS = {
     "part-4-integration/independence.md",
     "part-4-integration/interlock.md",
     "part-4-integration/call-and-response.md",
+    "part-3-groove/24-density-controlling-energy-through-note-count.md",
 }
 
 LEGACY_PIANO_EXAMPLES = {
     "part-1-role/09-role-shift-when-the-job-changes-mid-phrase.md": "role-shift.abc",
     "part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md": "harmonic-rhythm.abc",
-    "part-3-groove/24-density-controlling-energy-through-note-count.md": "density-curve.abc",
     "part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md": "layer-stack.abc",
     "part-4-integration/28-the-groove-contract-setting-and-breaking-expectations.md": "groove-contract.abc",
     "part-4-integration/29-designing-a-bass-line-from-scratch-a-worked-case-study.md": "design-study.abc",

@@ -1,0 +1,13 @@
+X:1
+T:Busy Under Sparse
+C:Alessandro Bessi
+R:Exercise
+M:4/4
+L:1/8
+Q:1/4=92
+%%score { RH LH }
+V:RH clef=treble name="Harmony"
+V:LH clef=bass name="Bass"
+K:C
+[V:RH] "Am7"[ACE]8 | "Dm7"[DFA]8 |]
+[V:LH] "^dense"A,,1 C,,1 E,,1 C,,1 A,,1 C,,1 E,,1 C,,1 | "^dense"D,,1 F,,1 A,,1 F,,1 D,,1 F,,1 A,,1 F,,1 |]
