@@ -12,6 +12,8 @@ A **Motion Map** reduces a phrase to a labeled sequence of this Part's own terms
 
 That makes a Motion Map descriptive, not prescriptive. Mapping an eight-bar phrase after the fact is an analysis. Choosing each bar's device *before* writing a single note is composition using the same vocabulary — both are valid uses of the same technique, but confusing them (treating a map as a fill-in-the-blanks formula rather than a naming exercise) misses the point of naming in the first place.
 
+The real value of naming a bar's device is that it makes the bar independently revisable. Without a name, "make bar 3 more interesting" is vague — interesting how, compared to what? With a name, the question sharpens: bar 3 is Arpeggiating, so the actual choices on the table are which chord tones, which order, which register, not an undifferentiated search through every possible note. This Part's eight terms aren't just labels for what already happened; they're the menu you're choosing from the next time you write a bar that doesn't have one yet.
+
 ## The Microscope
 
 Four bars, four different motion decisions, each labeled as it happens.
