@@ -12,6 +12,10 @@ A **Driver** uses recurring bass activity to create propulsion. The pitches stil
 
 This is not the same as a Pedal. A Pedal is defined by one pitch persisting while the harmony changes. A Driver may follow every chord and use several pitches; what persists is the activity. It is also possible to drive with relatively few notes. The role describes the effect of the line, not a required note count.
 
+Every Role before this one — Ground, Definer, Inverter, Reframer — was decided by *which* pitch the bass chose. The Driver is the first Role in this book decided mostly by *when* and *how often* the bass attacks, regardless of which pitches it happens to be attacking. That's a genuinely different axis, and it's Part I's first hint at a concern this book doesn't open up fully until Part III: a bass line's forward pressure comes overwhelmingly from rhythmic regularity, not from pitch content. The propulsion in Panel B isn't caused by the note D being interesting — it's caused by an attack landing on every eighth note, predictably enough that the body starts to anticipate the next one before it arrives. Break that regularity, even while keeping every pitch the same, and the drive changes regardless of how many notes remain.
+
+That also names the trap: more notes is not the same as more drive. A pattern that attacks constantly but irregularly can feel less propulsive than a sparser pattern that attacks on a dependable grid, because propulsion depends on the listener being able to predict the next attack, not merely hearing a high density of them. The next chapter asks what happens when the music needs the opposite of this: not a bass line that adds energy, but one deliberately restrained enough to let energy elsewhere in the texture read clearly.
+
 ## The Microscope
 
 The harmony, roots, form, tempo, register, and total span are identical. A sustains each root. B restrikes the same root on every eighth note. No new pitch information is added.
@@ -137,4 +141,4 @@ K:C
 
 ## Reflection
 
-Which features make “Redline” continue to feel like one engine after the bass cells vary in bars 5–8?
+Which features make "Redline" continue to feel like one engine after the bass cells vary in bars 5–8? The attack grid itself never changes between the two passes — only the pitches at the very end of each cell do. Does that tell you the engine's identity actually lives in the rhythm rather than the notes, and if so, how much of the pitch content could you change before a listener stopped recognizing it as the same engine at all?
