@@ -12,6 +12,8 @@ If two staves take turns playing, when does that turn-taking become one fused rh
 
 The distance between the attacks is what makes this Interlock rather than Call and Response, the chapter that follows. Call and Response is a genuine handoff: one voice completes a full statement, then the other replies into the space that statement vacated — the turns are long enough to register as separate musical sentences. Interlock's attacks are continuous and fast, weaving together at the level of individual notes, not phrases. The common error is calling any back-and-forth between two staves "interlock," when a slower, phrase-length alternation is really Call and Response with a different name attached.
 
+There's a real perceptual mechanism behind why speed is the deciding factor, not just a convenient rule of thumb. Hearing tracks separate sound sources by grouping nearby events in time and pitch into one stream; give it two things happening within roughly a sixteenth note of each other and it stops trying to track "who played what" and instead groups the whole sequence into a single perceived rhythm. Slow the same alternation down to phrase length and the gap between turns becomes wide enough for hearing to keep the two sources separately tracked, which is exactly why the same physical technique — one voice filling the other's silence — reads as one fused idea at high speed and as two voices taking turns at low speed.
+
 ## The Microscope
 
 Both panels alternate between the two staves. Only the spacing of that alternation changes.
