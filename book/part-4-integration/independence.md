@@ -112,14 +112,14 @@ Rewrite the second bar of "Independence Across Two Chords" so the bass moves in 
 
 ## The Music
 
-"Loose Thread" is an eight-bar jazz-funk study where the bass keeps one syncopated rhythmic shape under four changing chords while the melody moves independently above it. In two of the eight bars, the bass and melody happen to move the same direction for a beat — that coincidence doesn't cost the line its independence, because the offbeat placement never once locks onto the melody's rhythm.
+"Loose Thread" is an eight-bar jazz-funk study in G major where the bass keeps one syncopated rhythmic shape under four changing chords while the melody moves independently above it. In two of the eight bars, the bass and melody happen to move the same direction for a beat — that coincidence doesn't cost the line its independence, because the offbeat placement never once locks onto the melody's rhythm.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="loose-thread-study">
   <p class="abc-caption"><strong>Loose Thread.</strong> One consistent syncopated bass rhythm, unlocked from the melody's contour throughout.</p>
-  <p class="abc-description">An eight-bar jazz-funk study over Cmaj7, Am7, Dm7, and G7, with an offbeat bass rhythm that never tracks the smooth right-hand line.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in G major over Gmaj7, Em7, Am7, and D7, with an offbeat bass rhythm that never tracks the smooth right-hand line.</p>
   <pre class="abc-source">X:1
 T:Loose Thread
 C:Alessandro Bessi
@@ -131,12 +131,12 @@ Q:1/4=96
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"C2 E2 G2 E2 | "Am7"A2 C2 E2 C2 | "Dm7"D2 F2 A2 F2 | "G7"G2 B2 D2 B2 |
-"Cmaj7"E2 G2 C2 G2 | "Am7"C2 E2 A2 E2 | "Dm7"F2 A2 D2 A2 | "G7"B2 D2 G4 |]
-[V:LH] "^independent"z1 C,,1 z1 G,,1 z1 E,,1 z1 C,,1 | "^independent"z1 A,,1 z1 E,,1 z1 C,,1 z1 A,,1 |
-"^independent"z1 D,,1 z1 A,,1 z1 F,,1 z1 D,,1 | "^independent"z1 G,,1 z1 D,,1 z1 B,,1 z1 G,,1 |
-"^independent"z1 E,,1 z1 C,,1 z1 G,,1 z1 C,,1 | "^independent"z1 C,,1 z1 A,,1 z1 E,,1 z1 A,,1 |
-"^independent"z1 F,,1 z1 D,,1 z1 A,,1 z1 D,,1 | "^resolve"G,,8 |]</pre>
+[V:RH] "Gmaj7"G2 B2 d2 B2 | "Em7"e2 G2 B2 G2 | "Am7"A2 c2 e2 c2 | "D7"d2 ^f2 A2 ^f2 |
+"Gmaj7"B2 d2 G2 d2 | "Em7"G2 B2 e2 B2 | "Am7"c2 e2 A2 e2 | "D7"^f2 A2 d4 |]
+[V:LH] "^independent"z1 G,,1 z1 D,1 z1 B,,1 z1 G,,1 | "^independent"z1 E,1 z1 B,,1 z1 G,,1 z1 E,1 |
+"^independent"z1 A,,1 z1 E,1 z1 C,1 z1 A,,1 | "^independent"z1 D,1 z1 A,,1 z1 ^F,1 z1 D,1 |
+"^independent"z1 B,,1 z1 G,,1 z1 D,1 z1 G,,1 | "^independent"z1 G,,1 z1 E,1 z1 B,,1 z1 E,1 |
+"^independent"z1 C,1 z1 A,,1 z1 E,1 z1 A,,1 | "^resolve"D,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
