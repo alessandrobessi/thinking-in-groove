@@ -137,14 +137,14 @@ Take "Track the Line" and release the doubling after the first two notes of bar 
 
 ## The Music
 
-"Long Shadow" is a sixteen-bar jazz-fusion study built entirely from this chapter's own laboratory — Gm7, C7, Fmaj7, and Dm7 — stated twice through, then closed with a compressed turnaround. In every four-bar phrase, the bass doubles the right hand's melodic hook for the phrase's first half and releases into an independent, syncopated line of its own for the second half, until the final phrase reverses the pattern to close on a doubled, unison resolution.
+"Long Shadow" is a sixteen-bar jazz-fusion study that opens in F major — Gm7, C7, Fmaj7, Dm7 — then, instead of simply repeating itself, modulates up a whole step into G major for its second half before a reharmonized turnaround pulls it back home. In every phrase, the bass doubles the right hand's melodic hook for the phrase's first half and releases into an independent, syncopated line of its own for the second half, until the final phrase reverses the pattern to close on a doubled, unison resolution.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="long-shadow-study">
-  <p class="abc-caption"><strong>Long Shadow.</strong> Every phrase opens doubled and releases into independence — until the last one, which closes doubled instead.</p>
-  <p class="abc-description">A sixteen-bar jazz-fusion study over Gm7, C7, Fmaj7, and Dm7, alternating doubled and independent bass treatment every two bars.</p>
+  <p class="abc-caption"><strong>Long Shadow.</strong> Every phrase opens doubled and releases into independence — until the modulation resolves home on a doubled unison instead.</p>
+  <p class="abc-description">A sixteen-bar jazz-fusion study opening in F major (Gm7, C7, Fmaj7, Dm7), modulating up a whole step into G major (Am7, D7, Gmaj7), then reharmonizing Gmaj7 as Gm7 to pivot back to a final Fmaj7.</p>
   <pre class="abc-source">X:1
 T:Long Shadow
 C:Alessandro Bessi
@@ -159,20 +159,20 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Gm7"g2 _b2 d'2 _b2 | "Gm7"a2 g2 _b2 g2 | "C7"[ceg_b]8 | "C7"[ceg_b]8 |
 "Fmaj7"f2 a2 c'2 a2 | "Fmaj7"c'2 a2 f2 a2 | "Dm7"[dfac']8 | "Dm7"[dfac']8 |
-"Gm7"g2 _b2 d'2 _b2 | "Gm7"a2 g2 _b2 g2 | "C7"[ceg_b]8 | "C7"[ceg_b]8 |
-"Fmaj7"[fac'e']8 | "Fmaj7"[fac'e']8 | "Gm7"d'2 c'2 _b2 g2 | "Fmaj7"a4 f4 |]
+"Am7"a2 c'2 e'2 c'2 | "Am7"b2 a2 c'2 a2 | "D7"[d^fac']8 | "D7"[d^fac']8 |
+"Gmaj7"g2 b2 d'2 b2 | "Gmaj7"d'2 b2 g2 b2 | "Gm7"d'2 c'2 _b2 g2 | "Fmaj7"a4 f4 |]
 [V:LH] "^double"G,2 _B,2 D2 _B,2 | "^double"A,2 G,2 _B,2 G,2 | "^independent"z1 C,1 z1 E,1 G,2 z2 | "^independent"z1 G,1 z1 _B,1 C2 z2 |
 "^double"F,2 A,2 C2 A,2 | "^double"C2 A,2 F,2 A,2 | "^independent"z1 D,1 z1 F,1 A,2 z2 | "^independent"z1 F,1 z1 A,1 D2 z2 |
-"^double"G,2 _B,2 D2 _B,2 | "^double"A,2 G,2 _B,2 G,2 | "^independent"G,1 z1 C,1 z1 E,2 z2 | "^independent"E,1 z1 G,1 z1 _B,2 z2 |
-"^independent"F,1 z1 A,1 z1 C2 z2 | "^independent"A,1 z1 C1 z1 F2 z2 | "^double"D2 C2 _B,2 G,2 | "^resolve"A,4 F,4 |]</pre>
+"^double"A,2 C2 E2 C2 | "^double"B,2 A,2 C2 A,2 | "^independent"z1 D,1 z1 ^F,1 A,2 z2 | "^independent"z1 A,1 z1 C,1 D2 z2 |
+"^double"G,2 B,2 D2 B,2 | "^double"D2 B,2 G,2 B,2 | "^double"D2 C2 _B,2 G,2 | "^resolve"A,4 F,4 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
 
 :::
 
-Notice that the independent bars aren't just "not doubling" — they're a real, syncopated funk-bass idea in their own right, built from each chord's own tones. Doubling only reads as a deliberate event here because the bass clearly has other things it could be doing, and chooses this one on purpose at specific moments.
+Notice that the independent bars aren't just "not doubling" — they're a real, syncopated funk-bass idea in their own right, built from each chord's own tones, including the D7's raised F-sharp once the piece modulates. Doubling only reads as a deliberate event here because the bass clearly has other things it could be doing, and chooses this one on purpose at specific moments — and the modulation's own return, from Gmaj7 reinterpreted as Gm7, is doubled too, so the bass states the pivot as plainly as everything else it's chosen to reinforce.
 
 ## Reflection
 
-"Long Shadow" doubles at the start of every phrase but one, and reverses the pattern only at the very end, closing on doubled unison instead of releasing into independence. Why might a piece want to save its most unified, heaviest-sounding gesture for the final bar rather than spending it early — and what would be lost if "Long Shadow" doubled constantly instead of choosing exactly when to?
+"Long Shadow" doubles at the start of every phrase, releases into independence through most of them, then breaks that pattern twice at the end: it stays doubled through the reharmonized turnaround (Gmaj7 pivoting to Gm7) instead of releasing, and closes on unison instead of independence. Why might a piece want its bass to stay doubled specifically through a key change, when independence would have been the established habit by then — and what would a listener actually lose if the modulation itself were left to the right hand alone?

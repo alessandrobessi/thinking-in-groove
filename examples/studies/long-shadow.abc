@@ -12,9 +12,9 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Gm7"g2 _b2 d'2 _b2 | "Gm7"a2 g2 _b2 g2 | "C7"[ceg_b]8 | "C7"[ceg_b]8 |
 "Fmaj7"f2 a2 c'2 a2 | "Fmaj7"c'2 a2 f2 a2 | "Dm7"[dfac']8 | "Dm7"[dfac']8 |
-"Gm7"g2 _b2 d'2 _b2 | "Gm7"a2 g2 _b2 g2 | "C7"[ceg_b]8 | "C7"[ceg_b]8 |
-"Fmaj7"[fac'e']8 | "Fmaj7"[fac'e']8 | "Gm7"d'2 c'2 _b2 g2 | "Fmaj7"a4 f4 |]
+"Am7"a2 c'2 e'2 c'2 | "Am7"b2 a2 c'2 a2 | "D7"[d^fac']8 | "D7"[d^fac']8 |
+"Gmaj7"g2 b2 d'2 b2 | "Gmaj7"d'2 b2 g2 b2 | "Gm7"d'2 c'2 _b2 g2 | "Fmaj7"a4 f4 |]
 [V:LH] "^double"G,2 _B,2 D2 _B,2 | "^double"A,2 G,2 _B,2 G,2 | "^independent"z1 C,1 z1 E,1 G,2 z2 | "^independent"z1 G,1 z1 _B,1 C2 z2 |
 "^double"F,2 A,2 C2 A,2 | "^double"C2 A,2 F,2 A,2 | "^independent"z1 D,1 z1 F,1 A,2 z2 | "^independent"z1 F,1 z1 A,1 D2 z2 |
-"^double"G,2 _B,2 D2 _B,2 | "^double"A,2 G,2 _B,2 G,2 | "^independent"G,1 z1 C,1 z1 E,2 z2 | "^independent"E,1 z1 G,1 z1 _B,2 z2 |
-"^independent"F,1 z1 A,1 z1 C2 z2 | "^independent"A,1 z1 C1 z1 F2 z2 | "^double"D2 C2 _B,2 G,2 | "^resolve"A,4 F,4 |]
+"^double"A,2 C2 E2 C2 | "^double"B,2 A,2 C2 A,2 | "^independent"z1 D,1 z1 ^F,1 A,2 z2 | "^independent"z1 A,1 z1 C,1 D2 z2 |
+"^double"G,2 B,2 D2 B,2 | "^double"D2 B,2 G,2 B,2 | "^double"D2 C2 _B,2 G,2 | "^resolve"A,4 F,4 |]
