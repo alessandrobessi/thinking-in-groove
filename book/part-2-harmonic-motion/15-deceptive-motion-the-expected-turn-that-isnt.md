@@ -12,6 +12,8 @@ What turns a series of leaps into something that sounds intentional rather than 
 
 A single leap isn't yet an arpeggio. Leaping (Chapter 14) covers the general device of a large interval used for emphasis, whether or not it lands on a chord tone or continues anywhere afterward. The moment a leap keeps going — continuing on to state a second and third chord tone in sequence — it becomes something more specific: an Arpeggiating gesture that outlines the chord itself.
 
+A leap sounds random unless something explains where it's going next; an arpeggio supplies that explanation by continuing along a known, finite set of notes — the chord itself. Once a listener recognizes the second note as also belonging to the same chord, every subsequent leap becomes predictable in kind, even if its exact size varies, because the underlying rule (stay inside this chord's stacked thirds) has already been established. That's a different kind of coherence than Stepping's — Stepping is smooth because each note is close to the last one; Arpeggiating is coherent because each note belongs to the same small, named set, no matter how far apart the notes actually sit in register.
+
 ## The Microscope
 
 Both versions start with the same leap from C. Only whether it continues changes what the gesture is.
