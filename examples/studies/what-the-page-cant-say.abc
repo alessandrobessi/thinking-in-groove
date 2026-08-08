@@ -9,7 +9,7 @@ Q:1/4=96
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
-"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
-[V:LH] "^cell"C,2 z2 C,2 C,2 | "^cell"C,2 z2 C,2 C,2 | "^varied"A,2 z2 A,2 A,2 | "^varied"z1 A,2 z2 A,2 A,1 |
-"^cell"D,2 z2 D,2 D,2 | "^space"D,2 z6 | "^cell"G,2 z2 G,2 G,2 | "^resolve"G,8 |]
+[V:RH] "Bbmaj7"[_Bdfa]8 | "Bbmaj7"[_Bdfa]8 | "Gm7"[_Bdfg]8 | "Gm7"[_Bdfg]8 |
+"Cm7"[_Bc_eg]8 | "Cm7"[_Bc_eg]8 | "F7"[c_efa]8 | "F7"[c_efa]8 |]
+[V:LH] "^cell"_B,2 z2 _B,2 _B,2 | "^cell"_B,2 z2 _B,2 _B,2 | "^varied"G2 z2 G2 G2 | "^varied"z1 G2 z2 G2 G1 |
+"^cell"C2 z2 C2 C2 | "^space"C2 z6 | "^cell"F2 z2 F2 F2 | "^resolve"F8 |]
