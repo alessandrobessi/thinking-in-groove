@@ -114,14 +114,14 @@ Play the same four arpeggios in a different order (root, fifth, third, seventh, 
 
 ## The Music
 
-"Full Outline" is an original eight-bar jazz study in Ab major, built entirely from ascending and descending arpeggios, one full outline per chord.
+"Full Outline" is an original eight-bar jazz study in Ab major, swung throughout, built entirely from ascending and descending arpeggios, one full outline per chord.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="full-outline-study">
   <p class="abc-caption"><strong>Full Outline.</strong> Every bar traces its chord fully, alternating ascending and descending direction.</p>
-  <p class="abc-description">An eight-bar jazz study in Ab major outlining Abmaj7, Fm7, Bbm7, and Eb7 in turn.</p>
+  <p class="abc-description">A swung eight-bar jazz study in Ab major outlining Abmaj7, Fm7, Bbm7, and Eb7 in turn.</p>
   <pre class="abc-source">X:1
 T:Full Outline
 C:Alessandro Bessi
@@ -135,8 +135,8 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Abmaj7"[_ac'_e'g']8 | "Abmaj7"[_ac'_e'g']8 | "Fm7"[f_ac'_e']8 | "Fm7"[f_ac'_e']8 |
 "Bbm7"[_b_d'f'_a']8 | "Bbm7"[_b_d'f'_a']8 | "Eb7"[_eg_b_d']8 | "Eb7"[_eg_b_d']8 |]
-[V:LH] "^arpeggio"_A,2 C2 _E2 G2 | "^arpeggio"_A2 G2 _E2 C2 | "^arpeggio"F2 _A2 c2 _e2 | "^arpeggio"_e2 c2 _A2 F2 |
-"^arpeggio"_B,2 _D2 F2 _A2 | "^arpeggio"_A2 F2 _D2 _B,2 | "^arpeggio"_E2 G2 _B2 _d2 | "^arpeggio: settle"_E8 |]</pre>
+[V:LH] "^arpeggio"_A,2 C2 _E>G | "^arpeggio"_A2 G2 _E>C | "^arpeggio"F2 _A2 c>_e | "^arpeggio"_e2 c2 _A>F |
+"^arpeggio"_B,2 _D2 F>_A | "^arpeggio"_A2 F2 _D>_B, | "^arpeggio"_E2 G2 _B>_d | "^arpeggio: settle"_E8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
