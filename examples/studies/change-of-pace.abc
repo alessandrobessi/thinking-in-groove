@@ -12,4 +12,4 @@ K:C
 [V:RH] "Ebmaj7"[_eg_b]8 | [_eg_b]8 | "Cm7"[_egc']8 | [_egc']8 |
 "Fm7"[f_ac']4 "Bb7"[_bd'f]4 | "Ebmaj7"[_eg_b]4 "Cm7"[_egc']4 | "Bb7"[_bd'f]8 | "Ebmaj7"[_eg_b]8 |]
 [V:LH] "^stay"_E,,8 | _E,,8 | "^stay"C,8 | C,8 |
-"^connect"_E,,2 F,,2 _A,,2 _B,,2 | "^connect"D,2 _E,,2 D,2 C,2 | "^stay"_B,,8 | "^resolve"_E,,8 |]
+"^connect"_E,,2 F,,2 _A,,>_B,, | "^connect"D,2 _E,,2 D,>C, | "^stay"_B,,8 | "^resolve"_E,,8 |]

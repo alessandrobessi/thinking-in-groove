@@ -114,14 +114,14 @@ Take "Match the Rate" and swap the strategies: hold a pedal under the fast bar, 
 
 ## The Music
 
-"Change of Pace" is an eight-bar jazz-funk study that spends four bars in a slow harmonic rhythm — one chord held across each pair of bars, the bass staying inside it — before doubling the rate for two bars of chord-per-half-bar motion, where the bass shifts to stepwise connections between roots, then returns to the slow rate to close.
+"Change of Pace" is an eight-bar jazz-funk study, swung, that spends four bars in a slow harmonic rhythm — one chord held across each pair of bars, the bass staying inside it — before doubling the rate for two bars of chord-per-half-bar motion, where the bass shifts to stepwise connections between roots, then returns to the slow rate to close.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="change-of-pace-study">
   <p class="abc-caption"><strong>Change of Pace.</strong> The bass strategy shifts exactly when the harmonic rhythm does, and not before.</p>
-  <p class="abc-description">An eight-bar jazz-funk study in Eb major moving from a slow, one-chord-per-two-bars harmonic rhythm into a fast, chord-per-half-bar passage and back.</p>
+  <p class="abc-description">A swung eight-bar jazz-funk study in Eb major moving from a slow, one-chord-per-two-bars harmonic rhythm into a fast, chord-per-half-bar passage and back.</p>
   <pre class="abc-source">X:1
 T:Change of Pace
 C:Alessandro Bessi
@@ -136,7 +136,7 @@ K:C
 [V:RH] "Ebmaj7"[_eg_b]8 | [_eg_b]8 | "Cm7"[_egc']8 | [_egc']8 |
 "Fm7"[f_ac']4 "Bb7"[_bd'f]4 | "Ebmaj7"[_eg_b]4 "Cm7"[_egc']4 | "Bb7"[_bd'f]8 | "Ebmaj7"[_eg_b]8 |]
 [V:LH] "^stay"_E,,8 | _E,,8 | "^stay"C,8 | C,8 |
-"^connect"_E,,2 F,,2 _A,,2 _B,,2 | "^connect"D,2 _E,,2 D,2 C,2 | "^stay"_B,,8 | "^resolve"_E,,8 |]</pre>
+"^connect"_E,,2 F,,2 _A,,>_B,, | "^connect"D,2 _E,,2 D,>C, | "^stay"_B,,8 | "^resolve"_E,,8 |]</pre>
       <div class="abc-rendered"></div>
     </div>
 ```
