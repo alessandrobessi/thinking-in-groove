@@ -114,14 +114,14 @@ Take "Busy Under Sparse" and reduce the right hand from a single sustained chord
 
 ## The Music
 
-"Give and Take" is an eight-bar jazz-funk study that trades which layer carries the density: on the first bar of each chord the bass runs while the right hand sustains, and on the second bar the roles reverse, with the right hand running while the bass drops to a single sustained root. The balance holds throughout — only which layer is busy ever changes.
+"Give and Take" is an eight-bar jazz-funk study, swung, that trades which layer carries the density: on the first bar of each chord the bass runs while the right hand sustains, and on the second bar the roles reverse, with the right hand running while the bass drops to a single sustained root. The balance holds throughout — only which layer is busy ever changes.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="give-and-take-study">
   <p class="abc-caption"><strong>Give and Take.</strong> The two layers trade which one runs and which one sustains, chord by chord.</p>
-  <p class="abc-description">An eight-bar jazz-funk study in B major over Bmaj7, G#m7, C#m7, and F#7, alternating a running bass under sustained harmony with a running harmony under a sustained bass.</p>
+  <p class="abc-description">A swung eight-bar jazz-funk study in B major over Bmaj7, G#m7, C#m7, and F#7, alternating a running bass under sustained harmony with a running harmony under a sustained bass.</p>
   <pre class="abc-source">X:1
 T:Give and Take
 C:Alessandro Bessi
@@ -133,10 +133,10 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Bmaj7"[B^d^f]8 | "Bmaj7"B1 ^c1 ^d1 ^c1 B1 ^c1 ^d1 ^c1 | "G#m7"[B^d^g]8 | "G#m7"^g1 B1 ^d1 B1 ^g1 B1 ^d1 B1 |
-"C#m7"[^ce^g]8 | "C#m7"^c1 e1 ^g1 e1 ^c1 e1 ^g1 e1 | "F#7"[^c^f^a]8 | "F#7"[^c^f^a]8 |]
-[V:LH] "^dense"B,,1 ^C,1 ^D,1 ^C,1 B,,1 ^C,1 ^D,1 ^C,1 | "^sparse"B,,8 | "^dense"^G,1 B,,1 ^D,1 B,,1 ^G,1 B,,1 ^D,1 B,,1 | "^sparse"^G,8 |
-"^dense"^C,1 E,1 ^G,1 E,1 ^C,1 E,1 ^G,1 E,1 | "^sparse"^C,8 | "^dense"^F,1 ^A,1 ^C,1 ^A,1 ^F,1 ^A,1 ^C,1 ^A,1 | "^resolve"^F,8 |]</pre>
+[V:RH] "Bmaj7"[B^d^f]8 | "Bmaj7"B>^c ^d>^c B>^c ^d>^c | "G#m7"[B^d^g]8 | "G#m7"^g>B ^d>B ^g>B ^d>B |
+"C#m7"[^ce^g]8 | "C#m7"^c>e ^g>e ^c>e ^g>e | "F#7"[^c^f^a]8 | "F#7"[^c^f^a]8 |]
+[V:LH] "^dense"B,,>^C, ^D,>^C, B,,>^C, ^D,>^C, | "^sparse"B,,8 | "^dense"^G,>B,, ^D,>B,, ^G,>B,, ^D,>B,, | "^sparse"^G,8 |
+"^dense"^C,>E, ^G,>E, ^C,>E, ^G,>E, | "^sparse"^C,8 | "^dense"^F,>^A, ^C,>^A, ^F,>^A, ^C,>^A, | "^resolve"^F,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
