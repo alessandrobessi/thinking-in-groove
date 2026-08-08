@@ -12,6 +12,8 @@ If the bass and the right hand aren't doubling each other, does that automatical
 
 This is easy to confuse with Contrary Motion, a stronger and more specific relationship where the two lines deliberately move in opposite directions, consistently, as an intentional contrapuntal device. Independence is the general condition of two unlocked voices; Contrary Motion is one particular, disciplined way of using that freedom. Not every independent bass line is contrary, and calling every non-doubling bass line "contrary motion" is the common error this chapter exists to correct.
 
+Placed against the previous chapter, a pattern emerges: Doubling is maximum coordination, the bass locked to the upper voice's exact contour and rhythm. Contrary Motion is also tightly coordinated, just aimed at the opposite outcome — a deliberate, disciplined mirror rather than a copy. Independence sits between them as the absence of any such lock at all, which is why it's the loosest of the three to define and the easiest to mistake for whichever of its neighbors happens to come to mind first.
+
 ## The Microscope
 
 Both panels share the identical right-hand line: a smooth, ascending quarter-note figure. Only the relationship between the two staves changes.
