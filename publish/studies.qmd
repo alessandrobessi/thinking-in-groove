@@ -42,7 +42,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Change of Pace](chapters/part-2-harmonic-motion/17-harmonic-rhythm-who-decides-when-the-chord-changes.md#the-music) | Jazz-funk | Bass strategy shifts exactly when the chord-change rate does, in Eb major |
 | [By the Book](chapters/part-4-integration/27-the-layer-stack-role-motion-and-groove-at-once.md#the-music) | Jazz-funk | Eight bars, eight distinct, traceable design decisions, in D natural minor |
 | [Held Ground](chapters/part-4-integration/static-funk-vamp.md#the-music) | Funk | One held chord sustained by repetition, mutation, and space |
-| [Four Destinations](chapters/part-4-integration/functional-jazz-progression.md#the-music) | Jazz | Every chord arrival voice-led from the note before it, in E major |
+| [Four Destinations](chapters/part-4-integration/functional-jazz-progression.md#the-music) | Jazz | Every chord arrival voice-led from the note before it, in E major, swung |
 | [Fixed Point](chapters/part-4-integration/fusion-ostinato.md#the-music) | Fusion | A fixed two-note ostinato reinterpreted by seven bars of moving harmony, in E natural minor |
 | [Slow Descent](chapters/part-4-integration/ballad-and-inversion-study.md#the-music) | Ballad | A falling bass line built entirely from chord inversions, in B natural minor |
 | [Long Horizon](#long-horizon-study) | 6/8 fusion | Compound-meter cell and a ten-bar phrase |

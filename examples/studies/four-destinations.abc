@@ -11,5 +11,5 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "F#m7"[^fa^c']8 | "B7"[^fb^d']8 | "Emaj7"[e^gb]8 | "C#m7"[e^g^c']8 |
 "F#m7"[^fa^c']8 | "B7"[^fb^d']8 | "Emaj7"[e^gb]8 | "C#m7"[e^g^c']8 |]
-[V:LH] "^ground"^F,,8 | "^approach"A,,2 ^A,,2 B,,4 | "^approach"^D,4 E,,4 | "^approach"^D,4 ^C,4 |
-"^enclose"^G,,2 F,,2 ^F,,4 | "^connect"^F,,2 ^G,,2 A,,2 B,,2 | "^approach"^D,4 E,,4 | "^resolve"^C,8 |]
+[V:LH] "^ground"^F,,8 | "^approach"A,,>^A,, B,,4 | "^approach"^D,>E,, | "^approach"^D,>^C, |
+"^enclose"^G,,>F,, ^F,,4 | "^connect"^F,,>^G,, A,,>B,, | "^approach"^D,>E,, | "^resolve"^C,8 |]
