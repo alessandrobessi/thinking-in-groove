@@ -114,14 +114,14 @@ Keep every pitch and rhythm identical. Add a new chord symbol under bar 4's fina
 
 ## The Music
 
-"Even Ground" is an original eight-bar jazz study built almost entirely from stepwise motion, even as the harmony itself moves through a I-vi-ii-V in Eb major, each chord voiced as a full ninth chord.
+"Even Ground" is an original eight-bar jazz study, swung throughout, built almost entirely from stepwise motion, even as the harmony itself moves through a I-vi-ii-V in Eb major, each chord voiced as a full ninth chord.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="even-ground-study">
   <p class="abc-caption"><strong>Even Ground.</strong> A continuously stepwise bass line under a moving, richly voiced progression.</p>
-  <p class="abc-description">An eight-bar jazz study in Eb major — Ebmaj9, Cm9, Fm9, and Bb9 — connected almost entirely by adjacent motion.</p>
+  <p class="abc-description">A swung eight-bar jazz study in Eb major — Ebmaj9, Cm9, Fm9, and Bb9 — connected almost entirely by adjacent motion.</p>
   <pre class="abc-source">X:1
 T:Even Ground
 C:Alessandro Bessi
@@ -135,8 +135,8 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Ebmaj9"[_eg_bd'f']8 | "Ebmaj9"[_eg_bd'f']8 | "Cm9"[c_eg_bd']8 | "Cm9"[c_eg_bd']8 |
 "Fm9"[f_ac'_e'g']8 | "Fm9"[f_ac'_e'g']8 | "Bb9"[_bd'f'_a'c'']8 | "Bb9"[_bd'f'_a'c'']8 |]
-[V:LH] "^step"_E,2 F,2 G,2 _A,2 | "^step"G,2 F,2 _E,2 F,2 | "^step"G,2 _A,2 _B,2 C2 | "^step"_B,2 _A,2 G,2 _A,2 |
-"^step"_B,2 C2 D2 _E2 | "^step"D2 C2 _B,2 _A,2 | "^step"_B,2 C2 D2 _E2 | "^step: settle"F2 _E2 D2 _B,2 |]</pre>
+[V:LH] "^step"_E,2 F,2 G,>A, | "^step"G,2 F,2 _E,>F, | "^step"G,2 _A,2 _B,>C | "^step"_B,2 _A,2 G,>A, |
+"^step"_B,2 C2 D>E | "^step"D2 C2 _B,>A, | "^step"_B,2 C2 D>E | "^step: settle"F2 _E2 D>B, |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

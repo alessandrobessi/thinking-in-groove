@@ -15,7 +15,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Wide Shoulders](chapters/part-1-role/07-the-voice-leader.md#the-music) | Jazz-funk | Deliberate simplicity beneath an active upper layer |
 | [Open Channel](chapters/part-1-role/08-the-commentator.md#the-music) | Funk | Bass participation in an audible exchange |
 | [Low Tide](chapters/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md#the-music) | Funk | Staying on one chord, then finally leaving it |
-| [Even Ground](chapters/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md#the-music) | Jazz | A continuously stepwise line under a moving Eb major ninth-chord progression |
+| [Even Ground](chapters/part-2-harmonic-motion/10-root-motion-the-bass-line-as-harmonic-skeleton.md#the-music) | Jazz | A continuously stepwise line under a moving Eb major ninth-chord progression, swung |
 | [Encircle](chapters/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md#the-music) | Jazz | Every arrival framed by an enclosure first, in E major |
 | [Full Outline](chapters/part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md#the-music) | Jazz | Ascending and descending arpeggios over an Ab major progression |
 | [Reach and Return](chapters/part-2-harmonic-motion/leaping.md#the-music) | Fusion | Leaps deliberately followed by a settled recovery, in A major |
