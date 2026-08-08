@@ -112,7 +112,7 @@ Add one bass note to each bar of “Hold the Center.” Every added note must so
 
 ## The Music
 
-“Wide Shoulders” is an original eight-bar jazz-funk study. The right hand carries continuous syncopated motion while the bass uses roots, long durations, and one two-chord handoff to keep the form clear.
+“Wide Shoulders” is an original eight-bar jazz-funk study. The right hand carries continuous syncopated motion while the bass uses roots, long durations, and one swung two-chord handoff to keep the form clear.
 
 :::{.content-hidden when-format="epub"}
 
@@ -132,7 +132,7 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Cmaj9"z1 [EGBd]2 z1 [EGBd]1 z1 [EGBd]2 | "Am9"[CEGB]1 z1 [CEGB]2 z2 [CEGB]1 z1 | "Dm9"z1 [FAce]2 z1 [FAce]1 z1 [FAce]2 | "G13"[FABe]1 z1 [FABe]2 z2 [FABe]1 z1 | "Cmaj9"z1 [EGBd]2 z1 [EGBd]1 z1 [EGBd]2 | "Fmaj9"[EGAc]1 z1 [EGAc]2 z2 [EGAc]1 z1 | "Dm9"z1 [FAce]2 z1 "G13"[FABe]2 z2 | "Cmaj9"[EGBd]1 z1 [EGBd]2 z1 [EGBd]3 |]
-[V:LH] "^support the foreground"C,8 | A,,8 | D,8 | G,,8 | C,8 | F,,8 | "^clarify two chords"D,4 G,,4 | "^settle"C,8 |]</pre>
+[V:LH] "^support the foreground"C,8 | A,,8 | D,8 | G,,8 | C,8 | F,,8 | "^clarify two chords"D,>G,, | "^settle"C,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
