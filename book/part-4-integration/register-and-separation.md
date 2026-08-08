@@ -119,7 +119,7 @@ Take "Widen the Gap" and bring the right-hand voicing down only a fourth or fift
 ```{=html}
 <div class="score-example" id="elbow-room-study">
   <p class="abc-caption"><strong>Elbow Room.</strong> Constant density throughout; only the vertical gap moves.</p>
-  <p class="abc-description">An eight-bar jazz-funk study over Cmaj7, Am7, Dm7, and G7, widening and then collapsing the register gap before restoring it in the final bar.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in F major over Fmaj7, Dm7, Gm7, and C7, widening and then collapsing the register gap before restoring it in the final bar.</p>
   <pre class="abc-source">X:1
 T:Elbow Room
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=88
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
-"Cmaj7"[C,EG]8 | "Am7"[A,CE]8 | "Dm7"[D,FA]8 | "G7"[gbd]8 |]
-[V:LH] "^separated"C,,8 | "^separated"A,,8 | "^separated"D,,8 | "^separated"G,,8 |
-"^muddy"C,,8 | "^muddy"A,,8 | "^muddy"D,,8 | "^resolve"G,,8 |]</pre>
+[V:RH] "Fmaj7"[fac']8 | "Dm7"[fad']8 | "Gm7"[g_bd']8 | "C7"[gc'e']8 |
+"Fmaj7"[F,Ac]8 | "Dm7"[DFA]8 | "Gm7"[G,_Bd]8 | "C7"[gc'e']8 |]
+[V:LH] "^separated"F,,8 | "^separated"D,8 | "^separated"G,,8 | "^separated"C,8 |
+"^muddy"F,,8 | "^muddy"D,8 | "^muddy"G,,8 | "^resolve"C,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
