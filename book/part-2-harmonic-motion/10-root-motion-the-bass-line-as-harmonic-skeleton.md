@@ -12,6 +12,8 @@ What makes a bass line sound smooth rather than jumpy, independent of where it e
 
 That distinction matters because Stepping is easy to confuse with Connecting Chords (Chapter 15). A stepwise line can simply wander within one unchanging harmony, going nowhere in particular — that's Stepping on its own. The moment those same steps are aimed specifically at landing on the next chord's root as the harmony changes, the line is doing something more specific: it's Connecting Chords. Every Connecting Chords route may use steps, but not every stepwise line is connecting anything.
 
+Adjacent motion reads as smooth for a simple reason: each step asks the ear to recalibrate by the smallest possible amount, one scale degree at a time, rather than reorienting around a large jump. That's a statement about how a line *feels* moment to moment, and it holds regardless of whether the line is going anywhere in particular — which is precisely why a listener's instinct to hear purpose in a smooth line (surely it's heading somewhere) is worth resisting. Panel A is proof that smoothness and destination are independent variables; a line can have one without the other. The next chapter adds destination back in deliberately: Approaching takes this same adjacent motion and aims it, on purpose, at a specific target one step away.
+
 ## The Microscope
 
 The bass plays the same three ascending steps both times. Only whether the harmony moves to meet them changes.
