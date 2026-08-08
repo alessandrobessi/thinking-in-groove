@@ -112,14 +112,14 @@ Reverse the order of the two neighbour notes in each enclosure (lower neighbour 
 
 ## The Music
 
-"Encircle" is an original eight-bar jazz study that uses an enclosure to introduce each new chord's root.
+"Encircle" is an original eight-bar jazz study in E major that uses an enclosure to introduce each new chord's root.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="encircle-study">
   <p class="abc-caption"><strong>Encircle.</strong> Every new chord root in this study is framed by its own enclosure first.</p>
-  <p class="abc-description">An eight-bar jazz study moving through Cmaj7, Am7, Dm7, and G7, each arrival enclosed.</p>
+  <p class="abc-description">An eight-bar jazz study in E major moving through Emaj7, C#m7, F#m7, and B7, each arrival enclosed.</p>
   <pre class="abc-source">X:1
 T:Encircle
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=96
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
-"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
-[V:LH] "^stay"C,8 | "^enclose"C,4 _B,2 ^G,2 | "^arrive"A,8 | "^stay"A,8 |
-"^enclose"A,4 _E,2 ^C,2 | "^arrive"D,8 | "^enclose"D,4 _A,2 ^F,2 | "^arrive"G,8 |]</pre>
+[V:RH] "Emaj7"[E^GB^d]8 | "Emaj7"[E^GB^d]8 | "C#m7"[^CE^GB]8 | "C#m7"[^CE^GB]8 |
+"F#m7"[^FA^ce]8 | "F#m7"[^FA^ce]8 | "B7"[B^d^fa]8 | "B7"[B^d^fa]8 |]
+[V:LH] "^stay"E,8 | "^enclose"E,4 D,2 C,2 | "^arrive"^C,8 | "^stay"^C,8 |
+"^enclose"^C,4 G,2 F,2 | "^arrive"^F,8 | "^enclose"^F,4 C,2 _B,2 | "^arrive"B,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
