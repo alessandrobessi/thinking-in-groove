@@ -86,29 +86,29 @@ Take "Name the Route" and change only bar 2's contour from stepwise wandering to
 
 ## The Music
 
-"Complete the Map" is an original eight-bar fusion study in B major that puts all eight Part II terms into one phrase, in the order this Part introduced them.
+"Complete the Map" is an original eight-bar fusion study in B major, in 7/8, that puts all eight Part II terms into one phrase, in the order this Part introduced them.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="complete-the-map-study">
   <p class="abc-caption"><strong>Complete the Map.</strong> Every term from this Part, once each, across eight bars.</p>
-  <p class="abc-description">An eight-bar fusion study in B major: Staying, Approaching, Stepping, Enclosing, Arpeggiating, Leaping, Connecting Chords, and Contrary Motion, in sequence.</p>
+  <p class="abc-description">An eight-bar fusion study in B major, in 7/8: Staying, Approaching, Stepping, Enclosing, Arpeggiating, Leaping, Connecting Chords, and Contrary Motion, in sequence.</p>
   <pre class="abc-source">X:1
 T:Complete the Map
 C:Alessandro Bessi
 R:Fusion study
-M:4/4
+M:7/8
 L:1/8
-Q:1/4=100
+Q:1/8=200
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Bmaj7"[B^d^f^a]8 | "Bmaj7"[B^d^f^a]8 | "G#m7"[B^d^f^g]8 | "G#m7"[B^d^f^g]8 |
-"C#m7"[B^ce^g]8 | "C#m7"[B^ce^g]8 | "F#7"[^ce^f^a]8 | "F#7"z2 b2 ^a2 ^g2 |]
-[V:LH] "^stay"B,8 | "^approach"B,6 G2 | "^step"^G2 ^A2 b2 ^A2 | "^enclose"^G4 D2 C2 |
-"^arpeggio"^C2 E2 ^G2 b2 | "^leap"^C4 ^A2 ^G2 | "^connect"^F2 ^G2 ^A2 b2 | "^contrary"^C2 ^D2 E2 ^F2 |]</pre>
+[V:RH] "Bmaj7"[B^d^f^a]7 | "Bmaj7"[B^d^f^a]7 | "G#m7"[B^d^f^g]7 | "G#m7"[B^d^f^g]7 |
+"C#m7"[B^ce^g]7 | "C#m7"[B^ce^g]7 | "F#7"[^ce^f^a]7 | "F#7"z2 b2 ^a2 ^g1 |]
+[V:LH] "^stay"B,7 | "^approach"B,5 G2 | "^step"^G2 ^A2 b2 ^A1 | "^enclose"^G3 D2 C2 |
+"^arpeggio"^C2 E2 ^G2 b1 | "^leap"^C3 ^A2 ^G2 | "^connect"^F2 ^G2 ^A2 b1 | "^contrary"^C2 ^D2 E2 ^F1 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
