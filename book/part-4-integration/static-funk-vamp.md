@@ -12,6 +12,8 @@ A **Static Funk Vamp** is the genre case where Harmonic Rhythm is about as slow 
 
 This is the Design Algorithm from the previous chapter applied to a specific, common situation, and it reveals something the algorithm doesn't say outright: which of its five layers actually matters is different depending on the harmony you're given. Over static harmony, Role and Motion do very little work; Groove does almost all of it. A static vamp built from a cell that never changes at all reads as dead, no matter how funky the cell is on its first playing. The same cell, repeated with a deliberate substitution partway through and a bar of silence before its final return, reads as alive — using the identical harmonic material throughout.
 
+Role and Motion both depend on there being more than one harmonic destination to choose between — a Role is a job relative to *this* chord, a Motion is a route toward the *next* one. With only one chord in play for eight bars, both collapse to essentially the same trivial answer every time, which is exactly why they stop being useful design levers here. Groove inherits the entire remaining design space by default, not by any special virtue of its own. The next chapter studies the mirror-image situation, where the harmony moves so often that Motion and Role reclaim most of that space and Groove becomes comparatively uniform instead.
+
 ## The Microscope
 
 Both panels sit over the same held Am7, for the same four bars, with the same rhythmic cell. Only whether that cell ever changes differs.
