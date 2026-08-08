@@ -19,7 +19,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Encircle](chapters/part-2-harmonic-motion/14-substituted-root-implying-a-different-chord.md#the-music) | Jazz | Every arrival framed by an enclosure first, in E major |
 | [Full Outline](chapters/part-2-harmonic-motion/15-deceptive-motion-the-expected-turn-that-isnt.md#the-music) | Jazz | Ascending and descending arpeggios over an Ab major progression |
 | [Reach and Return](chapters/part-2-harmonic-motion/leaping.md#the-music) | Fusion | Leaps deliberately followed by a settled recovery, in A major |
-| [Complete the Map](chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md#the-music) | Fusion | All eight Motion terms in one phrase |
+| [Complete the Map](chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md#the-music) | Fusion | All eight Motion terms in one phrase, in B major |
 | [Common Thread](chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md#the-music) | Jazz | Connecting fixed destinations through a Bb major ii-V-I-vi |
 | [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Chromatic approaches into a G major I-vi-ii-V cycle |
 | [Crossing Lines](chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md#the-music) | Fusion | Contrary motion between outer voices, in D major |

@@ -84,14 +84,14 @@ Take "Name the Route" and change only bar 2's contour from stepwise wandering to
 
 ## The Music
 
-"Complete the Map" is an original eight-bar fusion study that puts all eight Part II terms into one phrase, in the order this Part introduced them.
+"Complete the Map" is an original eight-bar fusion study in B major that puts all eight Part II terms into one phrase, in the order this Part introduced them.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="complete-the-map-study">
   <p class="abc-caption"><strong>Complete the Map.</strong> Every term from this Part, once each, across eight bars.</p>
-  <p class="abc-description">An eight-bar fusion study: Staying, Approaching, Stepping, Enclosing, Arpeggiating, Leaping, Connecting Chords, and Contrary Motion, in sequence.</p>
+  <p class="abc-description">An eight-bar fusion study in B major: Staying, Approaching, Stepping, Enclosing, Arpeggiating, Leaping, Connecting Chords, and Contrary Motion, in sequence.</p>
   <pre class="abc-source">X:1
 T:Complete the Map
 C:Alessandro Bessi
@@ -103,10 +103,10 @@ Q:1/4=100
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
-"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"z2 c2 B2 A2 |]
-[V:LH] "^stay"C,8 | "^approach"C,6 ^G,2 | "^step"A,2 B,2 c2 B,2 | "^enclose"A,4 _E,2 ^C,2 |
-"^arpeggio"D,2 F,2 A,2 c2 | "^leap"D,4 B,2 A,2 | "^connect"G,2 A,2 B,2 c2 | "^contrary"D,2 E,2 F,2 G,2 |]</pre>
+[V:RH] "Bmaj7"[B^d^f^a]8 | "Bmaj7"[B^d^f^a]8 | "G#m7"[B^d^f^g]8 | "G#m7"[B^d^f^g]8 |
+"C#m7"[B^ce^g]8 | "C#m7"[B^ce^g]8 | "F#7"[^ce^f^a]8 | "F#7"z2 b2 ^a2 ^g2 |]
+[V:LH] "^stay"B,8 | "^approach"B,6 G2 | "^step"^G2 ^A2 b2 ^A2 | "^enclose"^G4 D2 C2 |
+"^arpeggio"^C2 E2 ^G2 b2 | "^leap"^C4 ^A2 ^G2 | "^connect"^F2 ^G2 ^A2 b2 | "^contrary"^C2 ^D2 E2 ^F2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
