@@ -12,6 +12,8 @@ How much can you change about a groove before it stops being recognizably the sa
 
 Change more than one parameter at once — rhythm and register and pitch together — and the result stops reading as a variation. It becomes a new cell, indistinguishable in kind from just switching grooves outright. That's the "collapse" in the term's name: not that anything breaks technically, but that the identity the cell was carrying doesn't survive the accumulation of changes.
 
+The one-parameter rule isn't arbitrary caution — it's about how much redundancy a listener's recognition needs. A cell's identity is carried by several cues at once: its rhythm, its register, its contour, its specific pitches. Changing one of those cues still leaves the rest intact for the ear to anchor on, which is why Panel A still reads as "the same cell" even though something audibly moved. Changing several at once removes multiple anchors simultaneously, faster than recognition can keep up, and there's nothing left to confirm the identity against. This chapter operates bar to bar; the next asks the same question at a larger scale — how much a groove's behavior can shift across a two-, four-, or eight-bar span and still read as one coherent phrase rather than several unrelated ones.
+
 ## The Microscope
 
 Both bars start from the identical cell. Only how much changes in bar 2 differs.
