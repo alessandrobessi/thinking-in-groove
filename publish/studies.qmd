@@ -31,7 +31,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Early Light](chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md#the-music) | Jazz | Root anticipations across chord boundaries, in Gb major, swung |
 | [Riff Atom](chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md#the-music) | Funk | One rhythmic cell carried through a C minor turnaround |
 | [Same Bones](chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md#the-music) | Jazz-funk | One cell varied by a single parameter at a time, in G minor |
-| [Long Breath](chapters/part-3-groove/phrase-rhythm.md#the-music) | Jazz | A deliberate density arc across eight bars, in Eb major |
+| [Long Breath](chapters/part-3-groove/phrase-rhythm.md#the-music) | Jazz | A deliberate density arc across eight bars, in Eb major, swung |
 | [What the Page Can't Say](chapters/part-3-groove/performed-feel.md#the-music) | Jazz-funk | Closes Part III on notation's honest limits, in Bb major |
 | [Long Shadow](chapters/part-4-integration/doubling.md#the-music) | Jazz-fusion | A doubled hook releasing into independence, through a whole-step modulation and back |
 | [Loose Thread](chapters/part-4-integration/independence.md#the-music) | Jazz-funk | A syncopated bass contour unlocked from the melody above, in G major |

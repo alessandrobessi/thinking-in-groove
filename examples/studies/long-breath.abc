@@ -11,5 +11,5 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Ebmaj7"[_EG_Bd]8 | "Ebmaj7"[_EG_Bd]8 | "Cm7"[_EG_Bc]8 | "Cm7"[_EG_Bc]8 |
 "Fm7"[_EF_Ac]8 | "Fm7"[_EF_Ac]8 | "Bb7"[F_A_Bd]8 | "Bb7"[F_A_Bd]8 |]
-[V:LH] "^sparse"_E,8 | "^sparse"_E,8 | "^moderate"C2 z2 C2 C2 | "^moderate"C2 z2 C2 C2 |
-"^busy"F,2 G,2 _A,2 G,2 | "^busy"F,2 G,2 _A,2 _B,2 | "^climax"_B,1 C1 D1 _e1 f1 _e1 D1 C1 | "^release"_B,8 |]
+[V:LH] "^sparse"_E,8 | "^sparse"_E,8 | "^moderate"C2 z2 C>C | "^moderate"C2 z2 C>C |
+"^busy"F,2 G,2 _A,>G, | "^busy"F,2 G,2 _A,>_B, | "^climax"_B,>C D>_e f>_e D>C | "^release"_B,8 |]
