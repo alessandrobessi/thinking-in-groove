@@ -112,14 +112,14 @@ Replace each bar's step-down recovery with a step *up* instead (in the same dire
 
 ## The Music
 
-"Reach and Return" is an original eight-bar fusion study alternating leaps with held recoveries across four chords.
+"Reach and Return" is an original eight-bar fusion study in A major, alternating leaps with held recoveries across four chords.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="reach-and-return-study">
   <p class="abc-caption"><strong>Reach and Return.</strong> Each leap is followed by a settled, held recovery before the next chord.</p>
-  <p class="abc-description">An eight-bar fusion study: four leap-and-settle gestures across Cmaj7, Am7, Dm7, and G7.</p>
+  <p class="abc-description">An eight-bar fusion study in A major: four leap-and-settle gestures across Amaj7, F#m7, Bm7, and E7.</p>
   <pre class="abc-source">X:1
 T:Reach and Return
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=96
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
-"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
-[V:LH] "^leap"C,4 A,2 G,2 | "^stay"G,4 z4 | "^leap"A,4 F2 E2 | "^stay"E2 z2 D2 z2 |
-"^leap"D,4 B,2 A,2 | "^stay"A,4 z4 | "^leap"G,4 E2 D2 | "^settle"G,8 |]</pre>
+[V:RH] "Amaj7"[A^ce^g]8 | "Amaj7"[A^ce^g]8 | "F#m7"[A^ce^f]8 | "F#m7"[A^ce^f]8 |
+"Bm7"[ABd^f]8 | "Bm7"[ABd^f]8 | "E7"[Bde^g]8 | "E7"[Bde^g]8 |]
+[V:LH] "^leap"A,4 ^F2 E2 | "^stay"E4 z4 | "^leap"^F4 d2 ^c2 | "^stay"^c2 z2 B2 z2 |
+"^leap"B,4 ^G2 ^F2 | "^stay"^F4 z4 | "^leap"E4 ^c2 B2 | "^settle"E8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
