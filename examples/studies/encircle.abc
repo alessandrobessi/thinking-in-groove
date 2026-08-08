@@ -11,5 +11,5 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Emaj7"[E^GB^d]8 | "Emaj7"[E^GB^d]8 | "C#m7"[E^GB^c]8 | "C#m7"[E^GB^c]8 |
 "F#m7"[E^FA^c]8 | "F#m7"[E^FA^c]8 | "B7"[^FAB^d]8 | "B7"[^FAB^d]8 |]
-[V:LH] "^stay"E,8 | "^enclose"E,4 D2 C2 | "^arrive"^C8 | "^stay"^C8 |
-"^enclose"^C4 G,2 F,2 | "^arrive"^F,8 | "^enclose"^F,4 C2 ^A,2 | "^arrive"B,8 |]
+[V:LH] "^stay"E,8 | "^enclose"E,4 D>C | "^arrive"^C8 | "^stay"^C8 |
+"^enclose"^C4 G,>F, | "^arrive"^F,8 | "^enclose"^F,4 C>^A, | "^arrive"B,8 |]
