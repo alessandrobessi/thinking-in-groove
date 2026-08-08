@@ -19,6 +19,8 @@ Every earlier chapter in this book isolated one question at a time: what job is 
 
 A bass line produced this way is traceable: point at any note and you can name the Role, Motion, Groove, and Interaction choice that put it there. That traceability is the entire value of the algorithm — not that it produces a single correct answer (it doesn't; two players can walk every step and land on different, equally valid lines), but that it guarantees every note was actually decided rather than defaulted into.
 
+The order isn't arbitrary. Harmonic rhythm comes first because it decides which Roles and Motions are even viable before either gets chosen — Chapter 34 spent its entire length on exactly this constraint. Role comes before Motion for the same reason Chapter 15 insisted on destinations before routes: you can't design how the bass travels until you know what it's traveling between. Motion comes before Groove because Groove is asking a question — when, precisely, does each note land — that only makes sense once the notes it's placing already exist. Interaction comes last because it's fundamentally comparative: it can only be evaluated by holding the finished bass line up against a harmony layer that already has its own settled identity.
+
 ## The Microscope
 
 Both panels sit over the identical harmony. Only whether the bass line is traceable to a decision changes.
