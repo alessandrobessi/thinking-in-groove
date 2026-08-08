@@ -114,27 +114,27 @@ Keep every chord and the entire right hand unchanged. Replace only one bass inve
 
 ## The Music
 
-“Crossing Lines” is an original eight-bar fusion study in D major. The first phrase opens as the upper voice rises and the bass falls; the second closes as those directions reverse. A repeated short–long chord rhythm gives the two contours a shared pulse.
+“Crossing Lines” is an original eight-bar fusion study in D major, in 7/8. The first phrase opens as the upper voice rises and the bass falls; the second closes as those directions reverse. A repeated short–long chord rhythm gives the two contours a shared pulse.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="crossing-lines-study">
   <p class="abc-caption"><strong>Crossing Lines.</strong> Opposing contours shape two four-bar phrases.</p>
-  <p class="abc-description">An eight-bar fusion miniature in D major with syncopated piano voicings and monophonic chord-tone bass.</p>
+  <p class="abc-description">An eight-bar fusion miniature in D major, in 7/8, with syncopated piano voicings and monophonic chord-tone bass.</p>
   <pre class="abc-source">X:1
 T:Crossing Lines
 C:Alessandro Bessi
 R:Fusion study
-M:4/4
+M:7/8
 L:1/8
-Q:1/4=92
+Q:1/8=184
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Dmaj7/F#"[^FA^c]3 z1 [^FA^c]2 z2 | "Bm7/D"[^FABd]3 z1 [^FABd]2 z2 | "Em7/B"[GBe]3 z1 [GBe]2 z2 | "A7"[EG^cg]3 z1 [EG^cg]2 z2 | "Gmaj7"[GBd^f]3 z1 [GBd^f]2 z2 | "A7"[GA^ce]3 z1 [GA^ce]2 z2 | "Bm7"[^FABd]3 z1 [^FABd]2 z2 | "A7/C#"[EGA^c]3 z1 [EGA^c]2 z2 |]
-[V:LH] "^open: bass falls"^F,2 z2 ^F,2 ^F,2 | D,2 z2 D,2 D,2 | B,,2 z2 B,,2 B,,2 | A,,2 z2 A,,2 A,,2 | "^close: bass rises"G,,2 z2 G,,2 G,,2 | A,,2 z2 A,,2 A,,2 | B,,2 z2 B,,2 B,,2 | ^C,2 z2 ^C,2 ^C,2 |]</pre>
+[V:RH] "Dmaj7/F#"[^FA^c]3 z1 [^FA^c]2 z1 | "Bm7/D"[^FABd]3 z1 [^FABd]2 z1 | "Em7/B"[GBe]3 z1 [GBe]2 z1 | "A7"[EG^cg]3 z1 [EG^cg]2 z1 | "Gmaj7"[GBd^f]3 z1 [GBd^f]2 z1 | "A7"[GA^ce]3 z1 [GA^ce]2 z1 | "Bm7"[^FABd]3 z1 [^FABd]2 z1 | "A7/C#"[EGA^c]3 z1 [EGA^c]2 z1 |]
+[V:LH] "^open: bass falls"^F,2 z1 ^F,2 ^F,2 | D,2 z1 D,2 D,2 | B,,2 z1 B,,2 B,,2 | A,,2 z1 A,,2 A,,2 | "^close: bass rises"G,,2 z1 G,,2 G,,2 | A,,2 z1 A,,2 A,,2 | B,,2 z1 B,,2 B,,2 | ^C,2 z1 ^C,2 ^C,2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
