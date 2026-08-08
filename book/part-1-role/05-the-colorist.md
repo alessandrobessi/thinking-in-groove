@@ -12,6 +12,10 @@ A **Reframer** places a bass note beneath an upper structure and changes the har
 
 This differs from an inversion. An inversion reorganizes one chord by placing one of its chord tones in the bass. Reframing can make the combined notes belong to a differently named harmony whose root is supplied from below.
 
+Reframing works this reliably because the ear defaults to treating the lowest sounding pitch as the likely root unless the upper structure actively resists that reading. C–E–G contains no evidence against A being its root — A, C, and E are simply the three lower notes of an A-minor-seventh chord missing its fifth — so the bass's claim goes unchallenged and the whole sonority reorganizes around it. This is also exactly why the boundary with inversion matters and isn't pedantic: E under C–E–G doesn't reframe anything, because E is already a member of C major itself; the bass is just choosing which of the existing chord's own tones to stand on, not proposing a different chord altogether. The test is always the same — does the new bass note belong to some other plausible chord that explains the upper notes, or does it belong to the chord that was already there?
+
+The common error is hearing any new, unexpected bass note as a reframe simply because it surprises the ear. G beneath C–E–G is a real change — the exercise below labels it "inversion, not reframe" for a reason — but it's the same C-major triad in second inversion, not a new harmonic identity; only A and F actually supply a root the upper notes didn't already have. Every chapter in this Part so far has asked what a single bass note's relationship to a fixed harmony means; the next chapter asks a different kind of question entirely — not what one note means, but what repeating a bass idea does to a phrase's momentum.
+
 ## The Microscope
 
 The right-hand pitches, register, duration, tempo, and dynamics are identical. Only the bass changes. A places C below C–E–G; B places A below it.
@@ -137,4 +141,4 @@ K:C
 
 ## Reflection
 
-In “Borrowed Ceiling,” which bass notes create a newly rooted harmony, and which merely invert C major? What evidence do you hear in the unchanged right hand?
+In "Borrowed Ceiling," which bass notes create a newly rooted harmony, and which merely invert C major? What evidence do you hear in the unchanged right hand? The right-hand shape never once changes across all eight bars — every bit of harmonic variety in the piece comes from the bass alone. Is that division of labor efficient, or does it reveal a limit on how much a single fixed shape can actually be reframed before the ear starts hearing the same three notes no matter what's underneath them?
