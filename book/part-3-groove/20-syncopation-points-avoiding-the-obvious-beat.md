@@ -10,7 +10,9 @@ How can a bass attack on a weak subdivision make the following strong beat feel 
 
 **Syncopation** creates metrical tension by emphasizing a weak position where a stronger one is expected. Common forms include offbeat attacks, ties across beats, emphasis on weak beats, and delayed return to a stable metrical position.
 
-Attack placement tells us *where* a note begins. Syncopation describes what that placement does against the meter. An isolated offbeat is not automatically compelling; it becomes syncopated when a clear pulse makes the avoided strong beat audible. This is written rhythm, not simulated microtiming or pocket.
+Attack placement tells us *where* a note begins. Syncopation describes what that placement does against the meter. An isolated offbeat is not automatically compelling; it becomes syncopated when a clear pulse makes the avoided strong beat audible. This is written rhythm, not simulated microtiming or pocket. This is also the expectation Chapter 19 deliberately left unestablished — attack placement alone was just an address on the grid; here, a steady pulse gives that address something specific to contest.
+
+The tie is doing more work than it might look like. An attack that simply lands on an offbeat and stops leaves the strong beat that follows genuinely silent — avoided, but not actively denied. A tie carries the offbeat's sound *through* the strong beat, so the meter doesn't just go unconfirmed, it gets contradicted by a note that's still audibly ringing from the "wrong" position. That's a stronger, more specific claim than mere avoidance, which is exactly what the Vary exercise below isolates: cut the tie and the tension changes character, because the strong beat is merely skipped rather than actively contested.
 
 ## The Microscope
 
