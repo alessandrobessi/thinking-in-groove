@@ -112,27 +112,27 @@ Keep the entire right hand unchanged and replace the C pedal with G. Which upper
 
 ## The Music
 
-“Fixed Star” is an original eight-bar fusion study. A repeated low C anchors two four-bar harmonic journeys; the second introduces A-flat major above the pedal, increasing tension before the final return.
+“Fixed Star” is an original eight-bar fusion study in 7/8. A repeated low C anchors two four-bar harmonic journeys; the second introduces A-flat major above the pedal, increasing tension before the final return.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="fixed-star-study">
   <p class="abc-caption"><strong>Fixed Star.</strong> Changing upper structures orbit one repeated bass pitch.</p>
-  <p class="abc-description">An eight-bar fusion pedal-point study with compact syncopated harmony and monophonic bass.</p>
+  <p class="abc-description">An eight-bar fusion pedal-point study in 7/8 with compact syncopated harmony and monophonic bass.</p>
   <pre class="abc-source">X:1
 T:Fixed Star
 C:Alessandro Bessi
 R:Fusion pedal-point study
-M:4/4
+M:7/8
 L:1/8
-Q:1/4=88
+Q:1/8=176
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj9"[EGBd]6 z2 | "Fmaj7/C"z2 [EFAc]4 z2 | "G7/C"[DFGB]6 z2 | "Cmaj9"z2 [EGBd]4 z2 | "Abmaj7/C"[_Ac_eg]6 z2 | "Fmaj7/C"z2 [EFAc]4 z2 | "G7/C"[DFGB]6 z2 | "Cmaj9"[EGBd]8 |]
-[V:LH] "^repeat the pedal"C,2 z2 C,2 C,2 | C,2 z2 C,2 C,2 | C,2 z2 C,2 C,2 | C,2 z2 C,2 C,2 | "^upper tension"C,2 z2 C,2 C,2 | C,2 z2 C,2 C,2 | C,2 z2 C,2 C,2 | "^settle"C,8 |]</pre>
+[V:RH] "Cmaj9"[EGBd]5 z2 | "Fmaj7/C"z2 [EFAc]3 z2 | "G7/C"[DFGB]5 z2 | "Cmaj9"z2 [EGBd]3 z2 | "Abmaj7/C"[_Ac_eg]5 z2 | "Fmaj7/C"z2 [EFAc]3 z2 | "G7/C"[DFGB]5 z2 | "Cmaj9"[EGBd]7 |]
+[V:LH] "^repeat the pedal"C,2 z1 C,2 C,2 | C,2 z1 C,2 C,2 | C,2 z1 C,2 C,2 | C,2 z1 C,2 C,2 | "^upper tension"C,2 z1 C,2 C,2 | C,2 z1 C,2 C,2 | C,2 z1 C,2 C,2 | "^settle"C,7 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
