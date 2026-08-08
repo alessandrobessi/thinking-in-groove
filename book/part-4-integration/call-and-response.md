@@ -12,6 +12,8 @@ If the bass enters right after the right hand plays something, is that automatic
 
 This is easy to get wrong in two different directions. The last chapter named one of them: mistaking a slow, phrase-length call and response for Interlock, when the two staves take genuine turns rather than weaving together note by note. The other direction is just as common and lives inside this chapter's own boundary — calling it "response" when the bass enters while the right hand's chord is still ringing. If nothing has been vacated, there's no space to answer into; that's overlap, not response, and it's a different, more crowded texture with a different function.
 
+Chapter 8 raised this same question back in Part I, as a Role — is the bass maintaining its own job, or entering an exchange — and deferred the actual mechanics to this chapter once Part IV existed to hold them. The mechanics turn out to hinge entirely on silence as a signal of completion: a chord that's still ringing hasn't told the listener it's finished, so there's no genuine gap for a reply to occupy yet, no matter how long ago the bass technically started planning to enter. A response only registers as a response once the call has audibly finished making its statement.
+
 ## The Microscope
 
 Both panels open with a right-hand chord and a bass entrance shortly after it. Only the timing of that entrance changes.
