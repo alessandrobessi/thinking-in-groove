@@ -116,14 +116,14 @@ Preserve the right hand, rhythm, and contour. Change bar 3 from F to F-sharp. Na
 
 ## The Music
 
-“Blue Lantern” is an original eight-bar jazz study. Sparse root-and-fifth shapes leave selected thirds and sevenths to the bass, so quality emerges from the relationship between the staves.
+"Blue Lantern" is an original eight-bar jazz study, swung throughout. Sparse root-and-fifth shapes leave selected thirds and sevenths to the bass, so quality emerges from the relationship between the staves.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="blue-lantern-study">
   <p class="abc-caption"><strong>Blue Lantern.</strong> Defining tones appear at phrase openings; roots return before each harmonic departure.</p>
-  <p class="abc-description">An eight-bar jazz study with open right-hand structures and a monophonic, phrase-shaped bass line.</p>
+  <p class="abc-description">A swung eight-bar jazz study with open right-hand structures and a monophonic, phrase-shaped bass line.</p>
   <pre class="abc-source">X:1
 T:Blue Lantern
 C:Alessandro Bessi
@@ -137,8 +137,8 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Cm9/Eb"[CG_Bd]6 z2 | "Fm9/Ab"[Fc_eg]4 z2 [Fc_eg]2 | "Bb13/D"[_B,F_Ag]6 z2 [_B,F_Ag]2 | "Ebmaj9/G"[_E_Bf]4 z4 |
 "Am7b5/C"[A_EG]6 z2 | "D7/F#"[DAC]4 z2 [DAC]2 | "G7/F"[GDB]6 z2 | "Cm9"[C_EG_Bd]4 z2 [C_EG_Bd]2 |]
-[V:LH] "^minor third"_E,4 C,2 G,,2 | "^minor third"_A,4 F,2 C2 | "^major third"D,4 _B,,2 F,2 | "^major third"G,6 _E,2 |
-"^minor third"C,4 A,,2 E,2 | "^major third"^F,4 D,2 A,,2 | "^seventh: dominant"F,4 G,2 B,,2 | "^root: return"C,6 z2 |]</pre>
+[V:LH] "^minor third"_E,4 C,>G,, | "^minor third"_A,4 F,>C | "^major third"D,4 _B,,>F, | "^major third"G,6 _E,2 |
+"^minor third"C,4 A,,>E | "^major third"^F,4 D,>A,, | "^seventh: dominant"F,4 G,>B,, | "^root: return"C,6 z2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
