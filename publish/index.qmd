@@ -2,27 +2,28 @@
 
 **Hear why a bass line works—and design one deliberately.**
 
-After reading *Thinking in Groove*, you will hear low notes as choices about foundation, direction, time, and interaction, not as a collection of roots beneath chord symbols.
+After reading *Thinking in Groove*, you will hear low notes as choices about foundation, direction, time, interaction, and design, not as a collection of roots beneath chord symbols.
 
-> **Role → Motion → Groove → Interaction → Variation**
+> **Role → Motion → Groove → Interaction → Design**
 
 The piano is this book's analytical laboratory, not its technical goal. The left hand represents a realistic, monophonic bass line. The right hand supplies the harmony, pulse, space, and conversation that give the bass meaning. Chord symbols show the map; annotations identify only the decision under study.
 
 The format works for bassists, pianists, composers, arrangers, producers, and any musician who wants a practical model of bass-line construction. A bass player can practise the lower staff alone; two musicians can divide the staves; a producer can treat them as separate MIDI roles.
 
-## Begin the Role pilot
+## Start with Part I
 
-[Chapter 1, **The Ground**](chapters/part-1-role/01-the-ground.md) begins with the most direct responsibility: establishing the harmonic floor. **The Definer** then asks the bass to reveal chord quality, and **The Inverter** shows how one low note can reorganize an unchanged upper structure. Each chapter uses **Full**, **Bass only**, and **Harmony only** playback to prove its claim.
+[Chapter 1, **The Ground**](chapters/part-1-role/01-the-ground.md) begins with the most direct responsibility: establishing the harmonic floor. **The Definer** then asks the bass to reveal chord quality, and **The Inverter** shows how one low note can reorganize an unchanged upper structure. Every chapter in the book's forty — across Role, Motion, Groove, Interaction, and Design — uses the same **Full**, **Bass only**, and **Harmony only** playback to prove its claim, building from that first responsibility to a complete, original sixteen-bar composition in the closing chapter.
 
 ## Choose a path
 
 - **New to bass-line design:** begin with Part I and ask what responsibility the bass has.
-- **Studying harmony:** hear how inversions and routes reorganize chords.
-- **Studying groove:** separate written attack, duration, and space from performed microtiming.
-- **Composing or arranging:** follow the complete design sequence from Role through Variation.
+- **Studying harmony:** hear how inversions and routes reorganize chords in Part II.
+- **Studying groove:** separate written attack, duration, and space from performed microtiming in Part III.
+- **Arranging for two parts:** see how a bass line doubles, answers, or deliberately ignores what's above it in Part IV.
+- **Composing or arranging a complete piece:** follow the full design sequence, Role through Design, into Part V's genre studies and the closing capstone.
 
 ## Practise the music
 
-The [Study Collection](studies.qmd) gathers eleven original eight-bar jazz, funk, and fusion miniatures. Each piece links to its complete chapter and supports separate harmony and bass playback.
+The [Study Collection](studies.qmd) gathers forty original eight- to sixteen-bar jazz, funk, and fusion miniatures, one per chapter, plus the sixteen-bar Complete Capstone that closes the book. Each piece links to its complete chapter and supports separate harmony and bass playback.
 
 Notation can represent pitch, written rhythm, duration, accent, articulation, and register. It cannot fully encode touch, microtiming, ensemble response, or a stable performed pocket. Playback is therefore a listening reference, not a claim that notation captures a human performance.

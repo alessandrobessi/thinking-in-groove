@@ -2,7 +2,7 @@
 
 Bass players often know more than they can easily explain. A line can live under the fingers for years before its internal logic becomes explicit. This book gives those decisions a compact mental model:
 
-> **Role → Motion → Groove → Interaction → Variation**
+> **Role → Motion → Groove → Interaction → Design**
 
 ## Why piano notation?
 
