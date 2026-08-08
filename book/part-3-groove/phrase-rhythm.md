@@ -12,6 +12,8 @@ Does a groove's identity live inside one bar, or does it only fully reveal itsel
 
 This is a genuinely different scale of decision than Repeated Cells (Chapter 24) or Variation Without Collapse (Chapter 25), both of which operate within a bar or two. Phrase Rhythm asks a bigger question: given a sequence of bars, how is intensity distributed across them, and where does the phrase peak?
 
+The reason a single bar can't answer that question is that "busy" and "sparse" are never absolute judgments — they're always relative to whatever bars sit next to them. The Microscope's bar 2 doesn't get louder, faster, or more crowded between Panel A and Panel B; the only thing that changes is what it's being compared against. This is the same relativity every other Groove term in this Part has quietly depended on, made explicit for the first time: a groove's felt qualities are always a comparison, and Phrase Rhythm is simply the chapter that widens the comparison window from one bar to several.
+
 ## The Microscope
 
 The same single bar appears in both examples. Only whether you can see its surrounding phrase changes what it tells you.
