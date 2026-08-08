@@ -14,6 +14,10 @@ An **Inverter** is a non-root chord tone in the bass that reorganizes a familiar
 
 This is not merely colour. E below C major changes the inversion. G changes it again. B beneath the notes C, E, and G does something stronger: the upper structure now sounds like Cmaj7/B, an unstable sonority that invites stepwise motion. A bass note should be named by what it makes the whole sonority do.
 
+The instability isn't uniform across inversions, and treating them as interchangeably "unsettled" misses the actual craft. A third in the bass (first inversion) is stable enough that whole passages — ballad openings, gentle verse harmony — sit on it comfortably for bars at a time with no felt need to resolve anywhere. A fifth in the bass (second inversion) behaves differently: it reads as genuinely provisional, the kind of sonority a listener expects to keep moving rather than settle into. Calling an Inverter is not just naming that the root left the floor; it's judging how far this particular substitution actually is from stability, because "not the root" covers a wide range from barely noticed to actively unresolved.
+
+This is also the direct opposite of what Chapter 1's Ground does. Where the Ground puts the root under the harmony to make it unambiguous, an Inverter deliberately withholds that floor while keeping everything else about the sonority the same — same notes, same chord, different foundation. The two Roles can't happen on the same bass note at the same instant; every bar the bass spends inverting is a bar it isn't grounding, and the earlier chapter's warning about grounding constantly applies here in reverse: a bass line that inverts constantly never lets the ear rest on solid footing at all. The next chapter takes this instability and gives it a job — the Pedal fixes one bass note and lets the harmony move around it, the mirror image of what's happening here.
+
 ## The Microscope
 
 The right hand, rhythm, register, tempo, and phrase length are identical in A and B. Only the bass changes: C in A, E in B.
@@ -151,4 +155,4 @@ Practise the bass alone until its contour feels like one sentence. Then play the
 
 ## Reflection
 
-If the right-hand voicing never changes, at what point does a new bass note stop sounding like a different view of the same chord and start sounding like a new harmonic destination?
+If the right-hand voicing never changes, at what point does a new bass note stop sounding like a different view of the same chord and start sounding like a new harmonic destination? "Glass Stairs" never lets the bass sit still on a single inversion for more than a beat or two before moving again — does that restlessness serve the descending line, or would a listener find one of these inversions convincing enough to simply stay on for a full bar?
