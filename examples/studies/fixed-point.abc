@@ -9,7 +9,7 @@ Q:1/4=100
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
-"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |]
-[V:LH] "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 |
-"^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^resolve"G,,8 |]
+[V:RH] "Em7"[egb]8 | "Cmaj7"[ceg]8 | "D7"[d^fa]8 | "Bm7"[d^fb]8 |
+"Em7"[egb]8 | "Cmaj7"[ceg]8 | "D7"[d^fa]8 | "Bm7"[d^fb]8 |]
+[V:LH] "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 |
+"^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^resolve"B,,8 |]

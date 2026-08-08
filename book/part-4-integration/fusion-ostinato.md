@@ -112,14 +112,14 @@ Take "Hold the Cell" and change only the second bar, letting the ostinato shift 
 
 ## The Music
 
-"Fixed Point" is an eight-bar fusion study that holds the identical G-D ostinato under seven bars of changing harmony — Cmaj7, Am7, Dm7, and G7, twice through — before letting the ostinato dissolve into a single sustained G in the final bar, the one moment where the bass's fixed pitch and the harmony's actual root finally line up.
+"Fixed Point" is an eight-bar fusion study in E natural minor that holds the identical B-F# ostinato under seven bars of changing harmony — Em7, Cmaj7, D7, and Bm7, twice through — before letting the ostinato dissolve into a single sustained B in the final bar, the one moment where the bass's fixed pitch and the harmony's actual root finally line up.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="fixed-point-study">
   <p class="abc-caption"><strong>Fixed Point.</strong> Seven bars of an unmoving ostinato resolve into the one bar where it was the root all along.</p>
-  <p class="abc-description">An eight-bar fusion study over Cmaj7, Am7, Dm7, and G7 (twice), holding a fixed G-D ostinato until the final bar's resolution.</p>
+  <p class="abc-description">An eight-bar fusion study in E natural minor over Em7, Cmaj7, D7, and Bm7 (twice), holding a fixed B-F# ostinato until the final bar's resolution.</p>
   <pre class="abc-source">X:1
 T:Fixed Point
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=100
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
-"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |]
-[V:LH] "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 |
-"^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^ostinato"G,,2 D,,2 G,,2 D,,2 | "^resolve"G,,8 |]</pre>
+[V:RH] "Em7"[egb]8 | "Cmaj7"[ceg]8 | "D7"[d^fa]8 | "Bm7"[d^fb]8 |
+"Em7"[egb]8 | "Cmaj7"[ceg]8 | "D7"[d^fa]8 | "Bm7"[d^fb]8 |]
+[V:LH] "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 |
+"^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^resolve"B,,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
@@ -143,4 +143,4 @@ K:C
 
 ## Reflection
 
-For seven bars, "Fixed Point" plays G under chords where G is a fifth, a seventh, and an eleventh before finally landing on a bar where G is the root. Did the ostinato change meaning seven times, or did it mean the same thing throughout and the harmony simply caught up to it in the last bar? Which of those two descriptions is more useful to a bassist actually playing the part?
+For seven bars, "Fixed Point" plays B under chords where B is a fifth, a seventh, and a thirteenth before finally landing on a bar where B is the root. Did the ostinato change meaning seven times, or did it mean the same thing throughout and the harmony simply caught up to it in the last bar? Which of those two descriptions is more useful to a bassist actually playing the part?
