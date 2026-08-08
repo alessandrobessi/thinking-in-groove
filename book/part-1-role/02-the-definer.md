@@ -8,9 +8,11 @@ When the harmony above omits its third, can one bass note tell the ear whether t
 
 ## The Mental Model
 
-A root names a harmonic center, but it does not reveal quality by itself. Thirds, sevenths, and characteristic tones carry that information.
+A root names a harmonic center, but it does not reveal quality by itself. Thirds, sevenths, and characteristic tones carry that information — and this is not a rare, contrived situation. Power chords, quartal jazz voicings, and open fifths in a guitar-and-bass arrangement all omit the third routinely, on purpose, because the upper instrument wants to leave the quality unstated. When that happens, no amount of listening to the upper voice will resolve major versus minor; the information simply isn't there. If the bass doesn't supply it, nothing does.
 
-The **Definer** is the bass taking responsibility for a tone that makes chord quality audible. The label describes the note's principal job in context. A third in the bass also creates an inversion; it may weaken root identity; and a seventh may add directed tension. “Definer” does not erase those effects. It tells us why that note was chosen here.
+The **Definer** is the bass taking responsibility for a tone that makes chord quality audible. The label describes the note's principal job in context. A third in the bass also creates an inversion; it may weaken root identity; and a seventh may add directed tension. "Definer" does not erase those effects — it names the effect that matters most in this specific moment. That naming has a real consequence: a bass note that's busy defining quality is, by the same stroke, not grounding. The two jobs can coincide when the root itself carries enough context to be unambiguous, but the open-fifth voicings in this chapter's Microscope are deliberately built so they can't: the only note capable of settling major-versus-minor is also the only note available to move away from the root. Chapter 3's Inverter picks up exactly this tension and asks what a non-root bass tone does to stability in general; this chapter asks only what it does to quality.
+
+The common error is treating any characteristic-sounding bass tone as a Definer. A fifth doesn't define anything — major and minor triads share the identical fifth, so no amount of bass weight on the fifth will tell the ear which one it's hearing. A note only earns the label by actually being the interval that changes between the two chord qualities in question.
 
 ## The Microscope
 
@@ -145,4 +147,4 @@ K:C
 
 ## Reflection
 
-Which bass notes in “Blue Lantern” primarily tell you chord quality, and which primarily restore the root or lead toward the next bar?
+Which bass notes in "Blue Lantern" primarily tell you chord quality, and which primarily restore the root or lead toward the next bar? Every defining tone in the study also happens to sit in the bass alone — the right hand never states the third itself. What would be lost, beyond redundancy, if the right hand doubled every one of those thirds instead of leaving the job entirely to the bass?
