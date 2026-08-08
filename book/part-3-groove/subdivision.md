@@ -12,6 +12,8 @@ Before you can say a note is early or late, what has to be agreed on first?
 
 Subdivision is not the same question as Attack Placement (Chapter 19). Subdivision defines the ruler; Attack Placement is where a specific note falls once that ruler exists. A finer subdivision doesn't change where a note *sounds* — it changes how precisely the page can *say* where it sounds.
 
+This is why Subdivision has to come first in this Part rather than anywhere else. Every later Groove concept — where an attack lands, how long a note holds, whether a note anticipates or syncopates against the beat — is a claim about a specific position on a grid, and none of those claims mean anything until the grid itself is fixed. A finer grid doesn't automatically produce busier or more interesting rhythm; it only exists so a finer position, if the music actually needs one, has a name to be written down with.
+
 ## The Microscope
 
 The bass lands at what's conversationally called "just after beat 1" both times. Only the grid used to say exactly where changes.
