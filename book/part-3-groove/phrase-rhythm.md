@@ -112,14 +112,14 @@ Play the same four bars in reverse order (release, busy, moderate, sparse). Does
 
 ## The Music
 
-"Long Breath" is an original eight-bar jazz study organized as one deliberate phrase-level arc: two bars sparse, two moderate, two busy, then a one-bar climax and a one-bar release.
+"Long Breath" is an original eight-bar jazz study in Eb major, organized as one deliberate phrase-level arc: two bars sparse, two moderate, two busy, then a one-bar climax and a one-bar release.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="long-breath-study">
   <p class="abc-caption"><strong>Long Breath.</strong> Density rises steadily across six bars before a climax and release.</p>
-  <p class="abc-description">An eight-bar jazz study spanning Cmaj7, Am7, Dm7, and G7 with a deliberate density arc.</p>
+  <p class="abc-description">An eight-bar jazz study in Eb major spanning Ebmaj7, Cm7, Fm7, and Bb7 with a deliberate density arc.</p>
   <pre class="abc-source">X:1
 T:Long Breath
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
-"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
-[V:LH] "^sparse"C,8 | "^sparse"C,8 | "^moderate"A,2 z2 A,2 A,2 | "^moderate"A,2 z2 A,2 A,2 |
-"^busy"D,2 E,2 F,2 E,2 | "^busy"D,2 E,2 F,2 G,2 | "^climax"G,1 A,1 B,1 c1 d1 c1 B,1 A,1 | "^release"G,8 |]</pre>
+[V:RH] "Ebmaj7"[_EG_Bd]8 | "Ebmaj7"[_EG_Bd]8 | "Cm7"[_EG_Bc]8 | "Cm7"[_EG_Bc]8 |
+"Fm7"[_EF_Ac]8 | "Fm7"[_EF_Ac]8 | "Bb7"[F_A_Bd]8 | "Bb7"[F_A_Bd]8 |]
+[V:LH] "^sparse"_E,8 | "^sparse"_E,8 | "^moderate"C2 z2 C2 C2 | "^moderate"C2 z2 C2 C2 |
+"^busy"F,2 G,2 _A,2 G,2 | "^busy"F,2 G,2 _A,2 _B,2 | "^climax"_B,1 C1 D1 _e1 f1 _e1 D1 C1 | "^release"_B,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
