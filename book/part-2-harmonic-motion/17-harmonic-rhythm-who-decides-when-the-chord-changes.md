@@ -119,7 +119,7 @@ Take "Match the Rate" and swap the strategies: hold a pedal under the fast bar, 
 ```{=html}
 <div class="score-example" id="change-of-pace-study">
   <p class="abc-caption"><strong>Change of Pace.</strong> The bass strategy shifts exactly when the harmonic rhythm does, and not before.</p>
-  <p class="abc-description">An eight-bar jazz-funk study moving from a slow, one-chord-per-two-bars harmonic rhythm into a fast, chord-per-half-bar passage and back.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in Eb major moving from a slow, one-chord-per-two-bars harmonic rhythm into a fast, chord-per-half-bar passage and back.</p>
   <pre class="abc-source">X:1
 T:Change of Pace
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=90
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[ceg]8 | [ceg]8 | "Am7"[ace]8 | [ace]8 |
-"Dm7"[dfa]4 "G7"[gbd]4 | "Cmaj7"[ceg]4 "Am7"[ace]4 | "G7"[gbd]8 | "Cmaj7"[ceg]8 |]
-[V:LH] "^stay"C,,8 | C,,8 | "^stay"A,,8 | A,,8 |
-"^connect"C,,2 D,,2 F,,2 G,,2 | "^connect"B,,2 C,,2 B,,2 A,,2 | "^stay"G,,8 | "^resolve"C,,8 |]</pre>
+[V:RH] "Ebmaj7"[_eg_b]8 | [_eg_b]8 | "Cm7"[_egc']8 | [_egc']8 |
+"Fm7"[f_ac']4 "Bb7"[_bd'f]4 | "Ebmaj7"[_eg_b]4 "Cm7"[_egc']4 | "Bb7"[_bd'f]8 | "Ebmaj7"[_eg_b]8 |]
+[V:LH] "^stay"_E,,8 | _E,,8 | "^stay"C,8 | C,8 |
+"^connect"_E,,2 F,,2 _A,,2 _B,,2 | "^connect"D,2 _E,,2 D,2 C,2 | "^stay"_B,,8 | "^resolve"_E,,8 |]</pre>
       <div class="abc-rendered"></div>
     </div>
 ```
