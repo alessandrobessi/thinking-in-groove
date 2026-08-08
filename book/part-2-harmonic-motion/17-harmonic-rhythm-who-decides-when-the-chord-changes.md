@@ -12,6 +12,8 @@ Does a bass line's own note-attack rate tell you anything about how fast the har
 
 This is a different axis from Density Balance, and the two are easy to collapse into each other. Density Balance asks how many notes the bass plays. Harmonic Rhythm asks how often the chord itself changes. A dense, busy bass line can sit under a very slow harmonic rhythm — running eighth notes decorating a single held chord for four bars — and a sparse, minimal bass line can sit under a fast one. The common error is hearing "the harmony is moving quickly" and "the bass is playing a lot of notes" as the same observation; they are independent variables, and this chapter's whole purpose is separating them before Part V asks you to choose both deliberately for a real piece.
 
+Part IV, closing here, has now named every independent axis along which the bass relates to the harmony above it: whether the two lines lock together (Doubling, Independence, Interlock, Call and Response), how much activity each layer carries relative to the other (Density Balance), how far apart they sit in pitch space (Register and Separation), and now how often the harmony itself actually moves (Harmonic Rhythm). None of these axes determines the others — a real bass line has to answer all four questions at once, which is precisely the design problem Part V takes up next.
+
 ## The Microscope
 
 Both panels use the identical bass line, note for note. Only the rate of chord change above it changes.
