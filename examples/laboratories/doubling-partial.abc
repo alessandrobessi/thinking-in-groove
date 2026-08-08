@@ -1,5 +1,5 @@
 X:1
-T:Doubling — the bass tracks the melody
+T:Doubling — partial, then released
 C:Alessandro Bessi
 R:Concept study
 M:4/4
@@ -10,4 +10,4 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Gm7"g2 _b2 d'2 _b2 | "C7"a2 g2 _b2 g2 |]
-[V:LH] "^double"G,2 _B,2 D2 _B,2 | "^double"A,2 G,2 _B,2 G,2 |]
+[V:LH] "^double"G,2 _B,2 D2 _B,2 | "^diverges"C,2 G,2 E,2 _B,2 |]
