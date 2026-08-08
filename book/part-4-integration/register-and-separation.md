@@ -12,6 +12,8 @@ If a bass line's note count and the harmony's note count haven't changed at all,
 
 This is a genuinely separate variable from the last chapter's Density Balance, and the two are easy to conflate. Density asks how many events happen per unit of time in each layer. Register asks how far apart, vertically, those events land. A single sustained bass note and a single sustained chord — as sparse and balanced as two layers can be — can still collide into mud if the chord's lowest note sits right on top of the bass. The common error is hearing that mud and blaming it on "too many notes," when the real problem is that nothing has been given room to breathe.
 
+The muddiness has a physical basis, not just a stylistic one. Pitches close together in frequency generate overtones that fall close together too, and the ear's frequency resolution is coarser in the low register than in the mid and upper range — two low notes a third or a step apart can blur into a single indistinct mass in a way the same interval would never do an octave higher. Widening the gap moves the chord's lowest note into a frequency region the ear resolves more easily and keeps its overtones from crowding the bass's own. Nothing about the note count changes; the physical distance between the two lowest sounding pitches is the entire mechanism.
+
 ## The Microscope
 
 Both panels use the identical rhythm: one sustained bass note against one sustained chord, for the full bar. Only the vertical distance between them changes.
