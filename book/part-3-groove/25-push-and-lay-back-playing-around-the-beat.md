@@ -10,7 +10,9 @@ Why can two bass lines with identical attacks and pitches create different groov
 
 **Duration** is how long a note continues after its attack. Rhythm is not only a list of beginnings: every note also has an ending. A full-value note occupies the grid until the next attack; a shortened note releases early and leaves audible space.
 
-Duration is distinct from attack placement. If two notes begin on beat 2 but one ends on the “and” while the other lasts to beat 3, their attack placement is identical and their duration differs. It is also distinct from touch: notation can specify a written length or articulation, but playback cannot reproduce every physical nuance of a bassist’s release.
+Duration is distinct from attack placement. If two notes begin on beat 2 but one ends on the "and" while the other lasts to beat 3, their attack placement is identical and their duration differs. It is also distinct from touch: notation can specify a written length or articulation, but playback cannot reproduce every physical nuance of a bassist's release.
+
+A note's release carries information the way its attack does — silence immediately after a note tells the ear that note is finished and something new is about to happen, while a note held into the next attack tells the ear the two events are connected. That's why Panel B's shortened notes don't just sound "quieter" or "lighter"; they sound punctuated, each one a separate statement, where Panel A's full values read as one continuous line. This chapter's silences are still attached to a note that was actually played, though — a release, not an absence. Chapter 21 asks what happens when the bass omits an attack altogether, and the space itself, with no note preceding it, becomes the content.
 
 ## The Microscope
 
