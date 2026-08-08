@@ -28,7 +28,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Between the Numbers](chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md#the-music) | Jazz-funk | Tied offbeats and metrical resolution |
 | [Negative Space](chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md#the-music) | Funk | Active silence and accompaniment response |
 | [Afterimage](chapters/part-3-groove/25-push-and-lay-back-playing-around-the-beat.md#the-music) | Fusion ballad | Long and short releases |
-| [Early Light](chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md#the-music) | Jazz | Root anticipations across chord boundaries |
+| [Early Light](chapters/part-3-groove/26-the-groove-signature-what-makes-a-line-recognizable.md#the-music) | Jazz | Root anticipations across chord boundaries, in Gb major |
 | [Riff Atom](chapters/part-3-groove/22-the-repetition-cell-the-riff-atom.md#the-music) | Funk | One rhythmic cell carried through four chords |
 | [Same Bones](chapters/part-3-groove/23-the-variation-layer-keeping-a-groove-alive.md#the-music) | Jazz-funk | One cell varied by a single parameter at a time |
 | [Long Breath](chapters/part-3-groove/phrase-rhythm.md#the-music) | Jazz | A deliberate density arc across eight bars |

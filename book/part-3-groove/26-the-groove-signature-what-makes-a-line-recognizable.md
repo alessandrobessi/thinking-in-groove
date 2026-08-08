@@ -112,7 +112,7 @@ Keep the anticipation on the “and” of 4 but replace the upcoming root with a
 
 ## The Music
 
-“Early Light” is an original eight-bar jazz study. Each bar develops a compact chord-tone idea, then the next root enters on the final eighth and ties across the boundary. The second four bars vary the internal line while preserving that anticipatory phrase rhythm.
+“Early Light” is an original eight-bar jazz study in Gb major. Each bar develops a compact chord-tone idea, then the next root enters on the final eighth and ties across the boundary. The second four bars vary the internal line while preserving that anticipatory phrase rhythm.
 
 :::{.content-hidden when-format="epub"}
 
@@ -131,8 +131,8 @@ Q:1/4=90
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |]
-[V:LH] "^anticipatory phrase"C,2 G,2 E,2 z1 A,,1- | A,,1 E,2 C,2 z2 D,1- | D,1 A,2 F,2 z2 G,,1- | G,,1 D,2 F,2 z2 C,1- | C,1 E,2 B,,2 z2 A,,1- | A,,1 C,2 G,2 z2 D,1- | D,1 F,2 C,2 z2 G,,1- | G,,1 B,,2 D,2 z2 "^points beyond the excerpt"C,1 |]</pre>
+[V:RH] "Gbmaj7"[_B_df_g]8 | "Ebm7"[_G_B_d_e]8 | "Abm7"[_G_AB_e]8 | "Db7"[_AB_df]8 | "Gbmaj7"[_B_df_g]8 | "Ebm7"[_G_B_d_e]8 | "Abm7"[_G_AB_e]8 | "Db7"[_AB_df]8 |]
+[V:LH] "^anticipatory phrase"_G,2 _D2 _B,2 z1 _E,1- | _E,1 _B,2 _G,2 z2 _A,1- | _A,1 _E2 B,2 z2 _D,1- | _D,1 _A,2 B,2 z2 _G,1- | _G,1 _B,2 F,2 z2 _E,1- | _E,1 _G,2 _D2 z2 _A,1- | _A,1 B,2 _G,2 z2 _D,1- | _D,1 F,2 _A,2 z2 "^points beyond the excerpt"_G,1 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
