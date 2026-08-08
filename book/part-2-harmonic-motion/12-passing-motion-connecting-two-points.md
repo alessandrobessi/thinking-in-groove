@@ -102,12 +102,12 @@ Keep every beat-1 root. Reverse the direction of one bridge while preserving its
 
 ## The Music
 
-“Common Thread” is an original eight-bar jazz study in Bb major, over a ii-V-I-vi cycle (Cm7–F7–Bbmaj7–Gm7). The harmony repeats; the second pass reorders each bar's chord tones and varies the bridges without moving the structural roots.
+“Common Thread” is an original eight-bar jazz study in Bb major, swung throughout, over a ii-V-I-vi cycle (Cm7–F7–Bbmaj7–Gm7). The harmony repeats; the second pass reorders each bar's chord tones and varies the bridges without moving the structural roots.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
-<div class="score-example" id="common-thread-study"><p class="abc-caption"><strong>Common Thread.</strong> Two routes through identical harmony.</p><p class="abc-description">An eight-bar functional-jazz study in Bb major with compact piano voicings and a connected monophonic bass.</p>
+<div class="score-example" id="common-thread-study"><p class="abc-caption"><strong>Common Thread.</strong> Two routes through identical harmony.</p><p class="abc-description">A swung eight-bar functional-jazz study in Bb major with compact piano voicings and a connected monophonic bass.</p>
 <pre class="abc-source">X:1
 T:Common Thread
 C:Alessandro Bessi
@@ -120,7 +120,7 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Cm7"[c_eg_b]8 | "F7"[fac'_e']8 | "Bbmaj7"[_bd'f'a']8 | "Gm7"[g_bd'f']8 | "Cm7"[c_eg_b]8 | "F7"[fac'_e']8 | "Bbmaj7"[_bd'f'a']8 | "Gm7"[g_bd'f']6 "Cm7"[c_eg_b]2 |]
-[V:LH] C,2 _E,2 G,2 E,2 | F,2 A,2 C,2 B,2 | _B,2 D,2 F,2 ^F,2 | G,2 _B,2 D,2 B,2 | C,2 G,2 _E,2 E,2 | F,2 C,2 A,2 B,2 | _B,2 F,2 D,2 ^F,2 | G,2 D,2 B,2 "^arrival"C,2 |]</pre><div class="abc-rendered"></div></div>
+[V:LH] C,2 _E,2 G,>E, | F,2 A,2 C,>B, | _B,2 D,2 F,>^F, | G,2 _B,2 D,>B, | C,2 G,2 _E,>E, | F,2 C,2 A,>B, | _B,2 F,2 D,>^F, | G,2 D,2 B,2 "^arrival"C,2 |]</pre><div class="abc-rendered"></div></div>
 ```
 
 :::
