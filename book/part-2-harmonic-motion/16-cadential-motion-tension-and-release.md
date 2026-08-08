@@ -12,6 +12,8 @@ What happens when the bass travels one way while the upper voice travels the oth
 
 Contrary motion can widen the musical space, keep inner voices independent, and turn a chord progression into a coordinated gesture. It does not require chromatic notes or new harmony. The bass can often create it by choosing chord-tone inversions instead of roots.
 
+Two mechanisms are doing the work here, and it's worth separating them. First, the registral one: when the bass falls as the top voice rises, the total distance between the outermost notes grows every bar, and a widening span simply occupies more of the ear's available pitch space — the texture reads as opening up because it literally is. Second, the independence one: opposite directions are the strongest possible signal that two voices are genuinely separate lines rather than one idea doubled at a distance. Compare this to the most extreme opposite case a later chapter examines — a bass line doubling the melody note for note, in unison — where identical direction fuses two voices into what the ear hears as one thicker event. Contrary motion is that fusion's mirror image: maximum independence instead of maximum unity, using nothing more exotic than which chord tone the bass happens to stand on.
+
 ## The Microscope
 
 The right hand, harmony, rhythm, tempo, and register are identical in A and B. Its top note rises B–C–D–F. A uses roots in the bass. B chooses chord tones that descend E–C–A–G, creating a clear contrary line.
