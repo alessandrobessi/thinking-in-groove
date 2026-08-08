@@ -11,5 +11,5 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Dm7"[dfa]8 | "Bbmaj7"[_bdf]8 | "Cmaj7"[ceg]8 | "Gm7"[g_bd]8 |
 "Dm7"[dfa]8 | "Bbmaj7"[_bdf]8 | "Cmaj7"[ceg]4 z4 | "Gm7"[g_bd]8 |]
-[V:LH] "^ground"D,,8 | "^connect"D,,2 C,,2 _B,,4 | "^colorist"D,,8 | "^independent"z1 G,,1 z1 _B,,1 z1 D,,1 z1 _B,,1 |
-"^dense"D,,1 E,,1 F,,1 E,,1 D,,1 E,,1 F,,1 E,,1 | "^separated"_B,,8 | z4 "^response"C,,2 E,,2 | "^resolve"G,,8 |]
+[V:LH] "^ground"D,,8 | "^connect"D,,>C,, _B,,4 | "^colorist"D,,8 | "^independent"z1 G,,1 z1 _B,,1 z1 D,,1 z1 _B,,1 |
+"^dense"D,,>E,, F,,>E,, D,,>E,, F,,>E,, | "^separated"_B,,8 | z4 "^response"C,,>E,, | "^resolve"G,,8 |]
