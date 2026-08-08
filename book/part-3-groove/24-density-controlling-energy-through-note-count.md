@@ -119,7 +119,7 @@ Take "Busy Under Sparse" and reduce the right hand from a single sustained chord
 ```{=html}
 <div class="score-example" id="give-and-take-study">
   <p class="abc-caption"><strong>Give and Take.</strong> The two layers trade which one runs and which one sustains, chord by chord.</p>
-  <p class="abc-description">An eight-bar jazz-funk study over Cmaj7, Am7, Dm7, and G7, alternating a running bass under sustained harmony with a running harmony under a sustained bass.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in B major over Bmaj7, G#m7, C#m7, and F#7, alternating a running bass under sustained harmony with a running harmony under a sustained bass.</p>
   <pre class="abc-source">X:1
 T:Give and Take
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEG]8 | "Cmaj7"C1 D1 E1 D1 C1 D1 E1 D1 | "Am7"[ACE]8 | "Am7"A1 C1 E1 C1 A1 C1 E1 C1 |
-"Dm7"[DFA]8 | "Dm7"D1 F1 A1 F1 D1 F1 A1 F1 | "G7"[GBD]8 | "G7"[GBD]8 |]
-[V:LH] "^dense"C,,1 D,,1 E,,1 D,,1 C,,1 D,,1 E,,1 D,,1 | "^sparse"C,,8 | "^dense"A,,1 C,,1 E,,1 C,,1 A,,1 C,,1 E,,1 C,,1 | "^sparse"A,,8 |
-"^dense"D,,1 F,,1 A,,1 F,,1 D,,1 F,,1 A,,1 F,,1 | "^sparse"D,,8 | "^dense"G,,1 B,,1 D,,1 B,,1 G,,1 B,,1 D,,1 B,,1 | "^resolve"G,,8 |]</pre>
+[V:RH] "Bmaj7"[B^d^f]8 | "Bmaj7"B1 ^c1 ^d1 ^c1 B1 ^c1 ^d1 ^c1 | "G#m7"[B^d^g]8 | "G#m7"^g1 B1 ^d1 B1 ^g1 B1 ^d1 B1 |
+"C#m7"[^ce^g]8 | "C#m7"^c1 e1 ^g1 e1 ^c1 e1 ^g1 e1 | "F#7"[^c^f^a]8 | "F#7"[^c^f^a]8 |]
+[V:LH] "^dense"B,,1 ^C,1 ^D,1 ^C,1 B,,1 ^C,1 ^D,1 ^C,1 | "^sparse"B,,8 | "^dense"^G,1 B,,1 ^D,1 B,,1 ^G,1 B,,1 ^D,1 B,,1 | "^sparse"^G,8 |
+"^dense"^C,1 E,1 ^G,1 E,1 ^C,1 E,1 ^G,1 E,1 | "^sparse"^C,8 | "^dense"^F,1 ^A,1 ^C,1 ^A,1 ^F,1 ^A,1 ^C,1 ^A,1 | "^resolve"^F,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
