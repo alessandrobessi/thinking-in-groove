@@ -114,14 +114,14 @@ Take bar 3's ornamented cell and add a second, independent change on top of it â
 
 ## The Music
 
-"Same Bones" is an original eight-bar jazz-funk study in G natural minor: one cell, varied by a different single parameter every two bars, always returning to the plain cell by the end.
+"Same Bones" is an original eight-bar jazz-funk study in G natural minor, swung: one cell, varied by a different single parameter every two bars, always returning to the plain cell by the end.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="same-bones-study">
   <p class="abc-caption"><strong>Same Bones.</strong> Displacement, substitution, and ornament, each applied once, never combined.</p>
-  <p class="abc-description">An eight-bar jazz-funk study in G natural minor: the cell, displaced, restated, substituted, restated, ornamented, then returned to plain.</p>
+  <p class="abc-description">A swung eight-bar jazz-funk study in G natural minor: the cell, displaced, restated, substituted, restated, ornamented, then returned to plain.</p>
   <pre class="abc-source">X:1
 T:Same Bones
 C:Alessandro Bessi
@@ -135,8 +135,8 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Gm7"[g_bd'f']8 | "Gm7"[g_bd'f']8 | "Ebmaj7"[_eg_bd']8 | "Ebmaj7"[_eg_bd']8 |
 "Fmaj7"[fac'e']8 | "Fmaj7"[fac'e']8 | "Cm7"[c_eg_b]8 | "Cm7"[c_eg_b]8 |]
-[V:LH] "^cell"G,2 z2 G,2 G,2 | "^displaced"z1 G,2 z2 G,2 G,1 | "^cell"_E,2 z2 _E,2 _E,2 | "^substituted"_E,2 z2 _B,2 _E,2 |
-"^cell"F,2 z2 F,2 F,2 | "^ornamented"F,1 G,1 z2 F,2 F,2 | "^cell"C,2 z2 C,2 C,2 | "^cell: return"C,2 z2 C,2 C,2 |]</pre>
+[V:LH] "^cell"G,2 z2 G,>G, | "^displaced"z1 G,2 z2 G,2 G,1 | "^cell"_E,2 z2 _E,>_E, | "^substituted"_E,2 z2 _B,>_E, |
+"^cell"F,2 z2 F,>F, | "^ornamented"F,1 G,1 z2 F,>F, | "^cell"C,2 z2 C,>C, | "^cell: return"C,2 z2 C,>C, |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
