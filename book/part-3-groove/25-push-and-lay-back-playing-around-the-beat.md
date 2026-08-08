@@ -114,27 +114,27 @@ Keep all four attacks in one bar. Lengthen only the final note so it continues i
 
 ## The Music
 
-“Afterimage” is an original eight-bar fusion ballad. Its bass uses a recurring contrast between tones that linger and tones that release early. The right hand continues through the gaps, so every bass ending remains audible as a deliberate part of the groove.
+“Afterimage” is an original eight-bar fusion ballad in 6/8. Its bass uses a recurring contrast between tones that linger and tones that release early. The right hand continues through the gaps, so every bass ending remains audible as a deliberate part of the groove.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="afterimage-study">
   <p class="abc-caption"><strong>Afterimage.</strong> Long and short releases shape an eight-bar phrase.</p>
-  <p class="abc-description">A restrained fusion study with sustained harmony and a monophonic bass duration motif.</p>
+  <p class="abc-description">A restrained fusion study in 6/8 with sustained harmony and a monophonic bass duration motif.</p>
   <pre class="abc-source">X:1
 T:Afterimage
 C:Alessandro Bessi
 R:Fusion ballad
-M:4/4
+M:6/8
 L:1/8
-Q:1/4=84
+Q:3/8=84
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj9"[EGBd]6 z2 | "Am9"[CEGB]8 | "Dm9"[FACe]6 z2 | "G13"[FGBE]8 | "Cmaj9"[EGBd]6 z2 | "Am9"[CEGB]8 | "Dm9"[FACe]6 z2 | "G13"[FGBE]6 "Cmaj9"[EGBd]2 |]
-[V:LH] "^linger"C,4 G,2 z2 | "^release"A,,2 z2 E,2 z2 | "^linger"D,6 z2 | "^release"G,,2 z2 B,,2 z2 | "^linger"C,4 B,,2 z2 | "^release"A,,2 z2 E,2 z2 | "^linger"D,4 A,2 z2 | "^connect"G,,2 z2 B,,2 C,2 |]</pre>
+[V:RH] "Cmaj9"[EGBd]6 | "Am9"[CEGB]6 | "Dm9"[FACe]6 | "G13"[FGBE]6 | "Cmaj9"[EGBd]6 | "Am9"[CEGB]6 | "Dm9"[FACe]6 | "G13"[FGBE]4 "Cmaj9"[EGBd]2 |]
+[V:LH] "^linger"C,3 G,2 z1 | "^release"A,,2 z1 E,2 z1 | "^linger"D,4 z2 | "^release"G,,2 z1 B,,2 z1 | "^linger"C,3 B,,2 z1 | "^release"A,,2 z1 E,2 z1 | "^linger"D,3 A,2 z1 | "^connect"G,,2 z1 B,,2 C1 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
