@@ -119,14 +119,14 @@ Take "Walk the Algorithm" and change only step 5 of the process: instead of a pl
 
 ## The Music
 
-"By the Book" is an eight-bar jazz-funk study that walks a different step of the algorithm in every bar — Ground, a stepwise Connection, a Colorist choice, Independence, Density Balance, Register and Separation, a Call-and-Response handoff, and a final resolved Ground — over four changing chords, deliberately touring the vocabulary this whole book has built rather than settling into one recurring pattern.
+"By the Book" is an eight-bar jazz-funk study in D natural minor that walks a different step of the algorithm in every bar — Ground, a stepwise Connection, a Colorist choice, Independence, Density Balance, Register and Separation, a Call-and-Response handoff, and a final resolved Ground — over four changing chords, deliberately touring the vocabulary this whole book has built rather than settling into one recurring pattern.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="by-the-book-study">
   <p class="abc-caption"><strong>By the Book.</strong> Eight bars, eight distinct, traceable decisions.</p>
-  <p class="abc-description">An eight-bar jazz-funk study over Cmaj7, Am7, Dm7, and G7, touring a different Role, Motion, Groove, or Interaction choice in each bar.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in D natural minor over Dm7, Bbmaj7, Cmaj7, and Gm7, touring a different Role, Motion, Groove, or Interaction choice in each bar.</p>
   <pre class="abc-source">X:1
 T:By the Book
 C:Alessandro Bessi
@@ -138,10 +138,10 @@ Q:1/4=90
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]8 | "G7"[gbd]8 |
-"Cmaj7"[ceg]8 | "Am7"[ace]8 | "Dm7"[dfa]4 z4 | "G7"[gbd]8 |]
-[V:LH] "^ground"C,,8 | "^connect"C,,2 B,,2 A,,4 | "^colorist"E,,8 | "^independent"z1 G,,1 z1 B,,1 z1 D,,1 z1 B,,1 |
-"^dense"C,,1 D,,1 E,,1 D,,1 C,,1 D,,1 E,,1 D,,1 | "^separated"A,,8 | z4 "^response"D,,2 F,,2 | "^resolve"G,,8 |]</pre>
+[V:RH] "Dm7"[dfa]8 | "Bbmaj7"[_bdf]8 | "Cmaj7"[ceg]8 | "Gm7"[g_bd]8 |
+"Dm7"[dfa]8 | "Bbmaj7"[_bdf]8 | "Cmaj7"[ceg]4 z4 | "Gm7"[g_bd]8 |]
+[V:LH] "^ground"D,,8 | "^connect"D,,2 C,,2 _B,,4 | "^colorist"D,,8 | "^independent"z1 G,,1 z1 _B,,1 z1 D,,1 z1 _B,,1 |
+"^dense"D,,1 E,,1 F,,1 E,,1 D,,1 E,,1 F,,1 E,,1 | "^separated"_B,,8 | z4 "^response"C,,2 E,,2 | "^resolve"G,,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
