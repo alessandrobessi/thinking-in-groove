@@ -10,7 +10,9 @@ How does a groove change when the same notes attack at different points in the w
 
 **Attack placement** is the location of a note’s beginning on the notated rhythmic grid. An attack can fall on a beat, on an offbeat, or on a smaller subdivision. If notation moves a note from beat 2 to the “and” of beat 2, it has changed attack placement.
 
-This is not microtiming. A performer may play either written attack slightly early or late, but conventional notation does not describe those tiny timing differences precisely. It describes the shared metrical address: beat 2, its “and,” or another named subdivision. **Pocket** belongs to the coordinated performed feel of the ensemble; it is not a synonym for a written offbeat.
+This is not microtiming. A performer may play either written attack slightly early or late, but conventional notation does not describe those tiny timing differences precisely. It describes the shared metrical address: beat 2, its "and," or another named subdivision. **Pocket** belongs to the coordinated performed feel of the ensemble; it is not a synonym for a written offbeat.
+
+Notice, too, that moving an attack to an offbeat isn't automatically Syncopation (Chapter 22) — it's simply a different address on the same grid this chapter names. Syncopation is a claim about expectation: a weak position deliberately contesting a *stronger* one the listener was primed to expect. Here, in isolation, there's no established expectation yet to contest — Panel B's offbeats aren't surprising anyone, because nothing in this comparison set up beats 1–4 as the only legitimate place to land. Attack Placement is the raw vocabulary of *where*; Syncopation is a specific, later claim about what a given placement does to a listener's sense of pulse.
 
 ## The Microscope
 
