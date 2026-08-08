@@ -12,6 +12,8 @@ Why does a big leap in a bass line seem to demand something afterward, and what 
 
 A leap that isn't followed by any recovery — another leap somewhere unrelated, with no settling — tends to read as disjointed rather than emphatic. The emphasis only lands cleanly when the ear can hear the leap *and* its resolution as one gesture.
 
+Why does a step work as recovery when another leap doesn't? Chapter 10 established that adjacent motion asks the least possible recalibration of anywhere a line could go next; a leap spends a large amount of registral "energy" all at once, and a step is the cheapest, most legible way to spend the rest of it back down to a stable footing. A second leap doesn't resolve anything — it just opens a new gap before the first one closed, which is exactly why Panel A reads as unsettled rather than doubly emphatic. The common error is assuming that *any* motion after a leap counts as a recovery; the Vary exercise below tests this directly by continuing in the same direction instead of stepping back, which is worth predicting before you try it.
+
 ## The Microscope
 
 Both versions leap the same distance, from the same note. Only what happens immediately afterward changes.
