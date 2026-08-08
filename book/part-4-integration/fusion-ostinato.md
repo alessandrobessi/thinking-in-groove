@@ -114,29 +114,29 @@ Take "Hold the Cell" and change only the second bar, letting the ostinato shift 
 
 ## The Music
 
-"Fixed Point" is an eight-bar fusion study in E natural minor that holds the identical B-F# ostinato under seven bars of changing harmony — Em7, Cmaj7, D7, and Bm7, twice through — before letting the ostinato dissolve into a single sustained B in the final bar, the one moment where the bass's fixed pitch and the harmony's actual root finally line up.
+"Fixed Point" is an eight-bar fusion study in E natural minor, in 7/8, that holds the identical B-F# ostinato under seven bars of changing harmony — Em7, Cmaj7, D7, and Bm7, twice through — before letting the ostinato dissolve into a single sustained B in the final bar, the one moment where the bass's fixed pitch and the harmony's actual root finally line up.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="fixed-point-study">
   <p class="abc-caption"><strong>Fixed Point.</strong> Seven bars of an unmoving ostinato resolve into the one bar where it was the root all along.</p>
-  <p class="abc-description">An eight-bar fusion study in E natural minor over Em7, Cmaj7, D7, and Bm7 (twice), holding a fixed B-F# ostinato until the final bar's resolution.</p>
+  <p class="abc-description">An eight-bar fusion study in E natural minor, in 7/8, over Em7, Cmaj7, D7, and Bm7 (twice), holding a fixed B-F# ostinato until the final bar's resolution.</p>
   <pre class="abc-source">X:1
 T:Fixed Point
 C:Alessandro Bessi
 R:Fusion study
-M:4/4
+M:7/8
 L:1/8
-Q:1/4=100
+Q:1/8=200
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Em7"[egb]8 | "Cmaj7"[ceg]8 | "D7"[d^fa]8 | "Bm7"[d^fb]8 |
-"Em7"[egb]8 | "Cmaj7"[ceg]8 | "D7"[d^fa]8 | "Bm7"[d^fb]8 |]
-[V:LH] "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 |
-"^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,2 | "^resolve"B,,8 |]</pre>
+[V:RH] "Em7"[egb]7 | "Cmaj7"[ceg]7 | "D7"[d^fa]7 | "Bm7"[d^fb]7 |
+"Em7"[egb]7 | "Cmaj7"[ceg]7 | "D7"[d^fa]7 | "Bm7"[d^fb]7 |]
+[V:LH] "^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 |
+"^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 | "^ostinato"B,,2 ^F,,2 B,,2 ^F,,1 | "^resolve"B,,7 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
