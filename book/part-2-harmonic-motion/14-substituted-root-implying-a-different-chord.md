@@ -12,6 +12,10 @@ How can two notes on either side of a target make its arrival feel more inevitab
 
 An arbitrary three-note turn isn't automatically an Enclosure — both neighbour notes have to actually point at the *same* target. Ab and F# only enclose G because both sit a half step away from it, one above and one below. Swap either neighbour for a note that doesn't share that relationship to G, and the figure stops enclosing anything.
 
+An Approach note leans; an Enclosure closes. A single directional approach still leaves the ear with an open question — it points at a target but hasn't ruled anything out except the one direction it came from. Framing the target from both sides at once removes that remaining ambiguity: there's no direction left for the target to have arrived from, so the gesture reads as a complete, self-contained shape rather than a lean that happened to land. That's the real reason Enclosing sounds more "prepared" than Approaching even at the identical tempo and target — it isn't more emphatic, it's more exhaustive.
+
+Arpeggiating, next, moves in the opposite direction from both of these techniques: instead of decorating the space immediately around one target, it uses a chord's own tones — often spanning a wider interval than any neighbour tone here — to build an entire directed phrase.
+
 ## The Microscope
 
 Both versions arrive on the same G. Only how many notes surround the arrival changes.
