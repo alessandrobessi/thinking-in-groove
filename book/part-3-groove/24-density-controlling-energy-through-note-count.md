@@ -12,6 +12,8 @@ Is a bass line "busy" on its own terms, or only busy compared to what the other 
 
 The common error is judging a bass line's density in isolation — counting its note attacks and calling it "busy" or "sparse" without checking what the harmony layer is doing at that same instant. The same sixteen eighth notes can be a balanced foundation or a crowded mess, depending entirely on what's stacked against them.
 
+This is the same relativity Chapter 26 established for a single bass line across time — a bar's density only means something next to its neighboring bars — applied here across the two staves at the same instant instead. And the underlying stakes are the ones Chapter 7's Supporter already named: attention is limited, and two equally busy layers compete for the same slice of it rather than adding up to "twice as much good material." Density Balance is that same competition, examined as its own deliberate design decision rather than a rule about when the bass specifically should get out of the way.
+
 ## The Microscope
 
 Both panels use the identical bass line. Only the right hand changes.
