@@ -112,14 +112,14 @@ Replace the A in bar 2 with E. The result is C/E, an inversion of C rather than 
 
 ## The Music
 
-“Borrowed Ceiling” is an original eight-bar jazz-funk study. One syncopated C-major upper shape persists while the bass supplies a sequence of roots and inversions. The first four bars establish the vocabulary; the final four intensify it before C regains the floor.
+“Borrowed Ceiling” is an original eight-bar jazz-funk study, swung. One syncopated C-major upper shape persists while the bass supplies a sequence of roots and inversions. The first four bars establish the vocabulary; the final four intensify it before C regains the floor.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="borrowed-ceiling-study">
   <p class="abc-caption"><strong>Borrowed Ceiling.</strong> One upper shape, eight changing floors.</p>
-  <p class="abc-description">An eight-bar jazz-funk study with fixed right-hand pitch content and a monophonic bass groove.</p>
+  <p class="abc-description">A swung eight-bar jazz-funk study with fixed right-hand pitch content and a monophonic bass groove.</p>
   <pre class="abc-source">X:1
 T:Borrowed Ceiling
 C:Alessandro Bessi
@@ -132,7 +132,7 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "C"[CEG]2 z2 [CEG]2 z2 | "Am7"z1 [CEG]2 z1 [CEG]2 z2 | "Fmaj9(no3)"[CEG]2 z2 [CEG]2 z2 | "C/G"z1 [CEG]2 z1 [CEG]2 z2 | "C/E"[CEG]2 z2 [CEG]2 z2 | "D11(no3)"z1 [CEG]2 z1 [CEG]2 z2 | "Cmaj7/B"[CEG]2 z2 [CEG]2 z2 | "C"[CEG]2 z1 [CEG]2 z1 [CEG]2 |]
-[V:LH] "^ground"C,2 G,1 z1 C2 G,2 | "^reframe"A,,2 E,1 z1 G,1 A,1 E,2 | "^reframe"F,,2 C,1 z1 E,1 F,1 C,2 | "^inversion"G,,2 D,1 z1 E,1 G,1 C2 | "^inversion"E,2 B,,1 z1 C1 E1 G,2 | "^reframe"D,2 A,,1 z1 C1 D1 G,2 | "^inversion"B,,2 F,1 z1 G,1 B,1 E,2 | "^home"C,2 G,,1 C,1 E,1 G,1 C2 |]</pre>
+[V:LH] "^ground"C,2 G,1 z1 C>G, | "^reframe"A,,2 E,1 z1 G,>A, E,2 | "^reframe"F,,2 C,1 z1 E,>F, C,2 | "^inversion"G,,2 D,1 z1 E,>G, C2 | "^inversion"E,2 B,,1 z1 C>E G,2 | "^reframe"D,2 A,,1 z1 C>D G,2 | "^inversion"B,,2 F,1 z1 G,>B, E,2 | "^home"C,2 G,,1 C,1 E,>G, C2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
