@@ -1,6 +1,6 @@
 # Contrary Motion
 
-*Motion Pilot — How Does the Bass Travel?*
+*Chapter 16 — Part II, Motion: How Does the Bass Travel?*
 
 ## The Question
 

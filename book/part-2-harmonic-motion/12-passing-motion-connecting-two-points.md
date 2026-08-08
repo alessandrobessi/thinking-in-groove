@@ -1,6 +1,6 @@
 # Connecting Chords
 
-*Motion Pilot — How Does the Bass Travel?*
+*Chapter 15 — Part II, Motion: How Does the Bass Travel?*
 
 ## The Question
 

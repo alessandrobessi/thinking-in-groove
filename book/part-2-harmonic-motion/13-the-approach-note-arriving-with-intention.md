@@ -1,6 +1,6 @@
 # Approaching
 
-*Motion Pilot — How Does the Bass Travel?*
+*Chapter 11 — Part II, Motion: How Does the Bass Travel?*
 
 ## The Question
 
@@ -114,14 +114,14 @@ Keep every target, attack, and duration. Replace each chromatic lower approach w
 
 ## The Music
 
-“Corner Lights” is an original eight-bar jazz study over two passes of Cmaj7–Am7–Dm7–G7. Structural roots land on beat 1; beat 4 prepares the next destination.
+“Corner Lights” is an original eight-bar jazz study in G major, over two passes of Gmaj7–Em7–Am7–D7. Structural roots land on beat 1; beat 4 prepares the next destination with a chromatic approach.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="corner-lights-study">
   <p class="abc-caption"><strong>Corner Lights.</strong> The harmony repeats while the bass varies the route into each root.</p>
-  <p class="abc-description">An eight-bar functional-jazz study with compact right-hand voicings and a monophonic walking bass.</p>
+  <p class="abc-description">An eight-bar functional-jazz study in G major with compact right-hand voicings and a monophonic walking bass approaching each root chromatically.</p>
   <pre class="abc-source">X:1
 T:Corner Lights
 C:Alessandro Bessi
@@ -133,10 +133,10 @@ Q:1/4=88
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 |
-"Cmaj7"[EGBc]8 | "Am7"[ACEG]8 | "Dm7"[DFAC]8 | "G7"[DFGB]6 "Cmaj7"[EGBc]2 |]
-[V:LH] "^target"C,2 E,2 G,2 "^approach"^G,,2 | "^target"A,,2 C,2 E,2 "^approach"^C,2 | "^target"D,2 F,2 A,2 "^approach"^F,,2 | "^target"G,,2 B,,2 D,2 "^approach"B,,2 |
-"^target"C,2 G,2 E,2 "^approach"^G,,2 | "^target"A,,2 E,2 C,2 "^approach"^C,2 | "^target"D,2 A,,2 F,2 "^approach"^F,,2 | "^target"G,,2 D,2 "^approach"B,,2 "^arrival"C,2 |]</pre>
+[V:RH] "Gmaj7"[gbd'^f']8 | "Em7"[egbd']8 | "Am7"[ac'e'g']8 | "D7"[d^fac']8 |
+"Gmaj7"[gbd'^f']8 | "Em7"[egbd']8 | "Am7"[ac'e'g']8 | "D7"[d^fac']6 "Gmaj7"[gbd'^f']2 |]
+[V:LH] "^target"G,2 B,2 D,2 "^approach"^D,2 | "^target"E,2 G,2 B,2 "^approach"^G,2 | "^target"A,2 C,2 E,2 "^approach"^C,2 | "^target"D,2 "^approach"^F,2 A,2 F,2 |
+"^target"G,2 D,2 B,2 "^approach"^D,2 | "^target"E,2 B,2 G,2 "^approach"^G,2 | "^target"A,2 E,2 C,2 "^approach"^C,2 | "^target"D,2 A,2 "^approach"^F,2 "^arrival"G,2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

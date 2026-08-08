@@ -21,7 +21,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Reach and Return](chapters/part-2-harmonic-motion/leaping.md#the-music) | Fusion | Leaps deliberately followed by a settled recovery |
 | [Complete the Map](chapters/part-2-harmonic-motion/18-motion-profile-the-shape-of-a-phrase.md#the-music) | Fusion | All eight Motion terms in one phrase |
 | [Common Thread](chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md#the-music) | Jazz | Connecting fixed harmonic destinations |
-| [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Direct and chromatic approaches |
+| [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Chromatic approaches into a G major I-vi-ii-V cycle |
 | [Crossing Lines](chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md#the-music) | Fusion | Contrary motion between outer voices |
 | [Fine Grid](chapters/part-3-groove/subdivision.md#the-music) | Funk | A sixteenth-note grid used for precision |
 | [Grid Current](chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md#the-music) | Funk | Written attack placement |
