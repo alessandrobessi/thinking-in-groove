@@ -12,6 +12,10 @@ A **Conversationalist** treats another musical layer as a partner. It listens fo
 
 This chapter identifies the role the bass chooses. Part IV will examine **Call and Response** as an interaction design in detail. For now, ask only whether the bass is maintaining its own continuous job or entering an audible exchange.
 
+Notice what the Microscope actually holds constant to prove its point: the bass plays the identical four notes in both panels. Nothing about the pitches themselves is more or less "conversational" — a listener judging by melodic content alone would find A and B indistinguishable on paper. What changes is purely temporal: in A the fragment starts while the right hand is still speaking, so the two layers simply coexist; in B the identical fragment waits for the silence the right hand leaves behind, and that wait is the entire mechanism that turns four notes into a reply. This is the common error worth naming directly — assuming a bass idea is or isn't conversational because of what notes it plays, when the actual test is when it plays them relative to the other voice's silence.
+
+This Role question — is the bass maintaining its own job, or entering an exchange right now — is deliberately kept separate from the mechanical question Chapter 31 will ask about exactly how much silence a reply needs to read as a reply rather than an overlap. Here, the concern is only which of these two postures the bass has adopted across a phrase; the fine machinery of vacated space and its timing gets its own full chapter later, once Part IV exists to house it.
+
 ## The Microscope
 
 The pitches, phrase rhythm, harmony, tempo, and register are controlled. In A, the bass fragment overlaps the right-hand statement. In B, the identical bass fragment waits for the right hand to finish and becomes an answer.
@@ -137,4 +141,4 @@ K:C
 
 ## Reflection
 
-Which reply in “Open Channel” sounds most closely related to its call, and which sounds most independent while still belonging to the exchange?
+Which reply in "Open Channel" sounds most closely related to its call, and which sounds most independent while still belonging to the exchange? This chapter completes the eighth distinct job this Part has given the bass — Ground, Definer, Inverter, Pedal, Reframer, Driver, Supporter, and now Conversationalist. Before moving on, try naming which of those eight jobs "Open Channel" itself is doing in the moments between its calls and replies, while it waits.
