@@ -10,6 +10,10 @@ How can the bass make four separate chords sound like one continuous sentence?
 
 A connection is the route between harmonic destinations. Roots tell us where each chord begins; connecting notes explain how one destination becomes the next. A useful route respects the current chord, aims clearly at the next structural note, and has a contour the ear can remember.
 
+This is the first chapter in this Part to work with two levels of structure at once instead of one. The beat-1 roots are structural — they're the notes a listener could strip everything else away and still recognize the harmony from. The connecting notes are not decoration in the sense of being optional; they're a different job entirely, explaining *how* the bass got from one structural note to the next rather than *what* the harmony is at any given instant. Stepping and Leaping, from the last two chapters, are both available as the actual material a connection is built from — a route can walk there by adjacent motion, cover the ground in a single reach-and-recover leap, or mix both — because Connecting Chords is a job description, not a specific interval pattern.
+
+The common error is assuming any note occupying the space between two roots counts as connecting something. A note that doesn't move toward the next destination — one that wanders, repeats, or drifts away before snapping back — fills the beat without doing the job; it's activity without direction. A genuine bridge has to actually aim somewhere, which is why the annotation in the exercises below always names both what the note is and where it's headed, not just that a note is present.
+
 ## The Microscope
 
 Both versions keep Cmaj7–Am7–Dm7–G7, the right hand, rhythm, and register fixed. A uses only roots. B uses the same roots on beat 1 and fills the space between them.
@@ -123,4 +127,4 @@ K:C
 
 ## Reflection
 
-Which bridge sounds inevitable because it moves by step, and which works because its contour balances the phrase?
+Which bridge sounds inevitable because it moves by step, and which works because its contour balances the phrase? The next chapter asks what happens when the bass isn't traveling alone — Contrary Motion adds a second, independent voice to this same question, and a bridge that sounded inevitable on its own may need to answer to a right hand moving the opposite direction at the same time.
