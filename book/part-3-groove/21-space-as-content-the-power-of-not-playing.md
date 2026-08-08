@@ -12,6 +12,8 @@ How can a missing bass attack become an active part of the groove?
 
 A rest is not automatically a meaningful use of space. The silence becomes structural when the context makes an event plausible or expected and the bass deliberately leaves it open. Duration asks when a sounded note ends; space asks what the ensemble does after the bass has chosen not to sound.
 
+This is why the exercise below builds up its cell one attack at a time rather than simply presenting a sparse pattern from the start: a rest only reads as an omission — a specific, felt absence — once a listener has an expectation for what would otherwise be there. Remove a beat nobody expected to hear anything on, and nothing happens; remove a beat that an established pattern had trained the ear to anticipate, and the silence itself becomes an event. That dependency on expectation is a thread this Part picks up twice more: Syncopation, two chapters ahead, needs the same kind of expectation to contest it, and Anticipation, one chapter after that, needs it to arrive early against.
+
 ## The Microscope
 
 Both versions keep the same C9 harmony, right-hand quarter-note reference, register, tempo, and short bass-note duration. A attacks on all four beats. B omits beats 2 and 4. The right hand continues, making those two absences audible.
