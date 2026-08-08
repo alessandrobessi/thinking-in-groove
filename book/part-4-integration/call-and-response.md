@@ -112,14 +112,14 @@ Take bar one of "Clean Handoffs" and move the bass entrance two eighth notes ear
 
 ## The Music
 
-"Turn to Speak" is an eight-bar jazz-funk study of clean two-beat calls and two-beat replies across four changing chords, closing with a final bar where the reply collapses to a single sustained note — the last word, rather than another exchange.
+"Turn to Speak" is an eight-bar jazz-funk study in Db major of clean two-beat calls and two-beat replies across four changing chords, closing with a final bar where the reply collapses to a single sustained note — the last word, rather than another exchange.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="turn-to-speak-study">
   <p class="abc-caption"><strong>Turn to Speak.</strong> Eight bars of genuine handoffs, closing on one sustained final reply.</p>
-  <p class="abc-description">An eight-bar jazz-funk study over Cmaj7, Am7, Dm7, and G7, alternating a chordal call with a bass reply in every bar.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in Db major over Dbmaj7, Bbm7, Ebm7, and Ab7, alternating a chordal call with a bass reply in every bar.</p>
   <pre class="abc-source">X:1
 T:Turn to Speak
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEG]4 z4 | "Am7"[ACE]4 z4 | "Dm7"[DFA]4 z4 | "G7"[GBD]4 z4 |
-"Cmaj7"[EGC]4 z4 | "Am7"[CEA]4 z4 | "Dm7"[FAD]4 z4 | "G7"[GBD]4 z4 |]
-[V:LH] z4 "^response"C,,2 E,,2 | z4 "^response"A,,2 C,,2 | z4 "^response"D,,2 F,,2 | z4 "^response"G,,2 B,,2 |
-z4 "^response"E,,2 G,,2 | z4 "^response"C,,2 E,,2 | z4 "^response"F,,2 A,,2 | z4 "^resolve"G,,4 |]</pre>
+[V:RH] "Dbmaj7"[_DF_A]4 z4 | "Bbm7"[_DF_B]4 z4 | "Ebm7"[_E_G_B]4 z4 | "Ab7"[_E_Ac]4 z4 |
+"Dbmaj7"[_DF_A]4 z4 | "Bbm7"[_DF_B]4 z4 | "Ebm7"[_E_G_B]4 z4 | "Ab7"[_E_Ac]4 z4 |]
+[V:LH] z4 "^response"_D,,2 F,,2 | z4 "^response"_B,,2 _D,,2 | z4 "^response"_E,,2 _G,,2 | z4 "^response"_A,,2 C,2 |
+z4 "^response"F,,2 _A,,2 | z4 "^response"_D,,2 F,,2 | z4 "^response"_G,,2 _B,,2 | z4 "^resolve"_A,,4 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
