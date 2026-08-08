@@ -21,7 +21,7 @@ This is not a piano-technique book. Pianists may play both staves, bassists may 
 5. Compare the full texture with each staff in isolation.
 6. Play the exercise, make the constrained variation, then hear the longer study.
 
-Current-note highlighting links the sounding event to the score. A textual description remains available when audio cannot initialize. ABC source is implementation material and stays out of the explanatory flow.
+Current-note highlighting links the sounding event to the score. If audio fails to initialize, the notation and its caption remain fully readable and the player reports the failure rather than failing silently. ABC source is implementation material and stays out of the explanatory flow.
 
 Chord symbols are visual labels only. Playback sounds exactly the notes written on the two staves: **Full** plays both, **Bass only** plays the lower staff, and **Harmony only** plays the upper staff.
 
@@ -31,4 +31,4 @@ Conventional notation can show metric placement, subdivision, pitch, duration, r
 
 ## The learning rhythm
 
-Every finished chapter asks one question and introduces one idea. A two- to four-bar **Microscope** controls the evidence. An eight- to sixteen-bar **Music** study proves that the idea produces something worth practising. Between them, a small exercise and one constrained variation turn recognition into design.
+Every finished chapter asks one question and introduces one idea. A one- to four-bar **Microscope** controls the evidence — as short as the concept allows, so the one variable under study is never in doubt. An eight- to sixteen-bar **Music** study proves that the idea produces something worth practising. Between them, a small exercise and one constrained variation turn recognition into design.
