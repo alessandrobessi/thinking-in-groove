@@ -12,6 +12,8 @@ A **Ballad and Inversion Study** applies a device the rest of this book has most
 
 Strung together across a slow ballad, this lets a bass line trace a long, continuous shape — usually descending, sometimes rising — using only sparse, widely spaced notes, each one a true chord tone of whatever's sounding at that instant. This is a genuinely different mechanism from Part II's Passing Motion or Approach Notes, which borrow non-chord tones to connect two points. An inversion doesn't borrow anything: every note the bass plays already belongs to the chord above it. The direction comes entirely from choosing which chord tone, not from adding anything outside the harmony.
 
+This is Chapter 3's Inverter, put to work across an entire phrase rather than one bar at a time. That chapter established that inversions aren't uniformly unstable — a third in the bass is mild, a fifth is genuinely unsettled — and this design deliberately spends that gradient: each successive inversion trades a little more stability for a little more downward motion, until the line finally lands back on a root and every bit of accumulated instability resolves at once.
+
 ## The Microscope
 
 Both panels play the identical two chords, Cmaj7 followed by Am7. Only whether the middle bar uses an inversion changes.
