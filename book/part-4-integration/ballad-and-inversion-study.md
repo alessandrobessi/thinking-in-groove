@@ -114,29 +114,29 @@ Take "Step Down Through an Inversion" and, instead of using the seventh, use the
 
 ## The Music
 
-"Slow Descent" is an eight-bar ballad in B natural minor that traces a continuous B-A-G-F#-E-D line purely through inversions of Bm7, Gmaj7, and Em7 — no note outside any chord's own tones — before a dominant F#7-Bm7 cadence resolves the line home.
+"Slow Descent" is an eight-bar ballad in B natural minor, in 6/8, that traces a continuous B-A-G-F#-E-D line purely through inversions of Bm7, Gmaj7, and Em7 — no note outside any chord's own tones — before a dominant F#7-Bm7 cadence resolves the line home.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="slow-descent-study">
   <p class="abc-caption"><strong>Slow Descent.</strong> Five bars of inversion-driven descent resolve into a plain ii-V-I cadence.</p>
-  <p class="abc-description">An eight-bar ballad in B natural minor using inversions of Bm7, Gmaj7, and Em7 to trace a falling bass line before a closing F#7 cadence.</p>
+  <p class="abc-description">An eight-bar ballad in B natural minor, in 6/8, using inversions of Bm7, Gmaj7, and Em7 to trace a falling bass line before a closing F#7 cadence.</p>
   <pre class="abc-source">X:1
 T:Slow Descent
 C:Alessandro Bessi
 R:Ballad
-M:4/4
+M:6/8
 L:1/8
-Q:1/4=64
+Q:3/8=64
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Bm7"[d^fb]8 | [d^fb]8 | "Gmaj7"[dgb]8 | [dgb]8 |
-"Em7"[egb]8 | [egb]8 | "F#7"[^c^f^a]8 | "Bm7"[d^fb]8 |]
-[V:LH] "^root"B,,8 | "^inversion"A,,8 | "^root"G,,8 | "^inversion"^F,,8 |
-"^root"E,,8 | "^inversion"D,,8 | "^root"^F,,8 | "^resolve"B,,8 |]</pre>
+[V:RH] "Bm7"[d^fb]6 | [d^fb]6 | "Gmaj7"[dgb]6 | [dgb]6 |
+"Em7"[egb]6 | [egb]6 | "F#7"[^c^f^a]6 | "Bm7"[d^fb]6 |]
+[V:LH] "^root"B,,6 | "^inversion"A,,6 | "^root"G,,6 | "^inversion"^F,,6 |
+"^root"E,,6 | "^inversion"D,,6 | "^root"^F,,6 | "^resolve"B,,6 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

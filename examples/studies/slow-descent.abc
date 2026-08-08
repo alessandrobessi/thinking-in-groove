@@ -2,14 +2,14 @@ X:1
 T:Slow Descent
 C:Alessandro Bessi
 R:Ballad
-M:4/4
+M:6/8
 L:1/8
-Q:1/4=64
+Q:3/8=64
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Bm7"[d^fb]8 | [d^fb]8 | "Gmaj7"[dgb]8 | [dgb]8 |
-"Em7"[egb]8 | [egb]8 | "F#7"[^c^f^a]8 | "Bm7"[d^fb]8 |]
-[V:LH] "^root"B,,8 | "^inversion"A,,8 | "^root"G,,8 | "^inversion"^F,,8 |
-"^root"E,,8 | "^inversion"D,,8 | "^root"^F,,8 | "^resolve"B,,8 |]
+[V:RH] "Bm7"[d^fb]6 | [d^fb]6 | "Gmaj7"[dgb]6 | [dgb]6 |
+"Em7"[egb]6 | [egb]6 | "F#7"[^c^f^a]6 | "Bm7"[d^fb]6 |]
+[V:LH] "^root"B,,6 | "^inversion"A,,6 | "^root"G,,6 | "^inversion"^F,,6 |
+"^root"E,,6 | "^inversion"D,,6 | "^root"^F,,6 | "^resolve"B,,6 |]
