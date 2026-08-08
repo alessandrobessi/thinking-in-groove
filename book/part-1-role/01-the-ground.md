@@ -8,9 +8,13 @@ Why does a chord feel physically settled when its root appears below it?
 
 ## The Mental Model
 
-The lowest note is the floor from which the ear measures the rest of a sonority. When the chord root occupies that floor, chord identity and bass weight agree. The result usually feels direct and settled.
+The lowest note is the floor from which the ear measures the rest of a sonority. When the chord root occupies that floor, chord identity and bass weight agree, and there's no more basic explanation left to reach for — the sonority reads as settled because the ear's reference point and the chord's actual root are the same pitch.
 
-The **Ground** is the bass acting as harmonic foundation by placing the root beneath the harmony. Grounding is not the same as sustaining. A long third is sustained but does not establish root position; a short root attack can ground a chord even after it releases.
+The **Ground** is the bass acting as harmonic foundation by placing the root beneath the harmony. Grounding is not the same as sustaining. A long third is sustained but does not establish root position; a short root attack can ground a chord even after it releases — what matters is which pitch class the ear used to measure everything stacked above it, not how long that pitch class kept sounding.
+
+This stability has a cost worth naming honestly: root position is settled because it's the least ambiguous choice available, and the least ambiguous choice is also the least interesting one. A bass line built entirely from grounded roots will never mislead the ear — and it will never surprise it either. Every other Role in this Part exists because a line that never leaves the Ground has traded all its harmonic motion for security. Grounding earns its keep at structurally important moments — the first beat of a new chord, a cadence, anywhere the harmony needs to be unambiguous — and becomes a missed opportunity everywhere else, where an Inverter, a Pedal, or a Driver could be doing more interesting work in the same bar.
+
+The common error is treating "the bass note is low" as sufficient evidence of grounding. C, E, and G can all sound in the same low register under the same C-major chord, and only one of the three actually re-establishes the root; the other two are doing an entirely different job — Chapter 3's Inverter — while sitting in the identical physical space in the mix.
 
 ## The Microscope
 
@@ -185,4 +189,4 @@ K:C
 
 ## Reflection
 
-In the study, which root attacks establish the harmony immediately, and which later bass notes merely decorate a floor the ear already accepted?
+In the study, which root attacks establish the harmony immediately, and which later bass notes merely decorate a floor the ear already accepted? If you removed every decorating note and left only the first grounding attack of each chord, how much of "First Foot Down" would actually survive — and does that tell you the decoration was disposable, or that grounding had already done more of the real work than it seemed to?
