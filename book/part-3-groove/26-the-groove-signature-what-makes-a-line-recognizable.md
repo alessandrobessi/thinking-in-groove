@@ -10,7 +10,9 @@ What changes when the bass announces the next harmony before that harmony formal
 
 An **anticipation** is an attack that presents an upcoming structural note before its formal chord or bar boundary. The note belongs to the destination, but it first sounds while the previous harmony is still active.
 
-Anticipation is more specific than syncopation. Both may use a weak-position attack, but an anticipation points to a known future event—often the next root—and continues or resolves into that event. It is also not a microtiming “push”: an eighth-note anticipation occupies a written subdivision that every player can count.
+Anticipation is more specific than syncopation. Both may use a weak-position attack, but an anticipation points to a known future event—often the next root—and continues or resolves into that event. It is also not a microtiming "push": an eighth-note anticipation occupies a written subdivision that every player can count.
+
+Syncopation contests the meter in the abstract — a weak position claims emphasis, full stop, without needing to belong to anything beyond the current bar. Anticipation makes a stronger, more falsifiable claim: this specific early note *is* material from a chord that hasn't formally arrived yet. The clearest test is whether the early note actually belongs to the old harmony at all. A note the current chord already contains is ambiguous — it could simply be an ordinary tone of the chord still sounding, coincidentally shared with what comes next. A note absent from the current chord and present only in the next one has no explanation *except* borrowing from the future, which is exactly why this chapter's anticipations are chosen as roots the current chord doesn't already contain.
 
 ## The Microscope
 
