@@ -10,7 +10,11 @@ How can one bass pitch remain responsible for the floor while the harmony above 
 
 A **Pedal** is one sustained or repeated bass pitch beneath changing upper harmony. Its identity is relational: a long C under one C-major chord is merely duration, but C held while the right hand moves through Cmaj7, Fmaj7, and G7 creates a pedal point.
 
-The pedal can stabilize the phrase or accumulate tension. Consonant upper chords confirm its authority; less compatible chords make the unchanged bass increasingly charged. The essential decision is not “play a long note,” but “refuse to move while the harmony moves.”
+The pedal can stabilize the phrase or accumulate tension. Consonant upper chords confirm its authority; less compatible chords make the unchanged bass increasingly charged. The essential decision is not "play a long note," but "refuse to move while the harmony moves."
+
+The tension isn't the bass note clashing with the chord above it — it's the bass note refusing to let a chord that wants to resolve actually resolve. G7/C doesn't sound wrong; it sounds like a dominant seventh being held open past the point where the ear expects it to move, because the note it's straining toward is already sounding underneath it. This is also why a tonic pedal and a dominant pedal aren't the same device wearing different labels. A tonic pedal does double duty: it grounds the tonic chords it agrees with and creates tension under everything else, so the phrase alternates between stability and pull. A dominant pedal never grounds anything — it's built entirely from the note the harmony is supposed to be leaving, which is exactly why film and theater scores reach for a held dominant (or a tritone) to manufacture suspense that never actually settles until the pedal itself finally moves.
+
+This is the sustained extreme of what Chapters 1 through 3 already established: a bass note's Role depends on its relationship to the harmony above it, not on how long it lasts. The next chapter looks at the same device from the opposite angle — instead of one bass note holding still while several chords pass over it, the Reframer asks what a single change of bass note does to one fixed upper structure's identity, at a single instant rather than across a whole phrase.
 
 ## The Microscope
 
@@ -137,4 +141,4 @@ K:C
 
 ## Reflection
 
-At which chord in “Fixed Star” does C stop feeling purely stable and begin to feel like a source of tension—and what in the upper harmony causes that change?
+At which chord in "Fixed Star" does C stop feeling purely stable and begin to feel like a source of tension—and what in the upper harmony causes that change? The pedal never actually moves anywhere in this study — every bar of tension resolves back to the same held note rather than the bass going somewhere new. Would the piece feel more resolved, or less honest about the tension it built, if the final bar finally let the bass leave C?
