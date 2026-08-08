@@ -112,14 +112,14 @@ Take "Approach the Destination" and replace the chromatic approach with a diaton
 
 ## The Music
 
-"Four Destinations" is an eight-bar jazz study cycling through Dm7-G7-Cmaj7-Am7 twice, using a different voice-leading device to arrive at every single chord: a chromatic approach, a diatonic approach from below, an approach from above, a two-sided enclosure, a stepwise connecting run, and a final held resolution — every bar organized entirely around where it's headed next.
+"Four Destinations" is an eight-bar jazz study in E major cycling through F#m7-B7-Emaj7-C#m7 twice, using a different voice-leading device to arrive at every single chord: a chromatic approach, a diatonic approach from below, an approach from above, a two-sided enclosure, a stepwise connecting run, and a final held resolution — every bar organized entirely around where it's headed next.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="four-destinations-study">
   <p class="abc-caption"><strong>Four Destinations.</strong> Eight bars, six different ways of preparing an arrival.</p>
-  <p class="abc-description">An eight-bar jazz study cycling twice through Dm7, G7, Cmaj7, and Am7, voice-leading into every chord.</p>
+  <p class="abc-description">An eight-bar jazz study in E major cycling twice through F#m7, B7, Emaj7, and C#m7, voice-leading into every chord.</p>
   <pre class="abc-source">X:1
 T:Four Destinations
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=104
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Dm7"[dfa]8 | "G7"[gbd]8 | "Cmaj7"[ceg]8 | "Am7"[ace]8 |
-"Dm7"[dfa]8 | "G7"[gbd]8 | "Cmaj7"[ceg]8 | "Am7"[ace]8 |]
-[V:LH] "^ground"D,,8 | "^approach"F,,2 ^F,,2 G,,4 | "^approach"B,,4 C,,4 | "^approach"B,,4 A,,4 |
-"^enclose"E,,2 ^C,,2 D,,4 | "^connect"D,,2 E,,2 F,,2 G,,2 | "^approach"B,,4 C,,4 | "^resolve"A,,8 |]</pre>
+[V:RH] "F#m7"[^fa^c']8 | "B7"[^fb^d']8 | "Emaj7"[e^gb]8 | "C#m7"[e^g^c']8 |
+"F#m7"[^fa^c']8 | "B7"[^fb^d']8 | "Emaj7"[e^gb]8 | "C#m7"[e^g^c']8 |]
+[V:LH] "^ground"^F,,8 | "^approach"A,,2 ^A,,2 B,,4 | "^approach"^D,4 E,,4 | "^approach"^D,4 ^C,4 |
+"^enclose"^G,,2 F,,2 ^F,,4 | "^connect"^F,,2 ^G,,2 A,,2 B,,2 | "^approach"^D,4 E,,4 | "^resolve"^C,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
