@@ -9,7 +9,7 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"z4 [CEGB]4 z4 [CEGB]4 | "Cmaj7"z4 [CEGB]4 z4 [CEGB]4 | "Am7"z4 [ACEG]4 z4 [ACEG]4 | "Am7"z4 [ACEG]4 z4 [ACEG]4 |
-"Dm7"z4 [DFAC]4 z4 [DFAC]4 | "Dm7"z4 [DFAC]4 z4 [DFAC]4 | "G7"z4 [DFGB]4 z4 [DFGB]4 | "G7"z4 [DFGB]4 z4 [DFGB]4 |]
-[V:LH] "^grid"C,4 z2 C,2 z4 C,4 | "^grid"C,4 z2 C,2 z4 C,4 | "^grid"A,4 z2 A,2 z4 A,4 | "^grid"A,4 z2 A,2 z4 A,4 |
-"^grid"D,4 z2 D,2 z4 D,4 | "^grid"D,4 z2 D,2 z4 D,4 | "^grid"G,4 z2 G,2 z4 G,4 | "^grid"G,4 z2 G,2 z4 G,4 |]
+[V:RH] "Dbmaj7"z4 [_DF_Ac]4 z4 [_DF_Ac]4 | "Dbmaj7"z4 [_DF_Ac]4 z4 [_DF_Ac]4 | "Bbm7"z4 [_DF_A_B]4 z4 [_DF_A_B]4 | "Bbm7"z4 [_DF_A_B]4 z4 [_DF_A_B]4 |
+"Ebm7"z4 [_D_E_G_B]4 z4 [_D_E_G_B]4 | "Ebm7"z4 [_D_E_G_B]4 z4 [_D_E_G_B]4 | "Ab7"z4 [_E_G_Ac]4 z4 [_E_G_Ac]4 | "Ab7"z4 [_E_G_Ac]4 z4 [_E_G_Ac]4 |]
+[V:LH] "^grid"_D,4 z2 _D,2 z4 _D,4 | "^grid"_D,4 z2 _D,2 z4 _D,4 | "^grid"_B,4 z2 _B,2 z4 _B,4 | "^grid"_B,4 z2 _B,2 z4 _B,4 |
+"^grid"_E,4 z2 _E,2 z4 _E,4 | "^grid"_E,4 z2 _E,2 z4 _E,4 | "^grid"_A,4 z2 _A,2 z4 _A,4 | "^grid"_A,4 z2 _A,2 z4 _A,4 |]

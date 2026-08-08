@@ -23,7 +23,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Common Thread](chapters/part-2-harmonic-motion/12-passing-motion-connecting-two-points.md#the-music) | Jazz | Connecting fixed destinations through a Bb major ii-V-I-vi |
 | [Corner Lights](chapters/part-2-harmonic-motion/13-the-approach-note-arriving-with-intention.md#the-music) | Jazz | Chromatic approaches into a G major I-vi-ii-V cycle |
 | [Crossing Lines](chapters/part-2-harmonic-motion/16-cadential-motion-tension-and-release.md#the-music) | Fusion | Contrary motion between outer voices, in D major |
-| [Fine Grid](chapters/part-3-groove/subdivision.md#the-music) | Funk | A sixteenth-note grid used for precision |
+| [Fine Grid](chapters/part-3-groove/subdivision.md#the-music) | Funk | A sixteenth-note grid used for precision, in Db major |
 | [Grid Current](chapters/part-3-groove/19-the-pocket-where-exactly-is-the-note.md#the-music) | Funk | Written attack placement |
 | [Between the Numbers](chapters/part-3-groove/20-syncopation-points-avoiding-the-obvious-beat.md#the-music) | Jazz-funk | Tied offbeats and metrical resolution |
 | [Negative Space](chapters/part-3-groove/21-space-as-content-the-power-of-not-playing.md#the-music) | Funk | Active silence and accompaniment response |

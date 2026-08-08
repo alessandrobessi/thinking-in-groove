@@ -112,14 +112,14 @@ Rewrite the second bar's "e of beat 1" arrival using only an eighth-note grid (`
 
 ## The Music
 
-"Fine Grid" is an original eight-bar funk study written entirely on a sixteenth-note grid, even though most of its attacks still fall on positions an eighth-note grid could also name.
+"Fine Grid" is an original eight-bar funk study in Db major, written entirely on a sixteenth-note grid, even though most of its attacks still fall on positions an eighth-note grid could also name.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="fine-grid-study">
   <p class="abc-caption"><strong>Fine Grid.</strong> A sixteenth-note grid used for precision, not necessarily for busier rhythm.</p>
-  <p class="abc-description">An eight-bar funk study at L:1/16 moving through Cmaj7, Am7, Dm7, and G7.</p>
+  <p class="abc-description">An eight-bar funk study in Db major at L:1/16 moving through Dbmaj7, Bbm7, Ebm7, and Ab7.</p>
   <pre class="abc-source">X:1
 T:Fine Grid
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"z4 [CEGB]4 z4 [CEGB]4 | "Cmaj7"z4 [CEGB]4 z4 [CEGB]4 | "Am7"z4 [ACEG]4 z4 [ACEG]4 | "Am7"z4 [ACEG]4 z4 [ACEG]4 |
-"Dm7"z4 [DFAC]4 z4 [DFAC]4 | "Dm7"z4 [DFAC]4 z4 [DFAC]4 | "G7"z4 [DFGB]4 z4 [DFGB]4 | "G7"z4 [DFGB]4 z4 [DFGB]4 |]
-[V:LH] "^grid"C,4 z2 C,2 z4 C,4 | "^grid"C,4 z2 C,2 z4 C,4 | "^grid"A,4 z2 A,2 z4 A,4 | "^grid"A,4 z2 A,2 z4 A,4 |
-"^grid"D,4 z2 D,2 z4 D,4 | "^grid"D,4 z2 D,2 z4 D,4 | "^grid"G,4 z2 G,2 z4 G,4 | "^grid"G,4 z2 G,2 z4 G,4 |]</pre>
+[V:RH] "Dbmaj7"z4 [_DF_Ac]4 z4 [_DF_Ac]4 | "Dbmaj7"z4 [_DF_Ac]4 z4 [_DF_Ac]4 | "Bbm7"z4 [_DF_A_B]4 z4 [_DF_A_B]4 | "Bbm7"z4 [_DF_A_B]4 z4 [_DF_A_B]4 |
+"Ebm7"z4 [_D_E_G_B]4 z4 [_D_E_G_B]4 | "Ebm7"z4 [_D_E_G_B]4 z4 [_D_E_G_B]4 | "Ab7"z4 [_E_G_Ac]4 z4 [_E_G_Ac]4 | "Ab7"z4 [_E_G_Ac]4 z4 [_E_G_Ac]4 |]
+[V:LH] "^grid"_D,4 z2 _D,2 z4 _D,4 | "^grid"_D,4 z2 _D,2 z4 _D,4 | "^grid"_B,4 z2 _B,2 z4 _B,4 | "^grid"_B,4 z2 _B,2 z4 _B,4 |
+"^grid"_E,4 z2 _E,2 z4 _E,4 | "^grid"_E,4 z2 _E,2 z4 _E,4 | "^grid"_A,4 z2 _A,2 z4 _A,4 | "^grid"_A,4 z2 _A,2 z4 _A,4 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
