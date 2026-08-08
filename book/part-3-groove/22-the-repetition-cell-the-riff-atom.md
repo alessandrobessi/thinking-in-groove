@@ -12,6 +12,8 @@ A **Repeated Cell** is a short pattern of recurring attacks, rests, and duration
 
 That distinction matters because a repeated pitch played with a different rhythm every time isn't a cell at all — it's just a note that keeps coming back. A Repeated Cell survives a change of chord, a change of register, even a change of every pitch involved, as long as the underlying attack-rest-attack-attack pattern stays intact.
 
+Defining a cell by rhythm rather than pitch isn't an arbitrary choice — it's the only definition that lets a groove survive the harmony actually moving. Pitch identity is tied to chord function: the root that makes a cell "itself" under Cm7 is a different note entirely under Abmaj7. If a cell's identity depended on repeating the same pitches, it could only ever exist over a single unchanging chord, which would make "one groove across four different chords" a contradiction rather than the achievement "Riff Atom" demonstrates. Rhythm is the one property that genuinely can stay constant while everything else in the harmony changes underneath it, which is exactly why it's the property this chapter chooses to define identity by. The next chapter asks the natural follow-up question: once a cell is established this firmly, how much of it can actually change before a listener stops recognizing it as the same cell at all?
+
 ## The Microscope
 
 The bass plays the same pitch, C, both times. Only whether the rhythm around it repeats changes whether it's a cell.
