@@ -11,7 +11,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [Glass Stairs](chapters/part-1-role/03-the-inverter.md#the-music) | Fusion ballad | Inversions and a continuous descending floor, in 6/8 |
 | [Fixed Star](chapters/part-1-role/04-the-driver.md#the-music) | Fusion | Pedal point beneath changing upper harmony, in 7/8 |
 | [Borrowed Ceiling](chapters/part-1-role/05-the-colorist.md#the-music) | Jazz-funk | Reframing one fixed upper structure from below, swung |
-| [Redline](chapters/part-1-role/06-the-shadow.md#the-music) | Funk-fusion | Repeated bass activity as forward propulsion |
+| [Redline](chapters/part-1-role/06-the-shadow.md#the-music) | Funk-fusion | Repeated bass activity as forward propulsion, swung |
 | [Wide Shoulders](chapters/part-1-role/07-the-voice-leader.md#the-music) | Jazz-funk | Deliberate simplicity beneath an active upper layer |
 | [Open Channel](chapters/part-1-role/08-the-commentator.md#the-music) | Funk | Bass participation in an audible exchange, swung |
 | [Low Tide](chapters/part-2-harmonic-motion/11-the-pedal-stillness-under-change.md#the-music) | Funk | Staying on one chord, then finally leaving it |

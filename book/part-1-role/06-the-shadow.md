@@ -112,14 +112,14 @@ Remove the attack on beat 3 from every bar, but change nothing else. Does the li
 
 ## The Music
 
-“Redline” is an original eight-bar funk-fusion study. A recurring bass engine follows D minor, G dominant, C major, and A dominant twice. The second pass alters the final notes of each cell while preserving the forward pull.
+“Redline” is an original eight-bar funk-fusion study, swung. A recurring bass engine follows D minor, G dominant, C major, and A dominant twice. The second pass alters the final notes of each cell while preserving the forward pull.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="redline-study">
   <p class="abc-caption"><strong>Redline.</strong> A compact bass engine carries two passes through the form.</p>
-  <p class="abc-description">An eight-bar funk-fusion study with syncopated chord stabs and monophonic driving bass.</p>
+  <p class="abc-description">A swung eight-bar funk-fusion study with syncopated chord stabs and monophonic driving bass.</p>
   <pre class="abc-source">X:1
 T:Redline
 C:Alessandro Bessi
@@ -132,7 +132,7 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Dm9"[FAce]2 z2 [FAce]2 z2 | "G13(no5)"z1 [FABe]2 z1 [FABe]2 z2 | "Cmaj9"[EGBd]2 z2 [EGBd]2 z2 | "A7(b9)"z1 [G_B^c]2 z1 [G_B^c]2 z2 | "Dm9"[FAce]2 z2 [FAce]2 z2 | "G13(no5)"z1 [FABe]2 z1 [FABe]2 z2 | "Cmaj9"[EGBd]2 z2 [EGBd]2 z2 | "A7(b9)"z1 [G_B^c]2 z1 [G_B^c]2 z2 |]
-[V:LH] "^engine"D, D, A,, z D, A,, C, D, | G,, G,, D, z G, D, F, G, | C, C, G,, z C, G,, B,, C, | A,, A,, E, z A, E, G, A, | "^controlled change"D, D, A,, z D, C, A,, C, | G,, G,, D, z G, F, D, F, | C, C, G,, z C, B,, G,, B,, | A,, A,, E, z G, E, ^C, A,, |]</pre>
+[V:LH] "^engine"D,>D, A,, z D, A,, C, D, | G,,>G,, D, z G, D, F, G, | C,>C, G,, z C, G,, B,, C, | A,,>A,, E, z A, E, G, A, | "^controlled change"D,>D, A,, z D, C, A,, C, | G,,>G,, D, z G, F, D, F, | C,>C, G,, z C, B,, G,, B,, | A,,>A,, E, z G, E, ^C, A,, |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

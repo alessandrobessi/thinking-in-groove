@@ -10,4 +10,4 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Dm9"[FAce]2 z2 [FAce]2 z2 | "G13(no5)"z1 [FABe]2 z1 [FABe]2 z2 | "Cmaj9"[EGBd]2 z2 [EGBd]2 z2 | "A7(b9)"z1 [G_B^c]2 z1 [G_B^c]2 z2 | "Dm9"[FAce]2 z2 [FAce]2 z2 | "G13(no5)"z1 [FABe]2 z1 [FABe]2 z2 | "Cmaj9"[EGBd]2 z2 [EGBd]2 z2 | "A7(b9)"z1 [G_B^c]2 z1 [G_B^c]2 z2 |]
-[V:LH] "^engine"D, D, A,, z D, A,, C, D, | G,, G,, D, z G, D, F, G, | C, C, G,, z C, G,, B,, C, | A,, A,, E, z A, E, G, A, | "^controlled change"D, D, A,, z D, C, A,, C, | G,, G,, D, z G, F, D, F, | C, C, G,, z C, B,, G,, B,, | A,, A,, E, z G, E, ^C, A,, |]
+[V:LH] "^engine"D,>D, A,, z D, A,, C, D, | G,,>G,, D, z G, D, F, G, | C,>C, G,, z C, G,, B,, C, | A,,>A,, E, z A, E, G, A, | "^controlled change"D,>D, A,, z D, C, A,, C, | G,,>G,, D, z G, F, D, F, | C,>C, G,, z C, B,, G,, B,, | A,,>A,, E, z G, E, ^C, A,, |]
