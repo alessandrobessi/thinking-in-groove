@@ -112,14 +112,14 @@ Ask another musician to play "Play It Three Ways" without telling them which of 
 
 ## The Music
 
-"What the Page Can't Say" is an original eight-bar jazz-funk study in Bb major that closes this Part by using several of its written devices together — a cell, a variation, a space, a resolution — while its title stays honest about what none of that notation guarantees.
+"What the Page Can't Say" is an original eight-bar jazz-funk study in Bb major, swung, that closes this Part by using several of its written devices together — a cell, a variation, a space, a resolution — while its title stays honest about what none of that notation guarantees.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="what-the-page-cant-say-study">
   <p class="abc-caption"><strong>What the Page Can't Say.</strong> Every device is written precisely; how it actually feels is still up to the player.</p>
-  <p class="abc-description">An eight-bar jazz-funk study in Bb major combining a repeated cell, a variation, and a space across four chords.</p>
+  <p class="abc-description">A swung eight-bar jazz-funk study in Bb major combining a repeated cell, a variation, and a space across four chords.</p>
   <pre class="abc-source">X:1
 T:What the Page Can't Say
 C:Alessandro Bessi
@@ -133,8 +133,8 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Bbmaj7"[_Bdfa]8 | "Bbmaj7"[_Bdfa]8 | "Gm7"[_Bdfg]8 | "Gm7"[_Bdfg]8 |
 "Cm7"[_Bc_eg]8 | "Cm7"[_Bc_eg]8 | "F7"[c_efa]8 | "F7"[c_efa]8 |]
-[V:LH] "^cell"_B,2 z2 _B,2 _B,2 | "^cell"_B,2 z2 _B,2 _B,2 | "^varied"G2 z2 G2 G2 | "^varied"z1 G2 z2 G2 G1 |
-"^cell"C2 z2 C2 C2 | "^space"C2 z6 | "^cell"F2 z2 F2 F2 | "^resolve"F8 |]</pre>
+[V:LH] "^cell"_B,2 z2 _B,>_B, | "^cell"_B,2 z2 _B,>_B, | "^varied"G2 z2 G>G | "^varied"z1 G2 z2 G2 G1 |
+"^cell"C2 z2 C>C | "^space"C2 z6 | "^cell"F2 z2 F>F | "^resolve"F8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
