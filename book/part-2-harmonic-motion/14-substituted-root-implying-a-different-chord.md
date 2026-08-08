@@ -131,10 +131,10 @@ Q:1/4=96
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Emaj7"[E^GB^d]8 | "Emaj7"[E^GB^d]8 | "C#m7"[^CE^GB]8 | "C#m7"[^CE^GB]8 |
-"F#m7"[^FA^ce]8 | "F#m7"[^FA^ce]8 | "B7"[B^d^fa]8 | "B7"[B^d^fa]8 |]
-[V:LH] "^stay"E,8 | "^enclose"E,4 D,2 C,2 | "^arrive"^C,8 | "^stay"^C,8 |
-"^enclose"^C,4 G,2 F,2 | "^arrive"^F,8 | "^enclose"^F,4 C,2 _B,2 | "^arrive"B,8 |]</pre>
+[V:RH] "Emaj7"[E^GB^d]8 | "Emaj7"[E^GB^d]8 | "C#m7"[E^GB^c]8 | "C#m7"[E^GB^c]8 |
+"F#m7"[E^FA^c]8 | "F#m7"[E^FA^c]8 | "B7"[^FAB^d]8 | "B7"[^FAB^d]8 |]
+[V:LH] "^stay"E,8 | "^enclose"E,4 D2 C2 | "^arrive"^C8 | "^stay"^C8 |
+"^enclose"^C4 G,2 F,2 | "^arrive"^F,8 | "^enclose"^F,4 C2 ^A,2 | "^arrive"B,8 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

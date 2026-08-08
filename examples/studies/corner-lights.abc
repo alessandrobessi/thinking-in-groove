@@ -9,7 +9,7 @@ Q:1/4=88
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Gmaj7"[gbd'^f']8 | "Em7"[egbd']8 | "Am7"[ac'e'g']8 | "D7"[d^fac']8 |
-"Gmaj7"[gbd'^f']8 | "Em7"[egbd']8 | "Am7"[ac'e'g']8 | "D7"[d^fac']6 "Gmaj7"[gbd'^f']2 |]
-[V:LH] "^target"G,2 B,2 D,2 "^approach"^D,2 | "^target"E,2 G,2 B,2 "^approach"^G,2 | "^target"A,2 C,2 E,2 "^approach"^C,2 | "^target"D,2 "^approach"^F,2 A,2 F,2 |
-"^target"G,2 D,2 B,2 "^approach"^D,2 | "^target"E,2 B,2 G,2 "^approach"^G,2 | "^target"A,2 E,2 C,2 "^approach"^C,2 | "^target"D,2 A,2 "^approach"^F,2 "^arrival"G,2 |]
+[V:RH] "Gmaj7"[Bd^fg]8 | "Em7"[GBde]8 | "Am7"[GAce]8 | "D7"[Acd^f]8 |
+"Gmaj7"[Bd^fg]8 | "Em7"[GBde]8 | "Am7"[GAce]8 | "D7"[Acd^f]6 "Gmaj7"[Bd^fg]2 |]
+[V:LH] "^target"G,2 B,2 D2 "^approach"^D,2 | "^target"E,2 G,2 B,2 "^approach"^G,2 | "^target"A,2 C2 E2 "^approach"^C,2 | "^target"D,2 ^F,2 A,2 "^approach"^F,2 |
+"^target"G,2 D2 B,2 "^approach"^D,2 | "^target"E,2 B,2 G,2 "^approach"^G,2 | "^target"A,2 E,2 C2 "^approach"^C,2 | "^target"D,2 A,2 "^approach"^F,2 "^arrival"G,2 |]

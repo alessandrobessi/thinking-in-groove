@@ -11,5 +11,5 @@ V:LH clef=bass name="Bass"
 K:C
 [V:RH] "Ebmaj9"[_eg_bd'f']8 | "Ebmaj9"[_eg_bd'f']8 | "Cm9"[c_eg_bd']8 | "Cm9"[c_eg_bd']8 |
 "Fm9"[f_ac'_e'g']8 | "Fm9"[f_ac'_e'g']8 | "Bb9"[_bd'f'_a'c'']8 | "Bb9"[_bd'f'_a'c'']8 |]
-[V:LH] "^step"_E,2 F,2 G,2 _A,2 | "^step"G,2 F,2 _E,2 F,2 | "^step"G,2 _A,2 _B,2 C,2 | "^step"_B,2 _A,2 G,2 _A,2 |
-"^step"_B,2 C,2 D,2 _E2 | "^step"D,2 C,2 _B,2 _A,2 | "^step"_B,2 C,2 D,2 _E2 | "^step: settle"F2 _E2 D,2 _B,2 |]
+[V:LH] "^step"_E,2 F,2 G,2 _A,2 | "^step"G,2 F,2 _E,2 F,2 | "^step"G,2 _A,2 _B,2 C2 | "^step"_B,2 _A,2 G,2 _A,2 |
+"^step"_B,2 C2 D2 _E2 | "^step"D2 C2 _B,2 _A,2 | "^step"_B,2 C2 D2 _E2 | "^step: settle"F2 _E2 D2 _B,2 |]
