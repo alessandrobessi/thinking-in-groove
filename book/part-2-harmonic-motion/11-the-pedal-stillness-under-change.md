@@ -12,6 +12,8 @@ Motion is not only about where the bass goes — it's also about the choice to g
 
 Staying is easy to confuse with a Pedal (Chapter 4), because both look identical on the page: one note, held or repeated. The difference is what happens *above* the bass while it holds. A Pedal requires the harmony to change while the note persists — that's what generates its characteristic tension. Staying requires no such change: the bass holds because the harmony isn't asking it to do anything else. The same physical note, held the same way, is Staying under one unchanging chord and a Pedal the instant the chord above it starts to move.
 
+The common error runs in the opposite direction from what you might expect: it isn't mistaking a Pedal for Staying, it's assuming a held note is automatically doing nothing simply because it isn't a Pedal. Staying is still a Motion decision — the bass had chord tones, neighboring notes, and passing options available and declined all of them, on purpose, because the moment didn't call for travel. The rest of this Part is going to hand the bass increasingly elaborate ways to travel between harmonic destinations — Stepping, Approaching, Enclosing, Arpeggiating, Leaping. Staying is what all of that motion is measured against: without a real, deliberate choice to hold still, "the bass moved" stops meaning anything in particular.
+
 ## The Microscope
 
 The bass plays the identical note both times. Only the harmony above it changes.
@@ -143,4 +145,4 @@ K:Cm
 
 ## Reflection
 
-Six of "Low Tide"'s eight bars stay on the same chord. Does the bass line feel static for six bars, or does something else keep it interesting while the harmony holds still?
+Six of "Low Tide"'s eight bars stay on the same chord. Does the bass line feel static for six bars, or does something else keep it interesting while the harmony holds still? The bass note itself never changes pitch during those six bars — only its rhythm varies slightly from bar to bar. If even the rhythm had been frozen identically bar after bar, would "staying" have tipped over into simply sounding unplanned?
