@@ -10,7 +10,11 @@ Why can the note before a chord change make the destination sound inevitable?
 
 An **approach** is a note heard in relation to the target that follows it. Its meaning is directional: it points toward an arrival.
 
-The approach may come from a chord tone, a diatonic step, a whole step, or a chromatic half step. What matters is not that the note is “outside,” but that its placement and resolution make the target clear. A chromatic note that never resolves is colour or tension; it becomes an approach only when the next event completes its motion.
+The approach may come from a chord tone, a diatonic step, a whole step, or a chromatic half step. What matters is not that the note is "outside," but that its placement and resolution make the target clear. A chromatic note that never resolves is colour or tension; it becomes an approach only when the next event completes its motion.
+
+Why does a half step feel more inevitable than a whole step or a leap into the same target? Distance is the mechanism: the smaller the gap between the approach and its destination, the fewer other notes could plausibly have been the "real" target instead, so the ear commits to the resolution before it actually arrives. A whole-step or chord-tone approach (Panel A) still points at C, but less exclusively — several other notes sit at a comparable distance. A half step (Panel B) has exactly one note it could be leaning toward, which is why it reads as more urgent without being any louder or longer.
+
+The common error is crediting the destination note for an arrival's strength when much of that strength was actually manufactured by the note before it. Play C cold, with no preparation, and it's just a root; play B into C and the ear experiences C as an event that was earned. This chapter's approach comes from one side only. The next chapter escalates the same idea by surrounding a target from both sides at once — an upper neighbor and a lower neighbor converging on the same destination — which is a stronger, more deliberate version of exactly this mechanism, not a different one.
 
 ## The Microscope
 
@@ -145,4 +149,4 @@ K:C
 
 ## Reflection
 
-Which approach in “Corner Lights” sounds strongest because of its pitch, and which sounds strongest because of where the phrase places it?
+Which approach in "Corner Lights" sounds strongest because of its pitch, and which sounds strongest because of where the phrase places it? Every single approach in this study is a chromatic half step — the piece never once tries a whole-step or chord-tone approach for variety. Does that consistency make each individual arrival feel less special by the second pass through the form, or does the repetition itself become part of the study's identity?
