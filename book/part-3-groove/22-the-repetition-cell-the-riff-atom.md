@@ -112,14 +112,14 @@ Keep the rhythm identical across all four bars, but replace each root with its f
 
 ## The Music
 
-"Riff Atom" is an original eight-bar funk study built from one repeated cell, carried through four different chords without ever changing its rhythm.
+"Riff Atom" is an original eight-bar funk study in C natural minor, built from one repeated cell, carried through four different chords without ever changing its rhythm.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="riff-atom-study">
   <p class="abc-caption"><strong>Riff Atom.</strong> The same rhythmic cell, unchanged, under every chord of the phrase.</p>
-  <p class="abc-description">An eight-bar funk study: one attack-rest-attack-attack cell tracking Cmaj7, Am7, Dm7, and G7.</p>
+  <p class="abc-description">An eight-bar funk study in C natural minor: one attack-rest-attack-attack cell tracking Cm7, Abmaj7, Bb7, and Fm7.</p>
   <pre class="abc-source">X:1
 T:Riff Atom
 C:Alessandro Bessi
@@ -131,10 +131,10 @@ Q:1/4=100
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"[CEGB]8 | "Cmaj7"[CEGB]8 | "Am7"[ACEG]8 | "Am7"[ACEG]8 |
-"Dm7"[DFAC]8 | "Dm7"[DFAC]8 | "G7"[DFGB]8 | "G7"[DFGB]8 |]
-[V:LH] "^cell"C,2 z2 C,2 C,2 | "^cell"C,2 z2 C,2 C,2 | "^cell"A,2 z2 A,2 A,2 | "^cell"A,2 z2 A,2 A,2 |
-"^cell"D,2 z2 D,2 D,2 | "^cell"D,2 z2 D,2 D,2 | "^cell"G,2 z2 G,2 G,2 | "^cell"G,2 z2 G,2 G,2 |]</pre>
+[V:RH] "Cm7"[c_eg_b]8 | "Cm7"[c_eg_b]8 | "Abmaj7"[_ac'_e'g']8 | "Abmaj7"[_ac'_e'g']8 |
+"Bb7"[_bd'f'_a']8 | "Bb7"[_bd'f'_a']8 | "Fm7"[f_ac'_e']8 | "Fm7"[f_ac'_e']8 |]
+[V:LH] "^cell"C,2 z2 C,2 C,2 | "^cell"C,2 z2 C,2 C,2 | "^cell"_A,2 z2 _A,2 _A,2 | "^cell"_A,2 z2 _A,2 _A,2 |
+"^cell"_B,2 z2 _B,2 _B,2 | "^cell"_B,2 z2 _B,2 _B,2 | "^cell"F,2 z2 F,2 F,2 | "^cell"F,2 z2 F,2 F,2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
