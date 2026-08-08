@@ -12,6 +12,8 @@ A **Fusion Ostinato** takes the previous chapter's premise and flips it: instead
 
 The common error is building something that *looks* like an ostinato — a short, repeated rhythmic shape — but secretly changes its pitches to match each new chord. That's not a flaw in the shape; it's a different technique entirely, a moving root-fifth pattern, and it's a perfectly good tool, just not this one. An ostinato's entire value is the stability it offers underneath change: if the pitches move every time the chord does, there's no longer a fixed point for the ear to measure the harmony's motion against.
 
+This is Chapter 4's Pedal, generalized from a single held note to a short repeated figure, and it works for exactly the reason a Pedal does — a genuinely fixed reference is what lets the ear register everything else as moving. Take the fixed point away and there's nothing left to measure the harmony's motion against; the whole texture just becomes a sequence of unrelated moments instead of change happening *relative to* something.
+
 ## The Microscope
 
 Both panels use the identical two-note rhythmic shape under the same four chords. Only whether the pitches stay fixed changes.
