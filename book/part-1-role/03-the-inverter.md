@@ -122,29 +122,29 @@ Preserve the right-hand notes, rhythm, tempo, and register. Change only the fina
 
 ## The Music
 
-“Glass Stairs” is an original eight-bar fusion ballad. Its right hand keeps a compact rhythmic identity while the bass uses inversions to turn a simple harmonic loop into a continuous line. The lower staff remains monophonic and lies in a practical bass register.
+“Glass Stairs” is an original eight-bar fusion ballad in a genuine 6/8 lilt. Its right hand keeps a compact rhythmic identity while the bass uses inversions to turn a simple harmonic loop into a continuous line. The lower staff remains monophonic and lies in a practical bass register.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="glass-stairs-study">
   <p class="abc-caption"><strong>Glass Stairs.</strong> Eight bars; inversions create the descending path C–B–A–G, then F–E–D–G.</p>
-  <p class="abc-description">A sparse fusion ballad for harmony and monophonic bass. Slash chords make the bass route explicit.</p>
+  <p class="abc-description">A sparse fusion ballad in 6/8 for harmony and monophonic bass. Slash chords make the bass route explicit.</p>
   <pre class="abc-source">X:1
 T:Glass Stairs
 C:Alessandro Bessi
 R:Fusion ballad
-M:4/4
+M:6/8
 L:1/8
-Q:1/4=88
+Q:3/8=88
 %%score { RH LH }
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj9"[EGBd]6 z2 | "G/B"[DGB]4 z2 [DGB]2 | "Am9"[CEGB]6 z2 | "C/G"[CEG]4 z4 |
-"Fmaj9"[EFAc]6 z2 | "C/E"[CEG]4 z2 [CEG]2 | "Dm9"[FACe]6 z2 | "G13"[FGBE]4 z2 [FGBD]2 |]
-[V:LH] "^ground"C,4 G,2 C2 | "^invert: descend"B,6 D2 | "^arrive"A,4 E2 G2 | "^invert: open"G,6 z2 |
-"^new ground"F,4 C2 E2 | "^invert: continue"E,6 G2 | "^prepare"D,4 A,2 C2 | "^dominant: return"G,6 z2 |]</pre>
+[V:RH] "Cmaj9"[EGBd]6 | "G/B"[DGB]6 | "Am9"[CEGB]6 | "C/G"[CEG]6 |
+"Fmaj9"[EFAc]6 | "C/E"[CEG]6 | "Dm9"[FACe]6 | "G13"[FGBD]6 |]
+[V:LH] "^ground"C,3 G,2 C1 | "^invert: descend"B,4 D2 | "^arrive"A,3 E2 G1 | "^invert: open"G,4 z2 |
+"^new ground"F,3 C2 E1 | "^invert: continue"E,4 G2 | "^prepare"D,3 A,2 C1 | "^dominant: return"G,4 z2 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

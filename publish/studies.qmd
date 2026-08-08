@@ -8,7 +8,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 |---|---|---|
 | [First Foot Down](chapters/part-1-role/01-the-ground.md#the-music) | Funk | Grounding harmony with a memorable foundation |
 | [Blue Lantern](chapters/part-1-role/02-the-definer.md#the-music) | Jazz | Revealing chord quality from below, swung |
-| [Glass Stairs](chapters/part-1-role/03-the-inverter.md#the-music) | Fusion ballad | Inversions and a continuous descending floor |
+| [Glass Stairs](chapters/part-1-role/03-the-inverter.md#the-music) | Fusion ballad | Inversions and a continuous descending floor, in 6/8 |
 | [Fixed Star](chapters/part-1-role/04-the-driver.md#the-music) | Fusion | Pedal point beneath changing upper harmony |
 | [Borrowed Ceiling](chapters/part-1-role/05-the-colorist.md#the-music) | Jazz-funk | Reframing one fixed upper structure from below |
 | [Redline](chapters/part-1-role/06-the-shadow.md#the-music) | Funk-fusion | Repeated bass activity as forward propulsion |
