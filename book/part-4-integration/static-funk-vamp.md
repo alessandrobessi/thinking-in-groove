@@ -131,7 +131,8 @@ Q:1/4=98
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Am7"[ace]8 | [ace]8 | [ace]8 | [ace]8 | [ace]8 | [ace]8 | [ace]8 | [ace]8 |]
+[V:RH] "Am7"[ace]8 | [ace]8 | [ace]8 | [ace]8 |
+[ace]8 | [ace]8 | [ace]8 | [ace]8 |]
 [V:LH] "^cell"z1 A,,1 z1 C,,1 A,,2 z2 | "^cell"z1 A,,1 z1 C,,1 A,,2 z2 | "^varied"z1 A,,1 z1 E,,1 A,,2 z2 | "^cell"z1 A,,1 z1 C,,1 A,,2 z2 |
 "^varied"A,,1 z1 C,,1 z1 A,,2 z2 | "^space"z8 | "^cell"z1 A,,1 z1 C,,1 A,,2 z2 | "^resolve"z1 A,,1 z1 C,,1 A,,4 |]</pre>
   <div class="abc-rendered"></div>
