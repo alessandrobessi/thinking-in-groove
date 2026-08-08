@@ -112,14 +112,14 @@ Take bar one of "Trade the Sixteenths" and delete every other bass attack, so th
 
 ## The Music
 
-"Single Weave" is an eight-bar jazz-funk study built entirely from continuous sixteenth-note interlock across four changing chords, then deliberately breaks the pattern in its final bar: both hands land together on one sustained chord, the first and only moment in the piece where the two staves attack at the same instant.
+"Single Weave" is an eight-bar jazz-funk study in D major built entirely from continuous sixteenth-note interlock across four changing chords, then deliberately breaks the pattern in its final bar: both hands land together on one sustained chord, the first and only moment in the piece where the two staves attack at the same instant.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="single-weave-study">
   <p class="abc-caption"><strong>Single Weave.</strong> Seven bars of continuous interlock resolve into one shared final attack.</p>
-  <p class="abc-description">An eight-bar jazz-funk study over Cmaj7, Am7, Dm7, and G7, with sixteenth-note interlock throughout and a unison arrival in the last bar.</p>
+  <p class="abc-description">An eight-bar jazz-funk study in D major over Dmaj7, Bm7, Em7, and A7, with sixteenth-note interlock throughout and a unison arrival in the last bar.</p>
   <pre class="abc-source">X:1
 T:Single Weave
 C:Alessandro Bessi
@@ -131,14 +131,14 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"C1z1E1z1G1z1E1z1C1z1E1z1G1z1E1z1 | "Am7"A1z1C1z1E1z1C1z1A1z1C1z1E1z1C1z1 |
-"Dm7"D1z1F1z1A1z1F1z1D1z1F1z1A1z1F1z1 | "G7"G1z1B1z1D1z1B1z1G1z1B1z1D1z1B1z1 |
-"Cmaj7"G1z1E1z1C1z1E1z1G1z1E1z1C1z1E1z1 | "Am7"E1z1C1z1A1z1C1z1E1z1C1z1A1z1C1z1 |
-"Dm7"A1z1F1z1D1z1F1z1A1z1F1z1D1z1F1z1 | "G7"[GBd]16 |]
-[V:LH] "^interlock"z1C,,1z1E,,1z1G,,1z1E,,1z1C,,1z1E,,1z1G,,1z1E,,1 | "^interlock"z1A,,1z1C,,1z1E,,1z1C,,1z1A,,1z1C,,1z1E,,1z1C,,1 |
-"^interlock"z1D,,1z1F,,1z1A,,1z1F,,1z1D,,1z1F,,1z1A,,1z1F,,1 | "^interlock"z1G,,1z1B,,1z1D,,1z1B,,1z1G,,1z1B,,1z1D,,1z1B,,1 |
-"^interlock"z1G,,1z1E,,1z1C,,1z1E,,1z1G,,1z1E,,1z1C,,1z1E,,1 | "^interlock"z1E,,1z1C,,1z1A,,1z1C,,1z1E,,1z1C,,1z1A,,1z1C,,1 |
-"^interlock"z1A,,1z1F,,1z1D,,1z1F,,1z1A,,1z1F,,1z1D,,1z1F,,1 | "^resolve"G,,16 |]</pre>
+[V:RH] "Dmaj7"D1z1^F1z1A1z1^F1z1D1z1^F1z1A1z1^F1z1 | "Bm7"B1z1D1z1^F1z1D1z1B1z1D1z1^F1z1D1z1 |
+"Em7"E1z1G1z1B1z1G1z1E1z1G1z1B1z1G1z1 | "A7"A1z1^c1z1E1z1^c1z1A1z1^c1z1E1z1^c1z1 |
+"Dmaj7"A1z1^F1z1D1z1^F1z1A1z1^F1z1D1z1^F1z1 | "Bm7"^F1z1D1z1B1z1D1z1^F1z1D1z1B1z1D1z1 |
+"Em7"B1z1G1z1E1z1G1z1B1z1G1z1E1z1G1z1 | "A7"[A^ce]16 |]
+[V:LH] "^interlock"z1D,,1z1^F,,1z1A,,1z1^F,,1z1D,,1z1^F,,1z1A,,1z1^F,,1 | "^interlock"z1B,,1z1D,,1z1^F,,1z1D,,1z1B,,1z1D,,1z1^F,,1z1D,,1 |
+"^interlock"z1E,,1z1G,,1z1B,,1z1G,,1z1E,,1z1G,,1z1B,,1z1G,,1 | "^interlock"z1A,,1z1^C,1z1E,,1z1^C,1z1A,,1z1^C,1z1E,,1z1^C,1 |
+"^interlock"z1A,,1z1^F,,1z1D,,1z1^F,,1z1A,,1z1^F,,1z1D,,1z1^F,,1 | "^interlock"z1^F,,1z1D,,1z1B,,1z1D,,1z1^F,,1z1D,,1z1B,,1z1D,,1 |
+"^interlock"z1B,,1z1G,,1z1E,,1z1G,,1z1B,,1z1G,,1z1E,,1z1G,,1 | "^resolve"A,,16 |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```

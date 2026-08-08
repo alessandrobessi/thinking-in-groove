@@ -9,11 +9,11 @@ Q:1/4=92
 V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
-[V:RH] "Cmaj7"C1z1E1z1G1z1E1z1C1z1E1z1G1z1E1z1 | "Am7"A1z1C1z1E1z1C1z1A1z1C1z1E1z1C1z1 |
-"Dm7"D1z1F1z1A1z1F1z1D1z1F1z1A1z1F1z1 | "G7"G1z1B1z1D1z1B1z1G1z1B1z1D1z1B1z1 |
-"Cmaj7"G1z1E1z1C1z1E1z1G1z1E1z1C1z1E1z1 | "Am7"E1z1C1z1A1z1C1z1E1z1C1z1A1z1C1z1 |
-"Dm7"A1z1F1z1D1z1F1z1A1z1F1z1D1z1F1z1 | "G7"[GBd]16 |]
-[V:LH] "^interlock"z1C,,1z1E,,1z1G,,1z1E,,1z1C,,1z1E,,1z1G,,1z1E,,1 | "^interlock"z1A,,1z1C,,1z1E,,1z1C,,1z1A,,1z1C,,1z1E,,1z1C,,1 |
-"^interlock"z1D,,1z1F,,1z1A,,1z1F,,1z1D,,1z1F,,1z1A,,1z1F,,1 | "^interlock"z1G,,1z1B,,1z1D,,1z1B,,1z1G,,1z1B,,1z1D,,1z1B,,1 |
-"^interlock"z1G,,1z1E,,1z1C,,1z1E,,1z1G,,1z1E,,1z1C,,1z1E,,1 | "^interlock"z1E,,1z1C,,1z1A,,1z1C,,1z1E,,1z1C,,1z1A,,1z1C,,1 |
-"^interlock"z1A,,1z1F,,1z1D,,1z1F,,1z1A,,1z1F,,1z1D,,1z1F,,1 | "^resolve"G,,16 |]
+[V:RH] "Dmaj7"D1z1^F1z1A1z1^F1z1D1z1^F1z1A1z1^F1z1 | "Bm7"B1z1D1z1^F1z1D1z1B1z1D1z1^F1z1D1z1 |
+"Em7"E1z1G1z1B1z1G1z1E1z1G1z1B1z1G1z1 | "A7"A1z1^c1z1E1z1^c1z1A1z1^c1z1E1z1^c1z1 |
+"Dmaj7"A1z1^F1z1D1z1^F1z1A1z1^F1z1D1z1^F1z1 | "Bm7"^F1z1D1z1B1z1D1z1^F1z1D1z1B1z1D1z1 |
+"Em7"B1z1G1z1E1z1G1z1B1z1G1z1E1z1G1z1 | "A7"[A^ce]16 |]
+[V:LH] "^interlock"z1D,,1z1^F,,1z1A,,1z1^F,,1z1D,,1z1^F,,1z1A,,1z1^F,,1 | "^interlock"z1B,,1z1D,,1z1^F,,1z1D,,1z1B,,1z1D,,1z1^F,,1z1D,,1 |
+"^interlock"z1E,,1z1G,,1z1B,,1z1G,,1z1E,,1z1G,,1z1B,,1z1G,,1 | "^interlock"z1A,,1z1^C,1z1E,,1z1^C,1z1A,,1z1^C,1z1E,,1z1^C,1 |
+"^interlock"z1A,,1z1^F,,1z1D,,1z1^F,,1z1A,,1z1^F,,1z1D,,1z1^F,,1 | "^interlock"z1^F,,1z1D,,1z1B,,1z1D,,1z1^F,,1z1D,,1z1B,,1z1D,,1 |
+"^interlock"z1B,,1z1G,,1z1E,,1z1G,,1z1B,,1z1G,,1z1E,,1z1G,,1 | "^resolve"A,,16 |]

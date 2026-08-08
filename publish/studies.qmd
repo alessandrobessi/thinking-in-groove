@@ -35,7 +35,7 @@ Use **Harmony only** to learn the form, **Bass only** to practise the line, and 
 | [What the Page Can't Say](chapters/part-3-groove/performed-feel.md#the-music) | Jazz-funk | Closes Part III on notation's honest limits, in Bb major |
 | [Long Shadow](chapters/part-4-integration/doubling.md#the-music) | Jazz-fusion | A doubled hook releasing into independence, through a whole-step modulation and back |
 | [Loose Thread](chapters/part-4-integration/independence.md#the-music) | Jazz-funk | A syncopated bass contour unlocked from the melody above, in G major |
-| [Single Weave](chapters/part-4-integration/interlock.md#the-music) | Jazz-funk | Continuous sixteenth-note interlock resolving into one shared attack |
+| [Single Weave](chapters/part-4-integration/interlock.md#the-music) | Jazz-funk | Continuous sixteenth-note interlock resolving into one shared attack, in D major |
 | [Turn to Speak](chapters/part-4-integration/call-and-response.md#the-music) | Jazz-funk | Clean chordal calls answered into genuinely vacated space |
 | [Give and Take](chapters/part-3-groove/24-density-controlling-energy-through-note-count.md#the-music) | Jazz-funk | The busy layer and the sparse layer trade places, chord by chord |
 | [Elbow Room](chapters/part-4-integration/register-and-separation.md#the-music) | Jazz-funk | Constant density; only the vertical register gap moves |
