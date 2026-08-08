@@ -112,14 +112,14 @@ Keep every right-hand call fixed. Change each bass reply so that it preserves th
 
 ## The Music
 
-“Open Channel” is an original eight-bar funk study. Compact keyboard statements occupy the first half of each bar; bass replies complete the thought in the second. The replies become less literal through the second four bars while the turn-taking remains clear.
+“Open Channel” is an original eight-bar funk study, swung. Compact keyboard statements occupy the first half of each bar; bass replies complete the thought in the second. The replies become less literal through the second four bars while the turn-taking remains clear.
 
 :::{.content-hidden when-format="epub"}
 
 ```{=html}
 <div class="score-example" id="open-channel-study">
   <p class="abc-caption"><strong>Open Channel.</strong> Upper statements and bass replies share each bar.</p>
-  <p class="abc-description">An eight-bar funk conversation with harmonically checked monophonic answers.</p>
+  <p class="abc-description">A swung eight-bar funk conversation with harmonically checked monophonic answers.</p>
   <pre class="abc-source">X:1
 T:Open Channel
 C:Alessandro Bessi
@@ -132,7 +132,7 @@ V:RH clef=treble name="Harmony"
 V:LH clef=bass name="Bass"
 K:C
 [V:RH] "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "F9"[Ac_eg]1 z1 [Ac_eg]2 z4 | "G9"[BFa]1 z1 [BFa]2 z4 | "C9"[E_Bd]1 z1 [E_Bd]2 z4 | "Am9"[CEGB]1 z1 [CEGB]2 z4 | "D9"[^C^Fce]1 z1 [^C^Fce]2 z4 | "G13"[FABe]1 z1 [FABe]2 z4 | "Cmaj9"[EGBd]1 z1 [EGBd]2 z4 |]
-[V:LH] z4 "^answer"C,1 E,1 G,1 _B,,1 | z4 F,,1 A,,1 C,1 _E,1 | z4 G,,1 B,,1 D,1 F,1 | z4 C,1 G,,1 _B,,1 C,1 | z4 "^vary the reply"B,,1 C,1 E,1 A,,1 | z4 A,,1 ^F,1 E,1 D,1 | z4 B,,1 A,,1 F,1 G,,1 | z4 D,1 B,,1 G,,1 C,1 |]</pre>
+[V:LH] z4 "^answer"C,>E, G,>_B,, | z4 F,,>A,, C,>_E, | z4 G,,>B,, D,>F, | z4 C,>G,, _B,,>C, | z4 "^vary the reply"B,,>C, E,>A,, | z4 A,,>^F, E,>D, | z4 B,,>A,, F,>G,, | z4 D,>B,, G,,>C, |]</pre>
   <div class="abc-rendered"></div>
 </div>
 ```
